@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>标题</title>
-  <meta name="Keywords" content="关键词"/>
-  <meta name="description" content="描述"/>
 <?php include_once('templete/pub_head.php') ?>
 </head>
 <body>
