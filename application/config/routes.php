@@ -54,3 +54,4 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['page/(:any)'] = 'Index_controller/page/$1';
+$route['admin/(:any)'] = 'admin/Index_controller/page/$1';

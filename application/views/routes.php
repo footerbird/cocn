@@ -51,5 +51,16 @@ table tr:hover {
         <td><a href="<?php echo base_url() ?>page/cytoscape" target="_blank"><?php echo base_url() ?>page/cytoscape</a></td>
     </tr>
 </table>
+<table>
+    <tr style="color: #f00;"><th align="right" width="200">标题</th><th align="left">管理员后台路由</th></tr>
+    <tr>
+        <td align="right">列表</td>
+        <td><a href="<?php echo base_url() ?>admin/table" target="_blank"><?php echo base_url() ?>admin/table</a></td>
+    </tr>
+    <tr>
+        <td align="right">登录页面</td>
+        <td><a href="<?php echo base_url() ?>admin/login" target="_blank"><?php echo base_url() ?>admin/login</a></td>
+    </tr>
+</table>
 </body>
 </html>
