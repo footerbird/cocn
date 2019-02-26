@@ -894,6 +894,9 @@ body {
 .sidebar-menu .main-menu > li.opened .opened > ul {
   display: block;
 }
+.sidebar-menu .main-menu > li.expanded > ul {
+  display: block;
+}
 .sidebar-menu .main-menu ul {
   display: none;
   margin: 0;
@@ -1096,10 +1099,13 @@ body {
   .sidebar-menu.collapsed .main-menu > li.opened > ul {
     display: none;
   }
+  .sidebar-menu.collapsed .main-menu > li.expanded > ul {
+    display: none;
+  }
   .sidebar-menu.collapsed .main-menu > li > ul {
     position: absolute;
     background: #2c2e2f;
-    width: 250px;
+    width: 150px;
     top: 0;
     left: 100%;
     text-align: left;

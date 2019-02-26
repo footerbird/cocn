@@ -1148,7 +1148,7 @@ function sidebar_menu_item_expand($li, $sub)
 		return;
 		
 	$li.addClass('expanded').data('is-busy', true);
-	$sub.show();
+	//$sub.show();
 	
 	var $sub_items 	  = $sub.children(),
 		sub_height	= $sub.outerHeight(),
@@ -1222,7 +1222,7 @@ function sidebar_menu_item_collapse($li, $sub)
 	{
 		$li.data('is-busy', false).removeClass('opened');
 		
-		$sub.attr('style', '').hide();
+		//$sub.attr('style', '').hide();
 		$sub_items.removeClass('hidden-item');
 		
 		$li.find('li.expanded ul').attr('style', '').hide().parent().removeClass('expanded');
