@@ -4,6 +4,7 @@
 <?php include_once('templete/pub_head.php') ?>
 </head>
 <body>
+<?php include_once('templete/pub_nav.php') ?>
 <!-- 焦点开始 -->
 <div class="container after-cls mb20">
   <div class="screen-outer after-cls mb10">
@@ -264,7 +265,7 @@
     <div class="tj-box pt20 pb20">
       <ul class="after-cls">
         <li>
-          <h3><a href="">文娱文化传媒（北京）有限公司</a></h3>
+          <h3><a href="">文娱文化传媒（北京）文娱文化传媒（北京）有限公司</a></h3>
           <div class="row">
             <span>起拍价格</span>
             <em class="f28 col-default"><font class="f16">&yen;</font>8,000</em>

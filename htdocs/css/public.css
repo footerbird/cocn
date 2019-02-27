@@ -246,6 +246,9 @@ textarea {
 .fn {
   font-weight: normal !important;
 }
+.f-thin {
+  font-weight: 300 !important;
+}
 .underline {
   text-decoration: underline;
 }
@@ -2023,18 +2026,6 @@ textarea {
 .col-green {
   color: green !important;
 }
-.col-ff8e00 {
-  color: #ff8e00!important;
-}
-.col-ee446e {
-  color: #ee446e!important;
-}
-.col-3daaef {
-  color: #3daaef!important;
-}
-.col-06c594 {
-  color: #06c594!important;
-}
 /*背景颜色*/
 .bg-gray3 {
   background-color: #333 !important;
@@ -2062,6 +2053,15 @@ textarea {
 }
 .bg-3daaef {
   background-color: #3daaef !important;
+}
+.bg-f7f7fb {
+  background-color: #f7f7fb !important;
+}
+.bg-f74f41 {
+  background-color: #f74f41 !important;
+}
+.bg-fff3e5 {
+  background-color: #fff3e5 !important;
 }
 /*定位position*/
 .pos-fixed {
@@ -2463,18 +2463,19 @@ textarea {
 }
 /*公共按钮*/
 .pub-btn {
-  /*默认高度36，中型按钮，颜色#ff6000默认色*/
+  /*默认高度36，中型按钮，颜色#ff8e00默认色*/
   display: inline-block;
   height: 36px;
   line-height: 38px;
   font-size: 14px;
   color: #fff;
-  background-color: #ff6000;
+  background-color: #ff8e00;
+  border: none;
   text-align: center;
   padding: 0 15px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
   -webkit-transition: all linear 0.2s;
   transition: all linear 0.2s;
 }
@@ -2491,7 +2492,33 @@ textarea {
   /*数据分析绿色*/
   color: #06c594;
 }
-/*percent占比条蓝色*/
+.col-ff8e00 {
+  /*辅助橙色*/
+  color: #ff8e00!important;
+}
+.col-5da8e7 {
+  /*标题蓝色*/
+  color: #5da8e7!important;
+}
+.col-f74f41 {
+  /*股权交易红色*/
+  color: #f74f41!important;
+}
+.col-06c594 {
+  /*股权交易绿色*/
+  color: #06c594!important;
+}
+/*按钮字体色*/
+.col-ee446e {
+  color: #ee446e!important;
+}
+.col-3daaef {
+  color: #3daaef!important;
+}
+.col-06c594 {
+  color: #06c594!important;
+}
+/*占比条蓝色*/
 .percent {
   position: relative !important;
   height: 4px;
@@ -2504,47 +2531,160 @@ textarea {
   top: 0;
   height: 4px;
 }
+/*输入框背景文字#999*/
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #999;
+  font-size: 12px;
+  font-weight: 300;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #999;
+  font-size: 12px;
+  font-weight: 300;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #999;
+  font-size: 12px;
+  font-weight: 300;
+}
+/*重写复选框*/
+input[type=checkbox] {
+  display: none;
+}
+input[type=checkbox] + i {
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAIAAAD9iXMrAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjU3QUIzQTFGMzk3MjExRTlBNDFDOTg5QTlDNUM2MDBGIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjU3QUIzQTIwMzk3MjExRTlBNDFDOTg5QTlDNUM2MDBGIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NTdBQjNBMUQzOTcyMTFFOUE0MUM5ODlBOUM1QzYwMEYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NTdBQjNBMUUzOTcyMTFFOUE0MUM5ODlBOUM1QzYwMEYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6nC4uNAAAAK0lEQVR42mJ8/PgxAxGABYhlZGTwK3ry5AkTA3FgVB191LFAooWgOoAAAwAZcwhz0jajhwAAAABJRU5ErkJggg==) no-repeat;
+  vertical-align: text-bottom;
+  margin-right: 10px;
+  position: relative !important;
+  top: 0px;
+}
+input[type=checkbox]:checked + i {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAIAAAD9iXMrAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjAxMjYyMjBGMzk3MjExRTlBOEYxQkY4NTBGN0E3MTBBIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjAxMjYyMjEwMzk3MjExRTlBOEYxQkY4NTBGN0E3MTBBIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDEyNjIyMEQzOTcyMTFFOUE4RjFCRjg1MEY3QTcxMEEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDEyNjIyMEUzOTcyMTFFOUE4RjFCRjg1MEY3QTcxMEEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7q+frsAAAA3ElEQVR42mL838dADGAhrESYgUG/n4mAIkllhrB3DLyyeM0TYmAIPMvAzs/w5ztu81gZGHyvgRQBAb8qbnXWnQxCmiDG768MN+Yj2cvOwGDVy/BwA8O9wyAb9YtAgl+fM6zXYXj9DqZOzYPBfjYDjwyDpA3DPXMGm9UMTCwM318xrNdkeP0RKA+z99sjhu9vQAxxMwaLcgblEIb/fxm2ukMUAQEjIpyBDneZz6CRAOUezmE4MxXuKCR//GZg2J7IcHECiP1wG7IibPGxr5CBhYPhZCaaMCOR8QsQYAA96zjPxaKkogAAAABJRU5ErkJggg==) no-repeat;
+}
+input[type=checkbox]:disabled + i {
+  background: url() no-repeat;
+}
+input[type=checkbox]:checked:disabled + i {
+  background: url() no-repeat;
+}
+/*公共色块*/
+.pub-block {
+  /*默认高度19，小型色块，颜色透明,背景色块自定*/
+  display: inline-block;
+  height: 19px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  padding: 0 6px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.pub-block.block-f74f41 {
+  /*已认证*/
+  background-color: #f74f41 !important;
+}
+.pub-block.block-3daaef {
+  /*在业*/
+  background-color: #3daaef !important;
+}
+.pub-block.block-f3 {
+  /*股权交易灰色底*/
+  background-color: #f3f3f3 !important;
+}
+.pub-block.block-fff3e5 {
+  /*待认证*/
+  background-color: #fff3e5 !important;
+}
 /*
  * public End
  */
-/*head*/
-.pub-head .top-bar {
-  background-color: #f3f3f3 !important;
-  font-size: 12px;
-  height: 40px;
-  padding-top: 13px;
+/*头部*/
+.pub-head .main-nav {
+  padding-top: 15px;
+  box-shadow: 0px 3px 4.85px 0.15px rgba(0, 0, 0, 0.05);
 }
-.pub-head .top-bar .right-box {
-  float: right !important;
+.pub-head .main-nav .nav-box {
+  margin-top: 12px;
 }
-.pub-head .top-bar .right-box a {
-  display: inline-block !important;
-  *display: inline !important;
-  *zoom: 1 !important;
-  color: #666;
+.pub-head .main-nav .nav-box ul {
+  clear: both !important;
+  float: left !important;
+  margin-right: 110px;
 }
-.pub-head .top-bar .right-box em {
+.pub-head .main-nav .nav-box ul li {
+  float: left !important;
   display: inline-block !important;
   *display: inline !important;
   *zoom: 1 !important;
   position: relative !important;
-  margin: 0 3px;
-  color: #909090;
-  top: -1px;
+  margin-left: 50px;
 }
-.pub-head .main-nav {
-  padding-top: 14px;
-  box-shadow: 0px 3px 4.85px 0.15px rgba(0, 0, 0, 0.05);
+.pub-head .main-nav .nav-box ul li a {
+  color: #666 !important;
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  font-size: 16px;
+}
+.pub-head .main-nav .nav-box ul li a::before {
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  position: absolute !important;
+  background-color: #fff !important;
+  content: '';
+  height: 2px;
+  bottom: -21px;
+  left: -6px;
+  width: calc(116%);
+  min-width: 50px;
+}
+.pub-head .main-nav .nav-box ul li.cur a {
+  color: #ff6000 !important;
+}
+.pub-head .main-nav .nav-box ul li.cur a::before {
+  background-color: #ff8e00 !important;
+}
+.pub-head .main-nav .nav-box ul li:hover a {
+  color: #ff6000 !important;
+}
+.pub-head .main-nav .nav-box .nav-login {
+  float: right !important;
+  font-size: 16px;
+}
+.pub-head .main-nav .nav-box .nav-login .dl {
+  color: #ff6000 !important;
+}
+.pub-head .main-nav .nav-box .nav-login .zc {
+  /*辅助橙色*/
+  color: #ff8e00!important;
+}
+.pub-head .main-nav .nav-box .nav-login em.col-default {
+  margin-left: 3px;
+  margin-right: 3px;
 }
 .pub-head .main-logo {
   /*logo的图标*/
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
   background: url(data:image/png;base64,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) no-repeat 50% 50%;
   background-size: contain;
   font-size: 0;
-  width: 88px;
-  height: 60px;
+  width: 74px;
+  height: 38px;
 }
-/*screen-outer*/
+/*焦点区*/
 .screen-outer .main {
   float: left !important;
 }
@@ -2576,10 +2716,8 @@ textarea {
   border-top: none;
 }
 .screen-outer .main .main-inner .cocn-service .bd ul li {
-  -webkit-transition: all .2s;
-  -moz-transition: all .2s;
-  -o-transition: all .2s;
-  transition: all .2s;
+  -webkit-transition: all linear 0.2s;
+  transition: all linear 0.2s;
   overflow: hidden;
   line-height: 30px;
   height: 30px;
@@ -2687,7 +2825,7 @@ textarea {
 .screen-outer .col-right .bd .tab-box .content ul li span.w60 {
   text-align: right !important;
 }
-/*tj-box*/
+/*推荐区*/
 .tj-box ul {
   clear: both !important;
   margin-left: -5px;
@@ -2710,7 +2848,10 @@ textarea {
 .tj-box ul li h3 a {
   display: block !important;
   text-align: center !important;
-  padding: 0 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 0 15px;
   font-size: 20px;
 }
 .tj-box ul li h3 a:hover {
@@ -2763,6 +2904,7 @@ textarea {
   background-color: #ff8e00 !important;
 }
 .tj-box ul li .abtn-paimai.no {
+  /*辅助橙色*/
   color: #ff8e00!important;
   border-color: #ff8e00;
 }
@@ -2784,12 +2926,13 @@ textarea {
   background: #06c594;
 }
 .tj-box ul li .abtn-renzheng.no {
-  color: #06c594!important;
   /*数据分析绿色*/
   color: #06c594;
+  /*股权交易绿色*/
+  color: #06c594!important;
   border-color: #06c594;
 }
-/*index-guide*/
+/*投资指南*/
 .index-guide {
   float: left !important;
   width: 321px;
@@ -2844,6 +2987,7 @@ textarea {
   margin-bottom: 20px;
 }
 .index-guide .bd ul li:hover a {
+  /*辅助橙色*/
   color: #ff8e00!important;
 }
 .index-guide .bd ul li a {
@@ -2855,6 +2999,7 @@ textarea {
   width: 100%;
 }
 .index-guide .bd ul li a font {
+  /*辅助橙色*/
   color: #ff8e00!important;
   position: relative !important;
   top: -3px;
@@ -2874,4 +3019,179 @@ textarea {
   *display: inline !important;
   *zoom: 1 !important;
   float: right !important;
+}
+/*公司信用查询*/
+.search-panel input[type=text] {
+  border: 2px solid #ff8e00;
+  height: 36px;
+  line-height: 36px;
+  padding-left: 10px;
+}
+.search-panel button {
+  /*默认高度36，中型按钮，颜色#ff8e00默认色*/
+  display: inline-block;
+  height: 36px;
+  line-height: 38px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #ff8e00;
+  border: none;
+  text-align: center;
+  padding: 0 15px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  padding: 0 20px;
+  margin-left: 10px;
+}
+.search-panel button:hover {
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
+.filter-box {
+  padding: 7px 10px 10px 10px;
+  border: 1px solid #e4e4e4;
+}
+.filter-box .condition dl {
+  clear: both !important;
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  width: 100% !important;
+  font-size: 12px;
+  line-height: 28px;
+  padding: 3px 10px 5px 10px;
+  border-bottom: 1px dashed #e4e4e4;
+}
+.filter-box .condition dl dt {
+  float: left !important;
+}
+.filter-box .condition dl dd {
+  float: left !important;
+  width: 1090px;
+}
+.filter-box .condition dl dd a {
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  margin: 0 3px;
+  padding: 0 6px;
+}
+.filter-box .condition dl dd a:hover {
+  background: #fff3e5;
+  color: #ff6000;
+  -webkit-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+}
+.filter-box .condition dl dd a.choosed {
+  background-color: #ff8e00 !important;
+  -webkit-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+  color: #fff;
+}
+.cocn-list {
+  clear: both !important;
+}
+.cocn-list .hd {
+  background-color: #f7f7fb !important;
+  border: 1px solid #eaedf2;
+  padding: 15px 20px;
+}
+.cocn-list .bd {
+  clear: both !important;
+  width: 100% !important;
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  border: 1px solid #e4e4e4;
+  border-top: none;
+}
+.cocn-list .bd .box {
+  clear: both !important;
+  width: 100% !important;
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  border-bottom: 1px solid #f1f3f5;
+  padding: 15px 20px;
+}
+.cocn-list .bd .box:last-child {
+  border-bottom: none;
+}
+.cocn-list .bd .title {
+  clear: both !important;
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  padding-bottom: 10px;
+}
+.cocn-list .bd .title font {
+  /*标题蓝色*/
+  color: #5da8e7!important;
+  float: left !important;
+  font-weight: 300 !important;
+  margin-right: 18px;
+}
+.cocn-list .bd .title span {
+  /*默认高度19，小型色块，颜色透明,背景色块自定*/
+  display: inline-block;
+  height: 19px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  padding: 0 6px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  float: left !important;
+  margin-right: 10px;
+}
+.cocn-list .bd .title span.block-f74f41 {
+  /*已认证*/
+  background-color: #f74f41 !important;
+}
+.cocn-list .bd .title span.block-3daaef {
+  /*在业*/
+  background-color: #3daaef !important;
+}
+.cocn-list .bd .title span.block-f3 {
+  /*股权交易灰色底*/
+  background-color: #f3f3f3 !important;
+}
+.cocn-list .bd .title span.block-fff3e5 {
+  /*待认证*/
+  background-color: #fff3e5 !important;
+}
+.cocn-list .bd .pub-btn {
+  line-height: 30px;
+  height: 30px;
+  padding: 0 25px;
+}
+.cocn-list .bd .pub-btn.had {
+  background-color: #f3f3f3 !important;
+  /*辅助橙色*/
+  color: #ff8e00!important;
+}
+.cocn-list p {
+  float: left !important;
+  width: 610px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.cocn-list .ft {
+  float: left !important;
+  font-weight: 300 !important;
+  background: #fff3e5;
+  color: #ff6000;
+  line-height: 28px;
+  padding: 0 10px;
 }
