@@ -158,29 +158,30 @@ var Pop = (function(){//弹出框
             $.extend(true, options, arguments[0]);
         }else{
             options.content = arguments[0];
-            if(arguments[1] && typeof(arguments[1]) == "function"){
+            if(typeof(arguments[1]) != "undefined" && typeof(arguments[1]) == "function"){
                 options.yes = arguments[1];
             }
-            if(arguments[2] && arguments[2] != ""){
-                options.title = arguments[2];
+            if(typeof(arguments[2]) != "undefined" && typeof(arguments[2]) == "number"){
+                options.type = arguments[2];
             }
-            if(arguments[3] && typeof(arguments[3]) == "number"){
-                options.type = arguments[3];
+            if(typeof(arguments[3]) != "undefined" && arguments[3] != ""){
+                options.title = arguments[3];
             }
         }
         
-        $("#alert").remove();
+        $("#upwin_alert").remove();
+        $(".upwin-mask").remove();
         var type_str = typeof(options.type) == "number"?'<i class="alert-ico alert-ico'+options.type+'"></i>':'';
-        var alert_str = '<div id="alert" class="upwin" style="min-width:260px;">'+
+        var alert_str = '<div id="upwin_alert" class="upwin" style="min-width:360px;">'+
                             '<div class="upwin-title">'+options.title+'<a href="javascript:;" class="upwin-title-close" onclick="Pop.exit();"></a></div>'+
                             '<div class="upwin-content">'+
-                                '<div style="padding:20px 0;font-size:14px;line-height:24px;word-break:break-all;">'+type_str+options.content+'</div>'+
+                                '<div style="padding:20px 0;font-size:14px;line-height:24px;word-break:break-all;text-align:center;">'+type_str+options.content+'</div>'+
                                 '<div style="text-align:right;padding:0 0 12px;"><a href="javascript:;" class="alert-btn0">确定</a></div>'+
                             '</div>'+
                         '</div>';
         $("body").append(alert_str);
-        methods.open("alert");
-        $("#alert").find(".alert-btn0").off("click").one("click",function(){
+        methods.open("upwin_alert");
+        $("#upwin_alert").find(".alert-btn0").off("click").one("click",function(){
             methods.exit();
             options.yes();
         })
@@ -197,46 +198,50 @@ var Pop = (function(){//弹出框
             $.extend(true, options, arguments[0]);
         }else{
             options.content = arguments[0];
-            if(arguments[1] && typeof(arguments[1]) == "function"){
+            if(typeof(arguments[1]) != "undefined" && typeof(arguments[1]) == "function"){
                 options.yes = arguments[1];
             }
-            if(arguments[2] && typeof(arguments[2]) == "function"){
+            if(typeof(arguments[2]) != "undefined" && typeof(arguments[2]) == "function"){
                 options.cancel = arguments[2];
             }
-            if(arguments[3] && arguments[3] != ""){
+            if(typeof(arguments[3]) != "undefined" && arguments[3] != ""){
                 options.title = arguments[3];
             }
         }
         
-        $("#confirm").remove();
-        var confirm_str = '<div id="confirm" class="upwin" style="min-width:260px;">'+
+        $("#upwin_confirm").remove();
+        $(".upwin-mask").remove();
+        var confirm_str = '<div id="upwin_confirm" class="upwin" style="min-width:360px;">'+
                             '<div class="upwin-title">'+options.title+'<a href="javascript:;" class="upwin-title-close" onclick="Pop.exit();"></a></div>'+
                             '<div class="upwin-content">'+
-                                '<div style="padding:20px 0;font-size:14px;line-height:24px;word-break:break-all;"><i class="alert-ico alert-ico3"></i>'+options.content+'</div>'+
+                                '<div style="padding:20px 0;font-size:14px;line-height:24px;word-break:break-all;text-align:center;"><i class="alert-ico alert-ico3"></i>'+options.content+'</div>'+
                                 '<div style="text-align:right;padding:0 0 12px;"><a href="javascript:;" class="alert-btn0">确定</a><a href="javascript:;" class="alert-btn1">取消</a></div>'+
                             '</div>'+
                         '</div>';
         $("body").append(confirm_str);
-        methods.open("confirm");
-        $("#confirm").find(".alert-btn0").off("click").one("click",function(){
+        methods.open("upwin_confirm");
+        $("#upwin_confirm").find(".alert-btn0").off("click").one("click",function(){
             methods.exit();
             options.yes();
         })
-        $("#confirm").find(".alert-btn1").off("click").one("click",function(){
+        $("#upwin_confirm").find(".alert-btn1").off("click").one("click",function(){
             methods.exit();
             options.cancel();
         })
     }
     
     methods.msg = function(str,callback){
-        var msg_str = '<div id="msg" style="position:fixed;z-index:1001;left:50%;top:50%;min-width:100px;background-color:rgba(0,0,0,.6);-webkit-animation-duration: .3s;animation-duration: .3s;-webkit-animation-fill-mode: both;animation-fill-mode: both;">'+
+        if($("#upwin_msg").length > 0){
+            return false;
+        }
+        var msg_str = '<div id="upwin_msg" style="position:fixed;z-index:1001;left:50%;top:50%;min-width:100px;background-color:rgba(0,0,0,.6);-webkit-animation-duration: .3s;animation-duration: .3s;-webkit-animation-fill-mode: both;animation-fill-mode: both;">'+
                           '<div style="padding:10px 25px;text-align:center;line-height:24px;font-size:14px;color:#fff;">'+str+'</div>'+
                       '</div>';
         $("body").append(msg_str);
-        $("#msg").addClass("zoomIn");
-        resetpop($("#msg"));
+        $("#upwin_msg").addClass("zoomIn");
+        resetpop($("#upwin_msg"));
         setTimeout(function(){
-            $("#msg").remove();
+            $("#upwin_msg").remove();
             callback();
         },1000)
     }

@@ -23,7 +23,7 @@
             </li>
           </ul>
           <div class="nav-login">
-              <a href="#" class="dl">登录</a><em class="col-default">/</em><a href="" class="zc">注册</a>
+              <a href="javascript:;" onclick="Pop.open('upwin_login')" class="dl">登录</a><em class="col-default">/</em><a href="javascript:;" onclick="Pop.open('upwin_register')" class="zc">注册</a>
           </div>
         </div>
     </div>

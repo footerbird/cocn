@@ -316,15 +316,17 @@ textarea{resize: none; overflow-y:auto;}
     width: 100%;
     height: 100%;
     background-color:#000;
-    .opacity(.3);
+    .opacity(.6);
 }
 .upwin{
     position:fixed;
     z-index:997;
     left: 50%;
     top: 50%;
+    padding: 0 20px;
     background:#fff;
     box-shadow: 0 0 14px rgba(0,0,0,.11);
+    .border-radius(4px);
     .upwin-btn{
         display: block;
         width: 100%;
@@ -344,33 +346,35 @@ textarea{resize: none; overflow-y:auto;}
         }
     }
     .upwin-link{
-        font-size: 14px;
+        font-size: 13px;
         color: @base-color;
+        &:hover{
+            .underline;
+        }
     }
     .upwin-title{
         position: relative;
-        padding: 0 80px 0 20px;
-        height: 42px;
-        line-height: 42px;
+        padding-right: 20px;
+        height: 50px;
+        line-height: 50px;
         border-bottom: 1px solid #eee;
-        font-size: 14px;
+        font-size: 16px;
         color: #333;
         overflow: hidden;
-        background-color: #F8F8F8;
-        border-radius: 2px 2px 0 0;
+        background-color: #fff;
     }
     .upwin-title-close{
         position: absolute;
-        top: 15px;
-        right: 15px;
+        top: 19px;
+        right: 0;
         width: 16px;
         height: 16px;
-        background: url(../images/layer-icon.png) no-repeat;
+        background: url(../images/layer-icon.png?201902271740) no-repeat;
         background-position: 1px -40px;
     }
     .upwin-content{
-        padding: 0 20px;
-        border-radius: 0 0 2px 2px;
+        padding: 20px 0;
+        font-size: 13px;
     }
 }
 .wrap-upwin{
@@ -429,8 +433,8 @@ textarea{resize: none; overflow-y:auto;}
 .alert-btn(){
     display: inline-block;
     vertical-align: top;
-    height: 28px;
-    line-height: 28px;
+    height: 32px;
+    line-height: 32px;
     margin: 5px 5px 0;
     padding: 0 15px;
     border: 1px solid #dedede;
@@ -481,6 +485,133 @@ textarea{resize: none; overflow-y:auto;}
 }
 .alert-ico6{/*笑脸的图标*/
     background-position: -180px 0;
+}
+
+.upwin-form{
+    width: 360px;
+    padding: 0 20px;
+    .login-tab{
+        font-size: 0;
+        border-bottom: 2px solid #f2f5f9;
+        text-align: center;
+        a{
+            display: inline-block;
+            width: 70px;
+            height: 38px;
+            line-height: 36px;
+            text-align: center;
+            font-size: 16px;
+            color: #666;
+            margin: 0 28px;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -2px;
+            &:hover{
+                color: @base-color;
+            }
+            &.cur{
+                font-size: 16px;
+                color: @base-color;
+                border-bottom-color: @base-color;
+                .transition-all;
+            }
+        }
+    }
+    .login-bottom-text{
+        line-height: 24px;
+        font-size: 14px;
+        color: #9fa3b0;
+        text-align: center;
+    }
+    .login-wechat-icon{
+        .ico-wechat{
+            display: block;
+            width: 34px;
+            height: 34px;
+            background: url(../images/wechat.png) no-repeat;
+            margin: 0 auto;
+        }
+    }
+    .form-tip{
+        font-size: 12px;
+        color: #ed514e;
+        text-align: center;
+        height: 40px;
+        line-height: 40px;
+    }
+    .form-input-box{
+        position: relative;
+        border: 1px solid #e3e7ed;
+        margin-bottom: 25px;
+        .after-cls;
+        .ico{
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            left: 9px;
+            top: 11px;
+            background: url(../images/boss-icon.png) no-repeat;
+        }
+        .ico-phone{
+            background-position: 2px 1px;
+        }
+        .ico-code{
+            background-position: 2px -44px;
+        }
+        .ico-pwd{
+            background-position: 2px -91px;
+        }
+        .form-input{
+            font-size: 13px;
+            width: 100%;
+            height: 40px;
+            padding: 0 15px;
+            border: none;
+            &:not(:valid)~.form-clear{
+                display: none;
+            }
+        }
+        .form-clear{
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            right: 10px;
+            top: 10px;
+            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABNUlEQVQ4T82UzRGCMBCFDQ1oB2oFWoJ2gB3ohZ+jFagVeGTgoh1oB9qB2gGWYAGA72WSmRj58YCOOZHN5st7uzuITstLtMzr/B6YJMkYLrrKycPzvGudq0qFcRy7RVFshRADE4BYitjS9/1jGbgUGEXR3HGcXZ2SPM8XYRju7Zw3IJUh6fBJswCdAno2c8uAKRL6KmkDiy4sjrjH9w3ftLpS+zQIgmElkA3ApYuRcIWKmYIQ6KIUVM9GyYXzIVRShFwvClG7CS6cLLsSypgNU8AX241A2qQy+TrsavuGwmqgbVnDlDLak/ZNaK1lvooum01ZI0R1umYcajaFca475nFgluj7Y8PXWh1sLV91fI+9nkl9dEfd5vZA68PGvw0blWVZT11IzZmzxktuG4Fll+pi/w98AmO8oxUCqjq/AAAAAElFTkSuQmCC) no-repeat;
+            background-size: 100% 100%;
+        }
+        .form-input-link{
+            float: left;
+            width: 32%;
+            font-size: 13px;
+            color: @base-color;
+            text-align: center;
+            line-height: 40px;
+            position: relative;
+            &:before{
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 10px;
+                width: 1px;
+                height: 20px;
+                background-color: #e3e7ed;
+            }
+            &.forbid{
+                color: #b4b7ba !important;
+                .forbid;
+            }
+        }
+        .form-input-img{
+            float: left;
+            width: 32%;
+            height: 40px;
+        }
+        .form-code-box{
+            float: left;
+            width: 68%;
+            position: relative;
+        }
+    }
 }
 
 /*container*/
@@ -612,19 +743,16 @@ textarea{resize: none; overflow-y:auto;}
 ::-webkit-input-placeholder { /* WebKit browsers */
   color: #999;
   font-size: 12px;
-  font-weight: 300;
 }
 
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
   color: #999;
   font-size: 12px;
-  font-weight: 300;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10+ */
   color: #999;
   font-size: 12px;
-  font-weight: 300;
 }
 /*重写复选框*/
 input[type=checkbox]{
