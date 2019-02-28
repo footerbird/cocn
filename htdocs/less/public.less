@@ -774,8 +774,11 @@ input[type=checkbox]:checked:disabled+i{
         .fl-l;
         .in-block;
         padding:8px 11px;
-        .bg-f3;
+        .bg-white;
         height: 63px;
+        &.on{
+         .bg-f3;
+        }
         .head-img{
           .bg-white;
           .fl-l;
@@ -793,15 +796,16 @@ input[type=checkbox]:checked:disabled+i{
         right:0px;
         box-shadow:0px 2px 18px -4px rgba(0, 0, 0, 0.4);
         .name{
-          padding:18px 5px;
+          padding:13px 5px;
           border-bottom: 1px solid #f5f5f5;
+          margin-bottom: 2px;
           .clearfix;
           a{
             .ellip;
-            .ta-c;
             .w-all;
             .fl-l;
-            text-indent:10px;
+            .col-gray3;
+            text-indent:20px;
           }
           font{
             .border-radius(4px);
@@ -813,7 +817,7 @@ input[type=checkbox]:checked:disabled+i{
             font-size: 12px;
             border:1px solid transparent;
             transform:scale(.8);
-            margin-left: 4px;
+            margin-left:15px;
             &.had{
               .col-f74f41;
               padding-left: 15px;
@@ -835,13 +839,20 @@ input[type=checkbox]:checked:disabled+i{
               border-top:1px solid #f5f5f5;
               line-height:54px;
             }
+            a{
+              .col-gray6;
+              font-size: 14px;
+              &:hover{
+                .col-gray9;
+              }
+            }
             em{
               &.r-message{
                 .pos-abso;
                 .in-block;
                 .bg-f74f41;
                 .border-radius(4px);
-                top:3px;
+                top:9px;
                 width:8px;
                 height:8px;
               }
