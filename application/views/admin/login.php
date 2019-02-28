@@ -15,7 +15,7 @@
           
           <div class="user-thumb">
             <a href="#">
-              <img src="/htdocs/admin/images/user-4.png" class="img-responsive img-circle" />
+              <img src="/htdocs/admin/images/logo-collapsed@2x.png" class="img-responsive img-circle" />
             </a>
           </div>
           
