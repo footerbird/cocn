@@ -3,7 +3,7 @@
     <div class="container after-cls">
         <a href="/page/home.php" class="main-logo fl-l mb10">co.cn</a>
         <div class="nav-login pos-rela">
-            <a href="javascript:;" class="dl">登录</a><em class="col-default">/</em><a href="" class="zc">注册</a>
+            <a href="javascript:;" onclick="Pop.open('upwin_login')" class="dl">登录</a><em class="col-default">/</em><a href="javascript:;" onclick="Pop.open('upwin_register')" class="zc">注册</a>
             <a href="javascript:;" class="user pos-rela" id="user">
               <span class="">
                 <img src="" alt="" class="head-img">
