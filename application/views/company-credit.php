@@ -100,11 +100,11 @@
         </dd>
       </dl>
     </div>
-    <div class="condition">
-      <a href="javascript:;" class="">更多<i class="ico-down"></i></a>
+    <div class="condition pos-rela">
+      <a href="javascript:;" class="mt10 f12 fl-r pos-abso col-gray9 f-thin" id="foldType" style="right:25px;">更多<i class="ml3 ico-down"></i></a>
       <dl class="">
         <dt class="col-gray9">行业门类：</dt>
-        <dd>
+        <dd id="bb" style="height:28px;overflow:hidden;">
           <a href="javascript:;">采矿业（9798）</a>
           <a href="javascript:;">建筑业（9798）</a>
           <a href="javascript:;">批发和零售业（9798）</a>
@@ -127,6 +127,19 @@
           <a href="javascript:;">挖煤（998）</a>
           <a href="javascript:;">2015（98）</a>
           <a href="javascript:;">2014（8）</a>
+        </dd>
+      </dl>
+    </div>
+    <div class="condition">
+      <dl class="" style="border-bottom:none;">
+        <dt class="col-gray9">省份地区：</dt>
+        <dd>
+          <a href="javascript:;">北京（9798）</a>
+          <a href="javascript:;">上海（9798）</a>
+          <a href="javascript:;">重庆（9798）</a>
+          <a href="javascript:;">福建（998）</a>
+          <a href="javascript:;">广东（98）</a>
+          <a href="javascript:;">葫芦岛（8）</a>
         </dd>
       </dl>
     </div>
@@ -216,6 +229,16 @@ $(function(){
           $(this).addClass("choosed");
       }
   })
+
+  $("#foldType").on("click",function(){//点击收缩
+			if($(this).hasClass("col-ff8e00")){//col-ff8e00表示已经收起，要做出展开动作
+				$(this).removeClass("col-ff8e00").html('更多<i class="ml3 ico-down"></i>');
+				$(this).siblings("dl").find("dd").css('height','28px');
+			}else{
+				$(this).addClass("col-ff8e00").html('收起<i class="ml3 ico-up"></i>');
+        $(this).siblings("dl").find("dd").css('height','auto');
+			}
+		})
 })
 </script>
 </body>
