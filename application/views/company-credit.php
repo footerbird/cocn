@@ -239,6 +239,16 @@ $(function(){
         $(this).siblings("dl").find("dd").css('height','auto');
 			}
 		})
+
+    $("#user").on("click",function(){//筛选条件，再次点击取消
+        if($(this).hasClass("on")) {
+            $(this).removeClass("on");
+            $("#nav_user_pannel").slideUp();
+        }else {
+            $(this).addClass("on");
+            $("#nav_user_pannel").slideDown();
+        }
+    })
 })
 </script>
 </body>

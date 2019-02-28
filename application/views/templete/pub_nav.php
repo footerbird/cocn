@@ -3,14 +3,14 @@
     <div class="container after-cls">
         <a href="/page/home.php" class="main-logo fl-l mb10">co.cn</a>
         <div class="nav-login pos-rela">
-            <a href="javascript:;" onclick="" class="dl">登录</a><em class="col-default">/</em><a href="" class="zc">注册</a>
-            <a href="javascript:;" class="user pos-rela" id="">
+            <a href="javascript:;" onclick="Pop.open('upwin_login')" class="dl">登录</a><em class="col-default">/</em><a href="javascript:;" onclick="Pop.open('upwin_register')" class="zc">注册</a>
+            <a href="javascript:;" class="user pos-rela" id="user">
               <span class="">
                 <img src="" alt="" class="head-img">
                 <i class="ico-arrow fl-l ml6 mt20"></i>
               </span>
             </a>
-            <div class="nav-user-pannel pos-abso">
+            <div class="nav-user-pannel pos-abso" id="nav_user_pannel" style="display:none">
               <ul>
                 <li class="name">
                   <a href="javascript:;">XXXXXX</a>
@@ -61,7 +61,6 @@
             </li>
           </ul>
         </div>
-
     </div>
   </div>
 </div>
