@@ -144,10 +144,10 @@ $(function(){
   $("#user").on("click",function(){//点击用户菜单下拉
       if($(this).hasClass("on")) {
           $(this).removeClass("on");
-          $("#nav_user_pannel").hide();
+          $("#nav_user_panel").hide();
       }else {
           $(this).addClass("on");
-          $("#nav_user_pannel").show();
+          $("#nav_user_panel").show();
       }
   })
 
@@ -180,6 +180,6 @@ $(function(){
     $("#upwin_tofindpwd").on("click",function(){
         Pop.open("upwin_findpwd");
     })
-    
+
 })
 </script>

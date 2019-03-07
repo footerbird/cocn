@@ -274,10 +274,10 @@
             <span>出售比例</span>
             <em class="f16 col-default">5.2%</em>
             <div class="col-sm-7 fl-r ta-r">
-              <a href="#" class="abtn-paimai">拍卖</a>
-              <a href="#" class="abtn-zhuanrang">转让</a>
-              <a href="#" class="abtn-xinyong">信用</a>
-              <a href="#" class="abtn-renzheng no">认证</a>
+              <a href="#" class="abtn-a-paimai">拍卖</a>
+              <a href="#" class="abtn-a-zhuanrang">转让</a>
+              <a href="#" class="abtn-a-xinyong">信用</a>
+              <a href="#" class="abtn-a-renzheng">认证</a>
             </div>
           </div>
           <div class="bg-fc pt5 pb10 mt5">
@@ -303,10 +303,10 @@
             <span>出售比例</span>
             <em class="f16 col-default">全资转让</em>
             <div class="col-sm-7 fl-r ta-r">
-              <a href="#" class="abtn-paimai no">拍卖</a>
-              <a href="#" class="abtn-zhuanrang no">转让</a>
-              <a href="#" class="abtn-xinyong no">信用</a>
-              <a href="#" class="abtn-renzheng no">认证</a>
+              <a href="#" class="abtn-a-paimai">拍卖</a>
+              <a href="#" class="abtn-a-zhuanrang">转让</a>
+              <a href="#" class="abtn-a-xinyong">信用</a>
+              <a href="#" class="abtn-a-renzheng">认证</a>
             </div>
           </div>
           <div class="bg-fc pt5 pb10 mt5">
@@ -332,10 +332,10 @@
             <span>出售比例</span>
             <em class="f16 col-default">5.2%</em>
             <div class="col-sm-7 fl-r ta-r">
-              <a href="#" class="abtn-paimai">拍卖</a>
-              <a href="#" class="abtn-zhuanrang">转让</a>
-              <a href="#" class="abtn-xinyong">信用</a>
-              <a href="#" class="abtn-renzheng no">认证</a>
+              <a href="#" class="abtn-a-paimai">拍卖</a>
+              <a href="#" class="abtn-a-zhuanrang">转让</a>
+              <a href="#" class="abtn-a-xinyong">信用</a>
+              <a href="#" class="abtn-a-renzheng">认证</a>
             </div>
           </div>
           <div class="bg-fc pt5 pb10 mt5">
@@ -361,10 +361,10 @@
             <span>出售比例</span>
             <em class="f16 col-default">全资转让</em>
             <div class="col-sm-7 fl-r ta-r">
-              <a href="#" class="abtn-paimai no">拍卖</a>
-              <a href="#" class="abtn-zhuanrang no">转让</a>
-              <a href="#" class="abtn-xinyong no">信用</a>
-              <a href="#" class="abtn-renzheng no">认证</a>
+              <a href="#" class="abtn-a-paimai">拍卖</a>
+              <a href="#" class="abtn-a-zhuanrang">转让</a>
+              <a href="#" class="abtn-a-xinyong">信用</a>
+              <a href="#" class="abtn-a-renzheng">认证</a>
             </div>
           </div>
           <div class="bg-fc pt5 pb10 mt5">
@@ -390,10 +390,10 @@
             <span>出售比例</span>
             <em class="f16 col-default">5.2%</em>
             <div class="col-sm-7 fl-r ta-r">
-              <a href="#" class="abtn-paimai">拍卖</a>
-              <a href="#" class="abtn-zhuanrang">转让</a>
-              <a href="#" class="abtn-xinyong">信用</a>
-              <a href="#" class="abtn-renzheng no">认证</a>
+              <a href="#" class="abtn-a-paimai">拍卖</a>
+              <a href="#" class="abtn-a-zhuanrang">转让</a>
+              <a href="#" class="abtn-a-xinyong">信用</a>
+              <a href="#" class="abtn-a-renzheng">认证</a>
             </div>
           </div>
           <div class="bg-fc pt5 pb10 mt5">
@@ -419,10 +419,10 @@
             <span>出售比例</span>
             <em class="f16 col-default">全资转让</em>
             <div class="col-sm-7 fl-r ta-r">
-              <a href="#" class="abtn-paimai no">拍卖</a>
-              <a href="#" class="abtn-zhuanrang no">转让</a>
-              <a href="#" class="abtn-xinyong no">信用</a>
-              <a href="#" class="abtn-renzheng no">认证</a>
+              <a href="#" class="abtn-a-paimai">拍卖</a>
+              <a href="#" class="abtn-a-zhuanrang">转让</a>
+              <a href="#" class="abtn-a-xinyong">信用</a>
+              <a href="#" class="abtn-a-renzheng">认证</a>
             </div>
           </div>
           <div class="bg-fc pt5 pb10 mt5">
@@ -448,10 +448,10 @@
             <span>出售比例</span>
             <em class="f16 col-default">全资转让</em>
             <div class="col-sm-7 fl-r ta-r">
-              <a href="#" class="abtn-paimai no">拍卖</a>
-              <a href="#" class="abtn-zhuanrang no">转让</a>
-              <a href="#" class="abtn-xinyong no">信用</a>
-              <a href="#" class="abtn-renzheng no">认证</a>
+              <a href="#" class="abtn-a-paimai">拍卖</a>
+              <a href="#" class="abtn-a-zhuanrang">转让</a>
+              <a href="#" class="abtn-a-xinyong">信用</a>
+              <a href="#" class="abtn-a-renzheng">认证</a>
             </div>
           </div>
           <div class="bg-fc pt5 pb10 mt5">
@@ -477,10 +477,10 @@
             <span>出售比例</span>
             <em class="f16 col-default">全资转让</em>
             <div class="col-sm-7 fl-r ta-r">
-              <a href="#" class="abtn-paimai no">拍卖</a>
-              <a href="#" class="abtn-zhuanrang no">转让</a>
-              <a href="#" class="abtn-xinyong no">信用</a>
-              <a href="#" class="abtn-renzheng no">认证</a>
+              <a href="#" class="abtn-a-paimai">拍卖</a>
+              <a href="#" class="abtn-a-zhuanrang">转让</a>
+              <a href="#" class="abtn-a-xinyong">信用</a>
+              <a href="#" class="abtn-a-renzheng">认证</a>
             </div>
           </div>
           <div class="bg-fc pt5 pb10 mt5">
@@ -506,10 +506,10 @@
             <span>出售比例</span>
             <em class="f16 col-default">全资转让</em>
             <div class="col-sm-7 fl-r ta-r">
-              <a href="#" class="abtn-paimai no">拍卖</a>
-              <a href="#" class="abtn-zhuanrang no">转让</a>
-              <a href="#" class="abtn-xinyong no">信用</a>
-              <a href="#" class="abtn-renzheng no">认证</a>
+              <a href="#" class="abtn-a-paimai">拍卖</a>
+              <a href="#" class="abtn-a-zhuanrang">转让</a>
+              <a href="#" class="abtn-a-xinyong">信用</a>
+              <a href="#" class="abtn-a-renzheng">认证</a>
             </div>
           </div>
           <div class="bg-fc pt5 pb10 mt5">

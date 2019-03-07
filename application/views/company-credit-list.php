@@ -154,8 +154,8 @@
           <div class="w800 fl-l">
             <div class="title">
               <a class="f18" href="/page/company-credit-page.php">南京名商实业有限公司</a>
-              <span class="block-f74f41">已认证</span>
-              <span class="block-3daaef">在业</span>
+              <span class="abtn-a-renzheng">认证</span>
+              <span class="abtn-a-zaiye">在业</span>
               <span class="block-f3 col-f74f41">股权交易&nbsp;7000股</span>
             </div>
             <p>法定代表人： 谢青弟  注册资本：1000万元人民币  成立时间：2003-08-01  所属行业：批发和零售业地址：南京市鼓楼区建宁路37号</p>
@@ -171,8 +171,7 @@
           <div class="w800 fl-l">
             <div class="title">
               <a class="f18" href="/page/company-credit-page.php">南京名商实业有限公司</a>
-              <span class="block-fff3e5 col-default">待认证</span>
-              <span class="block-3daaef">在业</span>
+              <span class="abtn-a-zaiye">在业</span>
             </div>
             <p>法定代表人： 谢青弟  注册资本：1000万元人民币  成立时间：2003-08-01  所属行业：批发和零售业地址：南京市鼓楼区建宁路37号</p>
             <div class="ft">
@@ -202,8 +201,8 @@
           <div class="w800 fl-l">
             <div class="title">
               <a class="f18" href="/page/company-credit-page.php">南京名商实业有限公司</a>
-              <span class="block-f74f41">已认证</span>
-              <span class="block-3daaef">在业</span>
+              <span class="abtn-a-renzheng">认证</span>
+              <span class="abtn-a-zaiye">在业</span>
               <span class="block-f3 col-06c594">股权交易&nbsp;7000股</span>
             </div>
             <p>法定代表人： 谢青弟  注册资本：1000万元人民币  成立时间：2003-08-01  所属行业：批发和零售业地址：南京市鼓楼区建宁路37号</p>

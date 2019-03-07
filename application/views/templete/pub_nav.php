@@ -10,7 +10,7 @@
                 <i class="ico-arrow fl-l ml6 mt20"></i>
               </span>
             </a>
-            <div class="nav-user-pannel pos-abso" id="nav_user_pannel" style="display:none">
+            <div class="nav-user-panel pos-abso" id="nav_user_panel" style="display:none">
               <ul>
                 <li class="name">
                   <a href="javascript:;">XXXXXX</a>
@@ -49,7 +49,7 @@
               <a href="">股权交易中心</a>
             </li>
             <li>
-              <a href="/page/company-credit.php">公司信用查询</a>
+              <a href="/page/company-credit-list.php">公司信用查询</a>
             </li>
             <li>
               <a href="">新媒体资讯</a>
