@@ -3625,13 +3625,15 @@ input[type=checkbox]:checked:disabled + i {
   margin-bottom: 20px;
 }
 .index-guide .bd ul li:hover a {
-  text-decoration: underline !important;
   color: #13426b !important;
 }
 .index-guide .bd ul li a {
   color: #666 !important;
   display: block;
   width: 100%;
+}
+.index-guide .bd ul li a:hover em {
+  text-decoration: underline !important;
 }
 .index-guide .bd ul li a font {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAMAAABPErQ/AAAAQlBMVEUAAAD3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0eoGZmWAAAAFnRSTlMAEPDj0sB0YC78q6GNhVpTRkEmIR4IgZbkmwAAADhJREFUCNclikcSADAIAtM1vf//qzHKgWUApZWolss83qE0wQQJ6Ly8WlzkOttBmDb9Fgzw1jfjASj7AQ4AyRTEAAAAAElFTkSuQmCC) no-repeat 50%;
