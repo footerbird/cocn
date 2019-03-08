@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<?php include_once('templete/pub_head.php') ?>
+<?php include_once('templete/pub_head_blue.php') ?>
 </head>
 <body>
 <?php include_once('templete/pub_nav.php') ?>
@@ -107,7 +107,7 @@
                           <span class="w70">
                             760万
                           </span>
-                          <span class="w60 col-default">
+                          <span class="w60 col-f4364c">
                             +1%
                           </span>
                         </li>
@@ -129,7 +129,7 @@
                           <span class="w70">
                             760万
                           </span>
-                          <span class="w60 col-default">
+                          <span class="w60 col-f4364c">
                             +1%
                           </span>
                         </li>
@@ -151,7 +151,7 @@
                           <span class="w70">
                             760万
                           </span>
-                          <span class="w60 col-default">
+                          <span class="w60 col-f4364c">
                             +1%
                           </span>
                         </li>
@@ -188,7 +188,7 @@
                           <span class="w70">
                             760万
                           </span>
-                          <span class="w60 col-default">
+                          <span class="w60 col-f4364c">
                             +1%
                           </span>
                         </li>
@@ -210,7 +210,7 @@
                           <span class="w70">
                             760万
                           </span>
-                          <span class="w60 col-default">
+                          <span class="w60 col-f4364c">
                             +1%
                           </span>
                         </li>
@@ -232,7 +232,7 @@
                           <span class="w70">
                             760万
                           </span>
-                          <span class="w60 col-default">
+                          <span class="w60 col-f4364c">
                             +1%
                           </span>
                         </li>
@@ -268,11 +268,11 @@
           <h3><a href="">文娱文化传媒（北京）文娱文化传媒（北京）有限公司</a></h3>
           <div class="row">
             <span>起拍价格</span>
-            <em class="f28 col-default"><font class="f16">&yen;</font>8,000</em>
+            <em class="f28 col-f4364c"><font class="f16">&yen;</font>8,000</em>
           </div>
           <div class="row">
             <span>出售比例</span>
-            <em class="f16 col-default">5.2%</em>
+            <em class="f16 col-f4364c">5.2%</em>
             <div class="col-sm-7 fl-r ta-r">
               <a href="#" class="abtn-a-paimai">拍卖</a>
               <a href="#" class="abtn-a-zhuanrang">转让</a>
@@ -297,11 +297,11 @@
           <h3><a href="">文娱文化传媒（北京）有限公司</a></h3>
           <div class="row">
             <span>起拍价格</span>
-            <em class="f28 col-default"><font class="f16">&yen;</font>8,000</em>
+            <em class="f28 col-f4364c"><font class="f16">&yen;</font>8,000</em>
           </div>
           <div class="row">
             <span>出售比例</span>
-            <em class="f16 col-default">全资转让</em>
+            <em class="f16 col-f4364c">全资转让</em>
             <div class="col-sm-7 fl-r ta-r">
               <a href="#" class="abtn-a-paimai">拍卖</a>
               <a href="#" class="abtn-a-zhuanrang">转让</a>
@@ -326,11 +326,11 @@
           <h3><a href="">文娱文化传媒（北京）有限公司</a></h3>
           <div class="row">
             <span>起拍价格</span>
-            <em class="f28 col-default"><font class="f16">&yen;</font>8,000</em>
+            <em class="f28 col-f4364c"><font class="f16">&yen;</font>8,000</em>
           </div>
           <div class="row">
             <span>出售比例</span>
-            <em class="f16 col-default">5.2%</em>
+            <em class="f16 col-f4364c">5.2%</em>
             <div class="col-sm-7 fl-r ta-r">
               <a href="#" class="abtn-a-paimai">拍卖</a>
               <a href="#" class="abtn-a-zhuanrang">转让</a>
@@ -355,11 +355,11 @@
           <h3><a href="">文娱文化传媒（北京）有限公司</a></h3>
           <div class="row">
             <span>起拍价格</span>
-            <em class="f28 col-default"><font class="f16">&yen;</font>8,000</em>
+            <em class="f28 col-f4364c"><font class="f16">&yen;</font>8,000</em>
           </div>
           <div class="row">
             <span>出售比例</span>
-            <em class="f16 col-default">全资转让</em>
+            <em class="f16 col-f4364c">全资转让</em>
             <div class="col-sm-7 fl-r ta-r">
               <a href="#" class="abtn-a-paimai">拍卖</a>
               <a href="#" class="abtn-a-zhuanrang">转让</a>
@@ -384,11 +384,11 @@
           <h3><a href="">文娱文化传媒（北京）有限公司</a></h3>
           <div class="row">
             <span>起拍价格</span>
-            <em class="f28 col-default"><font class="f16">&yen;</font>8,000</em>
+            <em class="f28 col-f4364c"><font class="f16">&yen;</font>8,000</em>
           </div>
           <div class="row">
             <span>出售比例</span>
-            <em class="f16 col-default">5.2%</em>
+            <em class="f16 col-f4364c">5.2%</em>
             <div class="col-sm-7 fl-r ta-r">
               <a href="#" class="abtn-a-paimai">拍卖</a>
               <a href="#" class="abtn-a-zhuanrang">转让</a>
@@ -413,11 +413,11 @@
           <h3><a href="">文娱文化传媒（北京）有限公司</a></h3>
           <div class="row">
             <span>起拍价格</span>
-            <em class="f28 col-default"><font class="f16">&yen;</font>8,000</em>
+            <em class="f28 col-f4364c"><font class="f16">&yen;</font>8,000</em>
           </div>
           <div class="row">
             <span>出售比例</span>
-            <em class="f16 col-default">全资转让</em>
+            <em class="f16 col-f4364c">全资转让</em>
             <div class="col-sm-7 fl-r ta-r">
               <a href="#" class="abtn-a-paimai">拍卖</a>
               <a href="#" class="abtn-a-zhuanrang">转让</a>
@@ -442,11 +442,11 @@
           <h3><a href="">文娱文化传媒（北京）有限公司</a></h3>
           <div class="row">
             <span>起拍价格</span>
-            <em class="f28 col-default"><font class="f16">&yen;</font>8,000</em>
+            <em class="f28 col-f4364c"><font class="f16">&yen;</font>8,000</em>
           </div>
           <div class="row">
             <span>出售比例</span>
-            <em class="f16 col-default">全资转让</em>
+            <em class="f16 col-f4364c">全资转让</em>
             <div class="col-sm-7 fl-r ta-r">
               <a href="#" class="abtn-a-paimai">拍卖</a>
               <a href="#" class="abtn-a-zhuanrang">转让</a>
@@ -471,11 +471,11 @@
           <h3><a href="">文娱文化传媒（北京）有限公司</a></h3>
           <div class="row">
             <span>起拍价格</span>
-            <em class="f28 col-default"><font class="f16">&yen;</font>8,000</em>
+            <em class="f28 col-f4364c"><font class="f16">&yen;</font>8,000</em>
           </div>
           <div class="row">
             <span>出售比例</span>
-            <em class="f16 col-default">全资转让</em>
+            <em class="f16 col-f4364c">全资转让</em>
             <div class="col-sm-7 fl-r ta-r">
               <a href="#" class="abtn-a-paimai">拍卖</a>
               <a href="#" class="abtn-a-zhuanrang">转让</a>
@@ -500,11 +500,11 @@
           <h3><a href="">文娱文化传媒（北京）有限公司</a></h3>
           <div class="row">
             <span>起拍价格</span>
-            <em class="f28 col-default"><font class="f16">&yen;</font>8,000</em>
+            <em class="f28 col-f4364c"><font class="f16">&yen;</font>8,000</em>
           </div>
           <div class="row">
             <span>出售比例</span>
-            <em class="f16 col-default">全资转让</em>
+            <em class="f16 col-f4364c">全资转让</em>
             <div class="col-sm-7 fl-r ta-r">
               <a href="#" class="abtn-a-paimai">拍卖</a>
               <a href="#" class="abtn-a-zhuanrang">转让</a>
@@ -531,8 +531,8 @@
 </div>
 <!-- 投资指南 -->
 <div class="container">
-  <div class="f30 ta-c pt40">公司投资指南
-    <div class="col-aaa f14 pt15 pb40">投资有风险&nbsp;理财须谨慎
+  <div class="f30 ta-c pt40 col-default">公司投资指南
+    <div class="col-gray9 f14 pt15 pb40">投资有风险&nbsp;理财须谨慎
     </div>
   </div>
   <div class="after-cls pb30">
@@ -543,27 +543,28 @@
       </div>
       <div class="bd">
         <div class="img-box">
-          <div class="date ta-c col-white bg-ff8e00">
-            <div class="f30 pt30">06</div>
-            <div class="pt15">2019-02</div>
+          <div class="date col-white">
+            <p>
+              2019/09/01 华为折叠屏5G手机Mate X
+            </p>
           </div>
           <img src="" alt="">
         </div>
         <ul>
           <li>
-            <a href="" class="" ><font>》</font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
+            <a href="" class="" ><font></font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
           </li>
           <li>
-            <a href="" class="" ><font>》</font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
+            <a href="" class="" ><font></font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
           </li>
           <li>
-            <a href="" class="" ><font>》</font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
+            <a href="" class="" ><font></font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
           </li>
           <li>
-            <a href="" class="" ><font>》</font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
+            <a href="" class="" ><font></font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
           </li>
           <li>
-            <a href="" class="" ><font>》</font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
+            <a href="" class="" ><font></font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
           </li>
         </ul>
       </div>
@@ -575,27 +576,28 @@
       </div>
       <div class="bd">
         <div class="img-box">
-          <div class="date ta-c col-white bg-ee446e">
-            <div class="f30 pt30">06</div>
-            <div class="pt15">2019-02</div>
+          <div class="date col-white">
+            <p>
+              2019/09/01 华为折叠屏5G手机Mate X
+            </p>
           </div>
           <img src="" alt="">
         </div>
         <ul>
           <li>
-            <a href="" class="" ><font>》</font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
+            <a href="" class="" ><font></font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
           </li>
           <li>
-            <a href="" class="" ><font>》</font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
+            <a href="" class="" ><font></font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
           </li>
           <li>
-            <a href="" class="" ><font>》</font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
+            <a href="" class="" ><font></font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
           </li>
           <li>
-            <a href="" class="" ><font>》</font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
+            <a href="" class="" ><font></font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
           </li>
           <li>
-            <a href="" class="" ><font>》</font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
+            <a href="" class="" ><font></font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
           </li>
         </ul>
       </div>
@@ -607,27 +609,28 @@
       </div>
       <div class="bd">
         <div class="img-box">
-          <div class="date ta-c col-white bg-3daaef">
-            <div class="f30 pt30">06</div>
-            <div class="pt15">2019-02</div>
+          <div class="date col-white">
+            <p>
+              2019/09/01 华为折叠屏5G手机Mate X
+            </p>
           </div>
           <img src="" alt="">
         </div>
         <ul>
           <li>
-            <a href="" class="" ><font>》</font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
+            <a href="" class="" ><font></font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
           </li>
           <li>
-            <a href="" class="" ><font>》</font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
+            <a href="" class="" ><font></font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
           </li>
           <li>
-            <a href="" class="" ><font>》</font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
+            <a href="" class="" ><font></font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
           </li>
           <li>
-            <a href="" class="" ><font>》</font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
+            <a href="" class="" ><font></font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
           </li>
           <li>
-            <a href="" class="" ><font>》</font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
+            <a href="" class="" ><font></font><em>细品华为折叠屏5G手机Mate X细品华为折叠屏5G手机Mate X</em><i>09-01</i></a>
           </li>
         </ul>
       </div>
@@ -637,7 +640,7 @@
 </div>
 <!-- footer -->
 <div class="layer">
-  <a href="#"><img src="" alt=""  class="mb20" height="90" width="1200" style="background:url(/htdocs/images/banner/join.png) no-repeat center #f3f3f3;width:100%;min-width:1210px;height:232px;display:block;"></a>
+  <a href="#"><img src="" alt="" height="90" width="1200" style="background:url(/htdocs/images/banner/join_blue.png) no-repeat center #f3f3f3;width:100%;min-width:1210px;height:232px;display:block;"></a>
 </div>
 <?php include_once('templete/pub_foot.php') ?>
 <script type="text/javascript">

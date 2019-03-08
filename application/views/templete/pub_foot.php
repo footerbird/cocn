@@ -1,3 +1,6 @@
+<div class="bg-default" style="background:#16436a;height:165px;">
+
+</div>
 <!--用户登录弹框-->
 <div id="upwin_login" class="upwin" style="display: none;">
     <div class="upwin-title" style="border-bottom: none;">&nbsp;<a href="javascript:;" class="upwin-title-close" onclick="Pop.exit();"></a></div>
