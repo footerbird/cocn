@@ -47,8 +47,20 @@ table tr:hover {
         <td><a href="<?php echo base_url() ?>page/home" target="_blank"><?php echo base_url() ?>page/home</a></td>
     </tr>
     <tr>
+        <td align="right">首页_蓝色</td>
+        <td><a href="<?php echo base_url() ?>page/home_blue" target="_blank"><?php echo base_url() ?>page/home_blue</a></td>
+    </tr>
+    <tr>
         <td align="right">投资图谱</td>
         <td><a href="<?php echo base_url() ?>page/cytoscape" target="_blank"><?php echo base_url() ?>page/cytoscape</a></td>
+    </tr>
+    <tr>
+        <td align="right">公司信用查询_列表</td>
+        <td><a href="<?php echo base_url() ?>page/company-credit-list" target="_blank"><?php echo base_url() ?>page/company-credit-list</a></td>
+    </tr>
+    <tr>
+        <td align="right">公司信用查询_详细</td>
+        <td><a href="<?php echo base_url() ?>page/company-credit-page" target="_blank"><?php echo base_url() ?>page/company-credit-page</a></td>
     </tr>
 </table>
 <table>
