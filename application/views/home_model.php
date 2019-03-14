@@ -159,18 +159,19 @@
           <p class="f24">联系我们</p>
           <p class="f18 col-gray9">Contact us</p>
         </div>
-        <p class="lh24 col-gray6">联系电话：0571-88888888
-        </p>
-        <p class="lh24 col-gray6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0571-88888888
-        </p>
-        <p class="lh24 col-gray6">联系传真：0571-88888888
-        </p>
-        <p class="lh24 col-gray6">阿里巴巴：guanwang.168.com
-        </p>
-        <p class="lh24 col-gray6">企业邮箱：business@cocn.com
-        </p>
-        <p class="lh24 col-gray6">公司地址：杭州市拱墅区上塘路333号海外海商务写字楼11层
-        </p>
+        <div class="text">
+          <p class="lh24 col-gray6">联系电话：0571-88888888
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0571-88888888
+          </p>
+          <p class="lh24 col-gray6">联系传真：0571-88888888
+          </p>
+          <p class="lh24 col-gray6">阿里巴巴：guanwang.168.com
+          </p>
+          <p class="lh24 col-gray6">企业邮箱：business@cocn.com
+          </p>
+          <p class="lh24 col-gray6">公司地址：杭州市拱墅区上塘路333号海外海商务写字楼11层
+          </p>
+        </div>
       </div>
       <div class="fl-r">
         <form class="" action="index.html" method="post">

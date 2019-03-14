@@ -1138,6 +1138,137 @@ textarea{resize: none; overflow-y:auto;}
 @media (max-width: 424px){
 
 }
+@media (min-width: 768px) and (max-width:1199px){
+  .container{
+    width: 730px;
+    overflow:hidden;
+  }
+  .pub-title{
+    .ta-c;
+  }
+  .products{
+    ul{
+      li{
+        margin-right:0px;
+        &:hover{
+          border:1px solid #fff;
+          box-shadow:none;
+        }
+      }
+    }
+  }
+  .about{
+    padding:0px;
+    div{
+      &.fl-l{
+        width:100%;
+        p{
+          width:80%;
+          .m-auto;
+          &.f24{
+            padding-bottom:20px;
+          }
+        }
+      }
+      &.fl-r{
+        width:100%;
+        padding-top: 20px;
+        padding-bottom:80px;
+        img{
+          width:80%;
+          .m-auto;
+        }
+      }
+    }
+  }
+  .contact{
+    .bg-f5;
+    padding:0px 0 30px 0;
+    border-bottom:1px solid #ebebeb;
+    div{
+      &.fl-l{
+        width:100%;
+      }
+    }
+    .text{
+      width:80%;
+      .m-auto;
+      p{
+        width:50%;
+        .fl-l;
+        &:last-child{
+          width:100%;
+        }
+      }
+    }
+    .client-form{
+      width:80%;
+      .m-auto;
+      padding-top: 20px;
+      li{
+        float:left;
+        margin-bottom: 15px;
+        width: 100%;
+        &.short{
+          width:48%;
+          label{
+            width:100%;
+          }
+          input{
+            width:100%;
+          }
+        }
+        label{
+          width:100%;
+          line-height:20px;
+          display:block;
+          margin-bottom:10px;
+          em{
+            color: #ff0000;
+          }
+        }
+        input{
+          width:100%;
+        }
+        textarea{
+          line-height:20px;
+          height:80px;
+          width:100%;
+        }
+        .yzm{
+          height: 36px;
+          float:left;
+          background:#ddd;
+        }
+        .btn{
+          color:#fff;
+          .ta-c;
+          width:100%;
+          line-height: 36px;
+          height: 36px;
+          display:block;
+          background:#f4364c;
+        }
+      }
+    }
+  }
+  .foot{
+    padding:20px 0;
+    ul{
+      .ta-c;
+      li{
+        min-width:182px;
+        margin-bottom:20px;
+        &:last-child{
+          width:100%;
+        }
+        .client-mail{
+          .m-auto;
+        }
+      }
+    }
+  }
+}
 @media (max-width: 767px) {
   .container{
     width: 280px;
@@ -1154,6 +1285,9 @@ textarea{resize: none; overflow-y:auto;}
         .pos-abso;
       }
     }
+  }
+  .pub-title{
+    .ta-c;
   }
   .pub-head{
     height:60px;
@@ -1204,6 +1338,8 @@ textarea{resize: none; overflow-y:auto;}
       width:60px;
       height: 35px;
       background-size: 100%;
+      .pos-abso;
+      left:20px;
     }
     .header__toggle {
        .pos-abso;
@@ -1404,36 +1540,8 @@ textarea{resize: none; overflow-y:auto;}
             width:100%;
           }
         }
-        label{
-          width:100%;
-          line-height:20px;
-          display:block;
-          margin-bottom:10px;
-          em{
-            color: #ff0000;
-          }
-        }
-        input{
-          width:100%;
-        }
         textarea{
-          line-height:20px;
-          height:80px;
-          width:280px;
-        }
-        .yzm{
-          height: 36px;
-          float:left;
-          background:#ddd;
-        }
-        .btn{
-          color:#fff;
-          .ta-c;
           width:100%;
-          line-height: 36px;
-          height: 36px;
-          display:block;
-          background:#f4364c;
         }
       }
     }
@@ -1490,9 +1598,7 @@ textarea{resize: none; overflow-y:auto;}
     }
   }
 }
-@media (min-width: 768px) and (max-width:1199px){
 
-}
 @media (min-width: 1200px){
 
 }
