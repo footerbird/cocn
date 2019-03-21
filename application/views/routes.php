@@ -51,6 +51,10 @@ table tr:hover {
         <td><a href="<?php echo base_url() ?>page/home_blue" target="_blank"><?php echo base_url() ?>page/home_blue</a></td>
     </tr>
     <tr>
+        <td align="right">首页_伦敦交易所</td>
+        <td><a href="<?php echo base_url() ?>page/home_london" target="_blank"><?php echo base_url() ?>page/home_london</a></td>
+    </tr>
+    <tr>
         <td align="right">首页_建站模版</td>
         <td><a href="<?php echo base_url() ?>page/home_model" target="_blank"><?php echo base_url() ?>page/home_model</a></td>
     </tr>

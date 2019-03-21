@@ -1,5 +1,87 @@
-<div class="bg-default" style="background:#16436a;height:165px;">
-
+<div class="footer" style="">
+  <div class="container after-cls">
+    <div class="left">
+      <dl class="">
+        <dt>
+          官网服务
+        </dt>
+        <dd>
+          <a href="#">公司信用查询</a>
+        </dd>
+        <dd>
+          <a href="#">官网建设</a>
+        </dd>
+        <dd>
+          <a href="#">实名网址.CO.CN</a>
+        </dd>
+        <dd>
+          <a href="#">公司融资</a>
+        </dd>
+        <dd>
+          <a href="#">股权交易服务</a>
+        </dd>
+      </dl>
+      <dl class="">
+        <dt>关于我们</dt>
+        <dd>
+          <a href="#">平台介绍</a>
+        </dd>
+        <dd>
+          <a href="#">管理和机构</a>
+        </dd>
+        <dd>
+          <a href="#">星级注册服务查询</a>
+        </dd>
+        <dd>
+          <a href="#">分析师专栏</a>
+        </dd>
+      </dl>
+      <dl class="">
+        <dt>研究报告</dt>
+        <dd>
+          <a href="#">行业研究报告</a>
+        </dd>
+        <dd>
+          <a href="#">互联网研究</a>
+        </dd>
+        <dd>
+          <a href="#">权威发布</a>
+        </dd>
+        <dd>
+          <a href="#">报告下载</a>
+        </dd>
+      </dl>
+    </div>
+    <div class="right">
+      <div class="media">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAA0CAMAAACeqSywAAAAzFBMVEUQQWz////6+/w/ZokWRW8SQm33+fqqvMvy9ffg5utFaow6YYXt8PPV3eT8/f7l6u+0w9FNcJEzXIEaSHIYR3Hp7fHd5OrF0NvBzdm+ytelt8hSc5PO1+DJ092wwM6dscOYrcCSqLyJobZriaQuV33v8vXa4ujM1t+6x9WDnbN7lq54k6xvjKZohqFhgZ5ff5xVdpZJbY8mUXkiTnYfS3Xi5+ynucmgs8WOpbp/mbBzkKldfZpYeZgwWX8pVHscSnPX3+bT2+PP2eGmuckhXbvRAAACtUlEQVRo3u3W2XLaQBAF0Hu1S0js+77bYAPGxitg7OT//ykgRTbkQZ5QqdRUMudBGj2MVOqe7mooiqIoiqIoiqIoiqIoivL/Mgb1plXOPt/ibDsTkhsOpjoAswgR1w4jWvvMqOTuLb/yYkA25gCxmUWykp/XDAjo8VP5Fee4KY0z5MUWkvE4RySvMWRtdHztisfGBn7H6zIVL/Uqx3eQy4LaJPohmxG/lMeXbjWeeIY43fapvYQH5bKTR5ZdyEUn6c4OUSkzIhISPJG8MJ65Ny2+kSMTgoyexr1vYUvyqXkrpwS5mBnu+b3F1mekBgEVki2zz70XIyCpi5ZNhaE2hpvrm4LnNNEm5HLXsHjKhgCXR5yHtecVIGI4ZqTSdsJvNTV0ZYtJQ/N56gkCAn7QXvRLh6Rb17/OQMAT1u7BRkW2mBRG/EUDAh4Zs3LddLzumUiW5YFbte3aPfda2KsFkMycpyxDrDXHZh1+6iHRgKTVXUbJaGTJ8cDYr1aQzabJY48QYjPS0snyI0ntcUSmt0hguuRFCrhdDPR4xvmWh4SeHB5LQciuytBVnXwqaqRrZEnWkeCafF8B/RFJ+9CTOyRb8s32wDLNIx0IMr/zIBeQzDC+XCDBO9M5YEKybLF/qMB0mAQJrV1+cIsQlWO6NaIe8FgGCUq8N3Dn+H174obRS6VJbQgpTdOMlIcQNmmmgGGhzmOXSNBhpogt5zjUWhbAc7hDQsVllT+1VxCnm9GNx66R4K7EGYzA1ruk5gEpn3QkLJ18jbEgh3N0+almIsmNZeXw+k7yrbF/ypBOAxIy553qvVYKHpbnviDL2NsOyXJl1lNFb+2Z5uawrSrhKfkzrhzhEbgwdZm5rNtNi9RqC/y7VotJ/8q77a8hwJs+VFuVdm8m5bSmKIqiKIqiKIqi/G0/ACz0Lx4VF+arAAAAAElFTkSuQmCC" alt="">
+      </div>
+      <ul>
+        <li>
+          <a href="#">公安</a>
+        </li>
+        <li>
+          <a href="#">SSL</a>
+        </li>
+        <li>
+          <a href="#">法务</a>
+        </li>
+        <li>
+          <a href="#">标准</a>
+        </li>
+        <li>
+          <a href="#">绿色</a>
+        </li>
+        <li>
+          <a href="#">认证</a>
+        </li>
+      </ul>
+    </div>
+    <div class="bottom">
+      <p>杭州官网科技有限公司 版权所有 2019 浙B2-20110216-4</p>
+      <p>咨询热线：400-8888-400</p>
+    </div>
+  </div>
 </div>
 <!--用户登录弹框-->
 <div id="upwin_login" class="upwin" style="display: none;">
@@ -153,7 +235,6 @@ $(function(){
           $("#nav_user_panel").show();
       }
   })
-
     $("#upwin_login .login-tab a").on("click",function(){
         var $this = $(this);
         if($this.hasClass("cur")) return;
