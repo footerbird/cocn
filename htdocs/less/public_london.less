@@ -80,6 +80,7 @@ textarea{resize: none; overflow-y:auto;}
 @base-color: #13426b;//基本色号
 @base-color2: #f4364c;//基本色号
 @base-body-background: #d1dde6;//大背景色
+@base-border-color: #f2f6f8;//基本内边框色
 /*常用的一些混合*/
 .ellip{//超出隐藏或换行
     overflow:hidden;
@@ -161,6 +162,9 @@ textarea{resize: none; overflow-y:auto;}
 
 .w-all{width: 100% !important;}
 .w-auto{width: auto !important;}
+.w-auto{width: auto !important;}
+.w880{width:880px !important;}
+.w270{width:270px !important;}
 
 /*高度*/
 .loop-height(@n, @offset: 1, @i: 1) when(@i <= @n){
@@ -262,6 +266,7 @@ textarea{resize: none; overflow-y:auto;}
 .bg-f3{background-color: #f3f3f3 !important;}
 .bg-fc{background-color: #fcfcfc !important;}
 .bg-fa{background-color: #fafafa !important;}
+.bg-e3{background-color: #e3e3e3 !important;}
 .bg-d1dde6{background-color:@base-body-background !important;}
 .bg-f4364c{background-color:#f4364c !important;}
 .bg-ee446e{background-color:#ee446e !important;}
@@ -276,7 +281,7 @@ textarea{resize: none; overflow-y:auto;}
 .bg-ffe7c8{background-color:#ffe7c8 !important;}
 .bg-ffdde1{background-color:#ffdde1 !important;}
 .bg-009cff{background-color:#009cff !important;}
-.bg-f2f6f8{background-color:#f2f6f8 !important;}
+.bg-f2f6f8{background-color:@base-border-color !important;}
 
 
 /*定位position*/
@@ -683,15 +688,7 @@ textarea{resize: none; overflow-y:auto;}
   width: 15px;
   height: 14px;
   vertical-align: middle;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAMAAADHVLbdAAAAQlBMVEX/jgAAAAD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgB2UByzAAAAFXRSTlNgABCP4CD8UCULy6aHgZ9sU1E/GALioIdVAAAAX0lEQVQI11XOSQ7AIAhAUayK89hy/6sWG432LwgvYQFEpB1GwAy7jEAgvrrmwVpWcrnj/bMhLR62C3Y5ebYmsyzVYRtcSyK1eV+uXSHwdObBVdhVN76xU5b3YTmPI+8v8RcGtrEr/cQAAAAASUVORK5CYII=) no-repeat 50%;
-}
-
-.ico-mingpian{/*名片*/
-  display: inline-block;
-  width: 15px;
-  height: 14px;
-  vertical-align: middle;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAOCAMAAAAVBLyFAAAAV1BMVEUAAAD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgC5s85GAAAAHHRSTlMAUGA0wM9n+vawgeDMBvDQbrmrkxcNs513clMxxYU+FAAAAHZJREFUGNNVz9sOwiAQRdGDzK2VArXe5f+/U7GElP24kknmAJ609JT8TyyI60kwDwoLDi2BoIIWxRhniKK4JrfyyJTgypHuG3MjN03T5YotJZZG753+DYcDvc61ZycVfOaa30kUxOOrTPDG+dTLbHXkaqVnq8cX9DcHq6u31VUAAAAASUVORK5CYII=) no-repeat 50%;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAMAAADHVLbdAAAAP1BMVEX3M0cAAAD3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0fgxK2RAAAAFHRSTlNgABBRjyD84CULy6aHgZ9sP9wYAgkqV+gAAABgSURBVAjXTc5LDoAgDEXRYqHyB7X7X6vFgOUOyDtJB0Am1igDVdAqAYP56k4e0fJllzvdMs/fyM484pD8colix7hsz80+BSym4Lxvh9YYIu9FCAgahvEbP+VlD9t5nGW/0oEGVT+pRmsAAAAASUVORK5CYII=) no-repeat 50%;
 }
 
 .ico-mingpian{/*名片*/
@@ -699,7 +696,7 @@ textarea{resize: none; overflow-y:auto;}
   width: 18px;
   height: 14px;
   vertical-align: middle;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAOCAMAAAAVBLyFAAAAV1BMVEUAAAD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgC5s85GAAAAHHRSTlMAUGA0wM9n+vawgeDMBvDQbrmrkxcNs513clMxxYU+FAAAAHZJREFUGNNVz9sOwiAQRdGDzK2VArXe5f+/U7GElP24kknmAJ609JT8TyyI60kwDwoLDi2BoIIWxRhniKK4JrfyyJTgypHuG3MjN03T5YotJZZG753+DYcDvc61ZycVfOaa30kUxOOrTPDG+dTLbHXkaqVnq8cX9DcHq6u31VUAAAAASUVORK5CYII=) no-repeat 50%;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAOCAMAAAAVBLyFAAAAUVBMVEUAAAD3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f8r/EqAAAAGnRSTlMAUPpgaMDPsYHgNTLMBvDQc/a5q5MXDZ1TUdVl8XAAAAB0SURBVBjTVc9ZDsMgDEXRh2ubFAiQNJ3Y/0IzIQT380iW/AAnVFok7hAKbFocyEHCjK45CIhRkxjjBCYUU+VTvlkSTOnJbqqV/tba1xtbSsqVfjddDYcD5edZbkQMP525m5ggOr6qAr8oP1qsiwf82s9ePXa+vwdH13jgHwAAAABJRU5ErkJggg==) no-repeat 50%;
 }
 
 .ico-biji{/*笔记*/
@@ -707,7 +704,7 @@ textarea{resize: none; overflow-y:auto;}
   width: 18px;
   height: 14px;
   vertical-align: middle;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAOCAMAAAAVBLyFAAAAYFBMVEUAAAD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD2gZMSAAAAH3RSTlMAUdPlFevdJKZAES0gF8mcmTQcDPTo1x67sIyHgmI/Mb5U8AAAAG1JREFUGNNdyFkWgyAQBdEHzaAkiASHzOx/lyHqUZv6qnNxFO+NAisOwTyZXPQY9YtLmLJMTHo1SVWJZGLHxldCRUwlTppbuflaSqt0i3zyPwNPj02Qvm3JQpDvaMa595DJwom9Fn0QDhB5T/8Ae/oGc7+DOWMAAAAASUVORK5CYII=) no-repeat 50%;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAOCAMAAAAVBLyFAAAAYFBMVEUAAAD3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0e8de4tAAAAH3RSTlMAUdPr5d0kFRGmQC0gF+fJnJkzHAz01x67sIyHgmI/Khvi2wAAAGxJREFUGNNdyFkSgyAUBdHLKJqASFAzKfvfpTiU+uivroOr8K4NSKH36kvkIVwQPyp+SDwS6aqBV4VwItrVthCZRRViuHrlG5+5uEu7yZTWFKz8HII4NzkN5mwrR9z790lqGHbWoPPMACydiQWEUQaIiId63AAAAABJRU5ErkJggg==) no-repeat 50%;
 }
 
 .ico-duibi{/*对比*/
@@ -715,7 +712,7 @@ textarea{resize: none; overflow-y:auto;}
   width: 15px;
   height: 16px;
   vertical-align: middle;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAQBAMAAAA7eDg3AAAALVBMVEUAAAD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgAs1wDVAAAADnRSTlMAsCBAYVdKKxgKhMegeD1E6NMAAAA4SURBVAjXYwACPQUQKSgoGJczN/wAw2sgI3GWuwDDY6gUlMH8AMrgcIAz4FIkqAECuBWCUAbcGQDnTRtBTUks6gAAAABJRU5ErkJggg==) no-repeat 50%;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAQBAMAAAA7eDg3AAAALVBMVEUAAAD3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0cULJxWAAAADnRSTlMAsCBAYVdKKxgKhMegeD1E6NMAAAA4SURBVAjXYwACPQUQKSgoGJczN/wAw2sgI3GWuwDDY6gUlMH8AMrgcIAz4FIkqAECuBWCUAbcGQDnTRtBTUks6gAAAABJRU5ErkJggg==) no-repeat 50%;
 }
 
 .ico-guanzhu{/*关注*/
@@ -723,7 +720,7 @@ textarea{resize: none; overflow-y:auto;}
   width: 15px;
   height: 13px;
   vertical-align: middle;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAANCAMAAABBwMRzAAAAY1BMVEUAAAD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgD/jgA7qEW9AAAAIXRSTlMA22WH6Fe6EePtzqJhGv3ywZB4ShDGrq2bfXx2UEQ2KBfrO8d3AAAAc0lEQVQI103LVw6DQAxF0ecynSG09Lr/VcYoCsz9sHRkGwiSlYorpFmC0ZO4u+89OyEfIFQBLLLYrDQiT9i7EvTR2B1A3HiKGIdNfq4O7yh/E/9+uLHF6WbzpNonjbC6dAl4MsfCHdZmOr72e+tzHlbb9gtxZgOfHOmGoQAAAABJRU5ErkJggg==) no-repeat 50%;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAANCAMAAABBwMRzAAAAY1BMVEUAAAD3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0eDHoOaAAAAIXRSTlMA22WH6Fe6EePtzqJhGv3ywZB4ShDGrq2bfXx2UEQ2KBfrO8d3AAAAc0lEQVQI103LVw6DQAxF0ecynSG09Lr/VcYoCsz9sHRkGwiSlYorpFmC0ZO4u+89OyEfIFQBLLLYrDQiT9i7EvTR2B1A3HiKGIdNfq4O7yh/E/9+uLHF6WbzpNonjbC6dAl4MsfCHdZmOr72e+tzHlbb9gtxZgOfHOmGoQAAAABJRU5ErkJggg==) no-repeat 50%;
 }
 
 .ico-search{/*搜索*/
@@ -746,15 +743,14 @@ textarea{resize: none; overflow-y:auto;}
 
 /*面包屑导航*/
 .breadcrumbs{
-    height: 44px;
-    line-height: 44px;
+    height: 42px;
+    line-height: 42px;
     font-size: 12px;
     a{
         font-size: 12px;
         color: #666;
         text-decoration: none;
         &:hover{
-          .fb;
           color: @base-color;
         }
     }
@@ -765,7 +761,7 @@ textarea{resize: none; overflow-y:auto;}
         background-position: center center;
     }
     span{
-        color: @base-color;
+      .col-gray6;
     }
 }
 
@@ -807,13 +803,13 @@ textarea{resize: none; overflow-y:auto;}
 
 
 /*公共按钮*/
-.pub-btn{/*默认高度36，正常按钮，颜色#ff8e00默认色*/
+.pub-btn{/*默认高度36，正常按钮，颜色 @base-color 默认色*/
     display: inline-block;
     height: 36px;
     line-height: 38px;
     font-size: 14px;
     color: #fff;
-    background-color: #ff8e00;
+    background-color: @base-color !important;
     border:none;
     text-align: center;
     padding: 0 15px;
@@ -823,13 +819,13 @@ textarea{resize: none; overflow-y:auto;}
         .opacity(.8);
     }
 }
-.pub-btn-m{/*默认高度30，颜色#ff8e00默认色*/
+.pub-btn-m{/*默认高度30，颜色 @base-color 默认色*/
     display: inline-block;
     height: 30px;
     line-height: 30px;
     font-size: 14px;
     color: #fff;
-    background-color: #ff8e00;
+    background-color: @base-color !important;
     border:none;
     text-align: center;
     padding: 0 18px;
@@ -846,6 +842,9 @@ textarea{resize: none; overflow-y:auto;}
 .col-0bb56b{/*股权融资绿色*/
   color: #0bb56b;
 }
+.col-06c594{/*认证绿色*/
+  color: #06c594;
+}
 .col-f4364c{/*辅助红色*/
   color:@base-color2 !important;
 }
@@ -860,6 +859,9 @@ textarea{resize: none; overflow-y:auto;}
 }
 .col-43ced7{
   color:#43ced7!important;
+}
+.col-3daaef{/*链接蓝色*/
+  color:#3daaef!important;
 }
 /*按钮字体色*/
 .col-ff3c00{color:#ff3c00!important;}
@@ -1015,8 +1017,8 @@ input[type=checkbox]:checked:disabled+i{
       border-color:#43ced7;
     }
     &.block-a-renzheng{
-      .bg-c6fff0;
-      .col-12bf5b;
+      .col-06c594;
+      border-color:#06c594;
     }
     &.block-a-zhishu{
       .col-ff6c00;
@@ -1208,6 +1210,18 @@ input[type=checkbox]:checked:disabled+i{
     height: 38px;
   }
 }
+body {
+  position: relative !important;
+}
+body.on #bgblack {
+  background: #000;
+  filter: alpha(opacity=00);
+  -moz-opacity: 0.0;
+  opacity: 0.0;
+  width: 100%;
+  height: 100%;
+  position: absolute !important;
+}
 /*轮播*/
 .index-banner{
   .bg-d1dde6;
@@ -1267,7 +1281,7 @@ input[type=checkbox]:checked:disabled+i{
             .tab {
               .fl-l;
               width:251px;
-              border-right: 1px solid #f2f6f8;
+              border-right: 1px solid @base-border-color;
               a{
                 .fl-l;
                 .block;
@@ -1277,7 +1291,7 @@ input[type=checkbox]:checked:disabled+i{
                 width: 251px;
                 height: 65px;
                 line-height: 65px;
-                border-bottom: 1px solid #f2f6f8;
+                border-bottom: 1px solid @base-border-color;
                 background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAALBAMAAABfd7ooAAAALVBMVEUAAAD3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0f3M0cULJxWAAAADnRSTlMAEe7MqneZVUTdu4hmIoTK33MAAAA3SURBVAjXY2BkAAGhABDJ9LgBSDL6PRMAUux2c0BirO9AnK5HQELsnSOQr2cOZMppg+RELgAJACdQCTqVnge2AAAAAElFTkSuQmCC) #fff no-repeat 22px 50%;
                 &.on{
                   .bg-f2f6f8;
@@ -1422,8 +1436,8 @@ input[type=checkbox]:checked:disabled+i{
       .item{
         width: 205px;
         padding:30px 25px;
-        border-left:1px solid #f2f6f8;
-        border-right:1px solid #f2f6f8;
+        border-left:1px solid @base-border-color;
+        border-right:1px solid @base-border-color;
         .bg-fa;
         margin-left: 20px;
         p{
@@ -1519,7 +1533,7 @@ input[type=checkbox]:checked:disabled+i{
       line-height:42px;
       tr{
         &:nth-child(odd){
-          background:#f2f6f8;
+          .bg-f2f6f8;
         }
       }
     }
@@ -1545,7 +1559,7 @@ input[type=checkbox]:checked:disabled+i{
     ul{
       li{
         padding:12px;
-        border-bottom: 1px solid #f2f6f8;
+        border-bottom: 1px solid @base-border-color;
         &:last-child{
           border-bottom: none;
         }
@@ -1591,7 +1605,7 @@ input[type=checkbox]:checked:disabled+i{
         width:140px;
         margin-bottom:5px;
         img{
-          border:1px solid #f2f6f8;
+          border:1px solid @base-border-color;
           width: 100px;
           height: 100px;
           .in-block;
@@ -1692,6 +1706,7 @@ input[type=checkbox]:checked:disabled+i{
 .filter-box{
   padding:7px 10px 2px 10px;
   border:1px solid #e4e4e4;
+  .bg-white;
   .clearfix;
   .in-block;
   .condition{
@@ -1741,6 +1756,7 @@ input[type=checkbox]:checked:disabled+i{
     .bd{
       .clearfix;
       .w-all;
+      .bg-white;
       .in-block;
       border:1px solid #e4e4e4;
       border-top: none;
@@ -1748,6 +1764,7 @@ input[type=checkbox]:checked:disabled+i{
         .clearfix;
         .w-all;
         .in-block;
+        .bg-white;
         border-bottom:1px solid #f1f3f5;
         padding:15px 20px;
         &:last-child{
@@ -1803,11 +1820,13 @@ input[type=checkbox]:checked:disabled+i{
   .clearfix;
   .w-all;
   .in-block;
+  .pos-rela;
   .company-logo{
     .fl-l;
     height: 67px;
     width: 136px;
     border: 1px solid #d1dde6;
+    margin-right:10px;
     img{
       .in-block;
     }
@@ -1833,16 +1852,17 @@ input[type=checkbox]:checked:disabled+i{
       a{
         .pos-rela;
         padding:0 30px;
+        color:@base-color;
         &.on{
-          color: @base-color;
+          color: @base-color2;
         }
         &:hover{
-          color: @base-color;
+          color: @base-color2;
 
           .opacity(.8);
         }
         &::after{
-          .bg-d1dde6;
+          .bg-e3;
           .pos-abso;
           content:'';
           width: 1px;
@@ -1853,22 +1873,27 @@ input[type=checkbox]:checked:disabled+i{
       }
     }
   }
+  a{
+    &.pos-abso{
+      top:0;
+      right:0px;
+    }
+  }
 }
 .company-top-panel{
-  border: 1px solid #e4e4e4;
   .in-block;
   .border-box;
   .bd{
-    padding:20px 20px 25px 20px;
     .in-block;
     .border-box;
+    .bg-white;
     .fl-l;
     .trading{
       background:#fbfafa;
       height: 135px;
       width: 230px;
       padding:20px 18px;
-      margin-right:22px;
+      margin-right:34px;
       .clearfix;
       .fl-l;
       .now-num{
@@ -1904,7 +1929,6 @@ input[type=checkbox]:checked:disabled+i{
             line-height: 18px;
           }
         }
-
       }
       .cell{
         .in-block;
@@ -1922,7 +1946,7 @@ input[type=checkbox]:checked:disabled+i{
       .fl-l;
       width:540px;
       h3{
-        .fb;
+        .col-default;
         .ellip;
         font-size: 20px;
       }
@@ -1945,7 +1969,7 @@ input[type=checkbox]:checked:disabled+i{
     }
     .action{
       .fl-l;
-      width:366px;
+      width:362px;
       p{
         .clearfix;
         .in-block;
@@ -1954,6 +1978,7 @@ input[type=checkbox]:checked:disabled+i{
         a{
           font-size: 12px;
           margin-right: 12px;
+          .col-default;
           .in-block;
           &:last-child{
             margin-right:0;
@@ -1966,6 +1991,11 @@ input[type=checkbox]:checked:disabled+i{
           }
         }
       }
+      a{
+        &.abtn-renzheng{
+          margin-right: 75px;
+        }
+      }
     }
   }
   .foot{
@@ -1976,21 +2006,23 @@ input[type=checkbox]:checked:disabled+i{
     .col-gray9;
     .in-block;
     .border-box;
+    margin-top:22px;
     padding:3px 20px;
-    border-top: 1px solid #f5f5f5;
     line-height: 30px;
+    font-size: 12px;
   }
 }
 .business-infor-panel{
   .in-block;
   .border-box;
   .fl-l;
+  .bg-white;
   table-layout: fixed;
   border: 1px solid #e4e4e4;
   &.top{
     border-bottom:none;
     td{
-      padding:13px 20px;
+      padding:10px 14px;
       word-break: break-all;
     }
     .bheadimg {/*表内人像*/
@@ -2001,8 +2033,8 @@ input[type=checkbox]:checked:disabled+i{
     tr{
       &.top{
         td{
-          border-bottom: 1px solid #fddcb6;
-          border-right: 1px solid #fddcb6;
+          border-bottom: 1px solid @base-border-color;
+          border-right: 1px solid @base-border-color;
         }
       }
     }
@@ -2011,10 +2043,16 @@ input[type=checkbox]:checked:disabled+i{
     border-top:none;
     tr{
       border:1px solid #f5f5f5;
+      &:first-child{
+        border-top:none;
+      }
+      &:last-child{
+        border-bottom:none;
+      }
     }
     td{
       line-height:20px;
-      padding:10px 18px;
+      padding:10px;
       border-left:1px solid #f5f5f5;
       word-break: break-all;
       &.tb{
@@ -2024,10 +2062,10 @@ input[type=checkbox]:checked:disabled+i{
   }
   &.gudong-info{
     th{
-      text-align: center;
-      background: #fff3e5;
-      border-right:#fddcb6 1px solid;
-      border-bottom:#fddcb6 1px solid;
+      .ta-c;
+      .bg-fc;
+      border-right:@base-border-color 1px solid;
+      border-bottom:@base-border-color 1px solid;
       padding: 15px 6px 15px 6px;
       font-weight: normal;
       color:@base-color;
@@ -2042,12 +2080,17 @@ input[type=checkbox]:checked:disabled+i{
       border-radius: 4px;
     }
     tr{
-      border:1px solid #f5f5f5;
+      &:last-child{
+        td{
+          border-bottom:none;
+        }
+      }
     }
     td{
       line-height:20px;
-      padding:10px 15px;
-      border-left:1px solid #f5f5f5;
+      padding:14px 10px;
+      border-left:1px solid @base-border-color;
+      border-bottom:1px solid @base-border-color;
       word-break: break-all;
       .insert-table{
         tr{
@@ -2063,23 +2106,23 @@ input[type=checkbox]:checked:disabled+i{
 }
 .company-credit-r-panel{
   .border-box;
-  width: 280px;
   border:1px solid #e4e4e4;
   .hd{
     .bg-fc;
+    .col-default;
     font-size: 16px;
-    padding:17px 18px;
+    padding:12px 10px;
     border-bottom:1px solid #e4e4e4;
   }
-
   .bd{
     .invoice{
+      .bg-white;
       dl{
         line-height:26px;
         .clearfix;
         .in-block;
         dt{
-          padding-left:15px;
+          padding-left:10px;
           vertical-align: top;
           .fl-l;
           min-width: 42px;
@@ -2096,6 +2139,7 @@ input[type=checkbox]:checked:disabled+i{
       }
     }
     .comment{
+      .bg-white;
       ul{
         li{
           .clearfix;
@@ -2115,7 +2159,12 @@ input[type=checkbox]:checked:disabled+i{
             border-radius:50%;
           }
           span{
-            width: 216px;
+            width: 206px;
+            p{
+              &.ellip{
+                .col-default;
+              }
+            }
           }
           p{
             &.h40{
@@ -2127,6 +2176,7 @@ input[type=checkbox]:checked:disabled+i{
       }
     }
     .download{
+      .bg-white;
       img{
         display:block;
         margin:0 auto;

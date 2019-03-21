@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<?php include_once('templete/pub_head.php') ?>
+<?php include_once('templete/pub_head_london.php') ?>
 </head>
 <body>
 <?php include_once('templete/pub_nav.php') ?>

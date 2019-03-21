@@ -4178,3 +4178,79 @@ input[type=checkbox]:checked:disabled + i {
   display: block;
   margin: 0 auto;
 }
+/*footer*/
+.footer {
+  padding: 30px 0 20px 0px;
+  background-color: #ff6000;
+}
+.footer .left {
+  float: left !important;
+  margin-left: 15px;
+}
+.footer .left dl {
+  color: #fff !important;
+  padding-left: 86px;
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  float: left !important;
+  width: 220px;
+  min-height: 150px;
+}
+.footer .left dl dt {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.footer .left dl dd a {
+  font-size: 12px;
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  color: #fff !important;
+  line-height: 24px;
+}
+.footer .right {
+  float: right !important;
+  margin-right: 15px;
+}
+.footer .right .media {
+  padding-top: 70px;
+}
+.footer .right ul {
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+}
+.footer .right ul li {
+  float: left !important;
+  height: 15px;
+  border-right: 1px solid #fff;
+}
+.footer .right ul li:last-child {
+  border: none;
+}
+.footer .right ul li:last-child a {
+  padding-right: 0px;
+}
+.footer .right ul li a {
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  color: #fff !important;
+  font-size: 12px;
+  padding: 0 15px;
+  line-height: 14px;
+  height: 14px;
+}
+.footer .bottom {
+  margin-top: 15px;
+  border-top: 1px solid #296191;
+  padding-top: 20px;
+  float: left !important;
+  width: 100% !important;
+  text-align: center !important;
+  color: #fff !important;
+}
+.footer .bottom p {
+  line-height: 24px;
+}
