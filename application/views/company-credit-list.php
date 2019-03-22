@@ -11,13 +11,13 @@
     <div class="search-panel fl-l mr10">
       <input type="text" name="" value="" placeholder="查询公司名称、法人或经营范围" class="w400">
       <button type="button" name="button">找公司</button>
-      <a href="javascript:;" class="f12 col-3daaef ml15">更多高级查询</a>
+      <a href="javascript:;" class="f12 col-default underline ml15">更多高级查询</a>
     </div>
-    <div class="f12 fl-l ml50 mt13">
+    <div class="f12 fl-l ml50 mt13 col-default">
       <div class="mr5 fl-l mt1">公司类型展示：</div>
-        <label class="pos-rela mr30"><input type="checkbox" name="leixing" value="drz" checked><i></i><font>待认证</font></label>
-        <label class="pos-rela mr30"><input type="checkbox" name="leixing" value="yrz"><i></i><font>已认证</font></label>
-        <label class="pos-rela mr30"><input type="checkbox" name="leixing" value="dealing"><i></i><font>股权交易中</font></label>
+        <label class="pos-rela mr30 fl-l"><input type="checkbox" name="leixing" value="drz" checked><i></i><font>待认证</font></label>
+        <label class="pos-rela mr30 fl-l"><input type="checkbox" name="leixing" value="yrz"><i></i><font>已认证</font></label>
+        <label class="pos-rela mr30 fl-l"><input type="checkbox" name="leixing" value="dealing"><i></i><font>股权交易中</font></label>
     </div>
   </div>
   <div class="filter-box mt30">
@@ -146,7 +146,7 @@
   </div>
   <div class="cocn-list mt10">
     <div class="hd">
-      <span id="">股权交易中的公司</span>
+      <span class="col-default" id="">股权交易中的公司</span>
       <span class="col-gray6 f-thin ml4">推荐列表</span>
     </div>
       <div class="bd">
@@ -154,31 +154,31 @@
           <div class="w800 fl-l">
             <div class="title">
               <a class="f18" href="/page/company-credit-page.php">南京名商实业有限公司</a>
-              <span class="abtn-a-renzheng">认证</span>
-              <span class="abtn-a-zaiye">在业</span>
-              <span class="block-f3 col-f74f41">股权交易&nbsp;7000股</span>
+              <a href="javascript:;" class="abtn-a-renzheng">认证</a>
+              <a href="javascript:;" class="abtn-a-zaiye">在业</a>
+              <span class="block-f3 col-f4364c">股权交易&nbsp;7000股</span>
             </div>
             <p>法定代表人： 谢青弟  注册资本：1000万元人民币  成立时间：2003-08-01  所属行业：批发和零售业地址：南京市鼓楼区建宁路37号</p>
             <div class="ft">
               与“南京名商事业有限公司”相关  评论 (78) - 关注 (995)
             </div>
           </div>
-          <div class="w200 fl-r ta-c mt35">
-            <a href="#" class="pub-btn">关注</a>
+          <div class="w200 fl-r ta-c mt43">
+            <a href="#" class="pub-btn-f4364c">关注</a>
           </div>
         </div>
         <div class="box">
           <div class="w800 fl-l">
             <div class="title">
               <a class="f18" href="/page/company-credit-page.php">南京名商实业有限公司</a>
-              <span class="abtn-a-zaiye">在业</span>
+              <a href="javascript:;" class="abtn-a-zaiye">在业</a>
             </div>
             <p>法定代表人： 谢青弟  注册资本：1000万元人民币  成立时间：2003-08-01  所属行业：批发和零售业地址：南京市鼓楼区建宁路37号</p>
             <div class="ft">
               与“南京名商事业有限公司”相关  评论 (78) - 关注 (995)
             </div>
           </div>
-          <div class="w200 fl-r ta-c mt35">
+          <div class="w200 fl-r ta-c mt43">
             <a href="#" class="pub-btn had">已关注</a>
           </div>
         </div>
@@ -193,16 +193,16 @@
               与“南京名商事业有限公司”相关  评论 (78) - 关注 (995)
             </div>
           </div>
-          <div class="w200 fl-r ta-c mt35">
-            <a href="#" class="pub-btn">关注</a>
+          <div class="w200 fl-r ta-c mt43">
+            <a href="#" class="pub-btn-f4364c">关注</a>
           </div>
         </div>
         <div class="box">
           <div class="w800 fl-l">
             <div class="title">
               <a class="f18" href="/page/company-credit-page.php">南京名商实业有限公司</a>
-              <span class="abtn-a-renzheng">认证</span>
-              <span class="abtn-a-zaiye">在业</span>
+              <a href="javascript:;" class="abtn-a-renzheng">认证</a>
+              <a href="javascript:;" class="abtn-a-zaiye">在业</a>
               <span class="block-f3 col-06c594">股权交易&nbsp;7000股</span>
             </div>
             <p>法定代表人： 谢青弟  注册资本：1000万元人民币  成立时间：2003-08-01  所属行业：批发和零售业地址：南京市鼓楼区建宁路37号</p>
@@ -210,8 +210,8 @@
               与“南京名商事业有限公司”相关  评论 (78) - 关注 (995)
             </div>
           </div>
-          <div class="w200 fl-r ta-c mt35">
-            <a href="#" class="pub-btn">关注</a>
+          <div class="w200 fl-r ta-c mt43">
+            <a href="#" class="pub-btn-f4364c">关注</a>
           </div>
         </div>
       </div>
@@ -230,11 +230,11 @@ $(function(){
   })
 
   $("#foldType").on("click",function(){//点击收缩
-			if($(this).hasClass("col-ff8e00")){//col-ff8e00表示已经收起，要做出展开动作
-				$(this).removeClass("col-ff8e00").html('更多<i class="ml3 ico-down"></i>');
+			if($(this).hasClass("col-default")){//col-default表示已经收起，要做出展开动作
+				$(this).removeClass("col-default").html('更多<i class="ml3 ico-down"></i>');
 				$(this).siblings("dl").find("dd").css('height','28px');
 			}else{
-				$(this).addClass("col-ff8e00").html('收起<i class="ml3 ico-up"></i>');
+				$(this).addClass("col-default").html('收起<i class="ml3 ico-up"></i>');
         $(this).siblings("dl").find("dd").css('height','auto');
 			}
 		})

@@ -152,12 +152,14 @@
       <div class="w880 fl-l">
         <div class="f16 pb10 pt5 in-block w-all col-default">工商信息</div>
         <table class="business-infor-panel top" width="100%">
-          <tbody>
+          <thead>
             <tr class="top lh20">
-              <td width="300" class="bg-fc ta-c col-default">法定代表人信息</td>
-              <td width="300" class="bg-fc ta-c col-default">企业关联图谱</td>
-              <td width="300" class="br0 bg-fc ta-c col-default">股权结构图</td>
+              <th width="300" class="ta-c col-default">法定代表人信息</th>
+              <th width="300" class="ta-c col-default">企业关联图谱</th>
+              <th width="300" class="br0 ta-c col-default">股权结构图</th>
             </tr>
+          </thead>
+          <tbody>
             <tr class="top">
               <td width="300" class="boss-td">
                   <div class="clearfix">
@@ -296,8 +298,8 @@
             <tr>
               <td class="tb">企业地址</td>
               <td class="" colspan="3">浙江省杭州市拱墅区上塘路329号1幢11楼1103室
-                <a href="javascript:;" onclick="" class="ml15 col-5da8e7"> 查看地图</a>
-                <a href="javascript:;" onclick="" class="ml15 col-5da8e7"> 附近公司</a>
+                <a href="javascript:;" onclick="" class="ml15 col-3daaef"> 查看地图</a>
+                <a href="javascript:;" onclick="" class="ml15 col-3daaef"> 附近公司</a>
               </td>
             </tr>
             <tr>
@@ -314,7 +316,7 @@
             <tr>
               <th width="46">序号</th>
               <th width="253">股东（发起人)
-                <a href="javascript:;" onclick="" class="ml15 col-5da8e7">查看最终受益人&gt;</a>
+                <a href="javascript:;" onclick="" class="ml15 col-3daaef">查看最终受益人&gt;</a>
               </th>
               <th width="80">持股比例</th>
               <th width="133" style="padding-left: 0px;padding-right: 0px;">认缴出资额(万元)</th>
@@ -334,12 +336,12 @@
                            <img class="headimg" src="https://qccdata.qichacha.com/AutoImage/0a491e6ffc66403a3f5d91d7f2648087.jpg?x-oss-process=image/resize,w_120">
                        </td>
                       <td>
-                        <a href="" target="_blank" class="col-5da8e7">
+                        <a href="" target="_blank" class="col-default">
                             杭州三六五网络有限公司
                         </a>
                           <span class="pub-block2 block-fff0f2 mt5">大股东</span>
                           <div class="clearfix mt5">
-                          <a class="col-f5a623 fl-l" href="">他投资4家公司 &gt; </a>
+                          <a class="col-3daaef fl-l" href="">他投资4家公司 &gt; </a>
                           </div>
                       </td>
                     </tr>
@@ -366,10 +368,10 @@
                           <img class="headimg" src="https://qccdata.qichacha.com/AutoImage/3286705ca4faf0913e55ebf96af4837e.jpg?x-oss-process=image/resize,w_120">
                       </td>
                       <td>
-                        <a href="" target="_blank" class="col-5da8e7">杭州普望信息技术有限公司
+                        <a href="" target="_blank" class="col-default">杭州普望信息技术有限公司
                         </a>
                         <div class="clearfix mt5">
-                          <a class="col-f5a623 fl-l" href="">他投资3家公司 &gt; </a>
+                          <a class="col-3daaef fl-l" href="">他投资3家公司 &gt; </a>
                         </div>
                       </td>
                     </tr>
@@ -394,7 +396,7 @@
             <tr>
               <th width="45" align="center">序号</th>
               <th width="280">股东（发起人)
-                <a href="javascript:;" onclick="" class="ml15 col-5da8e7">查看最终受益人&gt;</a>
+                <a href="javascript:;" onclick="" class="ml15 col-3daaef">查看最终受益人&gt;</a>
               </th>
               <th width="115">持股比例</th>
               <th width="153">认缴出资额(万元)</th>
@@ -413,11 +415,11 @@
                         <img class="headimg" src="https://co-image.qichacha.com/PersonImage/paaf42621cae39f4af41b9008f3e42cd.jpg">
                       </td>
                       <td>
-                        <a href="" class="col-5da8e7">张凯
+                        <a href="" class="col-default">张凯
                         </a>
                       </td>
                       <td width="130" class="ta-r">
-                        <a class="col-f5a623" href="">他关联3家公司 &gt;
+                        <a class="col-3daaef" href="">他关联3家公司 &gt;
                         </a>
                       </td>
                     </tr>
@@ -439,11 +441,11 @@
                         <img class="headimg" src="https://co-image.qichacha.com/PersonImage/paaf42621cae39f4af41b9008f3e42cd.jpg">
                       </td>
                       <td>
-                        <a href="" class="col-5da8e7">余明杰
+                        <a href="" class="col-default">余明杰
                         </a>
                       </td>
                       <td width="130" class="ta-r">
-                        <a class="col-f5a623" href="">他关联5家公司 &gt;
+                        <a class="col-3daaef" href="">他关联5家公司 &gt;
                         </a>
                       </td>
                     </tr>
@@ -465,7 +467,7 @@
                         <img class="headimg" src="https://co-image.qichacha.com/PersonImage/paaf42621cae39f4af41b9008f3e42cd.jpg">
                       </td>
                       <td>
-                        <a href="" target="_blank" class="col-5da8e7">杭州三六五网络有限公司
+                        <a href="" target="_blank" class="col-default">杭州三六五网络有限公司
                         </a>
                       </td>
                     </tr>
@@ -487,7 +489,7 @@
                         <img class="headimg" src="https://co-image.qichacha.com/PersonImage/paaf42621cae39f4af41b9008f3e42cd.jpg">
                       </td>
                       <td>
-                        <a href="" target="_blank" class="col-5da8e7">杭州普望信息技术有限公司
+                        <a href="" target="_blank" class="col-default">杭州普望信息技术有限公司
                         </a>
                       </td>
                     </tr>
@@ -509,11 +511,11 @@
                         <img class="headimg" src="https://co-image.qichacha.com/PersonImage/paaf42621cae39f4af41b9008f3e42cd.jpg">
                       </td>
                       <td>
-                        <a href="" class="col-5da8e7">曾赢
+                        <a href="" class="col-default">曾赢
                         </a>
                       </td>
                       <td width="130" class="ta-r">
-                        <a class="col-f5a623" href="">他关联5家公司 &gt;
+                        <a class="col-3daaef" href="">他关联5家公司 &gt;
                         </a>
                       </td>
                     </tr>
@@ -554,16 +556,16 @@
                 <dd>571-12345</dd>
               </dl>
               <dl class="">
-                <dt class="col-gray9">银行账户：</dt>
-                <dd>483980958340859</dd>
-              </dl>
-              <dl class="mb15">
                 <dt class="col-gray9">开户银行：</dt>
                 <dd>平安银行股份有限公司</dd>
               </dl>
+              <dl class="mb15">
+                <dt class="col-gray9">银行账户：</dt>
+                <dd>483980958340859</dd>
+              </dl>
               <span class="ta-c w-all">
                 <img src="/htdocs/images/mingcode.png" alt="" width="224" height="224" class="">
-                <p class="col-gray9 lh30 mt5 mb5">微信扫码保存企业信息</p>
+                <p class="col-gray9 lh30 mt5 mb5 f12">微信扫码保存企业信息</p>
               </span>
             </div>
           </div>
@@ -624,7 +626,7 @@
             下载官网地址
           </div>
           <div class="bd">
-            <div class="download pt25 pb20">
+            <div class="download pt20 pb20">
               <img src="/htdocs/images/pdf.png" width="59" height="67" alt="">
             </div>
             <p class="ta-c pb15 f12 bg-white">
