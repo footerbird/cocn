@@ -55,6 +55,10 @@ table tr:hover {
         <td><a href="<?php echo base_url() ?>page/home_london" target="_blank"><?php echo base_url() ?>page/home_london</a></td>
     </tr>
     <tr>
+        <td align="right">个人中心_账户资料_个人信息</td>
+        <td><a href="<?php echo base_url() ?>page/user-personal" target="_blank"><?php echo base_url() ?>page/user-personal</a></td>
+    </tr>
+    <tr>
         <td align="right">首页_建站模版</td>
         <td><a href="<?php echo base_url() ?>page/home_model" target="_blank"><?php echo base_url() ?>page/home_model</a></td>
     </tr>

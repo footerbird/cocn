@@ -1,7 +1,7 @@
 <div class="pub-head">
   <div class="main-nav mb12">
     <div class="container after-cls">
-        <a href="/page/home.php" class="main-logo fl-l mb10">co.cn</a>
+        <a href="/page/home_london.php" class="main-logo fl-l mb10">co.cn</a>
         <div class="nav-login pos-rela">
             <a href="javascript:;" onclick="Pop.open('upwin_login')" class="dl">登录</a><em class="col-default">/</em><a href="javascript:;" onclick="Pop.open('upwin_register')" class="zc">注册</a>
             <a href="javascript:;" class="user pos-rela" id="user">
@@ -23,7 +23,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="javascript:;">
+                  <a href="/page/user-personal">
                     账户资料
                   </a>
                 </li>
@@ -43,7 +43,7 @@
         <div class="nav-box fl-r">
           <ul>
             <li class="cur">
-              <a href="/page/home.php">首页</a>
+              <a href="/page/home_london.php">首页</a>
             </li>
             <li>
               <a href="">股权交易中心</a>
