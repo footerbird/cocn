@@ -68,7 +68,7 @@
                 </a>
               </p>
               <p class="col-default f16 lh30">杭州名商网络有限公司</p>
-              <p><em class="block-a-zaiye">在业</em><em class="block-a-dairenzheng">待认证</em><a href="javascript:;" class="block-a-sqrenzheng fl-r">
+              <p><em class="block-a-zaiye">在业</em><em class="block-a-dairenzheng">待认证</em><a href="/page/certify-web" class="block-a-sqrenzheng fl-r">
                 <i class="ico-write"></i>
                 申请认证</a></p>
           </div>

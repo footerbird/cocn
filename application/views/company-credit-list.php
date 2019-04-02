@@ -11,7 +11,7 @@
     <div class="search-panel fl-l mr10">
       <input type="text" name="" value="" placeholder="查询公司名称、法人或经营范围" class="w400">
       <button type="button" name="button">找公司</button>
-      <a href="javascript:;" class="f12 col-default underline ml15">更多高级查询</a>
+      <a href="javascript:;" class="f12 col-default underline ml15 mt12 in-block">更多高级查询</a>
     </div>
     <div class="f12 fl-l ml50 mt13 col-default">
       <div class="mr5 fl-l mt1">公司类型展示：</div>
