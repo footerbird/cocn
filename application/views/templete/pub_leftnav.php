@@ -69,7 +69,7 @@
           </a>
         </li>
         <li>
-          <a href="javascript:;">
+          <a href="/page/user-security">
             <i class="i-aqsz"></i>
             <span>安全设置</span>
           </a>

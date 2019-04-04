@@ -22,96 +22,160 @@
             <span class="title">实名认证</span>
           </div>
           <div class="bd">
-            <div class="ta-c mt25 mb15">
-              <p class="col-default f16 lh30">李群</p>
-              <p><em class="block-a-renzheng">认证</em><em class="block-a-shenhe">审核中</em></p>
+            <table width="" class="fl-l">
+              <tbody>
+                <tr>
+                  <td colspan="3">
+                    <div class="mb5 col-default f16 lh30">
+                      <font class="ta-r mr5 in-block pl25">李群李群</font>
+                      <em class="block-a-renzheng">认证</em><em class="block-a-shenhe">审核中</em>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <dl class="info">
+                      <dt>身份证：</dt>
+                      <dd>330103201903278888</dd>
+                    </dl>
+                  </td>
+                  <td>
+                  </td>
+                  <td>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <dl class="info">
+                      <dt>注册时间：</dt>
+                      <dd>2019年2月12日</dd>
+                    </dl>
+                  </td>
+                  <td>
+                  </td>
+                  <td>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="bottom">
+              <a href="/page/certify-person" class="col-default f12 in-block">查看
+                <i class="ico-blue-arrow"></i>
+              </a>
             </div>
-          <dl class="info">
-            <dt>身份证：</dt>
-            <dd>330103201903278888</dd>
-          </dl>
-          <dl class="info">
-            <dt>注册时间：</dt>
-            <dd>2019年2月12日</dd>
-          </dl>
-          <div class="bottom">
-            <a href="#" class="col-default f12 in-block">查看
-              <i class="ico-blue-arrow"></i>
-            </a>
-          </div>
-          </div>
+            </div>
         </div>
         <div class="personal-box">
           <div class="hd lxfs">
             <span class="title">联系方式</span>
           </div>
-          <div class="bd pt30">
-            <div class="fl-l">
-              <dl class="info">
-                <dt>手机：</dt>
-                <dd>
-                  <font>13288888888</font><em class="block-a-renzheng">有效</em>
-                </dd>
-              </dl>
-              <dl class="info">
-                <dt>微信：</dt>
-                <dd>
-                  <font>w**8</font><em class="block-a-zanwu">暂无</em>
-                </dd>
-              </dl>
-              <dl class="info">
-                <dt>QQ：</dt>
-                <dd>
-                  <font>222222222</font>
-                </dd>
-              </dl>
+          <div class="bd">
+            <table width="" class="fl-l mt12">
+              <tbody>
+                <tr>
+                  <td>
+                    <dl class="info ml0">
+                      <dt>手机：</dt>
+                      <dd>
+                        <font>13288888888</font><em class="block-a-renzheng">有效</em>
+                      </dd>
+                    </dl>
+                  </td>
+                  <td>
+                    <dl class="info">
+                      <dt>QQ：</dt>
+                      <dd>
+                        <font>222222222</font>
+                      </dd>
+                    </dl>
+                  </td>
+                  <td>
+                    <dl class="info">
+                      <dt>电子邮箱：</dt>
+                      <dd>
+                        <font>mingshang.marksmile.com</font><em class="block-a-renzheng">有效</em>
+                      </dd>
+                    </dl>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <dl class="info ml0">
+                      <dt>微信：</dt>
+                      <dd>
+                        <font>w**8</font><em class="block-a-zanwu">暂无</em>
+                      </dd>
+                    </dl>
+                  </td>
+                  <td>
+                    <dl class="info">
+                      <dt>微博：</dt>
+                      <dd>
+                        <font>mingshang.weibo.combak</font><em class="block-a-renzheng">有效</em>
+                      </dd>
+                    </dl>
+                  </td>
+                  <td>
+                    <dl class="info">
+                      <dt>收货地址：</dt>
+                      <dd>
+                        <font>浙江省杭州市拱墅区上塘路333号海外海商务写字楼11楼</font>
+                      </dd>
+                    </dl>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="bottom">
+              <a href="#" class="col-default f12 in-block">设置
+                <i class="ico-blue-arrow"></i>
+              </a>
             </div>
-            <div class="fl-r">
-              <dl class="info">
-                <dt>新浪微博：</dt>
-                <dd>
-                  <font>mingshang.weibo.combak</font><em class="block-a-renzheng">有效</em>
-                </dd>
-              </dl>
-              <dl class="info">
-                <dt>电子邮箱：</dt>
-                <dd>
-                  <font>mingshang.marksmile.com</font><em class="block-a-renzheng">有效</em>
-                </dd>
-              </dl>
-              <dl class="info">
-                <dt>收货地址：</dt>
-                <dd>
-                  <font>浙江省杭州市拱墅区上塘路333号海外海商务写字楼11楼</font>
-                </dd>
-              </dl>
-            </div>
-          <div class="bottom">
-            <a href="#" class="col-default f12 in-block">设置
-              <i class="ico-blue-arrow"></i>
-            </a>
-          </div>
           </div>
         </div>
         <div class="personal-box">
           <div class="hd dsf">
             <span class="title">第三方授权</span>
           </div>
-          <div class="bd pt50">
-          <dl class="info">
-            <dt>微信：</dt>
-            <dd>39029309</dd>
-          </dl>
-          <dl class="info">
-            <dt>微博：</dt>
-            <dd>mingshang.weibo.com</dd>
-          </dl>
-          <div class="bottom">
-            <a href="#" class="col-default f12 in-block">设置
-              <i class="ico-blue-arrow"></i>
-            </a>
-          </div>
-          </div>
+          <div class="bd">
+            <table width="" class="fl-l mt12">
+              <tbody>
+                <tr>
+                  <td>
+                    <dl class="info ml0">
+                      <dt>微信：</dt>
+                      <dd>39029309</dd>
+                    </dl>
+                  </td>
+                  <td>
+
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <dl class="info ml0">
+                      <dt>微博：</dt>
+                      <dd>mingshang.weibo.com</dd>
+                    </dl>
+                  </td>
+                  <td>
+
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="bottom">
+              <a href="#" class="col-default f12 in-block">设置
+                <i class="ico-blue-arrow"></i>
+              </a>
+            </div>
+            </div>
         </div>
       </div>
 

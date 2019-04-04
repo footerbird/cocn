@@ -17,78 +17,202 @@
         <a href="/page/user-login-log" class="">登录日志</a>
       </div>
       <div class="mt25 ml15 mr15 after-cls">
+        <div class="mb10">
+          <a href="#" class="abtn-gsrz">
+            <i class="ico-white-add mr3"></i>
+            新增收款账户
+          </a>
+        </div>
         <div class="personal-box">
           <div class="hd gs-yhzh">
             <span class="title">公司<br />银行账户</span>
           </div>
-          <div class="bd">
-            <div class="ta-c mt20 mb10">
-              <p class="col-default f16 lh30">杭州名商网络有限公司</p>
+          <div class="bd h150">
+            <table width="" class="fl-l mt8">
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="ml25 col-default f16 lh30">杭州名商网络有限公司
+                    </div>
+                  </td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>
+                    <dl class="info">
+                      <dt>开户行：</dt>
+                      <dd>中国农业银行杭州东新银行</dd>
+                    </dl>
+                  </td>
+                  <td>
+
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <dl class="info">
+                      <dt>账号：</dt>
+                      <dd>394883893994884</dd>
+                    </dl>
+                  </td>
+                  <td>
+
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <dl class="info">
+                      <dt>开通时间：</dt>
+                      <dd>2019年2月12日</dd>
+                    </dl>
+                  </td>
+                  <td>
+
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="bottom">
+              <a href="#" class="col-default f12 in-block">设置
+                <i class="ico-blue-arrow"></i>
+              </a>
             </div>
-          <dl class="info">
-            <dt>开户行：</dt>
-            <dd>中国农业银行杭州东新银行</dd>
-          </dl>
-          <dl class="info">
-            <dt>账号：</dt>
-            <dd>394883893994884</dd>
-          </dl>
-          <dl class="info">
-            <dt>开通时间：</dt>
-            <dd>2019年2月12日</dd>
-          </dl>
-          <div class="bottom">
-            <a href="#" class="col-default f12 in-block">设置
-              <i class="ico-blue-arrow"></i>
-            </a>
-          </div>
           </div>
         </div>
         <div class="personal-box">
           <div class="hd gr-yhzh">
             <span class="title">个人<br />银行账户</span>
           </div>
-          <div class="bd">
-            <div class="ta-c mt20 mb10">
-              <p class="col-default f16 lh30">李群</p>
+          <div class="bd h150">
+            <table class="fl-l mt8">
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="ml25 col-default f16 lh30">李群
+                    </div>
+                  </td>
+                  <td>
+
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <dl class="info">
+                      <dt>开户行：</dt>
+                      <dd>中国农业银行杭州东新银行</dd>
+                    </dl>
+                  </td>
+                  <td>
+
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <dl class="info">
+                      <dt>账号：</dt>
+                      <dd>394883893994884</dd>
+                    </dl>
+                  </td>
+                  <td>
+
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <dl class="info">
+                      <dt>开通时间：</dt>
+                      <dd>2019年2月12日</dd>
+                    </dl>
+                  </td>
+                  <td>
+
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="bottom">
+              <a href="#" class="col-default f12 in-block">设置
+                <i class="ico-blue-arrow"></i>
+              </a>
             </div>
-            <dl class="info">
-              <dt>开户行：</dt>
-              <dd>中国农业银行杭州东新银行</dd>
-            </dl>
-            <dl class="info">
-              <dt>账号：</dt>
-              <dd>394883893994884</dd>
-            </dl>
-            <dl class="info">
-              <dt>开通时间：</dt>
-              <dd>2019年2月12日</dd>
-            </dl>
-          <div class="bottom">
-            <a href="#" class="col-default f12 in-block">设置
-              <i class="ico-blue-arrow"></i>
-            </a>
-          </div>
           </div>
         </div>
         <div class="personal-box">
           <div class="hd zfb">
             <span class="title">支付宝</span>
           </div>
-          <div class="bd pt50">
-            <dl class="info">
-              <dt>账号：</dt>
-              <dd>394883893994884</dd>
-            </dl>
-            <dl class="info">
-              <dt>开通时间：</dt>
-              <dd>2019年2月12日</dd>
-            </dl>
-          <div class="bottom">
-            <a href="#" class="col-default f12 in-block">设置
-              <i class="ico-blue-arrow"></i>
-            </a>
-          </div>
+          <div class="bd h150">
+            <table class="fl-l mt18">
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="ml25 col-default f16 lh30">李群
+                    </div>
+                  </td>
+                  <td>
+
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <dl class="info">
+                      <dt>账号：</dt>
+                      <dd>394883893994884</dd>
+                    </dl>
+                  </td>
+                  <td>
+
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <dl class="info">
+                      <dt>开通时间：</dt>
+                      <dd>2019年2月12日</dd>
+                    </dl>
+                  </td>
+                  <td>
+
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="bottom">
+              <a href="#" class="col-default f12 in-block">设置
+                <i class="ico-blue-arrow"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>

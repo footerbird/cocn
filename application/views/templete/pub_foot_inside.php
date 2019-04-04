@@ -157,8 +157,8 @@ $(function(){
     $('#user').removeClass("on");
     $("#nav_user_panel").hide();
   })
-  $("#manage_leftnav li").on('click',function(){//左侧菜单切换样式
-    $(this).addClass('cur').siblings().removeClass('cur');
+  $("#manage_leftnav li a").on('click',function(){//左侧菜单切换样式
+    $(this).parent('li').addClass('cur').siblings('li').removeClass('cur');
   })
     $("#upwin_login .login-tab a").on("click",function(){
         var $this = $(this);
