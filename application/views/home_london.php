@@ -65,21 +65,21 @@
           <div class="bd padding15">
             <div class="search">
               <input type="text" name="" value="" placeholder="编号/公司名称">
-              <a href="javascript:;" class="btn"><i class="ico-search"></i></a>
+              <a href="/page/company-credit-list.php" class="btn"><i class="ico-search"></i></a>
             </div>
             <div class="hot mt30">
               <p class="col-gray9">热搜公司</p>
               <p>
-                <a href="#" class="col-gray6">小米科技</a>
+                <a href="/page/company-credit-page.php" class="col-gray6">小米科技</a>
               </p>
               <p>
-                <a href="#" class="col-gray6">华为</a>
+                <a href="/page/company-credit-page.php" class="col-gray6">华为</a>
               </p>
               <p>
-                <a href="#" class="col-gray6">杭州名商网络有限公司</a>
+                <a href="/page/company-credit-page.php#" class="col-gray6">杭州名商网络有限公司</a>
               </p>
               <p>
-                <a href="#" class="col-gray6">杭州娃哈哈食品股份有限公司</a>
+                <a href="/page/company-credit-page.php" class="col-gray6">杭州娃哈哈食品股份有限公司</a>
               </p>
             </div>
           </div>

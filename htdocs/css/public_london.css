@@ -3529,7 +3529,7 @@ input[type=checkbox]:checked:disabled + i {
   top: 63px;
   right: 0px;
   box-shadow: 0px 6px 16px -6px rgba(0, 0, 0, 0.4);
-  z-index: 1;
+  z-index: 2;
 }
 .nav-login .nav-user-panel .name {
   padding: 13px 5px;
@@ -4238,6 +4238,11 @@ body.on #bgblack {
   float: left !important;
   line-height: 20px;
   margin-right: 18px;
+}
+.cocn-list .bd .title a.f18:hover {
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.8;
+  opacity: 0.8;
 }
 .cocn-list .bd .title span {
   /*默认高度20，小型色块，颜色透明,背景灰色*/
@@ -5262,7 +5267,7 @@ table.inner-table tbody tr {
 .self-nav {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACAQMAAACnuvRZAAAAA1BMVEUAAACnej3aAAAAAXRSTlOArV5bRgAAAApJREFUCNdjAAIAAAQAASDSLW8AAAAASUVORK5CYII=) repeat;
   height: 60px;
-  z-index: 2;
+  z-index: 1;
 }
 .self-nav ul {
   margin-right: 120px;

@@ -1320,7 +1320,7 @@ input[type=checkbox]:checked:disabled+i{
     top:63px;
     right:0px;
     box-shadow:0px 6px 16px -6px rgba(0, 0, 0, 0.4);
-    z-index:1;
+    z-index:2;
     .name{
       padding:13px 5px;
       border-bottom: 1px solid #f5f5f5;
@@ -1969,6 +1969,9 @@ body.on #bgblack {
             .fl-l;
             line-height:20px;
             margin-right: 18px;
+            &:hover{
+              .opacity(.8);
+            }
           }
         }
         span{
@@ -2053,7 +2056,6 @@ body.on #bgblack {
         }
         &:hover{
           color: @base-color2;
-
           .opacity(.8);
         }
         &::after{
@@ -2939,7 +2941,7 @@ table{
 .self-nav{
   background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACAQMAAACnuvRZAAAAA1BMVEUAAACnej3aAAAAAXRSTlOArV5bRgAAAApJREFUCNdjAAIAAAQAASDSLW8AAAAASUVORK5CYII=) repeat;
   height:60px;
-  z-index: 2;
+  z-index: 1;
   ul{
     margin-right:120px;
     li{

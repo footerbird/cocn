@@ -17,6 +17,12 @@
         <a href="/page/user-login-log" class="">登录日志</a>
       </div>
       <div class="mt25 ml15 mr15 after-cls">
+        <div class="mb10">
+          <a href="/page/certify-web" class="abtn-gsrz">
+            <i class="ico-white-add mr3"></i>
+            新增公司认证
+          </a>
+        </div>
         <div class="companies-box">
           <div class="hd">
               <p class="ta-r">
@@ -103,12 +109,7 @@
           </dl>
           </div>
         </div>
-        <a href="/page/certify-web" class="abtn-gsrz">
-          <i class="ico-white-add mr3"></i>
-          新增公司认证
-        </a>
       </div>
-
     </div>
   </div>
 </div>

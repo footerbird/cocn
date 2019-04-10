@@ -48,7 +48,7 @@
                 <a href="javascript:;">资金账户</a>
               </li>
               <li>
-                <a href="javascript:;">安全设置</a>
+                <a href="/page/user-security">安全设置</a>
               </li>
               <li class="exit">
                 <a href="javascript:;">安全退出</a>
