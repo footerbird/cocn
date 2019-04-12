@@ -74,7 +74,7 @@
               <tbody>
                 <tr>
                   <td>
-                    <dl class="info ml0">
+                    <dl class="info ml60">
                       <dt>手机：</dt>
                       <dd>
                         <font>13288888888</font><em class="block-a-renzheng">有效</em>
@@ -100,7 +100,7 @@
                 </tr>
                 <tr>
                   <td>
-                    <dl class="info ml0">
+                    <dl class="info ml60">
                       <dt>微信：</dt>
                       <dd>
                         <font>w**8</font><em class="block-a-zanwu">暂无</em>
@@ -119,7 +119,7 @@
                     <dl class="info">
                       <dt>收货地址：</dt>
                       <dd>
-                        <font>浙江省杭州市拱墅区上塘路333号海外海商务写字楼11楼</font>
+                        <font class="lh22">浙江省杭州市拱墅区上塘路333号海外海商务写字楼11楼</font>
                       </dd>
                     </dl>
                   </td>
@@ -142,7 +142,7 @@
               <tbody>
                 <tr>
                   <td>
-                    <dl class="info ml0">
+                    <dl class="info ml60">
                       <dt>微信：</dt>
                       <dd>39029309</dd>
                     </dl>
@@ -156,7 +156,7 @@
                 </tr>
                 <tr>
                   <td>
-                    <dl class="info ml0">
+                    <dl class="info ml60">
                       <dt>微博：</dt>
                       <dd>mingshang.weibo.com</dd>
                     </dl>

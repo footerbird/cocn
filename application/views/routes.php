@@ -59,9 +59,14 @@ table tr:hover {
         <td><a href="<?php echo base_url() ?>page/user-personal" target="_blank"><?php echo base_url() ?>page/user-personal</a></td>
     </tr>
     <tr>
-        <td align="right">自助建站服务</td>
-        <td><a href="<?php echo base_url() ?>page/self-building" target="_blank"><?php echo base_url() ?>page/self-building</a></td>
+        <td align="right">个人中心_公司官网</td>
+        <td><a href="<?php echo base_url() ?>page/user-cocn" target="_blank"><?php echo base_url() ?>page/user-cocn</a></td>
     </tr>
+    <tr>
+        <td align="right">个人中心_公司官网_通用设置</td>
+        <td><a href="<?php echo base_url() ?>/page/user-cocn-settings" target="_blank"><?php echo base_url() ?>/page/user-cocn-settings</a></td>
+    </tr>
+
     <tr>
         <td align="right">首页_建站模版</td>
         <td><a href="<?php echo base_url() ?>page/home_model" target="_blank"><?php echo base_url() ?>page/home_model</a></td>

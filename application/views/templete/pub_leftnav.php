@@ -38,7 +38,7 @@
           </a>
         </li>
         <li>
-          <a href="javascript:;">
+          <a href="/page/user-cocn">
             <i class="i-gsgw"></i>
             <span>公司官网</span>
             <font>

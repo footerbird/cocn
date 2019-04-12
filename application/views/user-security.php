@@ -11,7 +11,7 @@
   <div class="view-frt">
     <div class="manage-panel">
       <div class="sub-nav-panel">
-        <a href="/page/user-security" class="">安全设置</a>
+        <span class="title">安全设置</span>
       </div>
       <div class="mt25 after-cls">
         <table width="100%">
