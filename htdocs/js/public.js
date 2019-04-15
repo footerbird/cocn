@@ -10,7 +10,7 @@ var Valid = function(){
     };
 
     methods.isMobile = function(str){//验证手机号码
-        return /^1[3|4|5|6|7|8][0-9]\d{8}$/.test(str);
+        return /^1[3|4|5|6|7|8|9][0-9]\d{8}$/.test(str);
     };
     
     methods.isPwd = function(str){//验证密码复杂度，密码，至少8位英文数字组合
