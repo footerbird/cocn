@@ -12,6 +12,10 @@ var Valid = function(){
     methods.isMobile = function(str){//验证手机号码
         return /^1[3|4|5|6|7|8][0-9]\d{8}$/.test(str);
     };
+    
+    methods.isPwd = function(str){//验证密码复杂度，密码，至少8位英文数字组合
+        return /^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{8,}$/.test(str);
+    };
 
     methods.isCode6 = function(str){//验证手机验证码，6位数字
         return /^\d{6}$/.test(str);
