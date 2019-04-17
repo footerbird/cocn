@@ -10,28 +10,28 @@
   <?php include_once('templete/pub_leftnav.php') ?>
   <div class="view-frt">
     <div class="manage-panel">
-      <div class="cocn-step-panel after-cls">
-          <a href="/page/user-cocn-zero-web" class="base on">
-            <em>1</em>
-            实名网址</a>
-          <a href="/page/user-cocn-zero-connect" class="base">
-            <em>2</em>
-            联系方式</a>
-          <a href="/page/user-cocn-zero-introduce" class="base">
-            <em>3</em>
-            公司介绍</a>
-          <a href="/page/user-cocn-zero-logo" class="base">
-            <em>4</em>
-            标志设置</a>
-          <a href="/page/user-cocn-zero-news" class="base">
-            <em>5</em>
-            新闻中心</a>
-          <a href="/page/user-cocn-zero-product" class="base">
-            <em>6</em>
-            产品中心</a>
-          <a href="/page/user-cocn-zero-limit" class="base">
-            <em>7</em>
-            权限设置</a>
+      <div class="sub-nav-panel">
+        <span class="title sub f16">杭州名商网络有限公司官网
+          <a href="javascript:;" class="fl-r f14 mr0">
+            <i class="ico-blue-arrow-back"></i>
+            返回公司官网
+          </a>
+        </span>
+        <p class="mt5">
+          <a href="/page/user-cocn-settings" class="on">通用设置</a>
+          <a href="/page/user-cocn-news" class="">新闻中心</a>
+          <a href="/page/user-cocn-product" class="">产品中心<i class="badge">
+              <font>99</font>
+            </i>
+          </a>
+          <a href="/page/user-cocn-comment" class="">用户评论
+            <i class="badge">
+                <font>99</font>
+              </i>
+          </a>
+          <a href="/page/user-cocn-business" class="">工商信息</a>
+          <a href="/page/user-cocn-limit" class="">权限设置</a>
+        </p>
       </div>
       <div class="mt25 after-cls">
         <p class="col-default mb20">官网科技根据您的商号和经营范围，为“<font>杭州名商网络有限公司</font>”推荐以下实名网址</p>
@@ -49,12 +49,14 @@
                       （品牌）</span>
                   </td>
                   <td width="25%" class="pl25 bg-fa">
-                      <label class="pos-rela col-default"><input type="checkbox" name="leixing" value="yrz"><i></i><font>mingshang.co.cn</font></label>
+                      <label class="pos-rela col-default"><input type="checkbox" name="leixing" value="yrz" checked ><i></i><font>mingshang.co.cn</font></label>
                   </td>
                   <td class="bg-fa">
                     <div class="col-default">
                       免费
+                      <em class="block-a-renzheng ml4">使用中</em>
                     </div>
+
                   </td>
                 </tr>
                 <tr>
@@ -178,14 +180,15 @@
           </div>
         </div>
         <div class="fl-l w-all mt30 mb10">
-          <p class="ta-c pos-rela mb5" style="left:20px;">
-              <label class="col-default"><input type="checkbox" name="yuedu" value="yuedu" id=""><i></i><font>我已阅读并同意<a href="#" class="col-3daaef">《公司审核条款》</a></font></label>
+          <p class="ta-c pos-rela mb5" style="left:40px;">
+              <label class="col-default"><input type="checkbox" name="yuedu" value="yuedu" id=""><i></i><font>我已阅读并同意<a href="#" class="col-3daaef">《公司实名网址》</a></font></label>
           </p>
           <p class="ta-c mt15 mb20">
-            <a href="/page/user-cocn-zero-connect" class="pub-btn w190">下一步，设置联系方式</a>
+            <a href="/page/user-cocn-zero-connect" class="pub-btn w150">申请实名网址</a>
           </p>
         </div>
       </div>
+
     </div>
   </div>
 </div>

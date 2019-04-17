@@ -32,9 +32,6 @@
           <a href="/page/user-cocn-zero-limit" class="base">
             <em>7</em>
             权限设置</a>
-          <div class="fl-r">
-            <a href="/page/user-cocn" class="col-default">返回官网</a>
-          </div>
       </div>
       <div class="mt25 after-cls">
 
@@ -49,14 +46,7 @@
 <link rel="stylesheet" href="/htdocs/js/slick/slick.css?<?php echo CACHE_TIME; ?>">
 <script type="text/javascript">
 $(function(){
-  //切换行业数据、地区分析
-  $("#col_left_tab_box .tab a").on('click',function() {
-      $(this).addClass('on').siblings().removeClass('on');
-      var index = $(this).index();
-      number = index;
-      $('#col_left_tab_box .content dd').hide();
-      $('#col_left_tab_box .content dd:eq(' + index + ')').show();
-  });
+
 })
 </script>
 </body>

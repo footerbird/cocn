@@ -3,13 +3,13 @@
     <div class="box">
       <ul class="manage-leftnav" id="manage_leftnav">
         <li>
-          <a href="javascript:;">
+          <a href="/page/user-mine">
             <i class="i-grzx"></i>
             <span>个人中心</span>
           </a>
         </li>
         <li>
-          <a href="javascript:;">
+          <a href="/page/user-focus">
             <i class="i-gzgs"></i>
             <span>关注的公司</span>
             <font>
@@ -18,7 +18,7 @@
           </a>
         </li>
         <li>
-          <a href="javascript:;">
+          <a href="/page/user-stock">
             <i class="i-wdgq"></i>
             <span>我的股权</span>
             <font>
@@ -28,7 +28,7 @@
           </a>
         </li>
         <li>
-          <a href="javascript:;">
+          <a href="/page/user-dealing">
             <i class="i-gqjy"></i>
             <span>股权交易</span>
             <font>
@@ -48,7 +48,7 @@
           </a>
         </li>
         <li>
-          <a href="javascript:;">
+          <a href="/page/user-message">
             <i class="i-xxzx"></i>
             <span>消息中心</span>
             <font>
@@ -63,7 +63,7 @@
           </a>
         </li>
         <li>
-          <a href="javascript:;">
+          <a href="/page/user-money">
             <i class="i-zjls"></i>
             <span>资金流水</span>
           </a>

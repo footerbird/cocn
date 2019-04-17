@@ -6,8 +6,8 @@
 <body>
 <?php include_once('templete/pub_nav.php') ?>
 <!-- 查询 -->
-<div class="container mb20 mt30">
-  <div class="after-cls">
+<div class="container mb20">
+  <div class="search-panel-box after-cls">
     <div class="search-panel fl-l mr10">
       <input type="text" name="" value="" placeholder="查询公司名称、法人或经营范围" class="w400">
       <button type="button" name="button">找公司</button>
@@ -20,7 +20,7 @@
         <label class="pos-rela mr30 fl-l"><input type="checkbox" name="leixing" value="dealing"><i></i><font>股权交易中</font></label>
     </div>
   </div>
-  <div class="filter-box mt30">
+  <div class="filter-box mt10">
     <div class="condition">
       <dl class="">
         <dt class="col-gray9">查找范围：</dt>

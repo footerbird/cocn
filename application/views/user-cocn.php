@@ -37,7 +37,9 @@
           <tbody>
             <tr>
               <td align="center">1</td>
-              <td align="">杭州名商网络有限公司</td>
+              <td align="">
+                <a href="/page/user-cocn-settings" class="col-default">杭州名商网络有限公司</a>
+              </td>
               <td align="center">marksmile.com</td>
               <td align="left">林赞松</td>
               <td align="">2019-04-11</td>
@@ -46,12 +48,14 @@
               <td align="">正常</td>
               <td align="right">
                 <a href="#" class="ml10">续费</a>
-                <a href="#" class="ml10">管理</a>
+                <a href="/page/user-cocn-settings" class="ml10">管理</a>
               </td>
             </tr>
             <tr>
               <td align="center">2</td>
-              <td align="">杭州名商网络有限公司</td>
+              <td align="">
+                <a href="/page/user-cocn-settings" class="col-default">杭州名商网络有限公司</a>
+              </td>
               <td align="center">marksmile.com</td>
               <td align="left">林赞松</td>
               <td align="">2019-04-11</td>
@@ -64,7 +68,9 @@
             </tr>
             <tr>
               <td align="center">3</td>
-              <td align="">杭州名商网络有限公司</td>
+              <td align="">
+                <a href="/page/user-cocn-settings" class="col-default">杭州名商网络有限公司</a>
+              </td>
               <td align="center">marksmile.com</td>
               <td align="left">林赞松</td>
               <td align="">2019-04-11</td>
@@ -102,14 +108,6 @@
 <link rel="stylesheet" href="/htdocs/js/slick/slick.css?<?php echo CACHE_TIME; ?>">
 <script type="text/javascript">
 $(function(){
-  //切换行业数据、地区分析
-  $("#col_left_tab_box .tab a").on('click',function() {
-      $(this).addClass('on').siblings().removeClass('on');
-      var index = $(this).index();
-      number = index;
-      $('#col_left_tab_box .content dd').hide();
-      $('#col_left_tab_box .content dd:eq(' + index + ')').show();
-  });
 })
 </script>
 </body>

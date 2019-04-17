@@ -54,7 +54,7 @@
         </dd>
       </dl>
       <p class="ta-c mt50 pos-rela mb10" style="left:-40px;">
-          <label class="col-default"><input type="checkbox" name="yuedu" value="yuedu" id=""><i></i><font>我已阅读并同意<a href="#" class="col-default">《公司审核条款》</a></font></label>
+          <label class="col-default"><input type="checkbox" name="yuedu" value="yuedu" id=""><i></i><font>我已阅读并同意<a href="#" class="col-3daaef">《公司审核条款》</a></font></label>
       </p>
       <p class="ta-c mb50">
         <a href="/page/certify-web-5" class="pub-btn w140 mr10">确认审核</a><a href="/page/certify-web-2" class="pub-btn-b">公司不正确，重新填写</a>

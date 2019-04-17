@@ -58,14 +58,7 @@
 <link rel="stylesheet" href="/htdocs/js/slick/slick.css?<?php echo CACHE_TIME; ?>">
 <script type="text/javascript">
 $(function(){
-  //切换行业数据、地区分析
-  $("#col_left_tab_box .tab a").on('click',function() {
-      $(this).addClass('on').siblings().removeClass('on');
-      var index = $(this).index();
-      number = index;
-      $('#col_left_tab_box .content dd').hide();
-      $('#col_left_tab_box .content dd:eq(' + index + ')').show();
-  });
+
 })
 </script>
 </body>
