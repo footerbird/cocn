@@ -22,7 +22,7 @@
           <a href="#" class="col-3daaef f12">样本查看</a>
         </dd>
       </dl>
-      <dl class="info2 mb20">
+      <dl class="info2 mb10">
         <dt>&nbsp;</dt>
         <dd>
           <div class="w80 ml12 mt5 mr10 ta-c col-gray9 f12 fl-l">
@@ -31,6 +31,18 @@
           <div class="w80 ml10 mt5 mr10 ta-c col-gray9 f12 fl-l">
             身份证反面
           </div>
+        </dd>
+      </dl>
+      <dl class="info mb20">
+        <dt class="w140 ta-r lh36">姓名：</dt>
+        <dd>
+          <input type="text" name="" value="" placeholder="请输入您的姓名">
+        </dd>
+      </dl>
+      <dl class="info">
+        <dt class="w140 ta-r lh36">身份证号：</dt>
+        <dd>
+          <input type="text" name="" value="" placeholder="请输入您的身份证号码">
         </dd>
       </dl>
       <p class="ta-c mt50 pos-rela mb10" style="left:46px;">
