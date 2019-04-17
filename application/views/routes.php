@@ -42,14 +42,14 @@ table tr:hover {
 <body>
 <table>
     <tr><th align="right" width="200">标题</th><th align="left">路由</th></tr>
-    <tr>
+    <!-- <tr>
         <td align="right">首页</td>
         <td><a href="<?php echo base_url() ?>page/home" target="_blank"><?php echo base_url() ?>page/home</a></td>
     </tr>
     <tr>
         <td align="right">首页_蓝色</td>
         <td><a href="<?php echo base_url() ?>page/home_blue" target="_blank"><?php echo base_url() ?>page/home_blue</a></td>
-    </tr>
+    </tr> -->
     <tr>
         <td align="right">首页_伦敦交易所</td>
         <td><a href="<?php echo base_url() ?>page/home_london" target="_blank"><?php echo base_url() ?>page/home_london</a></td>
