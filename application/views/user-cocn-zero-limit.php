@@ -80,7 +80,7 @@
         <div class="fl-l w-all mt30 mb10">
           <p class="ta-c mt15 mb20">
             <a href="/page/user-cocn" class="pub-btn w190 mr18">完成初始化设置</a>
-            <a href="/page/user-cocn-zero-product" class="col-3daaef">返回，修改公司产品</a>
+            <a href="/page/user-cocn-zero-logo" class="col-3daaef">返回，修改公司标识</a>
           </p>
         </div>
       </div>

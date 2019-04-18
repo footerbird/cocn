@@ -73,8 +73,8 @@
         </div>
         <div class="fl-l w-all mt30 mb10">
           <p class="ta-c mt15 mb20">
-            <a href="/page/user-cocn-zero-news" class="pub-btn w190 mr18">下一步，添加公司新闻</a>
-            <a href="/page/user-cocn-zero-logo" class="col-3daaef">返回，修改公司标识</a>
+            <a href="/page/user-cocn-zero-limit" class="pub-btn w190 mr18">下一步，进行权限设置</a>
+            <a href="/page/user-cocn-zero-introduce" class="col-3daaef">返回，修改公司介绍</a>
           </p>
         </div>
       </div>
