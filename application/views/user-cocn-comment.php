@@ -33,8 +33,84 @@
           <a href="/page/user-cocn-limit" class="">权限设置</a>
         </p>
       </div>
-      <div class="mt25 after-cls">
-
+      <div class="mt20 after-cls">
+        <div class="table-top-tools after-cls">
+          <div class="tools-fl-l">
+            <input type="text" name="" value="" placeholder="评论内容">
+            <a href="javascript:;" class="pub-btn f12">搜索</a>
+            <label class="pos-rela ml10 f12"><input type="checkbox" name="" value=""><i class=""></i><font>仅显示已处理的评论</font></label>
+          </div>
+          <div class="tools-fl-r">
+            <div class="filter mr5">
+              <a href="javascript:;" class="mr20">
+                全部评论
+                <em class="col-d2434a">(999)</em>
+              </a>
+              <a href="javascript:;" class="">
+                已处理
+                <em class="col-d2434a">(99)</em>
+              </a>
+            </div>
+          </div>
+        </div>
+        <table width="100%" class="inner-table">
+          <thead>
+            <tr>
+              <th width="85%" align="left">评论内容</th>
+              <th width="15%" align="left">状态/时间</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="">
+                <p class="f12 col-default">
+                  非法拘禁分
+                </p>
+                <p class="f12 col-gray6">
+                  2019-08-30
+                </p>
+              </td>
+              <td align="left">
+                <p class="f12">
+                  已处理
+                </p>
+                <p class="f12 col-gray9">
+                  2019-10-01
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="">
+                <p class="f12 col-default">
+                  不不不不不不
+                </p>
+                <p class="f12 col-gray6">
+                  2019-08-30
+                </p>
+              </td>
+              <td align="left">
+                <a href="#" class="col-default">申请辟谣</a>
+              </td>
+            </tr>
+            <tr>
+              <td align="" colspan="2">
+                <div class="pages fl-r mr0 mt5 mr5"><em class="fl-l">共有0条，每页显示：20条</em>
+                    <a href="" class="first">首页</a>
+                    <a href="" class="prev">上一页</a><b class="cur">1</b>
+                    <a href="">2</a>
+                    <a href="">3</a>
+                    <span class="ml10 mr10 fl-l in-block">...</span>
+                    <a href="">4</a>
+                    <a href="">5</a>
+                    <a href="">6</a>
+                    <a href="" class="next">下一页</a>
+                    <a href="" class="last">尾页</a><span class="ml5 mr5 fl-l in-block"><input type="text"></span>
+                    <a href="" class="go">GO</a>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
     </div>
@@ -46,6 +122,7 @@
 <link rel="stylesheet" href="/htdocs/js/slick/slick.css?<?php echo CACHE_TIME; ?>">
 <script type="text/javascript">
 $(function(){
+
 })
 </script>
 </body>

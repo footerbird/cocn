@@ -10,28 +10,28 @@
   <?php include_once('templete/pub_leftnav.php') ?>
   <div class="view-frt">
     <div class="manage-panel">
-      <div class="cocn-step-panel after-cls">
-          <a href="/page/user-cocn-zero-web" class="base had">
-            <em>1</em>
-            实名网址</a>
-          <a href="/page/user-cocn-zero-connect" class="base had">
-            <em>2</em>
-            联系方式</a>
-          <a href="/page/user-cocn-zero-introduce" class="base had">
-            <em>3</em>
-            公司介绍</a>
-          <a href="/page/user-cocn-zero-logo" class="base had">
-            <em>4</em>
-            标志设置</a>
-          <a href="/page/user-cocn-zero-news" class="base had">
-            <em>5</em>
-            新闻中心</a>
-          <a href="/page/user-cocn-zero-product" class="base had">
-            <em>6</em>
-            产品中心</a>
-          <a href="/page/user-cocn-zero-limit" class="base on">
-            <em>7</em>
-            权限设置</a>
+      <div class="sub-nav-panel">
+        <span class="title sub f16">杭州名商网络有限公司官网
+          <a href="javascript:;" class="fl-r f14 mr0">
+            <i class="ico-blue-arrow-back"></i>
+            返回公司官网
+          </a>
+        </span>
+        <p class="mt5">
+          <a href="/page/user-cocn-settings" class="on">通用设置</a>
+          <a href="/page/user-cocn-news" class="">新闻中心</a>
+          <a href="/page/user-cocn-product" class="">产品中心<i class="badge">
+              <font>99</font>
+            </i>
+          </a>
+          <a href="/page/user-cocn-comment" class="">用户评论
+            <i class="badge">
+                <font>99</font>
+              </i>
+          </a>
+          <a href="/page/user-cocn-business" class="">工商信息</a>
+          <a href="/page/user-cocn-limit" class="">权限设置</a>
+        </p>
       </div>
       <div class="mt25 after-cls">
         <div class="install-box">
@@ -41,36 +41,36 @@
                 <tr class="">
                   <td width="140" align="center" rowspan="3" class="bg-5897cd">
                     <span class="title col-white lh16 mt25 mb25 in-block pos-rela">
-                      网站负责人
+                      公司介绍
                     </span>
                   </td>
                   <td width="112" class="pl10 bg-fa">
                     <div class="pr20 ta-r">
-                    姓名
+                      经营范围
                     </div>
                   </td>
                   <td class="bg-fa">
-                    <input type="text" name="" value="" placeholder="请输入姓名" class="input w190">
+                    <textarea name="name" rows="" cols="" placeholder="请输入经营范围" class="textarea"></textarea>
                   </td>
                 </tr>
                 <tr>
                   <td width="112" class="pl10 bg-fa">
                     <div class="pr20 ta-r">
-                    联系电话
+                      企业介绍
                     </div>
                   </td>
                   <td class="bg-fa">
-                      <input type="text" name="" value="" placeholder="请输入联系电话" class="input w190">
+                      <textarea name="name" rows="" cols="" placeholder="请输入企业介绍" class="textarea"></textarea>
                   </td>
                 </tr>
                 <tr>
                   <td width="112" class="pl10 bg-fa">
                     <div class="pr20 ta-r">
-                      身份证号码
+                      关于我们
                     </div>
                   </td>
                   <td class="bg-fa">
-                      <input type="text" name="" value="" placeholder="请输入身份证号码" class="input w190">
+                    <textarea name="name" rows="" cols="" placeholder="请输入关于公司" class="textarea"></textarea>
                   </td>
                 </tr>
               </tbody>
@@ -79,12 +79,10 @@
         </div>
         <div class="fl-l w-all mt30 mb10">
           <p class="ta-c mt15 mb20">
-            <a href="/page/user-cocn" class="pub-btn w190 mr18">完成初始化设置</a>
-            <a href="/page/user-cocn-zero-product" class="col-3daaef">返回，修改公司产品</a>
+            <a href="/page/user-cocn-settings" class="pub-btn w150">完成</a>
           </p>
         </div>
       </div>
-
     </div>
   </div>
 </div>
@@ -94,7 +92,6 @@
 <link rel="stylesheet" href="/htdocs/js/slick/slick.css?<?php echo CACHE_TIME; ?>">
 <script type="text/javascript">
 $(function(){
-
 })
 </script>
 </body>

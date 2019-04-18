@@ -4723,6 +4723,19 @@ input[type=checkbox]:checked:disabled + i {
   position: relative;
   top: -5px;
 }
+/*编辑器优化*/
+.editor {
+  height: 345px;
+}
+.editor .w-e-toolbar {
+  background-color: #fff !important;
+  padding: 9px 3px;
+  border-color: #d1dde6 !important;
+  border-bottom: 1px solid #f3f3f3 !important;
+}
+.editor .w-e-text-container {
+  border-color: #d1dde6 !important;
+}
 /*
  * public End
  */
@@ -6922,6 +6935,16 @@ table.inner-table tbody tr {
   line-height: 30px;
   height: 30px;
   margin: 15px 0;
+}
+.install-box .auto-table table .textarea {
+  width: 90%;
+  background-color: #fff !important;
+  border: 1px solid #d1dde6;
+  padding: 3px 6px;
+  font-size: 12px;
+  line-height: 24px;
+  height: 90px;
+  margin-top: 12px;
 }
 .install-box .auto-table table .select-panel select {
   background-color: #fff !important;

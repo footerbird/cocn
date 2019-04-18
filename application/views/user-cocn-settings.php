@@ -12,7 +12,7 @@
     <div class="manage-panel">
       <div class="sub-nav-panel">
         <span class="title sub f16">杭州名商网络有限公司官网
-          <a href="javascript:;" class="fl-r f14 mr0">
+          <a href="/page/user-cocn" class="fl-r f14 mr0">
             <i class="ico-blue-arrow-back"></i>
             返回公司官网
           </a>
@@ -21,7 +21,7 @@
           <a href="/page/user-cocn-settings" class="on">通用设置</a>
           <a href="/page/user-cocn-news" class="">新闻中心</a>
           <a href="/page/user-cocn-product" class="">产品中心<i class="badge">
-              <font>99</font>
+              <font>99+</font>
             </i>
           </a>
           <a href="/page/user-cocn-comment" class="">用户评论
@@ -141,7 +141,7 @@
                     </dl>
                   </td>
                   <td width="20%" class="pl25 bg-fa">
-                    <a href="#" class="col-default f12 in-block ml20">设置<i class="ico-blue-arrow ml3"></i>
+                    <a href="/page/user-cocn-settings-about" class="col-default f12 in-block ml20">设置<i class="ico-blue-arrow ml3"></i>
                     </a>
                   </td>
                 </tr>
@@ -184,12 +184,13 @@
                     <dl class="info">
                       <dt>网站标识：</dt>
                       <dd class="">
+                        <img src="http://iph.href.lu/70x20?text=70*20"  width="" height="" alt="" class="in-block fl-l mt4">
                         <em class="block-a-youxiao">有效</em>
                       </dd>
                     </dl>
                   </td>
                   <td width="20%" class="pl25 bg-fa">
-                    <a href="#" class="col-default f12 in-block ml20">设置<i class="ico-blue-arrow ml3"></i>
+                    <a href="/page/user-cocn-settings-websign" class="col-default f12 in-block ml20">设置<i class="ico-blue-arrow ml3"></i>
                     </a>
                   </td>
                 </tr>
@@ -198,6 +199,7 @@
                     <dl class="info">
                       <dt>微信公众号（二维码）</dt>
                       <dd class="">
+                        <img src="http://iph.href.lu/64x64?text=64*64"  width="" height="" alt="" class="in-block fl-l mt4">
                         <em class="block-a-zanwu">暂无</em>
                       </dd>
                     </dl>

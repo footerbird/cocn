@@ -44,13 +44,13 @@
                       联系方式
                     </span>
                   </td>
-                  <td width="120" class="pl20 bg-fa">
-                    <div class="pl25 col-default">
+                  <td width="112" class="pl10 bg-fa">
+                    <div class="pr20 ta-r">
                       所在地区
                     </div>
                   </td>
                   <td class="bg-fa">
-                    <div class="select-panel mb15">
+                    <div class="select-panel mt10 mb10">
                       <select class="mr10 w190" name="">
                         <option value="">浙江省</option>
                       </select>
@@ -61,8 +61,8 @@
                   </td>
                 </tr>
                 <tr>
-                  <td width="120" class="pl20 bg-fa">
-                    <div class="pl25 col-default">
+                  <td width="112" class="pl10 bg-fa">
+                    <div class="pr20 ta-r">
                       街道地址
                     </div>
                   </td>
@@ -71,8 +71,8 @@
                   </td>
                 </tr>
                 <tr>
-                  <td width="120" class="pl20 bg-fa">
-                    <div class="pl25 col-default">
+                  <td width="112" class="pl10 bg-fa">
+                    <div class="pr20 ta-r">
                       服务热线
                     </div>
                   </td>
@@ -81,8 +81,8 @@
                   </td>
                 </tr>
                 <tr>
-                  <td width="120" class="pl20 bg-fa">
-                    <div class="pl25 col-default">
+                  <td width="112" class="pl10 bg-fa">
+                    <div class="pr20 ta-r">
                       微博
                     </div>
                   </td>
@@ -91,8 +91,8 @@
                   </td>
                 </tr>
                 <tr>
-                  <td width="120" class="pl20 bg-fa">
-                    <div class="pl25 col-default">
+                  <td width="112" class="pl10 bg-fa">
+                    <div class="pr20 ta-r">
                       QQ
                     </div>
                   </td>
@@ -101,8 +101,8 @@
                   </td>
                 </tr>
                 <tr>
-                  <td width="120" class="pl20 bg-fa">
-                    <div class="pl25 col-default">
+                  <td width="112" class="pl10 bg-fa">
+                    <div class="pr20 ta-r">
                     电子邮箱
                     </div>
                   </td>
@@ -116,7 +116,7 @@
         </div>
         <div class="fl-l w-all mt30 mb10">
           <p class="ta-c mt15 mb20">
-            <a href="/page/user-cocn-zero-introduce" class="pub-btn w150">完成</a>
+            <a href="/page/user-cocn-settings" class="pub-btn w150">完成</a>
           </p>
         </div>
       </div>

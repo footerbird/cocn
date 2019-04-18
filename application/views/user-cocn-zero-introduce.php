@@ -34,7 +34,55 @@
             权限设置</a>
       </div>
       <div class="mt25 after-cls">
-
+        <div class="install-box">
+          <div class="auto-table">
+            <table width="100%" class="">
+              <tbody>
+                <tr class="">
+                  <td width="140" align="center" rowspan="3" class="bg-5897cd">
+                    <span class="title col-white lh16 mt25 mb25 in-block pos-rela">
+                      公司介绍
+                    </span>
+                  </td>
+                  <td width="112" class="pl10 bg-fa">
+                    <div class="pr20 ta-r">
+                      经营范围
+                    </div>
+                  </td>
+                  <td class="bg-fa">
+                    <textarea name="name" rows="" cols="" placeholder="请输入经营范围" class="textarea"></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="112" class="pl10 bg-fa">
+                    <div class="pr20 ta-r">
+                      企业介绍
+                    </div>
+                  </td>
+                  <td class="bg-fa">
+                      <textarea name="name" rows="" cols="" placeholder="请输入企业介绍" class="textarea"></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="112" class="pl10 bg-fa">
+                    <div class="pr20 ta-r">
+                      关于我们
+                    </div>
+                  </td>
+                  <td class="bg-fa">
+                    <textarea name="name" rows="" cols="" placeholder="请输入关于公司" class="textarea"></textarea>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="fl-l w-all mt30 mb10">
+          <p class="ta-c mt15 mb20">
+            <a href="/page/user-cocn-zero-logo" class="pub-btn w190 mr18">下一步，添加公司标识</a>
+            <a href="/page/user-cocn-zero-connect" class="col-3daaef">返回，修改联系方式</a>
+          </p>
+        </div>
       </div>
 
     </div>

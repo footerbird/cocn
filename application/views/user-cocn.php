@@ -47,8 +47,8 @@
               <td align="">法定代表人</td>
               <td align="">正常</td>
               <td align="right">
-                <a href="#" class="ml10">续费</a>
-                <a href="/page/user-cocn-settings" class="ml10">管理</a>
+                <a href="#" class="col-default ml10">续费</a>
+                <a href="/page/user-cocn-settings" class="col-default ml10">管理</a>
               </td>
             </tr>
             <tr>
@@ -63,7 +63,7 @@
               <td align="">网站负责人</td>
               <td align="">已过期</td>
               <td align="right">
-                <a href="#" class="ml10">认证</a>
+                <a href="#" class="col-default ml10">认证</a>
               </td>
             </tr>
             <tr>
@@ -78,7 +78,7 @@
               <td align="">网站负责人</td>
               <td align="">待认证</td>
               <td align="right">
-                <a href="#" class="ml10">认证</a>
+                <a href="#" class="col-default ml10">认证</a>
               </td>
             </tr>
           </tbody>

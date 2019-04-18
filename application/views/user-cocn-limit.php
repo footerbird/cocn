@@ -81,7 +81,7 @@
                     </dl>
                   </td>
                   <td width="20%" class="pl25 bg-fa">
-                    <a href="/page/user-cocn--set" class="col-default f12 in-block ml20">设置<i class="ico-blue-arrow ml3"></i>
+                    <a href="/page/user-cocn-limit-set" class="col-default f12 in-block ml20">设置<i class="ico-blue-arrow ml3"></i>
                     </a>
                   </td>
                 </tr>
@@ -117,7 +117,7 @@
                     <em class="block-a-zanwu">暂无</em>
                   </td>
                   <td width="20%" class="pl25 bg-fa">
-                    <a href="javascript:;" class="col-default f12 in-block ml20">添加网站负责人
+                    <a href="/page/user-cocn-limit-set" class="col-default f12 in-block ml20">添加网站负责人
                     </a>
                   </td>
                 </tr>

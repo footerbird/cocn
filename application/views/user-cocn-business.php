@@ -84,7 +84,7 @@
                     </dl>
                   </td>
                   <td width="20%" class="pl25 bg-fa">
-                    <a href="/page/user-cocn--set" class="col-default f12 in-block ml20">设置<i class="ico-blue-arrow ml3"></i>
+                    <a href="/page/certify-web" class="col-default f12 in-block ml20">设置<i class="ico-blue-arrow ml3"></i>
                     </a>
                   </td>
                 </tr>

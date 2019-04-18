@@ -752,6 +752,7 @@ textarea{resize: none; overflow-y:auto;}
   vertical-align: middle;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAMAAABFjsb+AAAAZlBMVEUAAADR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3ebR3eYLuQLlAAAAIXRSTlMA++6MTi6sJ/Xh2LVbVRUO+OfGslk4HQUCzrpTRYN+YR/GnkKkAAAAqklEQVQY02WO2RKDIAxFCQgq1H1futz//8kGqeJMz0OSOWQuEZ5U2Zoak4iLSRECbXoqB7htLAeVQergFLIiTOOCvDqyCKwCZY5nWHMxuoCcuVls0c0SA7cao4is6LkSyptzeHNteDtisXM1UFGlIH9MguxzuQ7d0VssZ6IB6bAvkfcTD7oD8AivOgdku1qACPST1asBUxudRClmXTx2/6OXvbgTZCb+pDRf7jELbKufL9QAAAAASUVORK5CYII= ) no-repeat 50%;
 }
+
 .ico-lingdang{/*铃铛*/
   display: inline-block;
   width: 14px;
@@ -1309,6 +1310,20 @@ input[type=checkbox]:checked:disabled+i{
     vertical-align: -webkit-baseline-middle;
     position: relative;
     top: -5px;
+  }
+}
+
+/*编辑器优化*/
+.editor{
+  height:345px;
+  .w-e-toolbar{
+    .bg-white;
+    padding:9px 3px;
+    border-color:@base-body-background !important;
+    border-bottom: 1px solid #f3f3f3 !important;
+  }
+  .w-e-text-container{
+    border-color:@base-body-background !important;
   }
 }
 
@@ -3358,6 +3373,16 @@ table{
           line-height:30px;
           height: 30px;
           margin:15px 0;
+        }
+        .textarea{
+          width:90%;
+          .bg-white;
+          border:1px solid @base-body-background;
+          padding:3px 6px;
+          font-size:12px;
+          line-height:24px;
+          height: 90px;
+          margin-top:12px;
         }
         .select-panel{
           select{

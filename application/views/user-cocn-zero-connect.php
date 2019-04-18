@@ -44,8 +44,8 @@
                       联系方式
                     </span>
                   </td>
-                  <td width="120" class="pl20 bg-fa">
-                    <div class="pl25 col-default">
+                  <td width="112" class="pl10 bg-fa">
+                    <div class="pr20 ta-r">
                       所在地区
                     </div>
                   </td>
@@ -61,8 +61,8 @@
                   </td>
                 </tr>
                 <tr>
-                  <td width="120" class="pl20 bg-fa">
-                    <div class="pl25 col-default">
+                  <td width="112" class="pl10 bg-fa">
+                    <div class="pr20 ta-r">
                       街道地址
                     </div>
                   </td>
@@ -71,8 +71,8 @@
                   </td>
                 </tr>
                 <tr>
-                  <td width="120" class="pl20 bg-fa">
-                    <div class="pl25 col-default">
+                  <td width="112" class="pl10 bg-fa">
+                    <div class="pr20 ta-r">
                       服务热线
                     </div>
                   </td>
@@ -81,8 +81,8 @@
                   </td>
                 </tr>
                 <tr>
-                  <td width="120" class="pl20 bg-fa">
-                    <div class="pl25 col-default">
+                  <td width="112" class="pl10 bg-fa">
+                    <div class="pr20 ta-r">
                       微博
                     </div>
                   </td>
@@ -91,8 +91,8 @@
                   </td>
                 </tr>
                 <tr>
-                  <td width="120" class="pl20 bg-fa">
-                    <div class="pl25 col-default">
+                  <td width="112" class="pl10 bg-fa">
+                    <div class="pr20 ta-r">
                       QQ
                     </div>
                   </td>
@@ -101,8 +101,8 @@
                   </td>
                 </tr>
                 <tr>
-                  <td width="120" class="pl20 bg-fa">
-                    <div class="pl25 col-default">
+                  <td width="112" class="pl10 bg-fa">
+                    <div class="pr20 ta-r">
                     电子邮箱
                     </div>
                   </td>
@@ -147,7 +147,7 @@ function selectProvince(obj){
 }
 
 $(function(){
-    
+
     $.ajax({
         type:"get",
         url:"/htdocs/json/city.json",
@@ -165,7 +165,7 @@ $(function(){
             }
         }
     });
-    
+
 })
 </script>
 </body>

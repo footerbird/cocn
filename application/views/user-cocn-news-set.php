@@ -10,28 +10,28 @@
   <?php include_once('templete/pub_leftnav.php') ?>
   <div class="view-frt">
     <div class="manage-panel">
-      <div class="cocn-step-panel after-cls">
-          <a href="/page/user-cocn-zero-web" class="base had">
-            <em>1</em>
-            实名网址</a>
-          <a href="/page/user-cocn-zero-connect" class="base had">
-            <em>2</em>
-            联系方式</a>
-          <a href="/page/user-cocn-zero-introduce" class="base had">
-            <em>3</em>
-            公司介绍</a>
-          <a href="/page/user-cocn-zero-logo" class="base had">
-            <em>4</em>
-            标志设置</a>
-          <a href="/page/user-cocn-zero-news" class="base on">
-            <em>5</em>
-            新闻中心</a>
-          <a href="/page/user-cocn-zero-product" class="base">
-            <em>6</em>
-            产品中心</a>
-          <a href="/page/user-cocn-zero-limit" class="base">
-            <em>7</em>
-            权限设置</a>
+      <div class="sub-nav-panel">
+        <span class="title sub f16">杭州名商网络有限公司官网
+          <a href="/page/user-cocn" class="fl-r f14 mr0">
+            <i class="ico-blue-arrow-back"></i>
+            返回公司官网
+          </a>
+        </span>
+        <p class="mt5">
+          <a href="/page/user-cocn-settings" class="">通用设置</a>
+          <a href="/page/user-cocn-news" class="on">新闻中心</a>
+          <a href="/page/user-cocn-product" class="">产品中心<i class="badge">
+              <font>99+</font>
+            </i>
+          </a>
+          <a href="/page/user-cocn-comment" class="">用户评论
+            <i class="badge">
+                <font>99</font>
+              </i>
+          </a>
+          <a href="/page/user-cocn-business" class="">工商信息</a>
+          <a href="/page/user-cocn-limit" class="">权限设置</a>
+        </p>
       </div>
       <div class="mt25 after-cls">
         <div class="col-default mb10">
@@ -61,26 +61,19 @@
             （选择将新闻发布到指定的分类目录下，不选择则默认分类）
           </div>
         </div>
-      <div class="hr mt20 mb30"></div>
-      <div class="lh36 after-cls mb30">
-        <a href="/page/user-cocn-news" class="pub-btn w120 mr13 fl-l">
-          发布新闻
-        </a>
-        <a href="/page/user-cocn-news" class="pub-btn-b pub-btn-b-a w120 mr30 fl-l">
-          保存草稿
-        </a>
-        <a href="/page/user-cocn-news" class="col-f4364c lh36 in-block">
-          草稿箱
-        </a>
-      </div>
-        <div class="fl-l w-all mt30 mb10">
-          <p class="ta-c mt15 mb20">
-            <a href="/page/user-cocn-zero-product" class="pub-btn w190 mr18">下一步，添加公司产品</a>
-            <a href="/page/user-cocn-zero-logo" class="col-3daaef">返回，修改公司标识</a>
-          </p>
+        <div class="hr mt20 mb30"></div>
+        <div class="lh36 after-cls mb30">
+          <a href="/page/user-cocn-news" class="pub-btn w120 mr13 fl-l">
+            发布新闻
+          </a>
+          <a href="/page/user-cocn-news" class="pub-btn-b pub-btn-b-a w120 mr30 fl-l">
+            保存草稿
+          </a>
+          <a href="/page/user-cocn-news" class="col-f4364c lh36 in-block">
+            草稿箱
+          </a>
         </div>
       </div>
-
     </div>
   </div>
 </div>
@@ -99,9 +92,18 @@ var editor = new E('#editor')
 // 配置服务器端地址
 editor.customConfig.uploadImgServer = '/upload'
 editor.create()
-$(function(){
+$(function() {
+  //全选
+  $(".actionAll").on('click',function() {
+        $("input[name='all']").prop("checked", this.checked);
+  });
 
-})
+  $("input[name='all']").on('click',function() {
+        var $alls = $("input[name='all']");
+        $("#all").prop("checked" , $alls.length == $alls.filter(":checked").length ? true :false);
+  });
+});
+
 </script>
 </body>
 </html>
