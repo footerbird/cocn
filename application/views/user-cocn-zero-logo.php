@@ -23,14 +23,14 @@
           <a href="/page/user-cocn-zero-logo" class="base on">
             <em>4</em>
             标志设置</a>
-          <a href="/page/user-cocn-zero-news" class="base">
+          <!-- <a href="/page/user-cocn-zero-news" class="base">
             <em>5</em>
             新闻中心</a>
           <a href="/page/user-cocn-zero-product" class="base">
             <em>6</em>
-            产品中心</a>
+            产品中心</a> -->
           <a href="/page/user-cocn-zero-limit" class="base">
-            <em>7</em>
+            <em>5</em>
             权限设置</a>
       </div>
       <div class="mt25 after-cls">

@@ -23,14 +23,14 @@
           <a href="/page/user-cocn-zero-logo" class="base">
             <em>4</em>
             标志设置</a>
-          <a href="/page/user-cocn-zero-news" class="base">
+          <!-- <a href="/page/user-cocn-zero-news" class="base">
             <em>5</em>
             新闻中心</a>
           <a href="/page/user-cocn-zero-product" class="base">
             <em>6</em>
-            产品中心</a>
+            产品中心</a> -->
           <a href="/page/user-cocn-zero-limit" class="base">
-            <em>7</em>
+            <em>5</em>
             权限设置</a>
       </div>
       <div class="mt25 after-cls">
@@ -49,7 +49,7 @@
                       （品牌）</span>
                   </td>
                   <td width="25%" class="pl25 bg-fa">
-                      <label class="pos-rela col-default"><input type="checkbox" name="leixing" value="yrz"><i></i><font>mingshang.co.cn</font></label>
+                      <label class="pos-rela col-default"><input type="radio" name="leixing" value="yrz" checked ><i></i><font>mingshang.co.cn</font></label>
                   </td>
                   <td class="bg-fa">
                     <div class="col-default">
@@ -59,7 +59,7 @@
                 </tr>
                 <tr>
                   <td width="25%" class="pl25 bg-fa">
-                      <label class="pos-rela col-default"><input type="checkbox" name="leixing" value="yrz"><i></i><font>mingshang.co.cn</font></label>
+                      <label class="pos-rela col-default"><input type="radio" name="leixing" value="yrz"><i></i><font>mingshang.co.cn</font></label>
                   </td>
                   <td class="bg-fa">
                     <div class="col-default">
@@ -69,7 +69,7 @@
                 </tr>
                 <tr>
                   <td width="25%" class="pl25 bg-fa">
-                      <label class="pos-rela col-default"><input type="checkbox" name="leixing" value="yrz"><i></i><font>mingshang.co.cn</font></label>
+                      <label class="pos-rela col-default"><input type="radio" name="leixing" value="yrz"><i></i><font>mingshang.co.cn</font></label>
                   </td>
                   <td class="bg-fa">
                     <div class="col-default">
@@ -91,7 +91,7 @@
                     </span>
                   </td>
                   <td width="25%" class="pl25 bg-fa">
-                      <label class="pos-rela col-default"><input type="checkbox" name="leixing" value="yrz"><i></i><font>mingshang.co.cn</font></label>
+                      <label class="pos-rela col-default"><input type="radio" name="leixing" value="yrz"><i></i><font>mingshang.co.cn</font></label>
                   </td>
                   <td class="bg-fa">
                     <div class="col-0bb56b">
@@ -101,7 +101,7 @@
                 </tr>
                 <tr>
                   <td width="25%" class="pl25 bg-fa">
-                      <label class="pos-rela col-default"><input type="checkbox" name="leixing" value="yrz"><i></i><font>mingshang.co.cn</font></label>
+                      <label class="pos-rela col-default"><input type="radio" name="leixing" value="yrz"><i></i><font>mingshang.co.cn</font></label>
                   </td>
                   <td class="bg-fa">
                     <div class="col-0bb56b">
@@ -111,7 +111,7 @@
                 </tr>
                 <tr>
                   <td width="25%" class="pl25 bg-fa">
-                      <label class="pos-rela col-default"><input type="checkbox" name="leixing" value="yrz"><i></i><font>mingshang.co.cn</font></label>
+                      <label class="pos-rela col-default"><input type="radio" name="leixing" value="yrz"><i></i><font>mingshang.co.cn</font></label>
                   </td>
                   <td class="bg-fa">
                     <div class="col-0bb56b">
@@ -121,7 +121,7 @@
                 </tr>
                 <tr>
                   <td width="25%" class="pl25 bg-fa">
-                      <label class="pos-rela col-default"><input type="checkbox" name="leixing" value="yrz"><i></i><font>mingshang.co.cn</font></label>
+                      <label class="pos-rela col-default"><input type="radio" name="leixing" value="yrz"><i></i><font>mingshang.co.cn</font></label>
                   </td>
                   <td class="bg-fa">
                     <div class="col-0bb56b">
@@ -159,7 +159,7 @@
                 </tr>
                 <tr>
                   <td width="25%" class="pl25 bg-fa">
-                      <label class="pos-rela col-default"><input type="checkbox" name="leixing" value="yrz"><i></i><font><em id="custom_web_a">mingshang</em>.co.cn</font></label>
+                      <label class="pos-rela col-default"><input type="checkbox" name="" value=""><i></i><font><em id="custom_web_a">mingshang</em>.co.cn</font></label>
                   </td>
                   <td class="bg-fa">
                     <div class="col-0bb56b">

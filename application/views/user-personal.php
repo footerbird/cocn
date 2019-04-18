@@ -127,7 +127,7 @@
               </tbody>
             </table>
             <div class="bottom">
-              <a href="#" class="col-default f12 in-block">设置
+              <a href="/page/user-personal-connect" class="col-default f12 in-block">设置
                 <i class="ico-blue-arrow"></i>
               </a>
             </div>

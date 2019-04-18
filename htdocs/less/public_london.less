@@ -1052,6 +1052,25 @@ input[type=checkbox]:disabled+i{
 input[type=checkbox]:checked:disabled+i{
   background: url() no-repeat;
 }
+/*重写单选框*/
+input[type=radio]{
+  display: none;
+}
+input[type=radio]+i{
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAAM1BMVEUAAADP3ujO3efO3efO3efO3efU4erO3efO3efO3efO3ef////1+frj7PL3+fri6/L2+PoG4K9zAAAAC3RSTlMA8hRT+dD+hoLTVFdotSIAAABXSURBVAjXVY9bDsAgCAQB8VVQe//TlmijMn+TEHYXDMqVORaCScCmIjowTEuvTDSZE6r8dCQoTTYtQ9SjWoHlgr2iP47u1cgW1O8gq6GnhvG4kmsCrgkfitUGMsPgTU8AAAAASUVORK5CYII=) no-repeat;
+  vertical-align: text-bottom;
+  margin-right: 5px;
+  position: relative;
+}
+input[type=radio]:checked+i{
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAAflBMVEUAAAAAQ24AQ24AQ24AQ24AQ24AQ24AQ26ovs0AQ24AQ24AQ27e5+3///8AQ25hiKQAQ27////8/f3z9vjt8fTn7PCVr8J0lq5BcJIwZIkoYIUASXPY4enS3OXN2OLM2OG5y9awxNGdtseRrL+BoLZXgZ5Nepk6bI4gWoAGTXYCr8CRAAAAEHRSTlMAFPHR+VOGgv30887Jk4NutFqPRAAAAH9JREFUCNdVj0cOwzAMBCVRlp3OdS/pPf//YEiHl8yBwABs6wSfKEbKvZvJAs+E3UaNjVe9ls5gNlYovMvNpj1wSo5Mb0DVkYvMn/bJY4lm4Cj6aHDkC+qBeSnN/QG4o+xlgnTVVADoWEi/Qy3OasHbG9e31uzvSTWLsFhtNcIXLsYKN/O0kFUAAAAASUVORK5CYII=) no-repeat;
+}
+input[type=radio]:disabled+i{
+  background: url() no-repeat;
+}
 /*开关*/
 .switch-panel{
   input:checked + label {
