@@ -4351,9 +4351,6 @@ textarea {
   color: #3daaef !important;
 }
 /*按钮字体色*/
-.col-ff3c00 {
-  color: #ff3c00!important;
-}
 .col-009cff {
   color: #009cff!important;
 }
@@ -4593,10 +4590,6 @@ input[type=radio]:disabled + i {
   /*按钮字橙色*/
   color: #ff6c00 !important;
 }
-[class^="abtn-a-"].abtn-a-zhuanrang {
-  background-color: #ffdde1 !important;
-  color: #ff3c00!important;
-}
 [class^="abtn-a-"].abtn-a-xinyong {
   background-color: #cfecff !important;
   color: #009cff!important;
@@ -4754,6 +4747,253 @@ input[type=radio]:disabled + i {
 }
 .editor .w-e-text-container {
   border-color: #d1dde6 !important;
+}
+/*时间选择器*/
+.calendar {
+  position: absolute !important;
+  width: 190px !important;
+  height: 180px;
+  padding: 0;
+  display: none;
+  float: left !important;
+  border: 1px solid #d1dde6;
+  background-color: #fff !important;
+  text-align: left !important;
+}
+.calendar .calMain {
+  width: 100% !important;
+  height: 180px;
+  float: left !important;
+  overflow: hidden;
+  position: absolute !important;
+}
+.calendar .calMain .calTitle {
+  width: 100% !important;
+  float: left !important;
+  height: 23px;
+  background-color: #fff !important;
+  overflow: hidden;
+}
+.calendar .calMain .calTitle .t_date {
+  width: 149px;
+  float: left !important;
+  height: 23px;
+  color: #13426b !important;
+  font-weight: bold !important;
+  line-height: 23px;
+  text-align: center !important;
+}
+.calendar .calMain .calTitle .prevMonth {
+  width: 15px;
+  height: 15px;
+  float: left !important;
+  margin: 8px 0 0 5px;
+  cursor: pointer;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAClBAMAAACJn0EGAAAAHlBMVEUAAAATQmv//v7k5OT5+fn39/fy8vLv7+/p6end3d1Z3ztQAAAAAXRSTlMAQObYZgAAAD5JREFUGNNjEBSkFFlOZmi2YEgvY3ANYVBSYhiKQEmRQUmQQRHoHRAJZINEhjQQUmIQBCIhcBwJgdhCoKgBAPrhCNaOqcYlAAAAAElFTkSuQmCC) no-repeat 5px -87px;
+}
+.calendar .calMain .calTitle .nextMonth {
+  width: 15px;
+  height: 15px;
+  float: right !important;
+  margin: 8px 5px 0 0;
+  cursor: pointer;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAClBAMAAACJn0EGAAAAHlBMVEUAAAATQmv//v7k5OT5+fn39/fy8vLv7+/p6end3d1Z3ztQAAAAAXRSTlMAQObYZgAAAD5JREFUGNNjEBSkFFlOZmi2YEgvY3ANYVBSYhiKQEmRQUmQQRHoHRAJZINEhjQQUmIQBCIhcBwJgdhCoKgBAPrhCNaOqcYlAAAAAElFTkSuQmCC) no-repeat 6px -157px;
+}
+.calendar .calMain .calTitle .currentYear {
+  color: #13426b !important;
+}
+.calendar .calMain .calTitle .currentMonth {
+  color: #13426b !important;
+}
+.calendar .calMain .calTitle .currentYearText {
+  float: left !important;
+  margin: 0 0px 0 39px;
+  cursor: pointer;
+}
+.calendar .calMain .calTitle .currentMonthText {
+  float: left !important;
+  cursor: pointer;
+  width: 30px;
+  text-align: right !important;
+}
+.calendar .calMain .calContent {
+  width: 378px;
+  height: 157px;
+  float: left !important;
+}
+.calendar .calMain .calContent .enabled {
+  position: absolute !important;
+  width: 100% !important;
+  height: 157px;
+  float: left !important;
+}
+.calendar .calMain .calContent .reserve {
+  position: absolute !important;
+  width: 100% !important;
+  height: 157px;
+  float: left !important;
+}
+.calendar .calMain .calContent .tabD {
+  width: 100% !important;
+  float: left !important;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0;
+}
+.calendar .calMain .calContent .tabD th {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAClBAMAAACJn0EGAAAAHlBMVEUAAAATQmv//v7k5OT5+fn39/fy8vLv7+/p6end3d1Z3ztQAAAAAXRSTlMAQObYZgAAAD5JREFUGNNjEBSkFFlOZmi2YEgvY3ANYVBSYhiKQEmRQUmQQRHoHRAJZINEhjQQUmIQBCIhcBwJgdhCoKgBAPrhCNaOqcYlAAAAAElFTkSuQmCC) repeat-x;
+  line-height: 22px;
+  font-weight: normal !important;
+  padding-bottom: 4px;
+  color: #fff !important;
+}
+.calendar .calMain .calContent .tabD td {
+  color: #13426b !important;
+  text-align: center !important;
+  line-height: 19px;
+  width: 27px;
+  font-family: "Georgia";
+}
+.calendar .calMain .calContent .tabD td span {
+  color: #c0c0c0;
+}
+.calendar .calMain .calContent .tabD td a {
+  width: 23px;
+  line-height: 18px;
+  float: left !important;
+  margin: 1px 0 0 2px;
+  cursor: pointer;
+  color: #333 !important;
+}
+.calendar .calMain .calContent .tabD td .nextD {
+  color: #999 !important;
+  cursor: not-allowed;
+}
+.calendar .calMain .calContent .tabD td .prevD {
+  color: #999 !important;
+  cursor: not-allowed;
+}
+.calendar .calMain .calContent .tabD td .hover {
+  width: 21px;
+  line-height: 16px;
+  border: 1px solid #13426b;
+  float: left !important;
+  margin: 1px 0 0 2px;
+}
+.calendar .calMain .calContent .tabD td .current {
+  width: 21px;
+  line-height: 16px;
+  border: 1px solid #13426b;
+  float: left !important;
+  margin: 1px 0 0 2px;
+}
+.calendar .calMain .calContent .tabD td .select {
+  width: 21px;
+  line-height: 16px;
+  background: #13426b;
+  border: 1px solid #f4364c;
+  color: #fff !important;
+  float: left !important;
+  margin: 1px 0 0 2px;
+}
+.calendar .calMain .calContent .tabM {
+  width: 100% !important;
+  float: left !important;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0;
+}
+.calendar .calMain .calContent .tabM td {
+  color: #13426b !important;
+  text-align: center !important;
+  height: 50px;
+  width: 47px;
+  font-family: "Georgia";
+}
+.calendar .calMain .calContent .tabM td a {
+  width: 42px;
+  line-height: 42px;
+  float: left !important;
+  margin: 0px 0 0 2px;
+  cursor: pointer;
+  color: #333 !important;
+}
+.calendar .calMain .calContent .tabM td .hover {
+  width: 40px;
+  line-height: 40px;
+  border: 1px solid #13426b;
+  float: left !important;
+  margin: 0px 0 0 2px;
+}
+.calendar .calMain .calContent .tabM td .current {
+  width: 40px;
+  line-height: 40px;
+  border: 1px solid #13426b;
+  float: left !important;
+  margin: 0px 0 0 2px;
+}
+.calendar .calMain .calContent .tabM td .select {
+  width: 40px;
+  line-height: 40px;
+  background: #13426b;
+  border: 1px solid #f4364c;
+  color: #fff !important;
+  float: left !important;
+  margin: 0px 0 0 2px;
+}
+.calendar .calMain .calContent .tabY {
+  width: 100% !important;
+  float: left !important;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0;
+}
+.calendar .calMain .calContent .tabY td {
+  color: #13426b !important;
+  text-align: center !important;
+  height: 50px;
+  width: 47px;
+  font-family: "Georgia";
+}
+.calendar .calMain .calContent .tabY td a {
+  width: 42px;
+  line-height: 42px;
+  float: left !important;
+  margin: 0px 0 0 2px;
+  cursor: pointer;
+  color: #333 !important;
+}
+.calendar .calMain .calContent .tabY td .nextY {
+  color: #999 !important;
+}
+.calendar .calMain .calContent .tabY td .prevY {
+  color: #999 !important;
+}
+.calendar .calMain .calContent .tabY td .hover {
+  width: 40px;
+  line-height: 40px;
+  border: 1px solid #13426b;
+  float: left !important;
+  margin: 0px 0 0 2px;
+}
+.calendar .calMain .calContent .tabY td .current {
+  width: 40px;
+  line-height: 40px;
+  border: 1px solid #13426b;
+  float: left !important;
+  margin: 0px 0 0 2px;
+}
+.calendar .calMain .calContent .tabY td .select {
+  width: 40px;
+  line-height: 40px;
+  background: #13426b;
+  border: 1px solid #13426b;
+  color: #fff !important;
+  float: left !important;
+  margin: 0px 0 0 2px;
+}
+.calendar .calMain a:hover {
+  text-decoration: none;
 }
 /*
  * public End
@@ -6627,6 +6867,12 @@ table.inner-table tbody tr {
 .certify-box dl.info2 dd {
   float: left !important;
   padding-left: 12px;
+}
+.certify-box dl.info2 dd input[type=text] {
+  padding-left: 12px;
+  line-height: 36px;
+  height: 36px;
+  border: 1px solid #d1dde6;
 }
 .certify-box .note {
   border: 1px solid #d1dde6;

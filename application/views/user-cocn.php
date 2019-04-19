@@ -76,9 +76,9 @@
               <td align="">2019-04-11</td>
               <td align="">2022-04-11</td>
               <td align="">网站负责人</td>
-              <td align="">待认证</td>
+              <td align="" class="col-d2434a">待付款</td>
               <td align="right">
-                <a href="#" class="col-default ml10">认证</a>
+                <a href="#" class="col-default ml10">支付</a>
               </td>
             </tr>
           </tbody>

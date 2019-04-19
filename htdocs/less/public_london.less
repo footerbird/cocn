@@ -982,7 +982,6 @@ textarea{resize: none; overflow-y:auto;}
   color:#3daaef !important;
 }
 /*按钮字体色*/
-.col-ff3c00{color:#ff3c00!important;}
 .col-009cff{color:#009cff!important;}
 /*占比条蓝色*/
 .percent{
@@ -1197,10 +1196,6 @@ input[type=radio]:disabled+i{
     .bg-ffe7c8;
     .col-ff6c00;
   }
-  &.abtn-a-zhuanrang{
-    .bg-ffdde1;
-    .col-ff3c00;
-  }
   &.abtn-a-xinyong{
     .bg-cfecff;
     .col-009cff;
@@ -1343,6 +1338,255 @@ input[type=radio]:disabled+i{
   }
   .w-e-text-container{
     border-color:@base-body-background !important;
+  }
+}
+/*时间选择器*/
+.calendar {
+  .pos-abso;
+  width:190px !important;
+  height: 180px;
+  padding : 0;
+  display: none;
+  .fl-l;
+  border: 1px solid @base-body-background;
+  .bg-white;
+  .ta-l;
+  .calMain {
+    .w-all;
+    height: 180px;
+    .fl-l;
+    overflow: hidden;
+    .pos-abso;
+    .calTitle {
+      .w-all;
+      .fl-l;
+      height: 23px;
+      .bg-white;
+      overflow: hidden;
+      .t_date {
+        width: 149px;
+        .fl-l;
+        height: 23px;
+        .col-default;
+        .fb;
+        line-height: 23px;
+        .ta-c;
+      }
+      .prevMonth {
+        width: 15px;
+        height: 15px;
+        .fl-l;
+        margin: 8px 0 0 5px;
+        cursor: pointer;
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAClBAMAAACJn0EGAAAAHlBMVEUAAAATQmv//v7k5OT5+fn39/fy8vLv7+/p6end3d1Z3ztQAAAAAXRSTlMAQObYZgAAAD5JREFUGNNjEBSkFFlOZmi2YEgvY3ANYVBSYhiKQEmRQUmQQRHoHRAJZINEhjQQUmIQBCIhcBwJgdhCoKgBAPrhCNaOqcYlAAAAAElFTkSuQmCC) no-repeat 5px -87px;
+      }
+      .nextMonth {
+        width: 15px;
+        height: 15px;
+        .fl-r;
+        margin: 8px 5px 0 0;
+        cursor: pointer;
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAClBAMAAACJn0EGAAAAHlBMVEUAAAATQmv//v7k5OT5+fn39/fy8vLv7+/p6end3d1Z3ztQAAAAAXRSTlMAQObYZgAAAD5JREFUGNNjEBSkFFlOZmi2YEgvY3ANYVBSYhiKQEmRQUmQQRHoHRAJZINEhjQQUmIQBCIhcBwJgdhCoKgBAPrhCNaOqcYlAAAAAElFTkSuQmCC) no-repeat 6px -157px;
+      }
+      .currentYear {
+        .col-default;
+      }
+      .currentMonth {
+        .col-default;
+      }
+      .currentYearText {
+        .fl-l;
+        margin: 0 0px 0 39px;
+        cursor: pointer;
+      }
+      .currentMonthText {
+        .fl-l;
+        cursor: pointer;
+        width: 30px;
+        .ta-r;
+      }
+    }
+    .calContent {
+      width: 378px;
+      height: 157px;
+      .fl-l;
+      .enabled {
+        .pos-abso;
+        .w-all;
+        height: 157px;
+        .fl-l;
+      }
+      .reserve {
+        .pos-abso;
+        .w-all;
+        height: 157px;
+        .fl-l;
+      }
+      .tabD {
+        .w-all;
+        .fl-l;
+        border-collapse: collapse;
+        border-spacing: 0;
+        border: 0;
+        th {
+          background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAClBAMAAACJn0EGAAAAHlBMVEUAAAATQmv//v7k5OT5+fn39/fy8vLv7+/p6end3d1Z3ztQAAAAAXRSTlMAQObYZgAAAD5JREFUGNNjEBSkFFlOZmi2YEgvY3ANYVBSYhiKQEmRQUmQQRHoHRAJZINEhjQQUmIQBCIhcBwJgdhCoKgBAPrhCNaOqcYlAAAAAElFTkSuQmCC) repeat-x;
+          line-height: 22px;
+          .fn;;
+          padding-bottom: 4px;
+          .col-white;
+        }
+        td {
+          .col-default;
+          .ta-c;
+          line-height: 19px;
+          width: 27px;
+          font-family: "Georgia";
+          span {
+            color: #c0c0c0;
+          }
+          a {
+            width: 23px;
+            line-height: 18px;
+            .fl-l;
+            margin: 1px 0 0 2px;
+            cursor: pointer;
+            .col-gray3;
+          }
+          .nextD {
+            .col-gray9;
+            cursor: not-allowed;
+          }
+          .prevD {
+            .col-gray9;
+            cursor: not-allowed;
+          }
+          .hover {
+            width: 21px;
+            line-height: 16px;
+            border: 1px solid @base-color;
+            .fl-l;
+            margin: 1px 0 0 2px;
+          }
+          .current {
+            width: 21px;
+            line-height: 16px;
+            border: 1px solid @base-color;
+            .fl-l;
+            margin: 1px 0 0 2px;
+          }
+          .select {
+            width: 21px;
+            line-height: 16px;
+            background: @base-color;
+            border: 1px solid @base-color2;
+            .col-white;
+            .fl-l;
+            margin: 1px 0 0 2px;
+          }
+        }
+      }
+      .tabM {
+        .w-all;
+        .fl-l;
+        border-collapse: collapse;
+        border-spacing: 0;
+        border: 0;
+        td {
+          .col-default;
+          .ta-c;
+          height: 50px;
+          width: 47px;
+          font-family: "Georgia";
+          a {
+            width: 42px;
+            line-height: 42px;
+            .fl-l;
+            margin: 0px 0 0 2px;
+            cursor: pointer;
+            .col-gray3;
+          }
+          .hover {
+            width: 40px;
+            line-height: 40px;
+            border: 1px solid @base-color;
+            .fl-l;
+            margin: 0px 0 0 2px;
+          }
+          .current {
+            width: 40px;
+            line-height: 40px;
+            border: 1px solid @base-color;
+            .fl-l;
+            margin: 0px 0 0 2px;
+          }
+          .select {
+            width: 40px;
+            line-height: 40px;
+            background:@base-color;
+            border: 1px solid @base-color2;
+            .col-white;
+            .fl-l;
+            margin: 0px 0 0 2px;
+          }
+        }
+      }
+      .tabY {
+        .w-all;
+        .fl-l;
+        border-collapse: collapse;
+        border-spacing: 0;
+        border: 0;
+        td {
+          .col-default;
+          .ta-c;
+          height: 50px;
+          width: 47px;
+          font-family: "Georgia";
+          a {
+            width: 42px;
+            line-height: 42px;
+            .fl-l;
+            margin: 0px 0 0 2px;
+            cursor: pointer;
+            .col-gray3;
+          }
+          .nextY {
+            .col-gray9;
+          }
+          .prevY {
+            .col-gray9;
+          }
+          .hover {
+            width: 40px;
+            line-height: 40px;
+            border: 1px solid @base-color;
+            .fl-l;
+            margin: 0px 0 0 2px;
+          }
+          .current {
+            width: 40px;
+            line-height: 40px;
+            border: 1px solid @base-color;
+            .fl-l;
+            margin: 0px 0 0 2px;
+          }
+          .select {
+            width: 40px;
+            line-height: 40px;
+            background: @base-color;
+            border: 1px solid @base-color;
+            .col-white;
+            .fl-l;
+            margin: 0px 0 0 2px;
+          }
+        }
+      }
+    }
+    a {
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
 }
 
@@ -3080,6 +3324,12 @@ table{
       dd{
         .fl-l;
         padding-left:12px;
+        input[type=text]{
+          padding-left:12px;
+          line-height:36px;
+          height: 36px;
+          border:1px solid @base-body-background;
+        }
       }
     }
   }
