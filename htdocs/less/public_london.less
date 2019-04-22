@@ -254,6 +254,7 @@ textarea{resize: none; overflow-y:auto;}
 }
 /*color颜色*/
 .col-gray3{color: #333 !important;}
+.col-gray5{color: #555 !important;}
 .col-gray6{color: #666 !important;}
 .col-gray9{color: #999 !important;}
 
@@ -981,6 +982,9 @@ textarea{resize: none; overflow-y:auto;}
 .col-3daaef{/*更新蓝色*/
   color:#3daaef !important;
 }
+.col-5897cd{/*卡片蓝色*/
+  color:#5897cd !important;
+}
 /*按钮字体色*/
 .col-009cff{color:#009cff!important;}
 /*占比条蓝色*/
@@ -1589,6 +1593,48 @@ input[type=radio]:disabled+i{
     }
   }
 }
+
+/*流程图*/
+.flow-point{
+    max-width: 700px;
+    li {
+      float: left;
+      position: relative;
+      width: 140px;
+      padding: 0 10px;
+      line-height: 24px;
+      color:@base-body-background;
+      text-align: center;
+      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAQCAMAAADH72RtAAAAUVBMVEUAAADO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3ef5pa/kAAAAGnRSTlMAgKz1fQVIh2hFx3XBpYRuTxYTsmJcThrAp8xWuVcAAAB4SURBVBjTZY9HEoQwEAMlMziSzEb8/4fiGlxwcB+7NEFQsl1FfMhojF9eiB0v8SadidE48qOqJsxQKsNBhip+VZTGTNmBjU4TmlpogZWvcmPoAWF8zMQEsDP9VL+5v47t/nAm7dNi+ptFW6iyQkUC0MjBp+TDjsoJsJwL7oTgqYkAAAAASUVORK5CYII=) 50% 10% no-repeat;
+      &.active{
+        .col-5897cd;
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAANlBMVEVAmdIAAABAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJY+oClAAAAEXRSTlNMACvyilZBjQ04ra6ogz4Lrw6QN2cAAABsSURBVBjTZY9LFsQgCARrWsTE/Mb7X3bkxUwW1grrCTR8OoscXEvUIcRAt1ghl1pLhjWEwFLrJIs/LGBtYPSnyOkRKSOc0v4UHPi+YiPYXlFhapmGzmsj2HEHO0BPdNt3G9Hn4zqXTvdTV9Q/zbAHVygj1/kAAAAASUVORK5CYII=) 50% 10% no-repeat;
+        em{
+
+          .bg-5897cd;
+
+        }
+      }
+      word-wrap: break-word;
+      em {
+        position: absolute;
+        top: 14px;
+        left: 94px;
+        width: 84px;
+        height: 1px;
+        .bg-d1dde6;
+      }
+      &.last {
+        em {
+          display: none;
+        }
+      }
+      p {
+        height: 60px;
+        overflow: hidden;
+      }
+    }
+  }
 
 /*
  * public End
@@ -2894,8 +2940,8 @@ body.on #bgblack {
     display: table-cell;
     height:100%;
     padding:15px;
-    .manage-panel{
-      padding:10px;
+    .manage-panel,.manage-panel2,.manage-panel-spec{
+      padding:10px 15px;
       .bg-white;
     }
     .sub-nav-panel{
@@ -2906,7 +2952,6 @@ body.on #bgblack {
         .col-default;
         .in-block;
         .pos-rela;
-        padding:0 4px;
         margin-right:33px;
         .badge{
           .pos-abso;
@@ -3340,7 +3385,7 @@ table{
     padding:20px 20px 50px 20px;
     .ellips{
       line-height:22px;
-      color:#555;
+      .col-gray5;
       height:120px;
       overflow-y: scroll;
     }
@@ -3662,7 +3707,6 @@ table{
             font-size:12px;
             line-height:30px;
             height: 30px;
-
           }
         }
         dl{
@@ -3794,6 +3838,17 @@ table{
       a{
         .in-block;
       }
+      .select-panel{
+        select{
+          .bg-white;
+          .border-radius(0px);
+          border:1px solid @base-body-background;
+          padding-left:12px;
+          font-size:12px;
+          line-height:30px;
+          height: 30px;
+        }
+      }
     }
     .pub-btn{
       padding:0 13px;
@@ -3825,4 +3880,58 @@ table{
   .bg-f2f6f8;
   .w-all;
   height: 1px;
+}
+/*股权订单*/
+.order-table{
+  padding:20px 0 20px 40px;
+  table{
+    td{
+      padding:5px 0;
+      dl{
+        &.info{
+          line-height:28px;
+          margin-left:80px;
+          .fl-l;
+          dt{
+            .col-gray9;
+            width:65px;
+            margin-left:-65px;
+            .ta-r;
+            .in-block;
+            .fl-l;
+          }
+          dd{
+            .in-block;
+            padding-left:2px;
+            margin-left:20px;
+            margin-right:20px;
+            .fl-l;
+            max-width:230px;
+            &.width-auto{
+              max-width:max-content;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.customer-service{
+  .border-radius(2px);
+  .bg-fa;
+  .ta-c;
+  .col-f2743d;
+  line-height: 38px;
+  height:38px;
+  padding:0 25px;
+  .col-default;
+  .in-block;
+}
+.remark{
+  .bg-f2f6f8;
+  .col-gray5;
+  padding:15px 30px 30px 30px;
+  margin-bottom: 5px;
+  margin-top:15px;
+  border:1px solid @base-body-background;
 }

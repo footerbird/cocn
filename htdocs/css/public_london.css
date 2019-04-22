@@ -3424,6 +3424,9 @@ textarea {
 .col-gray3 {
   color: #333 !important;
 }
+.col-gray5 {
+  color: #555 !important;
+}
 .col-gray6 {
   color: #666 !important;
 }
@@ -4350,6 +4353,10 @@ textarea {
   /*更新蓝色*/
   color: #3daaef !important;
 }
+.col-5897cd {
+  /*卡片蓝色*/
+  color: #5897cd !important;
+}
 /*按钮字体色*/
 .col-009cff {
   color: #009cff!important;
@@ -4994,6 +5001,44 @@ input[type=radio]:disabled + i {
 }
 .calendar .calMain a:hover {
   text-decoration: none;
+}
+/*流程图*/
+.flow-point {
+  max-width: 700px;
+}
+.flow-point li {
+  float: left;
+  position: relative;
+  width: 140px;
+  padding: 0 10px;
+  line-height: 24px;
+  color: #d1dde6;
+  text-align: center;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAQCAMAAADH72RtAAAAUVBMVEUAAADO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3efO3ef5pa/kAAAAGnRSTlMAgKz1fQVIh2hFx3XBpYRuTxYTsmJcThrAp8xWuVcAAAB4SURBVBjTZY9HEoQwEAMlMziSzEb8/4fiGlxwcB+7NEFQsl1FfMhojF9eiB0v8SadidE48qOqJsxQKsNBhip+VZTGTNmBjU4TmlpogZWvcmPoAWF8zMQEsDP9VL+5v47t/nAm7dNi+ptFW6iyQkUC0MjBp+TDjsoJsJwL7oTgqYkAAAAASUVORK5CYII=) 50% 10% no-repeat;
+  word-wrap: break-word;
+}
+.flow-point li.active {
+  /*卡片蓝色*/
+  color: #5897cd !important;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAANlBMVEVAmdIAAABAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJY+oClAAAAEXRSTlNMACvyilZBjQ04ra6ogz4Lrw6QN2cAAABsSURBVBjTZY9LFsQgCARrWsTE/Mb7X3bkxUwW1grrCTR8OoscXEvUIcRAt1ghl1pLhjWEwFLrJIs/LGBtYPSnyOkRKSOc0v4UHPi+YiPYXlFhapmGzmsj2HEHO0BPdNt3G9Hn4zqXTvdTV9Q/zbAHVygj1/kAAAAASUVORK5CYII=) 50% 10% no-repeat;
+}
+.flow-point li.active em {
+  background-color: #5897cd !important;
+}
+.flow-point li em {
+  position: absolute;
+  top: 14px;
+  left: 94px;
+  width: 84px;
+  height: 1px;
+  background-color: #d1dde6 !important;
+}
+.flow-point li.last em {
+  display: none;
+}
+.flow-point li p {
+  height: 60px;
+  overflow: hidden;
 }
 /*
  * public End
@@ -6423,8 +6468,10 @@ body.on #bgblack {
   height: 100%;
   padding: 15px;
 }
-.container-full .view-frt .manage-panel {
-  padding: 10px;
+.container-full .view-frt .manage-panel,
+.container-full .view-frt .manage-panel2,
+.container-full .view-frt .manage-panel-spec {
+  padding: 10px 15px;
   background-color: #fff !important;
 }
 .container-full .view-frt .sub-nav-panel {
@@ -6439,7 +6486,6 @@ body.on #bgblack {
   *display: inline !important;
   *zoom: 1 !important;
   position: relative !important;
-  padding: 0 4px;
   margin-right: 33px;
 }
 .container-full .view-frt .sub-nav-panel a .badge,
@@ -6882,7 +6928,7 @@ table.inner-table tbody tr {
 }
 .certify-box .note .ellips {
   line-height: 22px;
-  color: #555;
+  color: #555 !important;
   height: 120px;
   overflow-y: scroll;
 }
@@ -7365,6 +7411,17 @@ table.inner-table tbody tr {
   *display: inline !important;
   *zoom: 1 !important;
 }
+.table-top-tools .tools-fl-r .filter .select-panel select {
+  background-color: #fff !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border: 1px solid #d1dde6;
+  padding-left: 12px;
+  font-size: 12px;
+  line-height: 30px;
+  height: 30px;
+}
 .table-top-tools .tools-fl-r .pub-btn {
   padding: 0 13px;
 }
@@ -7393,4 +7450,63 @@ table.inner-table tbody tr {
   background-color: #f2f6f8 !important;
   width: 100% !important;
   height: 1px;
+}
+/*股权订单*/
+.order-table {
+  padding: 20px 0 20px 40px;
+}
+.order-table table td {
+  padding: 5px 0;
+}
+.order-table table td dl.info {
+  line-height: 28px;
+  margin-left: 80px;
+  float: left !important;
+}
+.order-table table td dl.info dt {
+  color: #999 !important;
+  width: 65px;
+  margin-left: -65px;
+  text-align: right !important;
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  float: left !important;
+}
+.order-table table td dl.info dd {
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  padding-left: 2px;
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left !important;
+  max-width: 230px;
+}
+.order-table table td dl.info dd.width-auto {
+  max-width: max-content;
+}
+.customer-service {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background-color: #fafafa !important;
+  text-align: center !important;
+  /*等待字橙色*/
+  color: #f2743d !important;
+  line-height: 38px;
+  height: 38px;
+  padding: 0 25px;
+  color: #13426b !important;
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+}
+.remark {
+  background-color: #f2f6f8 !important;
+  color: #555 !important;
+  padding: 15px 30px 30px 30px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  border: 1px solid #d1dde6;
 }
