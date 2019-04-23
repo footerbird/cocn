@@ -4752,7 +4752,11 @@ input[type=radio]:disabled + i {
   border-color: #d1dde6 !important;
   border-bottom: 1px solid #f3f3f3 !important;
 }
+.editor .w-e-toolbar .w-e-menu {
+  z-index: 1 !important;
+}
 .editor .w-e-text-container {
+  z-index: 1 !important;
   border-color: #d1dde6 !important;
 }
 /*时间选择器*/
@@ -6516,7 +6520,7 @@ body.on #bgblack {
   width: 4px;
   height: 20px;
   background-color: #f4364c !important;
-  left: -10px;
+  left: -15px;
   top: 2px;
 }
 .container-full .view-frt .sub-nav-panel a.on,
@@ -7373,6 +7377,28 @@ table.inner-table tbody tr {
 .table-top-tools {
   margin-bottom: 15px;
 }
+.table-top-tools .filter {
+  line-height: 36px;
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+}
+.table-top-tools .filter a {
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+}
+.table-top-tools .filter .select-panel select {
+  background-color: #fff !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border: 1px solid #d1dde6;
+  padding-left: 12px;
+  font-size: 12px;
+  line-height: 30px;
+  height: 30px;
+}
 .table-top-tools .tools-fl-l {
   float: left !important;
   display: inline-block !important;
@@ -7399,28 +7425,6 @@ table.inner-table tbody tr {
 }
 .table-top-tools .tools-fl-r {
   float: right !important;
-}
-.table-top-tools .tools-fl-r .filter {
-  line-height: 36px;
-  display: inline-block !important;
-  *display: inline !important;
-  *zoom: 1 !important;
-}
-.table-top-tools .tools-fl-r .filter a {
-  display: inline-block !important;
-  *display: inline !important;
-  *zoom: 1 !important;
-}
-.table-top-tools .tools-fl-r .filter .select-panel select {
-  background-color: #fff !important;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-  border: 1px solid #d1dde6;
-  padding-left: 12px;
-  font-size: 12px;
-  line-height: 30px;
-  height: 30px;
 }
 .table-top-tools .tools-fl-r .pub-btn {
   padding: 0 13px;

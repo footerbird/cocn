@@ -13,7 +13,7 @@
       <div class="sub-nav-panel">
         <span class="title">股权交易</span>
       </div>
-      <div class="mt10 after-cls">
+      <div class="mt15 after-cls">
         <div class="table-top-tools after-cls">
           <div class="tools-fl-l">
             <input type="text" name="" value="" placeholder="编号/公司名称">

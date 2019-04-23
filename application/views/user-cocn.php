@@ -91,11 +91,11 @@
           <p class="ta-c col-gray6 lh28 pt30 pb50">
             如果您是公司法人，可以点击开通公司官网，<br />发布公司新闻、产品、管理评论或者出售公司股权。
           </p>
-          <p class="ta-c pb30 pt20">
+          <div class="ta-c pb30 pt20">
             <a href="/page/user-cocn-zero" class="w140 pub-btn">
               开始设置
             </a>
-          </p>
+          </div>
         </div>
       </div>
 

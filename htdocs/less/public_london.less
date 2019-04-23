@@ -1339,8 +1339,12 @@ input[type=radio]:disabled+i{
     padding:9px 3px;
     border-color:@base-body-background !important;
     border-bottom: 1px solid #f3f3f3 !important;
+    .w-e-menu{
+      z-index:1 !important;
+    }
   }
   .w-e-text-container{
+    z-index:1 !important;
     border-color:@base-body-background !important;
   }
 }
@@ -2976,7 +2980,7 @@ body.on #bgblack {
             width:4px;
             height:20px;
             .bg-f4364c;
-            left:-10px;
+            left:-15px;
             top:2px;
           }
         }
@@ -3812,6 +3816,24 @@ table{
 }
 .table-top-tools{
   margin-bottom:15px;
+  .filter{
+    line-height:36px;
+    .in-block;
+    a{
+      .in-block;
+    }
+    .select-panel{
+      select{
+        .bg-white;
+        .border-radius(0px);
+        border:1px solid @base-body-background;
+        padding-left:12px;
+        font-size:12px;
+        line-height:30px;
+        height: 30px;
+      }
+    }
+  }
   .tools-fl-l{
     .fl-l;
     .in-block;
@@ -3832,28 +3854,11 @@ table{
   }
   .tools-fl-r{
     .fl-r;
-    .filter{
-      line-height:36px;
-      .in-block;
-      a{
-        .in-block;
-      }
-      .select-panel{
-        select{
-          .bg-white;
-          .border-radius(0px);
-          border:1px solid @base-body-background;
-          padding-left:12px;
-          font-size:12px;
-          line-height:30px;
-          height: 30px;
-        }
-      }
-    }
     .pub-btn{
       padding:0 13px;
     }
   }
+
 }
 .full-input{
   input{
