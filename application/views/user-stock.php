@@ -22,7 +22,7 @@
           </div>
           <div class="tools-fl-r lh36 f12">
             当前持有股权预估值：
-            <font class="f16 col-f4364c mr4">999，998</font>元/人民币
+            <font class="f16 col-f4364c mr4">999,998</font>元/人民币
           </div>
         </div>
         <table width="100%" class="inner-table">
@@ -37,7 +37,7 @@
               <th width="9%" align="center">在途份额</th>
               <th width="9%" align="center">质押份额</th>
               <th width="19%" align="right">
-                <a href="/page/user-stock-history" class="underline">资产流通记录</a>
+                <a href="/page/user-stock-history" class="col-3daaef underline">资产流通记录</a>
               </th>
             </tr>
           </thead>

@@ -24,7 +24,6 @@
                   <option value="">一个月</option>
                   <option value="">三个月</option>
                   <option value="">一年</option>
-                  <option value="">自定义</option>
                 </select>
                 <select class="select mr10" name="">
                   <option value="">账号/持有人</option>
@@ -75,7 +74,7 @@
                 杭州名商网络有限公司
               </td>
               <td align="center">收入</td>
-              <td align="right">350，999</td>
+              <td align="right">350,999</td>
               <td align="left">
                 <p class="f12 col-default">
                 <a href="/page/user-dealing-succ" class="col-default">交易完成</a>
@@ -95,7 +94,7 @@
                 立群
               </td>
               <td align="center">收入</td>
-              <td align="right">1，350，999</td>
+              <td align="right">1,350,999</td>
               <td align="left">
                 <p class="f12 col-default">
                 <a href="/page/user-dealing-freeze" class="col-default">冻结</a>
@@ -115,7 +114,7 @@
                 杭州名商网络有限公司
               </td>
               <td align="center">支出</td>
-              <td align="right">30，999</td>
+              <td align="right">30,999</td>
               <td align="left">
                 <p class="f12 col-default">
                 <a href="/page/user-dealing-wait-pay" class="col-default">支付</a>
