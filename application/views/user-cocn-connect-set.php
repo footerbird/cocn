@@ -128,45 +128,46 @@
 <script src="/htdocs/js/slick/slick.min.js?<?php echo CACHE_TIME; ?>"></script>
 <link rel="stylesheet" href="/htdocs/js/slick/slick.css?<?php echo CACHE_TIME; ?>">
 <script type="text/javascript">
+//地区
+var cityJson;//城市数据
+var cityMap = {};//省份对应城市,直接用键值对形式,避免再次循环,例如cityMap['101210000'] = [{code:101210100,name:'杭州'}]这样子
+
+function selectProvince(obj){
+    var code = $(obj).val();
+    var hotCityList = cityMap[code];
+    var citylist_str = '<option>选择城市</option>';
+    $.each(hotCityList,function(j){
+        if(hotCityList[j].code == '100010000'){
+            return true;
+        }
+        citylist_str += '<option value="'+hotCityList[j].code+'">'+hotCityList[j].name+'</option>';
+    })
+    $("#city").html(citylist_str);
+}
+
 $(function(){
-  //地区
-  var cityJson;//城市数据
-  var cityMap = {};//省份对应城市,直接用键值对形式,避免再次循环,例如cityMap['101210000'] = [{code:101210100,name:'杭州'}]这样子
 
-  function selectProvince(obj){
-      var code = $(obj).val();
-      var hotCityList = cityMap[code];
-      var citylist_str = '<option>选择城市</option>';
-      $.each(hotCityList,function(j){
-      		if(hotCityList[j].code == '100010000'){
-      				return true;
-      		}
-      		citylist_str += '<option value="'+hotCityList[j].code+'">'+hotCityList[j].name+'</option>';
-      })
-      $("#city").html(citylist_str);
-  }
+    $.ajax({
+        type:"get",
+        url:"/htdocs/json/city.json",
+        async:true,
+        success:function(data){
+            cityJson = data;
+            if(cityJson != undefined){
+                var allCityList = cityJson.data.cityList;
+                var provincelist_str = '<option>选择省份</option>';
+                $.each(allCityList,function(i){
+                    cityMap[allCityList[i].code] = allCityList[i].subLevelModelList;
+                    provincelist_str += '<option value="'+allCityList[i].code+'">'+allCityList[i].name+'</option>';
+                })
+                $("#province").html(provincelist_str);
+            }
+        }
+    });
 
-  $(function(){
+})
+$(function(){
 
-      $.ajax({
-          type:"get",
-          url:"/htdocs/json/city.json",
-          async:true,
-          success:function(data){
-              cityJson = data;
-              if(cityJson != undefined){
-                  var allCityList = cityJson.data.cityList;
-                  var provincelist_str = '<option>选择省份</option>';
-                  $.each(allCityList,function(i){
-                      cityMap[allCityList[i].code] = allCityList[i].subLevelModelList;
-                      provincelist_str += '<option value="'+allCityList[i].code+'">'+allCityList[i].name+'</option>';
-                  })
-                  $("#province").html(provincelist_str);
-              }
-          }
-      });
-
-  })
 })
 </script>
 </body>
