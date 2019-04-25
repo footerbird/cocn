@@ -56,7 +56,7 @@
         </p>
       </div>
       <p class="ta-c mt45 mb50">
-        <a href="/page/user-company-certify" class="pub-btn w140 mr10">开通官网</a>
+        <a href="/page/user-company-certify" class="pub-btn w140 mr10">设置官网</a>
         <a href="#" class="pub-btn-b w140">我要融资</a>
       </p>
     </div>

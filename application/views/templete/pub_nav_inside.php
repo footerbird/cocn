@@ -6,7 +6,7 @@
   </div>
   <div class="manage-top-r">
     <div class="left">
-      <a href="#">股权交易中心</a>
+      <a href="/page/trading-center">股权交易中心</a>
       <a href="/page/company-credit-list">公司信用查询</a>
       <a href="#">新媒体资讯</a>
     </div>

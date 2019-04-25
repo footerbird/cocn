@@ -46,7 +46,7 @@
               <a href="/page/home_london.php">首页</a>
             </li>
             <li>
-              <a href="">股权交易中心</a>
+              <a href="/page/trading-center">股权交易中心</a>
             </li>
             <li>
               <a href="/page/company-credit-list.php">公司信用查询</a>

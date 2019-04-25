@@ -7589,3 +7589,122 @@ table.inner-table tbody tr {
   margin-top: 15px;
   border: 1px solid #d1dde6;
 }
+/*股权交易中心*/
+.trading-center .left {
+  background-color: #f2f6f8 !important;
+  float: left !important;
+  width: 200px;
+}
+.trading-center .left .title {
+  border-bottom: 1px solid #d1dde6;
+  padding-left: 10px;
+}
+.trading-center .left .search {
+  margin: 15px 10px 20px 10px;
+  margin-right: 10px;
+  border: 1px solid #d1dde6;
+  width: 180px;
+  height: 36px;
+  background-color: #fff !important;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.trading-center .left .search input {
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  float: left !important;
+  padding-left: 10px;
+  font-size: 12px;
+  line-height: 34px;
+  height: 34px;
+  border: none;
+  width: 140px;
+}
+.trading-center .left .search .btn {
+  width: 34px;
+  text-align: center !important;
+  float: left !important;
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  line-height: 32px;
+  height: 34px;
+  background-color: #fff;
+}
+.trading-center .left .select-panel {
+  margin-bottom: 15px;
+}
+.trading-center .left .select-panel p {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+.trading-center .left .select-panel select {
+  float: left !important;
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 180px;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid #d1dde6;
+}
+.trading-center .left .select-panel select.w85 {
+  width: 85px;
+}
+.trading-center .left .fanwei {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.trading-center .left .fanwei .box a {
+  display: block;
+  float: left !important;
+  margin-right: 14px;
+  color: #222;
+  line-height: 22px;
+  font-size: 12px;
+}
+.trading-center .left .fanwei .box a:hover,
+.trading-center .left .fanwei .box a.choosed {
+  color: #13426b !important;
+}
+.trading-center .left .bottom {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  border-top: 1px solid #d1dde6;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+}
+.trading-center .left .bottom a {
+  text-align: center !important;
+  width: 85px;
+  line-height: 36px;
+  height: 36px;
+  display: block;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.trading-center .left .bottom a.a {
+  background: #cedbe5;
+  color: #13426b !important;
+}
+.trading-center .left .bottom a.b {
+  background: #13426b;
+  color: #fff !important;
+}
+.trading-center .right {
+  float: right !important;
+  width: 948px;
+}
+.no-results {
+  width: 100% !important;
+  background-color: #fafafa !important;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.no-results img.m-auto {
+  display: block;
+}
