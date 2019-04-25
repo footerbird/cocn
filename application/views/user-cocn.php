@@ -13,13 +13,7 @@
       <div class="sub-nav-panel">
         <span class="title">公司官网</span>
       </div>
-      <div class="mt10 after-cls">
-        <div class="mb10">
-          <a href="/page/certify-web" class="abtn-gsrz">
-            <i class="ico-white-add mr3"></i>
-              公司官网认证
-          </a>
-        </div>
+      <div class="mt20 after-cls">
         <table width="100%" class="inner-table">
           <thead>
             <tr>
@@ -48,7 +42,7 @@
               <td align="">正常</td>
               <td align="right">
                 <a href="#" class="col-default ml10">续费</a>
-                <a href="/page/user-cocn-settings" class="col-default ml10">管理</a>
+                <a href="/page/user-cocn-zero" class="col-default ml10">管理</a>
               </td>
             </tr>
             <tr>
@@ -92,8 +86,8 @@
             如果您是公司法人，可以点击开通公司官网，<br />发布公司新闻、产品、管理评论或者出售公司股权。
           </p>
           <div class="ta-c pb30 pt20">
-            <a href="/page/user-cocn-zero" class="w140 pub-btn">
-              开始设置
+            <a href="/page/certify-web" class="w140 pub-btn">
+              开通公司官网
             </a>
           </div>
         </div>

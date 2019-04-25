@@ -692,10 +692,10 @@ textarea{resize: none; overflow-y:auto;}
 
 .ico-refresh{/*刷新蓝色*/
   display: inline-block;
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 13px;
   vertical-align: middle;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAASFBMVEUAAAAArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfW490ZdAAAAGHRSTlMAurEGrVkkDKhtGr60onZTTEnbzH1lYyOwsVUtAAAAVklEQVQI103ORxLAIAwDQIHpndT//zQewoTsST7INgDyUql0WLAgKliPpoKEwaB3h/PCq2UNRVjyiho/Drf9Bom4+Zl7gUtzdRAWFMQoNr4335GycPcBqiMCByZHwXAAAAAASUVORK5CYII=) no-repeat 50%;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAMAAACuAq9NAAAAY1BMVEUAAAA1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfKjq6p3AAAAIXRSTlMA8YL2/vqzkcxWGvTUq6GaVEEqFhEG5ePg2sO7V0xJOAsy2mNIAAAAa0lEQVQI1zWNVw7EMAhEGeOatmnb0u9/yiATv4/RPBCCMlsb24MeJg8wsKoZtmGcBo+OhJmdjgOM5EtS+X4k/q6ist7pZ2t+PCFRYLeQ4nHKbTOrXQ5a3jkbGDUbTd/ZunyIEHxFhTH1Qy43XKADXqZlAKwAAAAASUVORK5CYII=) no-repeat 50%;
 }
 
 .ico-red-up{/*数据上升红色箭头*/
@@ -2322,8 +2322,8 @@ body.on #bgblack {
 .search-panel{
   input[type=text]{
     border:1px solid @base-body-background;
-    height: 38px;
-    line-height: 38px;
+    height: 36px;
+    line-height: 36px;
     padding-left: 10px;
     .bg-white;
     .in-block;
@@ -2611,34 +2611,35 @@ body.on #bgblack {
         }
       }
     }
-    .action{
-      .fl-l;
-      width:362px;
-      p{
-        .clearfix;
+
+  }
+  .action{
+    .fl-l;
+    width:362px;
+    p{
+      .clearfix;
+      .in-block;
+      .ta-r;
+      .w-all;
+      a{
+        font-size: 12px;
+        margin-right: 12px;
+        .col-default;
         .in-block;
-        .ta-r;
-        .w-all;
-        a{
-          font-size: 12px;
-          margin-right: 12px;
+        &:last-child{
+          margin-right:0;
+        }
+        &:hover{
           .col-default;
-          .in-block;
-          &:last-child{
-            margin-right:0;
-          }
-          &:hover{
-            .col-default;
-          }
-          i{
-            margin-right: 3px;
-          }
+        }
+        i{
+          margin-right: 3px;
         }
       }
-      a{
-        &.abtn-renzheng{
-          margin-right: 75px;
-        }
+    }
+    a{
+      &.abtn-renzheng{
+        margin-right: 75px;
       }
     }
   }
@@ -2840,6 +2841,82 @@ body.on #bgblack {
         display:block;
         margin:0 auto;
       }
+    }
+  }
+}
+/*公司信用查询详情页简化*/
+.site-nav-simple{
+  .w-all;
+}
+.company-info-simple{
+  table{
+    td{
+      padding:0 0 5px 0;
+    }
+  }
+  dl{
+    &.info{
+      line-height:26px;
+      margin-left:120px;
+      .fl-l;
+      dt{
+        font-size:12px;
+        width:108px;
+        margin-left:-108px;
+        .ta-r;
+        .in-block;
+        .fl-l;
+      }
+      dd{
+        .in-block;
+        padding-left:2px;
+        margin-right:6px;
+        font-size:12px;
+        .fl-l;
+        max-width:230px;
+        &.width-auto{
+          max-width:max-content;
+        }
+      }
+    }
+  }
+  .business-scope{
+    .bg-f2f6f8;
+    padding:12px 15px;
+    font-size:12px;
+    line-height: 22px;
+  }
+}
+.company-page-bottom{
+  div{
+    width: 567px;
+    height:166px;
+    .fl-l;
+    &.a{
+      background:url(../images/ktgs.jpg) no-repeat 50%;
+      margin-right:32px;
+    }
+    &.b{
+      background:url(../images/fqgsgqjy.jpg) no-repeat 50%;
+    }
+    p{
+      .ta-c;
+      .col-white;
+      font-size:36px;
+      margin-top:35px;
+      margin-bottom:25px;
+      letter-spacing: 2px;
+    }
+    a{
+      border:1px solid #fff;
+      .col-white;
+      width:114px;
+      height:34px;
+      line-height:34px;
+      .m-auto;
+      .ta-c;
+      .border-radius(2px);
+      display:block;
     }
   }
 }
@@ -3863,7 +3940,8 @@ table{
 .full-input{
   input{
     .w-all;
-    height:45px;
+    height:46px;
+    line-height:46px;
     padding:5px 12px;
     border:1px solid @base-body-background;
   }

@@ -86,6 +86,10 @@ table tr:hover {
         <td align="right">公司信用查询_详细</td>
         <td><a href="<?php echo base_url() ?>page/company-credit-page" target="_blank"><?php echo base_url() ?>page/company-credit-page</a></td>
     </tr>
+    <tr>
+        <td align="right">公司信用查询_详细_简化版</td>
+        <td><a href="<?php echo base_url() ?>page/company-credit-page-simple" target="_blank"><?php echo base_url() ?>page/company-credit-page-simple</a></td>
+    </tr>
 </table>
 <table>
     <tr style="color: #f00;"><th align="right" width="200">标题</th><th align="left">管理员后台路由</th></tr>

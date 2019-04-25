@@ -17,7 +17,7 @@
                   <font class="had">已实名</font>
                 </li>
                 <li>
-                  <a href="javascript:;">
+                  <a href="/page/user-message">
                     我的消息
                     <em class="r-message"></em>
                   </a>
@@ -28,7 +28,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="javascript:;">资金账户</a>
+                  <a href="/page/user-money">资金账户</a>
                 </li>
                 <li>
                   <a href="/page/user-security">安全设置</a>

@@ -4031,10 +4031,10 @@ textarea {
 .ico-refresh {
   /*刷新蓝色*/
   display: inline-block;
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 13px;
   vertical-align: middle;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAASFBMVEUAAAAArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfW490ZdAAAAGHRSTlMAurEGrVkkDKhtGr60onZTTEnbzH1lYyOwsVUtAAAAVklEQVQI103ORxLAIAwDQIHpndT//zQewoTsST7INgDyUql0WLAgKliPpoKEwaB3h/PCq2UNRVjyiho/Drf9Bom4+Zl7gUtzdRAWFMQoNr4335GycPcBqiMCByZHwXAAAAAASUVORK5CYII=) no-repeat 50%;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAMAAACuAq9NAAAAY1BMVEUAAAA1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfKjq6p3AAAAIXRSTlMA8YL2/vqzkcxWGvTUq6GaVEEqFhEG5ePg2sO7V0xJOAsy2mNIAAAAa0lEQVQI1zWNVw7EMAhEGeOatmnb0u9/yiATv4/RPBCCMlsb24MeJg8wsKoZtmGcBo+OhJmdjgOM5EtS+X4k/q6ist7pZ2t+PCFRYLeQ4nHKbTOrXQ5a3jkbGDUbTd/ZunyIEHxFhTH1Qy43XKADXqZlAKwAAAAASUVORK5CYII=) no-repeat 50%;
 }
 .ico-red-up {
   /*数据上升红色箭头*/
@@ -5752,8 +5752,8 @@ body.on #bgblack {
 }
 .search-panel input[type=text] {
   border: 1px solid #d1dde6;
-  height: 38px;
-  line-height: 38px;
+  height: 36px;
+  line-height: 36px;
   padding-left: 10px;
   background-color: #fff !important;
   display: inline-block !important;
@@ -6135,11 +6135,11 @@ body.on #bgblack {
   max-width: 450px;
   margin-right: 5px;
 }
-.company-top-panel .bd .action {
+.company-top-panel .action {
   float: left !important;
   width: 362px;
 }
-.company-top-panel .bd .action p {
+.company-top-panel .action p {
   clear: both !important;
   display: inline-block !important;
   *display: inline !important;
@@ -6147,7 +6147,7 @@ body.on #bgblack {
   text-align: right !important;
   width: 100% !important;
 }
-.company-top-panel .bd .action p a {
+.company-top-panel .action p a {
   font-size: 12px;
   margin-right: 12px;
   color: #13426b !important;
@@ -6155,16 +6155,16 @@ body.on #bgblack {
   *display: inline !important;
   *zoom: 1 !important;
 }
-.company-top-panel .bd .action p a:last-child {
+.company-top-panel .action p a:last-child {
   margin-right: 0;
 }
-.company-top-panel .bd .action p a:hover {
+.company-top-panel .action p a:hover {
   color: #13426b !important;
 }
-.company-top-panel .bd .action p a i {
+.company-top-panel .action p a i {
   margin-right: 3px;
 }
-.company-top-panel .bd .action a.abtn-renzheng {
+.company-top-panel .action a.abtn-renzheng {
   margin-right: 75px;
 }
 .company-top-panel .foot {
@@ -6361,6 +6361,80 @@ body.on #bgblack {
 .company-credit-r-panel .bd .download img {
   display: block;
   margin: 0 auto;
+}
+/*公司信用查询详情页简化*/
+.site-nav-simple {
+  width: 100% !important;
+}
+.company-info-simple table td {
+  padding: 0 0 5px 0;
+}
+.company-info-simple dl.info {
+  line-height: 26px;
+  margin-left: 120px;
+  float: left !important;
+}
+.company-info-simple dl.info dt {
+  font-size: 12px;
+  width: 108px;
+  margin-left: -108px;
+  text-align: right !important;
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  float: left !important;
+}
+.company-info-simple dl.info dd {
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  padding-left: 2px;
+  margin-right: 6px;
+  font-size: 12px;
+  float: left !important;
+  max-width: 230px;
+}
+.company-info-simple dl.info dd.width-auto {
+  max-width: max-content;
+}
+.company-info-simple .business-scope {
+  background-color: #f2f6f8 !important;
+  padding: 12px 15px;
+  font-size: 12px;
+  line-height: 22px;
+}
+.company-page-bottom div {
+  width: 567px;
+  height: 166px;
+  float: left !important;
+}
+.company-page-bottom div.a {
+  background: url(../images/ktgs.jpg) no-repeat 50%;
+  margin-right: 32px;
+}
+.company-page-bottom div.b {
+  background: url(../images/fqgsgqjy.jpg) no-repeat 50%;
+}
+.company-page-bottom div p {
+  text-align: center !important;
+  color: #fff !important;
+  font-size: 36px;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+.company-page-bottom div a {
+  border: 1px solid #fff;
+  color: #fff !important;
+  width: 114px;
+  height: 34px;
+  line-height: 34px;
+  margin: 0 auto !important;
+  text-align: center !important;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: block;
 }
 /*个人中心*/
 .manage-top {
@@ -7431,7 +7505,8 @@ table.inner-table tbody tr {
 }
 .full-input input {
   width: 100% !important;
-  height: 45px;
+  height: 46px;
+  line-height: 46px;
   padding: 5px 12px;
   border: 1px solid #d1dde6;
 }
