@@ -907,6 +907,12 @@ textarea{resize: none; overflow-y:auto;}
     &.pub-btn-5897cd{
       .bg-5897cd;
     }
+    &.pub-btn-5897cd{
+      .bg-5897cd;
+    }
+    &.pub-btn-f2f6f8{
+      .bg-f2f6f8;
+    }
 }
 .pub-btn-b{/*默认高度36，正常按钮，背景#fff 边框颜色 #3daaef 默认色*/
     display: inline-block;
@@ -3964,6 +3970,17 @@ table{
   .w-all;
   height: 1px;
 }
+.catalog-editor{
+  input{
+    border:none;
+    line-height:30px;
+    padding:0 20px 0 6px;
+    border:1px solid #fff;
+    &.on{
+      border:1px solid @base-body-background;
+    }
+  }
+}
 /*股权订单*/
 .order-table{
   padding:20px 0 20px 40px;
@@ -4133,6 +4150,93 @@ table{
   img{
     &.m-auto{
       display:block;
+    }
+  }
+}
+/*股权交易详细*/
+.trading-title{
+  padding-bottom: 35px;
+  .left{
+    .fl-l;
+    .pos-rela;
+    em{
+    .pos-abso;
+    width:3px;
+    height:30px;
+    left:0px;
+    top:0px;
+    .bg-f4364c;
+    }
+    span{
+      padding-top: 12px;
+      padding-left: 20px;
+      font-size:18px;
+      .col-default;
+      .in-block;
+      i{
+        font-size:14px;
+        .col-gray6;
+        .pos-rela;
+        .in-block;
+        top:-5px;
+        right:0px;
+      }
+    }
+  }
+  .right{
+    .fl-r;
+    padding-top: 12px;
+    ul{
+      li{
+        border-right:1px solid #a2b4c4;
+        .fl-l;
+        padding:0 30px;
+        &:last-child{
+          border-right:none;
+          padding-right: 20px;
+        }
+        a{
+          .in-block;
+          .col-default;
+        }
+      }
+    }
+  }
+}
+.trading-info{
+  padding-left:70px;
+  padding-right:70px;
+  .left{
+    .fl-l;
+    width:550px;
+    padding-bottom:35px;
+    dl{
+      width:225px;
+      .fl-l;
+      &.info{
+        line-height:30px;
+        dt{
+          .col-gray9;
+          .fl-l;
+        }
+        dd{
+          .fl-l;
+        }
+      }
+    }
+  }
+  .action{
+    .fl-r;
+    width:360px;
+    padding-top:15px;
+    a{
+      margin-bottom: 15px;
+      &.w106{
+        width: 106px;
+      }
+      &.pub-btn-f2f6f8{
+        color:#d1dde6;
+      }
     }
   }
 }

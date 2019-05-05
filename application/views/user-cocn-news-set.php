@@ -49,7 +49,15 @@
         <div class="w-all full-textarea">
           <textarea name="name" rows="" cols="" placeholder="在此输入摘要" class="h90"></textarea>
         </div>
-        <p class="mt15 mb20 f12 col-gray9">摘要是可选的手工创建的内容总结，并可在首页或者新闻中心展示</p>
+        <p class="mt15 mb25 f12 col-gray9">摘要是可选的手工创建的内容总结，并可在首页或者新闻中心展示</p>
+        <div class="mt20 col-default mb10">
+          缩略图
+        </div>
+        <div class="w-all after-cls mb30">
+          <label class="upload-label" for="">
+            <input type="file" name="" value="">
+          </label>
+        </div>
         <div class="lh30 after-cls">
           <select class="normal-select lh30 h30 w180 fl-l" name="">
             <option value="">默认分类</option>

@@ -4257,6 +4257,14 @@ textarea {
 .pub-btn.pub-btn-5897cd {
   background-color: #5897cd !important;
 }
+[class^="pub-btn-"].pub-btn-5897cd,
+.pub-btn.pub-btn-5897cd {
+  background-color: #5897cd !important;
+}
+[class^="pub-btn-"].pub-btn-f2f6f8,
+.pub-btn.pub-btn-f2f6f8 {
+  background-color: #f2f6f8 !important;
+}
 .pub-btn-b {
   /*默认高度36，正常按钮，背景#fff 边框颜色 #3daaef 默认色*/
   display: inline-block;
@@ -5798,6 +5806,12 @@ body.on #bgblack {
 }
 .search-panel button.pub-btn-5897cd {
   background-color: #5897cd !important;
+}
+.search-panel button.pub-btn-5897cd {
+  background-color: #5897cd !important;
+}
+.search-panel button.pub-btn-f2f6f8 {
+  background-color: #f2f6f8 !important;
 }
 .filter-box {
   padding: 7px 14px 2px 14px;
@@ -7530,6 +7544,15 @@ table.inner-table tbody tr {
   width: 100% !important;
   height: 1px;
 }
+.catalog-editor input {
+  border: none;
+  line-height: 30px;
+  padding: 0 20px 0 6px;
+  border: 1px solid #fff;
+}
+.catalog-editor input.on {
+  border: 1px solid #d1dde6;
+}
 /*股权订单*/
 .order-table {
   padding: 20px 0 20px 40px;
@@ -7707,4 +7730,95 @@ table.inner-table tbody tr {
 }
 .no-results img.m-auto {
   display: block;
+}
+/*股权交易详细*/
+.trading-title {
+  padding-bottom: 35px;
+}
+.trading-title .left {
+  float: left !important;
+  position: relative !important;
+}
+.trading-title .left em {
+  position: absolute !important;
+  width: 3px;
+  height: 30px;
+  left: 0px;
+  top: 0px;
+  background-color: #f4364c !important;
+}
+.trading-title .left span {
+  padding-top: 12px;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #13426b !important;
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+}
+.trading-title .left span i {
+  font-size: 14px;
+  color: #666 !important;
+  position: relative !important;
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  top: -5px;
+  right: 0px;
+}
+.trading-title .right {
+  float: right !important;
+  padding-top: 12px;
+}
+.trading-title .right ul li {
+  border-right: 1px solid #a2b4c4;
+  float: left !important;
+  padding: 0 30px;
+}
+.trading-title .right ul li:last-child {
+  border-right: none;
+  padding-right: 20px;
+}
+.trading-title .right ul li a {
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  color: #13426b !important;
+}
+.trading-info {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.trading-info .left {
+  float: left !important;
+  width: 550px;
+  padding-bottom: 35px;
+}
+.trading-info .left dl {
+  width: 225px;
+  float: left !important;
+}
+.trading-info .left dl.info {
+  line-height: 30px;
+}
+.trading-info .left dl.info dt {
+  color: #999 !important;
+  float: left !important;
+}
+.trading-info .left dl.info dd {
+  float: left !important;
+}
+.trading-info .action {
+  float: right !important;
+  width: 360px;
+  padding-top: 15px;
+}
+.trading-info .action a {
+  margin-bottom: 15px;
+}
+.trading-info .action a.w106 {
+  width: 106px;
+}
+.trading-info .action a.pub-btn-f2f6f8 {
+  color: #d1dde6;
 }

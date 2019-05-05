@@ -159,7 +159,7 @@
                 </tr>
                 <tr>
                   <td width="25%" class="pl25 bg-fa">
-                      <label class="pos-rela col-default"><input type="checkbox" name="" value=""><i></i><font><em id="custom_web_a">mingshang</em>.co.cn</font></label>
+                      <label class="pos-rela col-default"><input type="radio" name="leixing" value=""><i></i><font><em id="custom_web_a">mingshang</em>.co.cn</font></label>
                   </td>
                   <td class="bg-fa">
                     <div class="col-0bb56b">
@@ -178,8 +178,8 @@
           </div>
         </div>
         <div class="fl-l w-all mt30 mb10">
-          <p class="ta-c pos-rela mb5" style="left:20px;">
-              <label class="col-default"><input type="checkbox" name="yuedu" value="yuedu" id=""><i></i><font>我已阅读并同意<a href="#" class="col-3daaef">《公司审核条款》</a></font></label>
+          <p class="ta-c pos-rela mb5">
+              <label class="col-default ml40"><input type="checkbox" name="yuedu" value="yuedu" id=""><i></i><font>我已阅读并同意<a href="#" class="col-3daaef">《公司审核条款》</a></font></label>
           </p>
           <p class="ta-c mt15 mb20">
             <a href="/page/user-cocn-zero-connect" class="pub-btn w190">下一步，设置联系方式</a>
