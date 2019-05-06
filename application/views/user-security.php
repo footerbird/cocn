@@ -26,7 +26,7 @@
                     <dl class="">
                       <dt>登录密码：</dt>
                       <dd class="col-gray9">已设置</dd>
-                      <dt>登录密码：</dt>
+                      <dt>支付密码：</dt>
                       <dd class="col-gray9">已设置</dd>
                       <dt>手机号码：</dt>
                       <dd class="">13288888888</dd>

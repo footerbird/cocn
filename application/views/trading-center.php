@@ -5,7 +5,7 @@
 </head>
 <body>
 <?php include_once('templete/pub_nav.php') ?>
-<!-- 公司信息查询详情页 -->
+<!-- 股权交易中心 -->
 <div class="container mt20 mb20">
   <div class="bg-white padding20">
     <div class="trading-center after-cls">
@@ -83,7 +83,7 @@
             <tr align="center">
               <td>7823457875</td>
               <td>
-                <a href="#" class="col-default">杭州名商网络</a>
+                <a href="/page/trading-pages" class="col-default">杭州名商网络</a>
               </td>
               <td>0.08%</td>
               <td>130万</td>
@@ -96,12 +96,25 @@
             <tr align="center">
               <td>7823457875</td>
               <td>
-                <a href="#" class="col-default">杭州商网络杭州商网络杭州商网络杭州商网络杭州商网络</a>
+                <a href="/page/trading-pages-paimai" class="col-default">杭州商网络杭州商网络杭州商网络杭州商网络杭州商网络</a>
               </td>
               <td>0.08%</td>
               <td>130万</td>
               <td>股权转让</td>
               <td>拍卖</td>
+              <td>500万</td>
+              <td>80%</td>
+              <td>2019-09-09</td>
+            </tr>
+            <tr align="center">
+              <td>7823457875</td>
+              <td>
+                <a href="/page/trading-pages-yijia" class="col-default">杭州商网</a>
+              </td>
+              <td>0.08%</td>
+              <td>130万</td>
+              <td>股权转让</td>
+              <td>议价</td>
               <td>500万</td>
               <td>80%</td>
               <td>2019-09-09</td>

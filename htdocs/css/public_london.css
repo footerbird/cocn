@@ -3518,6 +3518,9 @@ textarea {
 .bg-5897cd {
   background-color: #5897cd !important;
 }
+.bg-ffdb6d {
+  background-color: #ffdb6d !important;
+}
 /*定位position*/
 .pos-fixed {
   position: fixed !important;
@@ -7791,11 +7794,11 @@ table.inner-table tbody tr {
 }
 .trading-info .left {
   float: left !important;
-  width: 550px;
+  width: 616px;
   padding-bottom: 35px;
 }
 .trading-info .left dl {
-  width: 225px;
+  width: 308px;
   float: left !important;
 }
 .trading-info .left dl.info {
@@ -7821,4 +7824,82 @@ table.inner-table tbody tr {
 }
 .trading-info .action a.pub-btn-f2f6f8 {
   color: #d1dde6;
+}
+.trading-info .input {
+  width: 300px;
+  border: 1px solid #d1dde6;
+}
+.trading-info .input input {
+  width: 210px;
+  border: none;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 0 0 12px;
+}
+.trading-info .input em {
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  float: right !important;
+  height: 36px;
+  line-height: 36px;
+  padding-right: 20px;
+}
+.mark-info {
+  padding-bottom: 35px;
+}
+.mark-info dl.info {
+  line-height: 26px;
+  margin-left: 230px;
+  float: left !important;
+  width: 310px;
+}
+.mark-info dl.info dt {
+  color: #999 !important;
+  width: 200px;
+  margin-left: -200px;
+  text-align: right !important;
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  float: left !important;
+}
+.mark-info dl.info dd {
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  padding-left: 2px;
+  float: left !important;
+  max-width: 280px;
+}
+.mark-info dl.info dd.width-auto {
+  max-width: max-content;
+}
+.trading-rank table {
+  width: 880px;
+}
+.trading-rank table thead {
+  border: 1px solid #d1dde6;
+}
+.trading-rank table.rank tbody tr td:first-child {
+  text-indent: 80px;
+}
+.trading-rank table.rank tbody tr td:nth-child(2) {
+  text-align: center;
+}
+.trading-rank .honor {
+  padding-bottom: 30px;
+}
+.trading-rank .honor li {
+  float: left !important;
+  margin-right: 10px;
+}
+.trading-rank .honor li:last-child {
+  margin-right: 0px;
+}
+/*一口价*/
+.attention {
+  background-color: #ffdb6d !important;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
