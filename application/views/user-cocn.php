@@ -34,7 +34,7 @@
               <td align="">
                 <a href="/page/user-cocn-settings" class="col-default">杭州名商网络有限公司</a>
               </td>
-              <td align="center">marksmile.com</td>
+              <td align="left">marksmile.com</td>
               <td align="left">林赞松</td>
               <td align="">2019-04-11</td>
               <td align="">2022-04-11</td>
@@ -50,7 +50,7 @@
               <td align="">
                 <a href="/page/user-cocn-settings" class="col-default">杭州名商网络有限公司</a>
               </td>
-              <td align="center">marksmile.com</td>
+              <td align="left">marksmile.com</td>
               <td align="left">林赞松</td>
               <td align="">2019-04-11</td>
               <td align="">2022-04-11</td>
@@ -65,7 +65,7 @@
               <td align="">
                 <a href="/page/user-cocn-settings" class="col-default">杭州名商网络有限公司</a>
               </td>
-              <td align="center">marksmile.com</td>
+              <td align="left">marksmile.com</td>
               <td align="left">林赞松</td>
               <td align="">2019-04-11</td>
               <td align="">2022-04-11</td>

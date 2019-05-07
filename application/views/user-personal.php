@@ -77,7 +77,7 @@
                     <dl class="info ml60">
                       <dt>手机：</dt>
                       <dd>
-                        <font>13288888888</font><em class="block-a-renzheng">有效</em>
+                        <font>13288888888</font>
                       </dd>
                     </dl>
                   </td>
@@ -93,7 +93,7 @@
                     <dl class="info">
                       <dt>电子邮箱：</dt>
                       <dd>
-                        <font>mingshang.marksmile.com</font><em class="block-a-renzheng">有效</em>
+                        <font>mingshang.marksmile.com</font>
                       </dd>
                     </dl>
                   </td>
@@ -111,7 +111,7 @@
                     <dl class="info">
                       <dt>微博：</dt>
                       <dd>
-                        <font>mingshang.weibo.combak</font><em class="block-a-renzheng">有效</em>
+                        <font>mingshang.weibo.combak</font>
                       </dd>
                     </dl>
                   </td>
