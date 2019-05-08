@@ -7358,6 +7358,9 @@ table.inner-table tbody tr {
   height: 30px;
   margin: 15px 0;
 }
+.install-box .auto-table table .input.read {
+  background: #f2f6f8 !important;
+}
 .install-box .auto-table table .textarea {
   width: 90%;
   background-color: #fff !important;

@@ -13,7 +13,7 @@
       <div class="sub-nav-panel">
         <a href="/page/user-personal" class="">个人信息</a>
         <a href="/page/user-company-certify" class="">公司认证</a>
-        <a href="/page/user-accounts" class="">收款账户</a>
+        <a href="/page/user-accounts" class="">资金账户</a>
         <a href="/page/user-login-log" class="on">登录日志</a>
       </div>
       <div class="mt25 after-cls">

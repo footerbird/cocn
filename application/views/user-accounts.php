@@ -13,14 +13,14 @@
       <div class="sub-nav-panel">
         <a href="/page/user-personal" class="">个人信息</a>
         <a href="/page/user-company-certify" class="">公司认证</a>
-        <a href="/page/user-accounts" class="on">收款账户</a>
+        <a href="/page/user-accounts" class="on">资金账户</a>
         <a href="/page/user-login-log" class="">登录日志</a>
       </div>
       <div class="mt25 ml15 mr15 after-cls">
         <div class="mb10">
-          <a href="#" class="abtn-gsrz">
+          <a href="/page/user-accounts-set" class="abtn-gsrz">
             <i class="ico-white-add mr3"></i>
-            新增收款账户
+            新增资金账号
           </a>
         </div>
         <div class="personal-box">
@@ -83,7 +83,7 @@
               </tbody>
             </table>
             <div class="bottom">
-              <a href="#" class="col-default f12 in-block">设置
+              <a href="/page/user-accounts-set" class="col-default f12 in-block">设置
                 <i class="ico-blue-arrow"></i>
               </a>
             </div>
@@ -153,7 +153,7 @@
               </tbody>
             </table>
             <div class="bottom">
-              <a href="#" class="col-default f12 in-block">设置
+              <a href="/page/user-accounts-set" class="col-default f12 in-block">设置
                 <i class="ico-blue-arrow"></i>
               </a>
             </div>
@@ -209,7 +209,7 @@
               </tbody>
             </table>
             <div class="bottom">
-              <a href="#" class="col-default f12 in-block">设置
+              <a href="/page/user-accounts-set" class="col-default f12 in-block">设置
                 <i class="ico-blue-arrow"></i>
               </a>
             </div>
