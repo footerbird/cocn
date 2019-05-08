@@ -114,9 +114,7 @@
           <p>
             <a href="/page/trading-pay" class="pub-btn mb20">确认出价，并预付保证金</a>
           </p>
-
         </div>
-
       </div>
     </div>
   </div>
