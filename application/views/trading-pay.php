@@ -104,7 +104,7 @@
 <div class="container mt15 mb15 bg-white">
   <div class="padding20">
     <div class="ta-c mt30">
-      <i class="alert-ico-succ mr10"></i>
+      <i class="alert-ico-succ41 mr10"></i>
       <h3 class="col-4eb470 f20 ta-c pt15 pb30">支付成功</h3>
     </div>
     <div class="pay-wrap pb20 pt20">

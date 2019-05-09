@@ -4175,7 +4175,7 @@ textarea {
   vertical-align: middle;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAMAAADzapwJAAAAWlBMVEUAAAAAtmgAtmgAtmgAtmgAtmgAtmgAtmgAtmgAtmgAtmgAtmgAtmgAtmgAtmgAtmgAtmgAtmgAtmgAtmgAtmgAtmgAtmgAtmgAtmgAtmgAtmgAtmgAtmgAtmg8GI0QAAAAHXRSTlMA+e8NBdnhdr5mWxbGqxOwjOvETkAk9bGkf3ctHXYi5qkAAACeSURBVBjTdVHXEsMgDDOYETLJ6ub/f7PHqqE59GJOZyTbggg0i2JcLgaBIDR3CVyLzM6dK9DNkR2kqyCHoDC6P4xeR7sLNADyWiH4IvQV24nNlx6mqhefoU6gCnY9018FjFh2HCy9Ir3t3tica26IIrf9rZylvVSyZOZjkW4w/Qa04kEuPa0jieXYWL5xqsZh2zHUob2CQhkxU/cc8RceUyWTCDVPxQAAAABJRU5ErkJggg==) no-repeat 50%;
 }
-.alert-ico-succ {
+.alert-ico-succ41 {
   /*绿色成功41-41*/
   display: inline-block;
   width: 41px;
@@ -7535,6 +7535,33 @@ table.inner-table tbody tr {
 .install-box .bd .bottom {
   text-align: right !important;
   line-height: 84px;
+}
+.zero-last-info {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.zero-last-info dl.info {
+  line-height: 30px;
+  width: 100%;
+  float: left !important;
+}
+.zero-last-info dl.info dt {
+  color: #999 !important;
+  width: 100px;
+  text-align: right !important;
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  float: left !important;
+}
+.zero-last-info dl.info dd {
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  padding-left: 2px;
+  margin-right: 10px;
+  float: left !important;
+  margin-right: 40px;
 }
 .table-top-tools {
   margin-bottom: 15px;

@@ -37,12 +37,45 @@
             完成设置</a>
       </div>
       <div class="mt25 after-cls">
-
-        <div class="fl-l w-all mt30 mb10">
-          <p class="ta-c mt15 mb20">
-            <a href="/page/user-" class="pub-btn w190 mr18">支付</a>
-            <a href="/page/user-" class="pub-btn w190 mr18">开始股权交易</a>
-            <a href="/page/user-cocn" class="pub-btn-b w190 mr18">预览公司官网</a>
+        <div class="w350 m-auto pt15 mb10">
+          <p class="pl22 f18 lh28 col-default">
+            <i class="alert-ico-succ"></i>
+            恭喜，您已完成官网基础设置
+          </p>
+          <div class="zero-last-info after-cls">
+            <dl class="info">
+              <dt>公司名称：</dt>
+              <dd>杭州XXXXXXXXXX</dd>
+            </dl>
+            <dl class="info">
+              <dt>官网实名网址：</dt>
+              <dd>jjj.co.cn</dd>
+            </dl>
+            <dl class="info">
+              <dt>服务有效期限：</dt>
+              <dd>2019-04-04至2019-09-04</dd>
+            </dl>
+          </div>
+        </div>
+        <div class="hr mb50 mt25"></div>
+        <div class="w350 m-auto mb10">
+          <p class="pl22 pb25">
+            专业实名网址：wl.co.cn
+          </p>
+          <p class="pl22">
+            实名服务年费：
+            <em class="in-block f20 col-f4364c">5000<i class="f14 ml3 in-block">元/人民币</i>
+            </em>
+          </p>
+          <p class="ta-c mt30 pb25" style="margin-left:-38px;">
+            <a href="/page/trading-pay" class="pub-btn pub-btn-d2434a w140">支付</a><a href="/page/user-cocn" class="in-block col-3daaef ml20">>>&nbsp;预览公司官网</a></p>
+        </div>
+        <div class="remark lh24 mt40">
+          <p class="f12 col-default fb mb15">公司实名网址使用规范</p>
+          <p class="f12 col-gray5">
+            1. 交易时候需要注意的事项
+            <br />
+            2. 交易手续费说明
           </p>
         </div>
       </div>
