@@ -787,6 +787,14 @@ textarea{resize: none; overflow-y:auto;}
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAMAAADX9CSSAAAAaVBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8G612AAAAInRSTlMAQAWBnglV8t3Z0rVZUUoN1Pekh3Dvvo99sKiLZezWwZlgW/4BOwAAAM9JREFUKM91UumawiAMDIFCOay0tcfqnvP+D7naoFar8wO+DMmQDJCAG/Pdos2mYVrB1hhir09xQG1vbHVEsCx1NqOrCv0Dfa9mjVEOjki0xie6y5Yw0yM0LBHXoYjs9b5I5Zpphx0JFBQJEhoyX7zh2RnyH7ThKWZCv2grpQ44nNfljlNL0NLCFbOEm/xlpql9ox/IDC/7edf/et65KuneX7yHfvZHJDr8PflpxP/xwf8eY4mqDjmxsMnD8Pp9XZz0FB28tHf/D8HBhd+mEP+5pg1o+CwzTwAAAABJRU5ErkJggg==) no-repeat 50%;
 }
 
+.ico-blue-add{/*蓝色带圈加号*/
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  vertical-align: middle;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAMAAADX9CSSAAAAWlBMVEUAAABAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdKNsq/YAAAAHXRSTlMAQAWB8bSeWQrdVNXTSg3ZpI73iHBQvn2oZcGZYJPkV0EAAADHSURBVCjPdVJZFoMgDAyLyGbF3S5z/2tWAavW53zAy5AMQwIl8Eq5Fq1TFacDSgNZdKIpJIz9sXqGtzzVlQ5BZ/oFsVdzgTEdzCjpiCdC1MZEZwhYIm58FnmIR5ZyhtOAzQAD2+yhoiD5hedSUV3QhafCEbqozRjr0S9rvKNpCSJZ2DCl8JKvU/6Nvid14+fG//G9k87ptVlWC3Hpz7BuAZ+/fqrU//HU/w5jjnSAK7d51VB7kl3n28T51kNk9v/gJaR/V5n4Ar6cC8uKuEz+AAAAAElFTkSuQmCC) no-repeat 50%;
+}
+
 .ico-issue{/*红底白色问号*/
     display: inline-block;
     width: 14px;
@@ -802,7 +810,6 @@ textarea{resize: none; overflow-y:auto;}
     vertical-align: middle;
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAATlBMVEUAAABVpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu09hNWSAAAAGXRSTlMAwBDbliED6dTGtV4XzIV6WArWuqttVT4e24z2BQAAAGdJREFUCNdNzkcSxDAIRNE2ElZ0mtz3v+gYl+TS38BbAc6OLZJxO3ClbtlV98WpSZyfbc7eCYA1mcxpBWrwaPlQMXFqulaOJMLIgMLcmVkAkc7qMPa5b5T8xu+hTUIyxS96Lz7FnvsDloMD2vrx5rEAAAAASUVORK5CYII=) no-repeat 50%;
 }
-
 
 .alert-ico-wait{/*橙色等待*/
   display: inline-block;
@@ -1371,6 +1378,7 @@ input[type=radio]:disabled+i{
     border-color:@base-body-background !important;
   }
 }
+
 /*时间选择器*/
 .calendar {
   .pos-abso;
@@ -1663,6 +1671,25 @@ input[type=radio]:disabled+i{
     }
   }
 
+/*没有结果*/
+.no-results{
+  .w-all;
+  .bg-fa;
+  padding-top:25px;
+  padding-bottom:25px;
+  img{
+    &.m-auto{
+      display:block;
+    }
+  }
+}
+
+/*分割线*/
+.hr{
+  .bg-f2f6f8;
+  .w-all;
+  height: 1px;
+}
 /*
  * public End
  */
@@ -3097,6 +3124,14 @@ body.on #bgblack {
           }
         }
       }
+      .fl-r{
+        a{
+          &.col-5897cd{
+            color:#5897cd !important;
+          }
+        }
+
+      }
     }
   }
 }
@@ -3783,17 +3818,45 @@ table{
             }
           }
         }
-        .input{
-          .bg-white;
-          border:1px solid @base-body-background;
-          padding-left:12px;
-          font-size:12px;
-          line-height:30px;
-          height: 30px;
-          margin:15px 0;
-          &.read{
-            background:@base-border-color !important;
+        input{
+          &.input{
+            .bg-white;
+            border:1px solid @base-body-background;
+            padding-left:12px;
+            font-size:12px;
+            line-height:30px;
+            height: 30px;
+            margin:15px 0;
+            &.read{
+              background:@base-border-color !important;
+            }
           }
+        }
+        .input{
+            border:1px solid @base-body-background;
+            margin:15px 0;
+          &.percent{
+            height:30px;
+            line-height:30px;
+            input{
+              .bg-white;
+              padding-left:12px;
+              font-size:12px;
+              line-height:28px;
+              height: 28px;
+              border:none;
+              display:inline-block;
+              float: left;
+            }
+            em{
+              font-size: 12px;
+              display:inline-block;
+              line-height:28px;
+              float:right;
+              margin-right:10px;
+            }
+          }
+
         }
         .textarea{
           width:90%;
@@ -3985,11 +4048,7 @@ table{
   .in-block;
   .border-radius(0px);
 }
-.hr{
-  .bg-f2f6f8;
-  .w-all;
-  height: 1px;
-}
+
 .catalog-editor{
   input{
     border:none;
@@ -4014,7 +4073,7 @@ table{
           .fl-l;
           dt{
             .col-gray9;
-            width:65px;
+            width:75px;
             margin-left:-65px;
             .ta-r;
             .in-block;
@@ -4161,18 +4220,7 @@ table{
     width: 948px;
   }
 }
-//没有结果
-.no-results{
-  .w-all;
-  .bg-fa;
-  padding-top:25px;
-  padding-bottom:25px;
-  img{
-    &.m-auto{
-      display:block;
-    }
-  }
-}
+
 /*股权交易详细*/
 .trading-title{
   padding-bottom: 35px;
@@ -4430,4 +4478,29 @@ table{
   input[type=radio]:checked+i{
     display:block;
   }
+}
+/*股权发布*/
+.stock-publish-info{
+  dl{
+    &.info{
+      line-height:26px;
+      width:100%;
+      .fl-l;
+      dt{
+        .col-gray9;
+        width:100px;
+        .ta-r;
+        .in-block;
+        .fl-l;
+      }
+      dd{
+        .in-block;
+        padding-left:2px;
+        margin-right:10px;
+        .fl-l;
+        margin-right:40px;
+      }
+    }
+  }
+
 }

@@ -29,14 +29,14 @@
           <thead>
             <tr>
               <th width="6%" align="center">序号</th>
-              <th width="20%" align="left">名称</th>
-              <th width="10%" align="left">编号</th>
+              <th width="19%" align="left">名称</th>
+              <th width="9%" align="left">编号</th>
               <th width="9%" align="center">持有总量</th>
               <th width="9%" align="center">可用份额</th>
               <th width="9%" align="center">异常冻结</th>
               <th width="9%" align="center">在途份额</th>
               <th width="9%" align="center">质押份额</th>
-              <th width="19%" align="right">
+              <th width="21%" align="right">
                 <a href="/page/user-stock-history" class="col-3daaef underline">资产流通记录</a>
               </th>
             </tr>
@@ -54,8 +54,9 @@
               <td align="center">0.05%</td>
               <td align="center">0.1%</td>
               <td align="right">
-                <a href="javascript:;" class="col-default ml10">发布股权交易</a>
-                <a href="javascript:;" class="col-default ml10">管理</a>
+                <a href="/page/user-stock-publish" class="col-default ml10">发布交易</a>
+                <a href="javascript:;" class="col-default ml10">信息披露</a>
+                <a href="/page/user-stock-manage" class="col-default ml10">管理</a>
                 <a href="javascript:;" class="col-default ml10">锁仓</a>
               </td>
             </tr>

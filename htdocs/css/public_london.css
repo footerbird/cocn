@@ -4127,6 +4127,14 @@ textarea {
   vertical-align: middle;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAMAAADX9CSSAAAAaVBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8G612AAAAInRSTlMAQAWBnglV8t3Z0rVZUUoN1Pekh3Dvvo99sKiLZezWwZlgW/4BOwAAAM9JREFUKM91UumawiAMDIFCOay0tcfqnvP+D7naoFar8wO+DMmQDJCAG/Pdos2mYVrB1hhir09xQG1vbHVEsCx1NqOrCv0Dfa9mjVEOjki0xie6y5Yw0yM0LBHXoYjs9b5I5Zpphx0JFBQJEhoyX7zh2RnyH7ThKWZCv2grpQ44nNfljlNL0NLCFbOEm/xlpql9ox/IDC/7edf/et65KuneX7yHfvZHJDr8PflpxP/xwf8eY4mqDjmxsMnD8Pp9XZz0FB28tHf/D8HBhd+mEP+5pg1o+CwzTwAAAABJRU5ErkJggg==) no-repeat 50%;
 }
+.ico-blue-add {
+  /*蓝色带圈加号*/
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  vertical-align: middle;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAMAAADX9CSSAAAAWlBMVEUAAABAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdJAmdKNsq/YAAAAHXRSTlMAQAWB8bSeWQrdVNXTSg3ZpI73iHBQvn2oZcGZYJPkV0EAAADHSURBVCjPdVJZFoMgDAyLyGbF3S5z/2tWAavW53zAy5AMQwIl8Eq5Fq1TFacDSgNZdKIpJIz9sXqGtzzVlQ5BZ/oFsVdzgTEdzCjpiCdC1MZEZwhYIm58FnmIR5ZyhtOAzQAD2+yhoiD5hedSUV3QhafCEbqozRjr0S9rvKNpCSJZ2DCl8JKvU/6Nvid14+fG//G9k87ptVlWC3Hpz7BuAZ+/fqrU//HU/w5jjnSAK7d51VB7kl3n28T51kNk9v/gJaR/V5n4Ar6cC8uKuEz+AAAAAElFTkSuQmCC) no-repeat 50%;
+}
 .ico-issue {
   /*红底白色问号*/
   display: inline-block;
@@ -5070,6 +5078,22 @@ input[type=radio]:disabled + i {
 .flow-point li p {
   height: 60px;
   overflow: hidden;
+}
+/*没有结果*/
+.no-results {
+  width: 100% !important;
+  background-color: #fafafa !important;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.no-results img.m-auto {
+  display: block;
+}
+/*分割线*/
+.hr {
+  background-color: #f2f6f8 !important;
+  width: 100% !important;
+  height: 1px;
 }
 /*
  * public End
@@ -6645,6 +6669,9 @@ body.on #bgblack {
   height: 2px;
   background-color: #f4364c !important;
 }
+.container-full .view-frt .sub-nav-panel .fl-r a.col-5897cd {
+  color: #5897cd !important;
+}
 .aside {
   display: block;
   position: fixed !important;
@@ -7349,7 +7376,7 @@ table.inner-table tbody tr {
 .install-box .auto-table table tr:last-child td:not(.bg-5897cd) {
   padding-bottom: 20px;
 }
-.install-box .auto-table table .input {
+.install-box .auto-table table input.input {
   background-color: #fff !important;
   border: 1px solid #d1dde6;
   padding-left: 12px;
@@ -7358,8 +7385,33 @@ table.inner-table tbody tr {
   height: 30px;
   margin: 15px 0;
 }
-.install-box .auto-table table .input.read {
+.install-box .auto-table table input.input.read {
   background: #f2f6f8 !important;
+}
+.install-box .auto-table table .input {
+  border: 1px solid #d1dde6;
+  margin: 15px 0;
+}
+.install-box .auto-table table .input.percent {
+  height: 30px;
+  line-height: 30px;
+}
+.install-box .auto-table table .input.percent input {
+  background-color: #fff !important;
+  padding-left: 12px;
+  font-size: 12px;
+  line-height: 28px;
+  height: 28px;
+  border: none;
+  display: inline-block;
+  float: left;
+}
+.install-box .auto-table table .input.percent em {
+  font-size: 12px;
+  display: inline-block;
+  line-height: 28px;
+  float: right;
+  margin-right: 10px;
 }
 .install-box .auto-table table .textarea {
   width: 90%;
@@ -7561,11 +7613,6 @@ table.inner-table tbody tr {
   -moz-border-radius: 0px;
   border-radius: 0px;
 }
-.hr {
-  background-color: #f2f6f8 !important;
-  width: 100% !important;
-  height: 1px;
-}
 .catalog-editor input {
   border: none;
   line-height: 30px;
@@ -7589,7 +7636,7 @@ table.inner-table tbody tr {
 }
 .order-table table td dl.info dt {
   color: #999 !important;
-  width: 65px;
+  width: 75px;
   margin-left: -65px;
   text-align: right !important;
   display: inline-block !important;
@@ -7743,15 +7790,6 @@ table.inner-table tbody tr {
 .trading-center .right {
   float: right !important;
   width: 948px;
-}
-.no-results {
-  width: 100% !important;
-  background-color: #fafafa !important;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-.no-results img.m-auto {
-  display: block;
 }
 /*股权交易详细*/
 .trading-title {
@@ -8003,4 +8041,28 @@ table.inner-table tbody tr {
 }
 .check-pay-box input[type=radio]:checked + i {
   display: block;
+}
+/*股权发布*/
+.stock-publish-info dl.info {
+  line-height: 26px;
+  width: 100%;
+  float: left !important;
+}
+.stock-publish-info dl.info dt {
+  color: #999 !important;
+  width: 100px;
+  text-align: right !important;
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  float: left !important;
+}
+.stock-publish-info dl.info dd {
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  padding-left: 2px;
+  margin-right: 10px;
+  float: left !important;
+  margin-right: 40px;
 }
