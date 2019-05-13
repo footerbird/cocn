@@ -76,7 +76,7 @@
           </dl>
         </div>
         <div class="hr fl-l mb15"></div>
-        <div class="fl-l w-all">
+        <!-- <div class="fl-l w-all">
           <div class="col-default mb15">
             买入比例
           </div>
@@ -88,16 +88,13 @@
           <p class="mt10 mb5 col-gray9">请填写您期望购买的股权份额，最小<em class="col-f4364c">1</em>%，不超过<em class="col-f4364c">5.5</em>%。
           </p>
           <p class="mb25"><em class="col-gray9">示例：1.01</em></p>
-        </div>
+        </div> -->
         <div class="fl-l w-all mb25">
-          <div class="col-default pt20 mb10">
+          <!-- <div class="col-default pt20 mb10">
             交易预估
-          </div>
-          <p class="lh26"><em class="w60 in-block">投资总额</em><em class="ml20 in-block">100,000元</em>/人民币</p>
-          <p class="lh26"><em class="w60 in-block">保证金</em><em class="ml20 in-block col-f4364c">20,000元</em>/人民币</p>
-          <p class="f12 col-gray9 pb30 lh26">
-            说明：预付定金师交易前期支付的保证金，投资金额师本次交易的资金总额。
-          </p>
+          </div> -->
+          <p class="lh26"><em class="w60 in-block">投资金额</em><em class="ml20 in-block">100,000元</em>/人民币</p>
+          <p class="lh26 pb30"><em class="w60 in-block">保证金</em><em class="ml20 in-block col-f4364c">20,000元</em>/人民币</p>
           <label class=""><input type="checkbox" name="yuedu" value="yuedu" id=""><i></i><font>我已了解<a href="#" class="col-3daaef">《股权投资风险》</a></font>并同意购买公司股权</label>
           <div class="hr fl-l mt25 mb25"></div>
           <p>

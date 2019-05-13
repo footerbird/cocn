@@ -21,7 +21,7 @@
         <div class="left">
           <em></em>
           <span>
-            杭州名商网络有限公司5.5%股权转让
+            杭州名商网络有限公司20%增资扩股
             <i>80010001</i>
           </span>
         </div>
@@ -54,24 +54,24 @@
           </dl>
           <dl class="info">
             <dt>投资方式：</dt>
-            <dd>股权转让</dd>
+            <dd>增资扩股</dd>
           </dl>
           <dl class="info">
-            <dt>交易类型：</dt>
-            <dd>一口价</dd>
+            <dt>公司估值：</dt>
+            <dd>1,500万元/人民币</dd>
           </dl>
           <dl class="info">
-            <dt>交易股权：</dt>
-            <dd>5.5%</dd>
+            <dt>增资比例：</dt>
+            <dd>20%</dd>
           </dl>
           <dl class="info">
-            <dt>交易限额：</dt>
+            <dt>最小限额：</dt>
             <dd>最低1%</dd>
           </dl>
           <dl class="info">
-            <dt>标的总价：</dt>
+            <dt>增资金额：</dt>
             <dd>
-              <em class="col-0bb56b">4,890,00元</em>/人民币
+              <em class="col-0bb56b">2,750,00元</em>/人民币
             </dd>
           </dl>
         </div>
@@ -85,7 +85,7 @@
                 <input type="text" name="" value="1"><em>%</em>
             </div>
           </div>
-          <p class="mt10 mb5 col-gray9">请填写您期望购买的股权份额，最小<em class="col-f4364c">1</em>%，不超过<em class="col-f4364c">5.5</em>%。
+          <p class="mt10 mb5 col-gray9">请填写您期望购买的股权份额，最小<em class="col-f4364c">1</em>%，不超过<em class="col-f4364c">20</em>%。
           </p>
           <p class="mb25"><em class="col-gray9">示例：1.01</em></p>
         </div>
@@ -94,14 +94,13 @@
             交易预估
           </div>
           <p class="lh26"><em class="w60 in-block">投资总额</em><em class="ml20 in-block">100,000元</em>/人民币</p>
-          <p class="lh26"><em class="w60 in-block">保证金</em><em class="ml20 in-block col-f4364c">20,000元</em>/人民币</p>
-          <p class="f12 col-gray9 pb30 lh26">
-            说明：预付定金师交易前期支付的保证金，投资金额师本次交易的资金总额。
-          </p>
+          <p class="lh25"><em class="w60 in-block">保证金</em><em class="ml20 in-block col-f4364c">20,000元</em>/人民币</p>
+        </div>
+        <div class="fl-l w-all mb10">
           <label class=""><input type="checkbox" name="yuedu" value="yuedu" id=""><i></i><font>我已了解<a href="#" class="col-3daaef">《股权投资风险》</a></font>并同意购买公司股权</label>
           <div class="hr fl-l mt25 mb25"></div>
           <p>
-            <a href="/page/trading-pay" class="pub-btn mb20">确认出价，并预付保证金</a>
+            <a href="/page/trading-pay" class="pub-btn mb20">确认出价，并预付定金</a>
           </p>
         </div>
       </div>

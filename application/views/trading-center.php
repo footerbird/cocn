@@ -119,6 +119,32 @@
               <td>80%</td>
               <td>2019-09-09</td>
             </tr>
+            <tr align="center">
+              <td>7823457875</td>
+              <td>
+                <a href="/page/trading-pages-zengzi" class="col-default">杭州商网</a>
+              </td>
+              <td>0.08%</td>
+              <td>130万</td>
+              <td>股权转让</td>
+              <td>增资扩股</td>
+              <td>500万</td>
+              <td>80%</td>
+              <td>2019-09-09</td>
+            </tr>
+            <tr align="center">
+              <td>7823457875</td>
+              <td>
+                <a href="/page/trading-pages-zhuanrang" class="col-default">杭州商网</a>
+              </td>
+              <td>0.08%</td>
+              <td>130万</td>
+              <td>股权转让</td>
+              <td>公司转让</td>
+              <td>500万</td>
+              <td>80%</td>
+              <td>2019-09-09</td>
+            </tr>
           </tbody>
         </table>
         <div class="no-results">

@@ -55,12 +55,12 @@
           <thead>
             <tr>
               <th width="6%" align="center">序号</th>
-              <th width="16%" align="left">时间</th>
-              <th width="16%" align="left">账号</th>
-              <th width="25%" align="left">持有人</th>
-              <th width="12%" align="center">收支方向</th>
-              <th width="12%" align="right">交易额</th>
-              <th width="13%" align="left">摘要</th>
+              <th width="13%" align="left">时间</th>
+              <th width="15%" align="left">账号</th>
+              <th width="18%" align="left">持有人</th>
+              <th width="8%" align="center">收支方向</th>
+              <th width="10%" align="right">交易额</th>
+              <th width="30%" align="left">摘要</th>
             </tr>
           </thead>
           <tbody>
@@ -76,9 +76,7 @@
               <td align="center">收入</td>
               <td align="right">350,999</td>
               <td align="left">
-                <p class="f12 col-default">
-                <a href="/page/user-dealing-succ" class="col-default">交易完成</a>
-                </p>
+                <p class="f12 col-gray6">交易股权[一口价]杭州XXX5.5%股权入款(28,000)。</p>
                 <p class="f12 col-gray6">
                   2019-08-30 13:09:19
                 </p>
@@ -96,9 +94,7 @@
               <td align="center">收入</td>
               <td align="right">1,350,999</td>
               <td align="left">
-                <p class="f12 col-default">
-                <a href="/page/user-dealing-freeze" class="col-default">冻结</a>
-                </p>
+                <p class="f12 col-gray6">交易股权[拍卖]杭州XXX5.5%股权入款(28,000元/人民币)。</p>
                 <p class="f12 col-gray6">
                   2019-08-30 13:09:19
                 </p>
@@ -116,9 +112,7 @@
               <td align="center">支出</td>
               <td align="right">30,999</td>
               <td align="left">
-                <p class="f12 col-default">
-                <a href="/page/user-dealing-wait-pay" class="col-default">支付</a>
-                </p>
+                <p class="f12 col-gray6">交易股权[增资扩股]杭州XXX5.5%股权扣款(28,000元/人民币)，扣除手续费：90元/人民币。</p>
                 <p class="f12 col-gray6">
                   2019-08-30 13:09:19
                 </p>
