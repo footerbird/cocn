@@ -45,7 +45,7 @@
             <tr>
               <td align="center">1</td>
               <td align="">
-                <a href="/page/user-cocn-settings" class="col-default">杭州名商网络有限公司</a>
+                <a href="/page/user-stock-change-list" class="col-default">杭州名商网络有限公司</a>
               </td>
               <td align="left">8948938</td>
               <td align="center">0.5%</td>
@@ -57,7 +57,7 @@
                 <a href="/page/user-stock-publish" class="col-default ml10">发布交易</a>
                 <a href="javascript:;" class="col-default ml10">信息披露</a>
                 <a href="/page/user-stock-manage" class="col-default ml10">管理</a>
-                <a href="javascript:;" class="col-default ml10">锁仓</a>
+                <a href="/page/user-stock-lock" class="col-default ml10">锁仓</a>
               </td>
             </tr>
           </tbody>

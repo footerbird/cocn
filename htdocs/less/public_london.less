@@ -811,6 +811,14 @@ textarea{resize: none; overflow-y:auto;}
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAATlBMVEUAAABVpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu1Vpu09hNWSAAAAGXRSTlMAwBDbliED6dTGtV4XzIV6WArWuqttVT4e24z2BQAAAGdJREFUCNdNzkcSxDAIRNE2ElZ0mtz3v+gYl+TS38BbAc6OLZJxO3ClbtlV98WpSZyfbc7eCYA1mcxpBWrwaPlQMXFqulaOJMLIgMLcmVkAkc7qMPa5b5T8xu+hTUIyxS96Lz7FnvsDloMD2vrx5rEAAAAASUVORK5CYII=) no-repeat 50%;
 }
 
+.ico-upload{/*蓝色上传*/
+    display: inline-block;
+    width: 16px;
+    height: 12px;
+    vertical-align: middle;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAMAAABcOc2zAAAATlBMVEUAAAAArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfXp7O9QAAAAGXRSTlMAD6CQIAMVCdzu076mQC7JxbKvmpmGXE4cD03nnQAAAFZJREFUCNd1yEcOgDAMRFGnOD2hF9//oigQIrPgb0bz4EnEUQDLDETBsB/ikmZ3vt+6CZXE5GwD3BGUBDwQehVa2XKwGUhz0PQL29qhiJox9xQCT5/8BT7sBFi48mtlAAAAAElFTkSuQmCC) no-repeat 50%;
+}
+
 .alert-ico-wait{/*橙色等待*/
   display: inline-block;
   width: 22px;
@@ -1175,6 +1183,30 @@ input[type=radio]:disabled+i{
   .col-white;
   .bg-5897cd;
   .border-radius(2px);
+}
+.upload-label-word{/*上传决议*/
+  .pos-rela;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAMAAABcOc2zAAAATlBMVEUAAAAArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfXp7O9QAAAAGXRSTlMAD6CQIAMVCdzu076mQC7JxbKvmpmGXE4cD03nnQAAAFZJREFUCNd1yEcOgDAMRFGnOD2hF9//oigQIrPgb0bz4EnEUQDLDETBsB/ikmZ3vt+6CZXE5GwD3BGUBDwQehVa2XKwGUhz0PQL29qhiJox9xQCT5/8BT7sBFi48mtlAAAAAElFTkSuQmCC) 15px 50% no-repeat;
+  cursor: pointer;
+  margin-right: 15px;
+  .col-3daaef;
+  border:1px solid #3daaef;
+  text-indent:28px;
+  .border-radius(2px);
+  line-height:32px;
+  height: 32px;
+  padding:0 10px;
+  display:block;
+  font-size:14px;
+  input[type=file]{
+    width:100%;
+    .pos-abso;
+    right:0;
+    top:0;
+    .opacity(0);
+    cursor:pointer;
+    height:32px;
+  }
 }
 /*数据及注销色块*/
 .pub-block2{/*默认高度22，小型色块，颜色透明,背景灰色*/
@@ -4080,6 +4112,7 @@ table{
     line-height:30px;
     padding:0 20px 0 6px;
     border:1px solid #fff;
+    width:40%;
     &.on{
       border:1px solid @base-body-background;
     }
@@ -4210,6 +4243,7 @@ table{
           font-size:12px;
           &:hover,&.choosed{
             .col-default;
+            .fb;
           }
         }
       }
