@@ -36,7 +36,7 @@
       <div class="mt25 after-cls">
         <div class="cocn-kaitong">
           <p class="ta-c f18 col-default pt30 pb30">您正在进行"<font>杭州名商网络有限公司官网</font>"初始化设置</p>
-          <img src="/htdocs/images/inner-nothing.png" alt="" class="m-auto">
+          <img src="/htdocs/images/inner-no-set.png" alt="" class="m-auto">
           <p class="ta-c col-gray6 lh28 pt30 pb50">
             公司官网是“<font>杭州名商网络</font>”<br />良好的官网展示，有利于投资人更好的了解您的公司状态，增加融资机会
           </p>

@@ -60,7 +60,7 @@
           <p class="ta-c f18 col-default pt30 pb30">
             您尚未关注任何公司
           </p>
-          <img src="/htdocs/images/inner-nothing.png" alt="" class="m-auto">
+          <img src="/htdocs/images/inner-no-guanzhu.png" alt="" class="m-auto">
           <p class="ta-c col-gray6 lh28 pt30 pb50">
             您可以“<a href="/page/user-focus-zero" class="col-default">设置我的关注范围</a>”调整感兴趣的公司，快速查找投资对象
           </p>

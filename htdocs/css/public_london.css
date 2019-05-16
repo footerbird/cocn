@@ -4573,33 +4573,43 @@ input[type=radio]:disabled + i {
 }
 .upload-label-word {
   /*上传决议*/
-  position: relative !important;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAMAAABcOc2zAAAATlBMVEUAAAAArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfXp7O9QAAAAGXRSTlMAD6CQIAMVCdzu076mQC7JxbKvmpmGXE4cD03nnQAAAFZJREFUCNd1yEcOgDAMRFGnOD2hF9//oigQIrPgb0bz4EnEUQDLDETBsB/ikmZ3vt+6CZXE5GwD3BGUBDwQehVa2XKwGUhz0PQL29qhiJox9xQCT5/8BT7sBFi48mtlAAAAAElFTkSuQmCC) 15px 50% no-repeat;
-  cursor: pointer;
-  margin-right: 15px;
+  margin-right: 10px;
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
   /*更新蓝色*/
   color: #3daaef !important;
   border: 1px solid #3daaef;
-  text-indent: 28px;
+  text-indent: 5px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
   line-height: 32px;
   height: 32px;
   padding: 0 10px;
-  display: block;
-  font-size: 14px;
 }
-.upload-label-word input[type=file] {
-  width: 100%;
-  position: absolute !important;
-  right: 0;
-  top: 0;
-  filter: alpha(opacity=0);
-  -moz-opacity: 0;
-  opacity: 0;
-  cursor: pointer;
+.upload-label-word .ico-upload {
+  margin-right: 5px;
+}
+.upload-result {
+  font-size: 12px;
+  float: left !important;
   height: 32px;
+  line-height: 32px;
+}
+.upload-result .upload-result-title {
+  color: #999 !important;
+  text-decoration: underline !important;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.upload-result .upload-result-size {
+  color: #999 !important;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.upload-result .col-default {
+  font-size: 12px;
 }
 /*数据及注销色块*/
 .pub-block2 {

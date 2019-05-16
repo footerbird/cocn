@@ -81,7 +81,7 @@
           <p class="ta-c f18 col-default pt30 pb30">
             您尚未开通公司官网或授权获得官网管理权限
           </p>
-          <img src="/htdocs/images/inner-nothing.png" alt="" class="m-auto">
+          <img src="/htdocs/images/inner-no-kaitong.png" alt="" class="m-auto">
           <p class="ta-c col-gray6 lh28 pt30 pb50">
             如果您是公司法人，可以点击开通公司官网，<br />发布公司新闻、产品、管理评论或者出售公司股权。
           </p>

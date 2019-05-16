@@ -55,7 +55,7 @@
               <td align="center">0.1%</td>
               <td align="right">
                 <a href="/page/user-stock-publish" class="col-default ml10">发布交易</a>
-                <a href="javascript:;" class="col-default ml10">信息披露</a>
+                <a href="/page/user-stock-disclosure" class="col-default ml10">信息披露</a>
                 <a href="/page/user-stock-manage" class="col-default ml10">管理</a>
                 <a href="/page/user-stock-lock" class="col-default ml10">锁仓</a>
               </td>
@@ -66,7 +66,7 @@
           <p class="ta-c f18 col-default pt30 pb30">
             您尚未持有任何公司
           </p>
-          <img src="/htdocs/images/inner-nothing.png" alt="" class="m-auto">
+          <img src="/htdocs/images/inner-no-chiyou.png" alt="" class="m-auto">
           <p class="ta-c col-gray6 lh28 pt30 pb50">
             您可以“<a href="/page/certify-web" class="col-default">公司官网认证</a>”出售持有公司股权，或投资其他公司股权，
             <br />进入“<a href="/page/user-dealing" class="col-default">股权交易中心</a>”获取更多股权交易信息
