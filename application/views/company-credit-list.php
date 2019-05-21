@@ -214,6 +214,19 @@
             <a href="#" class="pub-btn-f4364c">关注</a>
           </div>
         </div>
+        <div class="pages fl-r mr0 mt20 mb20"><em class="fl-l lh23">共有0条，每页显示：20条</em>
+            <a href="" class="first">首页</a>
+            <a href="" class="prev">上一页</a><b class="cur">1</b>
+            <a href="">2</a>
+            <a href="">3</a>
+            <span class="ml10 mr10 fl-l in-block">...</span>
+            <a href="">4</a>
+            <a href="">5</a>
+            <a href="">6</a>
+            <a href="" class="next">下一页</a>
+            <a href="" class="last">尾页</a><span class="ml5 mr5 fl-l in-block"><input type="text"></span>
+            <a href="" class="go">GO</a>
+        </div>
       </div>
   </div>
 </div>

@@ -556,6 +556,9 @@ textarea {
 .w380 {
   width: 380px !important;
 }
+.w86 {
+  width: 86px !important;
+}
 /*高度*/
 .h1 {
   height: 1px !important;
@@ -4158,6 +4161,14 @@ textarea {
   height: 12px;
   vertical-align: middle;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAMAAABcOc2zAAAATlBMVEUAAAAArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfXp7O9QAAAAGXRSTlMAD6CQIAMVCdzu076mQC7JxbKvmpmGXE4cD03nnQAAAFZJREFUCNd1yEcOgDAMRFGnOD2hF9//oigQIrPgb0bz4EnEUQDLDETBsB/ikmZ3vt+6CZXE5GwD3BGUBDwQehVa2XKwGUhz0PQL29qhiJox9xQCT5/8BT7sBFi48mtlAAAAAElFTkSuQmCC) no-repeat 50%;
+}
+.ico-turn {
+  /*红色转化*/
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  vertical-align: middle;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALBAMAAABbgmoVAAAAJFBMVEUAAADUQUbUQUbUQUbUQUbUQUbUQUbUQUbUQUbUQUbUQUbUQUYi0WZCAAAADHRSTlMAcFHOad+/k0o8HxDBQPHyAAAANklEQVQI12MAAksGMFisAKa4ExkYmpSUlFQLGBwFgcCBAQJgvFIlIGhgYMyGiCovAFOcBkACABqoB1WE32SMAAAAAElFTkSuQmCC) no-repeat 50%;
 }
 .alert-ico-wait {
   /*橙色等待*/
@@ -7964,7 +7975,7 @@ table.inner-table tbody tr {
   border: 1px solid #d1dde6;
 }
 .trading-info .input input {
-  width: 210px;
+  width: 204px;
   border: none;
   height: 36px;
   line-height: 36px;
@@ -8139,7 +8150,31 @@ table.inner-table tbody tr {
   *display: inline !important;
   *zoom: 1 !important;
   padding-left: 2px;
-  margin-right: 10px;
   float: left !important;
   margin-right: 40px;
+}
+.stock-publish-info dl.info2 {
+  line-height: 26px;
+  width: 100%;
+  float: left !important;
+  margin-right: 5px;
+  padding: 15px 0;
+}
+.stock-publish-info dl.info2 dt {
+  color: #999 !important;
+  width: 100%;
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  float: left !important;
+}
+.stock-publish-info dl.info2 dd {
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  float: left !important;
+  width: 100%;
+}
+.stock-publish-info table tr.bb {
+  border-bottom: 1px solid #f2f6f8;
 }
