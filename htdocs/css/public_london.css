@@ -4854,6 +4854,9 @@ input[type=radio]:disabled + i {
   border-color: #d1dde6 !important;
 }
 /*时间选择器*/
+input.datetxt {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAMAAAAMs7fIAAAAV1BMVEUAAAAzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzNJt775AAAAHXRSTlMAq6RZoYZRS7qBBq+nk3heLigORSMfFcVyaD2eODU9JDsAAACPSURBVBjTbYzbDoMwDEPdJL0yaLmOsf3/dy7tC0PDkZL4SDaqem6H+3Ym5klyYeaSpRoEks16JyLO200oIAAIO6r29sPoXtdGlkWX0Rl9AT7eJ/0OPJQw0YiBJKEnC1JyVadkjnFFjjFhiK+Wmq1dkG0lVsl/6mx+n83FuQ2HcwnezTcpc0OeV6CeOvOrjr6xxwVfrXHkKgAAAABJRU5ErkJggg==) no-repeat 90% 50%;
+}
 .calendar {
   position: absolute !important;
   width: 190px !important;
@@ -7973,6 +7976,24 @@ table.inner-table tbody tr {
 .trading-info .input {
   width: 300px;
   border: 1px solid #d1dde6;
+}
+.trading-info .input.no {
+  border: none;
+}
+.trading-info .input.no input.datetxt {
+  border: 1px solid #d1dde6;
+  width: 204px;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 0 0 12px;
+}
+.trading-info .input.no input.end-date {
+  border: 1px solid #d1dde6;
+  width: 204px;
+  height: 36px;
+  line-height: 36px;
+  color: #333 !important;
+  padding: 0 0 0 12px;
 }
 .trading-info .input input {
   width: 204px;

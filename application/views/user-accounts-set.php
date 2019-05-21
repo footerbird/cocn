@@ -81,7 +81,7 @@
                     </div>
                   </td>
                   <td class="bg-fa">
-                      <input type="text" name="" value="" placeholder="请输入开通时间" class="input w190" id="date">
+                      <input type="text" name="" value="" placeholder="请输入开通时间" class="datetxt input w190" id="date">
                   </td>
                 </tr>
               </tbody>

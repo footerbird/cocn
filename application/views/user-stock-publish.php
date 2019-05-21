@@ -35,29 +35,41 @@
         </p>
       </div>
       <div class="stock-publish-info mt20 pb15 after-cls">
-        <dl class="info">
-          <dt>公司名称：</dt>
-          <dd>杭州名商网络有限公司</dd>
-        </dl>
-        <dl class="info">
-          <dt>发布人身份：</dt>
-          <dd>法定代表人</dd>
-        </dl>
-        <dl class="info">
-          <dt>我的持股比例：</dt>
-          <dd>90%</dd>
-        </dl>
+        <table class="" width="100%">
+          <tbody>
+            <tr>
+              <td width="33.33%">
+                <dl class="info2">
+                  <dt>公司名称</dt>
+                  <dd>杭州名商网络有限公司</dd>
+                </dl>
+              </td>
+              <td width="33.33%">
+                <dl class="info2">
+                  <dt>发布人身份</dt>
+                  <dd>法定代表人</dd>
+                </dl>
+              </td>
+              <td width="33.33%">
+                <dl class="info2">
+                  <dt>我的持股比例</dt>
+                  <dd>90%</dd>
+                </dl>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
       <div class="hr fl-l mb15"></div>
       <div class="col-default pt20">
         股权发行方式
       </div>
       <div class="full-select mt15">
-        <select class="normal-select lh30 h30 w190" name="">
-          <option value="">请选择股权发行方式</option>
-          <option value="">股权转让</option>
-          <option value="">增资扩股</option>
-          <option value="">全资出售</option>
+        <select class="normal-select lh30 h30 w190" name="" id="fxfs">
+          <option value="0">请选择股权发行方式</option>
+          <option value="1">股权转让</option>
+          <option value="2">增资扩股</option>
+          <option value="3">公司转让</option>
         </select>
       </div>
       <p class="f12 col-gray6 pt10 lh24">
@@ -70,11 +82,11 @@
         股权交易方式
       </div>
       <div class="full-select mt15">
-        <select class="normal-select lh30 h30 w190" name="">
-          <option value="">请选择股权交易方式</option>
-          <option value="">一口价交易</option>
-          <option value="">投资人出价</option>
-          <option value="">拍卖</option>
+        <select class="normal-select lh30 h30 w190" name="" id="jyfs">
+          <option value="0">请选择股权交易方式</option>
+          <option value="1">一口价</option>
+          <option value="2">投资人出价</option>
+          <option value="3">拍卖</option>
         </select>
       </div>
       <p class="f12 col-gray6 pt10 lh24">
@@ -84,13 +96,39 @@
         <a href="#" class="f12 col-3daaef lh24">了解更多股权转让信息？</a>
       </p>
       <div class="hr fl-l mt15 mb25"></div>
-      <a href="/page/user-dealing" class="pub-btn w200 mb25">开始，发布股权交易</a>
+      <a href="javascript:;" class="pub-btn w200 mb25" id="stock_deal_start_btn">开始，发布股权交易</a>
+      <a href="/page/user-stock-yikoujia.php">内部一口价</a>
+      <a href="/page/user-stock-chujia.php">内部投资人出价</a>
+      <a href="/page/user-stock-paimai.php">内部拍卖</a>
+      <a href="/page/user-stock-kuogu.php">内部增资扩股</a>
     </div>
   </div>
 </div>
 <?php include_once('templete/pub_foot.php') ?>
 
 <script type="text/javascript">
+$(function(){
+  // $('#jyfs').on('change',function () {
+  //   var selectVal = $(this).val();
+  //   switch(selectVal) {
+  //       case 0:
+  //           alert("请选择股权交易方式！");
+  //           break;
+  //       case 1:
+  //           $('#stock_deal_start_btn').location.href = "page/user-stock-yikoujia.php";
+  //           break;
+  //       case 2:
+  //           $('#stock_deal_start_btn').location.href = "page/user-stock-chujia.php";
+  //           break;
+  //       case 3:
+  //           $('#stock_deal_start_btn').location.href = "page/user-stock-paimai.php";
+  //           break;
+  //       // default:
+  //       //     alert("请选择股权交易方式！");
+  //       //     break;
+  //   }
+  // })
+})
 </script>
 </body>
 </html>

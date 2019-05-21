@@ -55,7 +55,7 @@
               <td align="center">0.1%</td>
               <td align="right">
                 <a href="/page/user-stock-publish" class="col-default ml10">发布交易</a>
-                <a href="/page/user-stock-disclosure" class="col-default ml10">信息披露</a>
+                <a href="/page/user-stock-disclosure-tip" class="col-default ml10">信息披露</a>
                 <a href="/page/user-stock-manage" class="col-default ml10">管理</a>
                 <a href="/page/user-stock-lock" class="col-default ml10">锁仓</a>
               </td>
