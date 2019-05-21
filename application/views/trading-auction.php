@@ -81,8 +81,7 @@
                 <input type="text" name="" value="" placeholder="输入金额"><em>元/人民币</em>
             </div>
           </div>
-          <p class="mt10 mb5 col-gray9">请填写您期望购买的股权份额
-          </p>
+          <p class="mt10 mb5 col-gray9">请出价，拍卖结束后公布结果</p>
           <p class="mb25"><em class="col-gray9">示例：20000</em></p>
         </div>
         <div class="fl-l w-all mb25">

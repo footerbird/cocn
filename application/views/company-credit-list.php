@@ -101,7 +101,7 @@
       </dl>
     </div>
     <div class="condition pos-rela">
-      <a href="javascript:;" class="mt10 f12 fl-r pos-abso col-gray9 f-thin" id="foldType" style="right:25px;">更多<i class="ml3 ico-down"></i></a>
+      <a href="javascript:;" class="mt4 f12 fl-r pos-abso col-gray9 lh34" id="foldType" style="right:25px;">更多<i class="ml3 ico-down"></i></a>
       <dl class="">
         <dt class="col-gray9">行业门类：</dt>
         <dd id="bb" style="height:28px;overflow:hidden;">

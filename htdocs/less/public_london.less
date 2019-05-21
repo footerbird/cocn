@@ -2466,13 +2466,14 @@ body.on #bgblack {
       dt{
         .fl-l;
         letter-spacing:1px;
+        line-height:34px;
       }
       dd{
         .fl-l;
         width: 1085px;
         a{
           .in-block;
-          margin:0 3px 3px 3px;
+          margin:3px;
           padding:0 6px;
           &:hover{
             background:@base-border-color;
@@ -4629,5 +4630,24 @@ table{
         border-bottom:1px solid @base-border-color;
       }
     }
+  }
+}
+/*个人中心*/
+.all-full{
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  .border-box;
+  .all-flt{
+    .border-box;
+    display: table-cell;
+    width: 78%;
+    padding-right: 15px;
+    vertical-align: top;
+  }
+  .all-frt{
+    display: table-cell;
+    width: 22%;
+    vertical-align: top;
   }
 }

@@ -92,7 +92,7 @@
                 <input type="text" name="" value="" placeholder="输入金额"><em>元/人民币</em>
             </div>
           </div>
-          <p class="mt10  mb25 f12 col-gray9 lh26">请填写您购买以上股权份额，意向出价总额<br />系统将金额发送给股权持有人，对方同意即可成交。</p>
+          <p class="mt10  mb25 f12 col-gray9 lh26">请填写您购买以上份额股权的意向出价<br />系统将询价发送给股权持有人，对方同意即可成交</p>
         </div>
         <div class="fl-l w-all mb10">
           <label class=""><input type="checkbox" name="yuedu" value="yuedu" id=""><i></i><font>我已了解<a href="#" class="col-3daaef">《股权投资风险》</a></font>并同意购买公司股权</label>

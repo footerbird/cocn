@@ -62,7 +62,7 @@
             <tr>
               <td align="center">1</td>
               <td align="">
-                <a href="/page/user-cocn-settings" class="col-default">杭州名商网络有限公司</a>
+                <a href="/page/user-dealing-succ-transfer" class="col-default">杭州名商网络有限公司</a>
               </td>
               <td align="center">0.10%</td>
               <td align="right">&yen;999</td>
@@ -81,7 +81,7 @@
             <tr>
               <td align="center">1</td>
               <td align="">
-                <a href="/page/user-cocn-settings" class="col-default">杭州名商网络有限公司</a>
+                <a href="/page/trading-pay" class="col-default">杭州名商网络有限公司</a>
               </td>
               <td align="center">0.10%</td>
               <td align="right">&yen;999</td>
@@ -90,7 +90,7 @@
               <td align="">股权转让</td>
               <td align="left">
                 <p class="f12 col-default">
-                  <a href="#" class="f12 col-default">支付</a>
+                  <a href="/page/trading-pay" class="f12 col-default">支付</a>
                 </p>
                 <p class="f12 col-gray6">
                   2019-08-30 13:09:19
@@ -100,7 +100,7 @@
             <tr>
               <td align="center">1</td>
               <td align="">
-                <a href="/page/user-cocn-settings" class="col-default">杭州名商网络有限公司</a>
+                <a href="/page/user-dealing-wait-transfer" class="col-default">杭州名商网络有限公司</a>
               </td>
               <td align="center">0.10%</td>
               <td align="right">&yen;999</td>
