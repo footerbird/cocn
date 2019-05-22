@@ -100,7 +100,7 @@
         </div>
         <div class="w300">
           <div class="input">
-              <input type="text" name="" value="" placeholder="输入金额"><em>万元/人民币</em>
+              <input type="text" name="" value="" placeholder="输入金额"><em>元/人民币</em>
           </div>
         </div>
         <!-- <p class="mt10 mb25 col-gray9">用户出价低于最低平均价，则不接收交易提醒</p> -->
@@ -111,7 +111,7 @@
         </div>
         <div class="">
           <div class="input w300 fl-l">
-              <input type="text" name="" value="" placeholder="输入金额"><em>万元/人民币</em>
+              <input type="text" name="" value="" placeholder="输入金额"><em>元/人民币</em>
           </div>
         </div>
         <div class="fl-l lh38 f12 ml10 mb25 col-gray9">超过保留价才可成交</div>

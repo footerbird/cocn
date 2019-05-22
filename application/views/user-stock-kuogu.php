@@ -84,7 +84,7 @@
         </div>
         <div class="w300">
           <div class="input">
-              <input type="text" name="" value="" placeholder="输入金额"><em>万元/人民币</em>
+              <input type="text" name="" value="" placeholder="输入金额"><em>元/人民币</em>
           </div>
         </div>
         <p class="mt10 mb25 col-gray9"><em class="col-f4364c">可售股权95%</em></p>
@@ -95,7 +95,7 @@
         </div>
         <div class="lh38">
           <div class="input w300 fl-l">
-              <input type="text" name="" value="" placeholder="输入金额"><em>万元/人民币</em>
+              <input type="text" name="" value="" placeholder="输入金额"><em>元/人民币</em>
           </div><i class="ml10 ico-turn mr10"></i><em class="col-f4364c">20%</em>
         </div>
           <p class="mt10 mb25 col-gray9 w300"><em class="col-f4364c">手续费600元</em><em class="col-f4364c fl-r">预计融资299,40元</em></p>
