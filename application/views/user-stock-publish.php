@@ -189,7 +189,7 @@
           </div>
           <div class="w300">
             <div class="input">
-                <input type="text" name="" value="" placeholder="输入金额"><em>万元/人民币</em>
+                <input type="text" name="" value="" placeholder="输入金额"><em>元/人民币</em>
             </div>
           </div>
           <!-- <p class="mt10 mb25 col-gray9">用户出价低于最低平均价，则不接收交易提醒</p> -->
@@ -200,7 +200,7 @@
           </div>
           <div class="">
             <div class="input w300 fl-l">
-                <input type="text" name="" value="" placeholder="输入金额"><em>万元/人民币</em>
+                <input type="text" name="" value="" placeholder="输入金额"><em>元/人民币</em>
             </div>
           </div>
           <div class="fl-l lh38 f12 ml10 mb25 col-gray9">超过保留价才可成交</div>
@@ -211,7 +211,7 @@
           </div>
           <div class="">
             <div class="input no w700">
-                <input type="text" name="" value="1" class="datetxt fl-l" id="date"><font class="lh38 f12 in-block ml15 fl-l">9:00</font><font class="lh38 f12 in-block ml5 mr10 fl-l">截至</font><input type="text" name="" value="2019-09-09 21:00" class="end-date fl-l" readonly>
+                <input type="text" name="" value="" class="datetxt fl-l" id="date" placeholder="选择起拍日期"><font class="lh38 f12 in-block ml15 fl-l">9:00</font><font class="lh38 f12 in-block ml5 mr10 fl-l">截至</font><input type="text" name="" value="2019-09-09 21:00" class="end-date fl-l" readonly>
             </div>
           </div>
         </div>
@@ -226,7 +226,7 @@
           </div>
           <div class="w300">
             <div class="input">
-                <input type="text" name="" value="" placeholder="输入金额"><em>万元/人民币</em>
+                <input type="text" name="" value="" placeholder="输入金额"><em>元/人民币</em>
             </div>
           </div>
           <p class="mt10 mb25 col-gray9"><em class="col-f4364c">可售股权95%</em></p>
@@ -237,7 +237,7 @@
           </div>
           <div class="lh38">
             <div class="input w300 fl-l">
-                <input type="text" name="" value="" placeholder="输入金额"><em>万元/人民币</em>
+                <input type="text" name="" value="" placeholder="输入金额"><em>元/人民币</em>
             </div><i class="ml10 ico-turn mr10"></i><em class="col-f4364c">20%</em>
           </div>
             <p class="mt10 mb25 col-gray9 w300"><em class="col-f4364c">手续费600元</em><em class="col-f4364c fl-r">预计融资299,40元</em></p>
@@ -316,9 +316,14 @@
 </div>
 
 <?php include_once('templete/pub_foot.php') ?>
-
+<script src="/htdocs/js/lyz.calendar.min.js?<?php echo CACHE_TIME; ?>"></script>
 <script type="text/javascript">
 $(function(){
+  // 时间选择器
+  $("#date").calendar({
+    readonly : false
+  });
+  
   $('#fxfs').on('change',function () {
     $(".block-stock-panel").hide();
     $("#block_payment").hide();
