@@ -57,10 +57,10 @@
         </div>
         <div class="bottom after-cls">
           <a href="javascript:;" class="a fl-l">
-            重新筛选
+            清空
           </a>
           <a href="javascript:;" class="b fl-r">
-            高级筛选
+            搜索
           </a>
         </div>
       </div>
@@ -147,6 +147,21 @@
             </tr>
           </tbody>
         </table>
+        <div class="after-cls mb20">
+          <div class="pages fl-r mr0 "><em class="fl-l lh23">共有0条，每页显示：20条</em>
+              <a href="" class="first">首页</a>
+              <a href="" class="prev">上一页</a><b class="cur">1</b>
+              <a href="">2</a>
+              <a href="">3</a>
+              <span class="ml10 mr10 fl-l in-block">...</span>
+              <a href="">4</a>
+              <a href="">5</a>
+              <a href="">6</a>
+              <a href="" class="next">下一页</a>
+              <a href="" class="last">尾页</a><span class="ml5 mr5 fl-l in-block"><input type="text"></span>
+              <a href="" class="go">GO</a>
+          </div>
+        </div>
         <div class="no-results">
           <img src="/htdocs/images/inner-nothing.png" alt="" class="m-auto">
           <p class="ta-c col-default f18 lh24 pt20 pb20">

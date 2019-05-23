@@ -4964,7 +4964,7 @@ input.datetxt {
   width: 15px;
   height: 15px;
   float: right !important;
-  margin: 8px 5px 0 0;
+  margin: 8px 0px 0 0px;
   cursor: pointer;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAClBAMAAACJn0EGAAAAHlBMVEUAAAATQmv//v7k5OT5+fn39/fy8vLv7+/p6end3d1Z3ztQAAAAAXRSTlMAQObYZgAAAD5JREFUGNNjEBSkFFlOZmi2YEgvY3ANYVBSYhiKQEmRQUmQQRHoHRAJZINEhjQQUmIQBCIhcBwJgdhCoKgBAPrhCNaOqcYlAAAAAElFTkSuQmCC) no-repeat 6px -157px;
 }

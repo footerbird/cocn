@@ -30,7 +30,7 @@
           <div class="nav-user-panel pos-abso" id="nav_user_panel" style="display:none">
             <ul>
               <li class="name">
-                <a href="javascript:;">XXXXXX</a>
+                <a href="/page/user-mine">XXXXXX</a>
                 <font class="had">已实名</font>
               </li>
               <li>

@@ -153,7 +153,7 @@
         <div class="box">
           <div class="w800 fl-l">
             <div class="title">
-              <a class="f18" href="/page/company-credit-page.php">南京名商实业有限公司</a>
+              <a class="f18" href="/page/company-credit-page-simple.php">我是简版详情页 点我</a>
               <a href="javascript:;" class="abtn-a-renzheng">认证</a>
               <a href="javascript:;" class="abtn-a-zaiye">在业</a>
               <span class="block-f3 col-f4364c">股权交易&nbsp;7000股</span>
@@ -170,7 +170,7 @@
         <div class="box">
           <div class="w800 fl-l">
             <div class="title">
-              <a class="f18" href="/page/company-credit-page.php">南京名商实业有限公司</a>
+              <a class="f18" href="/page/company-credit-page.php">南京名商实业有限公司 我是正常版详情页</a>
               <a href="javascript:;" class="abtn-a-zaiye">在业</a>
             </div>
             <p>法定代表人： 谢青弟  注册资本：1000万元人民币  成立时间：2003-08-01  所属行业：批发和零售业地址：南京市鼓楼区建宁路37号</p>
