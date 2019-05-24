@@ -79,11 +79,11 @@
         <a href="#" class="f12 col-3daaef lh24">了解更多股权转让信息？</a>
       </p>
       <div class="col-default pt20">
-        股权交易方式
+        股权交易类型
       </div>
       <div class="full-select mt15">
         <select class="normal-select lh30 h30 w190" name="" id="jyfs">
-          <option value="0">请选择股权交易方式</option>
+          <option value="0">请选择股权交易类型</option>
         </select>
       </div>
       <p class="f12 col-gray6 pt10 lh24">
@@ -331,11 +331,11 @@ $(function(){
     switch(selectVal) {
         case "0":
             Pop.alert("请选择股权发行方式！");
-            $('#jyfs').html('<option value="0">请选择股权交易方式</option>');
+            $('#jyfs').html('<option value="0">请选择股权交易类型</option>');
             break;
         case "1"://股权转让
         case "3"://公司转让
-            $("#jyfs").html('<option value="0">请选择股权交易方式</option>'+
+            $("#jyfs").html('<option value="0">请选择股权交易类型</option>'+
                             '<option value="1">一口价</option>'+
                             '<option value="2">投资人出价</option>'+
                             '<option value="3">拍卖</option>');
@@ -356,7 +356,7 @@ $(function(){
     switch(selectVal) {
         case "0":
             $("#block_payment").hide();
-            Pop.alert("请选择股权交易方式！");
+            Pop.alert("请选择股权交易类型！");
             break;
         case "1"://一口价
             $("#block_payment").show();

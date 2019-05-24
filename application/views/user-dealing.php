@@ -30,16 +30,16 @@
                   <option value="">全部</option>
                 </select>
                 <select class="select mr10 w120" name="">
-                  <option value="">交易方式</option>
-                  <option value="">标价</option>
+                  <option value="">交易类型</option>
+                  <option value="">一口价</option>
                   <option value="">拍卖</option>
-                  <option value="">全部</option>
+                  <option value="">投资人出价</option>
                 </select>
                 <select class="select w120" name="">
-                  <option value="">交易类型</option>
+                  <option value="">投资方式</option>
                   <option value="">股权转让</option>
-                  <option value="">增资配股</option>
-                  <option value="">全部</option>
+                  <option value="">增资扩股</option>
+                  <option value="">公司转让</option>
                 </select>
               </div>
             </div>
@@ -53,8 +53,8 @@
               <th width="10%" align="center">交易股权</th>
               <th width="8%" align="right">交易额</th>
               <th width="12%" align="center">交易方向</th>
-              <th width="10%" align="left">交易方式</th>
               <th width="10%" align="left">交易类型</th>
+              <th width="10%" align="left">投资方式</th>
               <th width="15%" align="left">状态</th>
             </tr>
           </thead>
