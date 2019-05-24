@@ -4128,6 +4128,14 @@ textarea {
   vertical-align: middle;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAIBAMAAAA2IaO4AAAAElBMVEXkMkTkMkTkMkTkMkQAAADkMkSKc9vOAAAABXRSTlPyrSbvAKq4ESUAAAAjSURBVAjXY3ASYFRhUA4NNWIQDQ0NZGANDQ0AE2AuWAKsBACLlwcLPTH6DwAAAABJRU5ErkJggg==) no-repeat 50%;
 }
+.ico-blue-circle {
+  /*小蓝点*/
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  vertical-align: middle;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFBAMAAAB/QTvWAAAAFVBMVEU1qfI1qfI1qfI1qfI1qfI1qfI1qfJktecOAAAABnRSTlP0ux6/uh9qVLfdAAAAGElEQVQI12NQYVFgEEszYGBLYwDTiowBABdXAn/bbhsjAAAAAElFTkSuQmCC) no-repeat 50%;
+}
 .ico-white-add {
   /*白色带圈加号*/
   display: inline-block;
@@ -8327,3 +8335,4 @@ table.inner-table tbody tr {
   padding: 14px 10px 14px 0;
   line-height: 16px;
 }
+/*资讯*/
