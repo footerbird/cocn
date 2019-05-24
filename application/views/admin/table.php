@@ -404,6 +404,13 @@ $(function(){
     $("#checkAll").on("change",function(){
         $(".checkItem").prop('checked', this.checked).trigger('change');
     })
+    $(".checkItem").on("change",function(){
+        if($(".checkItem:checked").length == $(".checkItem").length){
+            $("#checkAll").prop('checked', true).parents(".cbr-replaced").addClass("cbr-checked");
+        }else{
+            $("#checkAll").prop('checked', false).parents(".cbr-replaced").removeClass("cbr-checked");
+        }
+    })
 })
 </script>
 </body>
