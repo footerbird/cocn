@@ -134,9 +134,12 @@
         <span class="title">订单状态</span>
       </div>
       <div class="pt15">
-        <p class="ta-c f20 col-f2743d mb20 lh22">
-          <i class="alert-ico-wait mr4"></i>
-          您已支付保证金，等待股权持有人协助股权转让
+        <p class="ta-c f20 col-d2434a mb20 lh22">
+          <i class="alert-ico-fail mr4"></i>
+          交易取消
+        </p>
+        <p class="col-gray9 ta-c mb35">
+          原因：交易双方经过协商决定取消这笔交易
         </p>
         <p class="col-gray9 ta-c mb35">
           2019-09-09 16:00:00

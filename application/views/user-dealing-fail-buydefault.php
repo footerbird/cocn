@@ -15,19 +15,16 @@
       </div>
       <div class="">
           <ul class="flow-point after-cls mt25">
-						<li class="active"><em></em>
-							<p class="mt30">发起交易<br>2019-05-15</p>
-						</li>
+      			<li class="active"><em></em>
+      				<p class="mt30">发起交易<br>2019-05-15</p>
+      			</li>
             <li class="active"><em></em>
-							<p class="mt30">支付保证金<br>2019-05-15</p>
-						</li>
-						<li><em></em>
-							<p class="mt30">过户</p>
-						</li>
-						<li class="last"><em></em>
-							<p class="mt30">交易完成</p>
-						</li>
-					</ul>
+      				<p class="mt30">支付保证金<br>2019-05-15</p>
+      			</li>
+      			<li class="active last"><em></em>
+      				<p class="mt30">交易失败<br>2019-05-15</p>
+      			</li>
+      		</ul>
       </div>
     </div>
     <div class="mb15 manage-panel2">
@@ -110,7 +107,7 @@
                     保证金:
                   </dt>
                   <dd>
-                    20,000元/人民币
+                    20，000元/人民币
                   </dd>
                 </dl>
               </td>
@@ -134,9 +131,9 @@
         <span class="title">订单状态</span>
       </div>
       <div class="pt15">
-        <p class="ta-c f20 col-f2743d mb20 lh22">
-          <i class="alert-ico-wait mr4"></i>
-          您已支付保证金，等待股权持有人协助股权转让
+        <p class="ta-c f20 col-d2434a mb20 lh22">
+          <i class="alert-ico-fail mr4"></i>
+          买家违约，交易失败
         </p>
         <p class="col-gray9 ta-c mb35">
           2019-09-09 16:00:00

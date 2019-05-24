@@ -136,7 +136,7 @@
       <div class="pt15">
         <p class="ta-c f20 col-4eb470 mb20 lh22">
           <i class="alert-ico-succ mr4"></i>
-          股权已经过户，等待交易确认
+          交易完成
         </p>
         <p class="col-gray9 ta-c mb35">
           2019-09-09 16:00:00

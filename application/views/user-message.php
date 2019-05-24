@@ -66,8 +66,11 @@
                 <label class="pos-rela" for="action1"><input type="checkbox" name="all" value="" id="action1"><i class=""></i><font></font></label>
               </td>
               <td align="">
-                <p class="f12 col-default">
-                  标题
+                <p>
+                  <a href="javascript:;" class="f14 col-default user-message-title"><i class="ico-blue-circle mr5"></i>2019年官网五一劳动节放假公告</a>
+                </p>
+                <p class="f12 col-gray9 user-message-content" style="display: none;">
+                  您好！根据国家法定节假日并结合实际情况，官网2019年五一劳动节假期安排如下：2019年5月1日至5月4日放假，假期共4天。假日期间，官网将暂停相关服务工作，感谢您一直以来对官网的关注和支持！
                 </p>
                 <p class="f12 col-gray6">
                   2019-01-09 10:00:00
@@ -79,8 +82,11 @@
                 <label class="pos-rela" for="action2"><input type="checkbox" name="all" value="" id="action2"><i class=""></i><font></font></label>
               </td>
               <td align="">
-                <p class="f12 col-default">
-                  标题
+                <p>
+                  <a href="javascript:;" class="f14 col-default user-message-title">杭州名商网络有限公司股权转让交易成功（订单号：12345678）</a>
+                </p>
+                <p class="f12 col-gray9 user-message-content" style="display: none;">
+                  杭州名商网络有限公司股权转让交易成功（订单号：12345678），<a href="/page/user-dealing-succ-transfer" target="_blank" class="col-default">点击查看</a>
                 </p>
                 <p class="f12 col-gray6">
                   2019-01-09 10:00:00
@@ -131,6 +137,14 @@ $(function() {
         var $alls = $("input[name='all']");
         $("#all").prop("checked" , $alls.length == $alls.filter(":checked").length ? true :false);
   });
+  
+  $(".user-message-title").on("click",function(){
+      $(this).find(".ico-blue-circle").remove();
+      var $content = $(this).parents("td").find(".user-message-content");
+      if($content.length == 1){
+          $content.toggle();
+      }
+  })
 });
 
 </script>
