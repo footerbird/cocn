@@ -52,7 +52,7 @@
               <a href="/page/company-credit-list.php">公司信用查询</a>
             </li>
             <li>
-              <a href="">新媒体资讯</a>
+              <a href="/page/news.php">新媒体资讯</a>
             </li>
             <li>
               <a href="">
