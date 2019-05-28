@@ -55,18 +55,18 @@
               <dt>服务有效期限：</dt>
               <dd>2019-04-04至2019-09-04</dd>
             </dl>
+            <!-- <dl class="info">
+              <dt>专业实名网址：</dt>
+              <dd>wl.co.cn</dd>
+            </dl> -->
+            <dl class="info">
+              <dt>实名服务年费：</dt>
+              <dd><em class="in-block f20 col-f4364c">5000<i class="f14 ml3 in-block">元/人民币</i>
+              </em></dd>
+            </dl>
           </div>
         </div>
-        <div class="hr mb50 mt25"></div>
         <div class="w350 m-auto mb10">
-          <p class="pl22 pb25">
-            专业实名网址：wl.co.cn
-          </p>
-          <p class="pl22">
-            实名服务年费：
-            <em class="in-block f20 col-f4364c">5000<i class="f14 ml3 in-block">元/人民币</i>
-            </em>
-          </p>
           <p class="ta-c mt30 pb25" style="margin-left:-38px;">
             <a href="/page/trading-pay" class="pub-btn pub-btn-d2434a w140">支付</a><a href="/page/user-cocn" class="in-block col-3daaef ml20">>>&nbsp;预览公司官网</a></p>
         </div>
