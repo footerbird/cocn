@@ -54,7 +54,18 @@
     </div>
     <div class="right">
       <div class="media">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAA0CAMAAACeqSywAAAAzFBMVEUQQWz////6+/w/ZokWRW8SQm33+fqqvMvy9ffg5utFaow6YYXt8PPV3eT8/f7l6u+0w9FNcJEzXIEaSHIYR3Hp7fHd5OrF0NvBzdm+ytelt8hSc5PO1+DJ092wwM6dscOYrcCSqLyJobZriaQuV33v8vXa4ujM1t+6x9WDnbN7lq54k6xvjKZohqFhgZ5ff5xVdpZJbY8mUXkiTnYfS3Xi5+ynucmgs8WOpbp/mbBzkKldfZpYeZgwWX8pVHscSnPX3+bT2+PP2eGmuckhXbvRAAACtUlEQVRo3u3W2XLaQBAF0Hu1S0js+77bYAPGxitg7OT//ykgRTbkQZ5QqdRUMudBGj2MVOqe7mooiqIoiqIoiqIoiqIoivL/Mgb1plXOPt/ibDsTkhsOpjoAswgR1w4jWvvMqOTuLb/yYkA25gCxmUWykp/XDAjo8VP5Fee4KY0z5MUWkvE4RySvMWRtdHztisfGBn7H6zIVL/Uqx3eQy4LaJPohmxG/lMeXbjWeeIY43fapvYQH5bKTR5ZdyEUn6c4OUSkzIhISPJG8MJ65Ny2+kSMTgoyexr1vYUvyqXkrpwS5mBnu+b3F1mekBgEVki2zz70XIyCpi5ZNhaE2hpvrm4LnNNEm5HLXsHjKhgCXR5yHtecVIGI4ZqTSdsJvNTV0ZYtJQ/N56gkCAn7QXvRLh6Rb17/OQMAT1u7BRkW2mBRG/EUDAh4Zs3LddLzumUiW5YFbte3aPfda2KsFkMycpyxDrDXHZh1+6iHRgKTVXUbJaGTJ8cDYr1aQzabJY48QYjPS0snyI0ntcUSmt0hguuRFCrhdDPR4xvmWh4SeHB5LQciuytBVnXwqaqRrZEnWkeCafF8B/RFJ+9CTOyRb8s32wDLNIx0IMr/zIBeQzDC+XCDBO9M5YEKybLF/qMB0mAQJrV1+cIsQlWO6NaIe8FgGCUq8N3Dn+H174obRS6VJbQgpTdOMlIcQNmmmgGGhzmOXSNBhpogt5zjUWhbAc7hDQsVllT+1VxCnm9GNx66R4K7EGYzA1ruk5gEpn3QkLJ18jbEgh3N0+almIsmNZeXw+k7yrbF/ypBOAxIy553qvVYKHpbnviDL2NsOyXJl1lNFb+2Z5uawrSrhKfkzrhzhEbgwdZm5rNtNi9RqC/y7VotJ/8q77a8hwJs+VFuVdm8m5bSmKIqiKIqiKIqi/G0/ACz0Lx4VF+arAAAAAElFTkSuQmCC" alt="">
+        <div class="m-auto after-cls pb25">
+          <div class="wechat mr20">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAXCAMAAADNyMQcAAAAilBMVEURQWz///8+ZYgXRnDx9PbW3uWktscmUnkcSnP7/P38/f34+frk6u/g5uvd5OrL1d7H0ty1xNKgs8Wbr8KEnbN/mbB5lK1FaYzv8vXY4OfO2OC/zNi6x9SrvcymuMmRqLyOpbqJobZ3lKxzkKlujKZpiKNcfZpMb5FCaIouV36Vqr5ff5xSc5NPcZJVtS1SAAAAz0lEQVQoz4XPxxaDIBCFYS4QRBNbYknvRVPe//UiYgR0kX8Bi++cOTPkb+wm1tMozb0xXTl0/m6oT5giFwvYrZhFng+n3LIjgJjlaCrYBOCWJQASkim7KENlLIQV39/LUvY2MTK90C0HEAqqbW7osQjQdWiN9nZbAHBxB11CgUhN8edLIKiVyY22QgBH5gMhSwEI0rZv7aG2muH3xNo+COIlKmWmmbZs3excS+HYVhvtPseuxMm+YUMGpT2tJBl25p29yTj5yk7n0jvdR+L2Bcs5CcAh8rWGAAAAAElFTkSuQmCC" alt="">
+            <span class="hide">
+              <img src="http://iph.href.lu/150x150?text=150*150" width="" height="" alt="">
+              <p>扫描二维码关注我们</p>
+            </span>
+          </div>
+          <a href="#" class="in-block fl-l">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAXCAMAAADNyMQcAAAAsVBMVEURQWz////7/P3n7PAWRW/z9ffN1+Cywc9Wd5ZHa40bSXL3+Pnb4ujS2+O/zNiqu8tph6NCZ4rv8vXg5uvG0du7yNWYrcBwjadff5xNcJE6YYUoU3oiTnYfS3Tr7/Lh5+zV3eTJ1N20w9GdscN9l69TdJQ9ZIc4YIQzXIEuV30ZSHHd4+nDz9qtvsysvcynucmktseRqLyIoLaDnLMwWn/4+vv4+fqLord3kqt1kapaepmMZNTSAAABLElEQVQoz61R146DQAy0qSEQSqipkISeXq7+/4edzQqhnO7eMg+r0czY6/XCCzH+15ml5jSIlT+9kWzJiNrjSVwY856WNlrLwfGcKUpfXWG4q0HHqHeUq4SECfN4jZKxUuW+XYAddGi+49HYUDUqFFZjoUCgq3Q6oEkQCW+Z4RPM1fkEB+FtkeHbjmOnzDYshhmfLkcjQ6ykoKDlKsRWPKKPqJU0T+J6bH/yvDV0iIlS5jblKXiVO24rdjZBaQZwJ2Fv4gdvgZ9aAUPGVIGlur4d7z5qJMzJkxoi3EJu4YEJtKRtScipLATxujW6oGTHMqK4QWV0sVr1n/L2PoPFhNJWwV9EVjH85h4vVWskHjk6RQ5zGDDOfZTDy0kzqa2dwC94+dneBPrVrQftB7MaEpE9YOhLAAAAAElFTkSuQmCC" alt="">
+          </a>
+        </div>
       </div>
       <ul>
         <li>

@@ -5938,6 +5938,51 @@ body.on #bgblack {
 .footer .right .media {
   padding-top: 70px;
 }
+.footer .right .media .m-auto {
+  width: 74px;
+}
+.footer .right .media .wechat {
+  cursor: pointer;
+  position: relative !important;
+  float: left !important;
+}
+.footer .right .media .wechat:hover span.hide {
+  display: block;
+}
+.footer .right .media .wechat img {
+  display: block;
+}
+.footer .right .media .wechat span {
+  padding: 15px;
+  position: absolute !important;
+  bottom: 30px;
+  left: -78px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACAQMAAABIeJ9nAAAAA1BMVEUZaKtYrT7qAAAAAXRSTlPM0jRW/QAAAApJREFUCNdjAAIAAAQAASDSLW8AAAAASUVORK5CYII=) repeat;
+}
+.footer .right .media .wechat span.hide {
+  display: none;
+  width: 180px;
+}
+.footer .right .media .wechat span.hide::before {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 82px;
+  width: 16px;
+  height: 8px;
+  display: inline-block;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAIAgMAAACNGJcEAAAACVBMVEUZaKsAAAAZaKs6dSJAAAAAA3RSTlPMAGexFV8BAAAAK0lEQVQI1w3EsREAAAQEwRuZQpT0RqgUTeiXDZYBo8EpCBIWjQm1fxVfrg5ytwdPD8AwggAAAABJRU5ErkJggg==) no-repeat 50%;
+}
+.footer .right .media .wechat span.hide img {
+  display: block;
+}
+.footer .right .media .wechat span.hide p {
+  color: #fff !important;
+  text-align: center !important;
+  font-size: 16px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
 .footer .right ul {
   display: inline-block !important;
   *display: inline !important;

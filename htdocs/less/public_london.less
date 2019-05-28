@@ -2495,6 +2495,56 @@ body.on #bgblack {
     margin-right: 15px;
     .media{
       padding-top:70px;
+      .m-auto{
+        width:74px;
+      }
+      .wechat{
+        cursor:pointer;
+        .pos-rela;
+        .fl-l;
+        &:hover{
+          span{
+            &.hide{
+              display: block;
+            }
+          }
+        }
+        img{
+          display:block;
+        }
+        span{
+          padding:15px;
+          .pos-abso;
+          bottom:30px;
+          left:-78px;
+          background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACAQMAAABIeJ9nAAAAA1BMVEUZaKtYrT7qAAAAAXRSTlPM0jRW/QAAAApJREFUCNdjAAIAAAQAASDSLW8AAAAASUVORK5CYII=) repeat;
+          &.hide{
+            display:none;
+            width:180px;
+            &::before{
+              content:'';
+              position:absolute;
+              bottom:-8px;
+              left:82px;
+              width:16px;
+              height:8px;
+              display:inline-block;
+              background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAIAgMAAACNGJcEAAAACVBMVEUZaKsAAAAZaKs6dSJAAAAAA3RSTlPMAGexFV8BAAAAK0lEQVQI1w3EsREAAAQEwRuZQpT0RqgUTeiXDZYBo8EpCBIWjQm1fxVfrg5ytwdPD8AwggAAAABJRU5ErkJggg==) no-repeat 50%;
+            }
+            img{
+              display:block;
+            }
+            p{
+              .col-white;
+              .ta-c;
+              font-size:16px;
+              padding-top:15px;
+              padding-bottom: 10px;
+            }
+          }
+        }
+
+      }
     }
     ul{
       .in-block;
