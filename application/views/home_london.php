@@ -192,7 +192,7 @@
           <div class="bd">
             <ul>
               <li>
-                  <img src="/htdocs/images/mingcode.png" alt="">
+                  <img src="/htdocs/images/qrcode.jpg" alt="">
                   <p>微信公众号</p>
               </li>
               <li>

@@ -58,7 +58,7 @@
           <div class="wechat mr20">
             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAXCAMAAADNyMQcAAAAilBMVEURQWz///8+ZYgXRnDx9PbW3uWktscmUnkcSnP7/P38/f34+frk6u/g5uvd5OrL1d7H0ty1xNKgs8Wbr8KEnbN/mbB5lK1FaYzv8vXY4OfO2OC/zNi6x9SrvcymuMmRqLyOpbqJobZ3lKxzkKlujKZpiKNcfZpMb5FCaIouV36Vqr5ff5xSc5NPcZJVtS1SAAAAz0lEQVQoz4XPxxaDIBCFYS4QRBNbYknvRVPe//UiYgR0kX8Bi++cOTPkb+wm1tMozb0xXTl0/m6oT5giFwvYrZhFng+n3LIjgJjlaCrYBOCWJQASkim7KENlLIQV39/LUvY2MTK90C0HEAqqbW7osQjQdWiN9nZbAHBxB11CgUhN8edLIKiVyY22QgBH5gMhSwEI0rZv7aG2muH3xNo+COIlKmWmmbZs3excS+HYVhvtPseuxMm+YUMGpT2tJBl25p29yTj5yk7n0jvdR+L2Bcs5CcAh8rWGAAAAAElFTkSuQmCC" alt="">
             <span class="hide">
-              <img src="http://iph.href.lu/150x150?text=150*150" width="" height="" alt="">
+              <img src="/htdocs/images/qrcode.jpg" width="150" height="150" alt="">
               <p>扫描二维码关注我们</p>
             </span>
           </div>
