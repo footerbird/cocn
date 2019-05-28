@@ -104,7 +104,7 @@
       <a href="javascript:;" class="mt4 f12 fl-r pos-abso col-gray9 lh34" id="foldType" style="right:25px;">更多<i class="ml3 ico-down"></i></a>
       <dl class="">
         <dt class="col-gray9">行业门类：</dt>
-        <dd id="bb" style="height:28px;overflow:hidden;">
+        <dd id="bb" style="height:28px; width: 1000px; overflow:hidden;">
           <a href="javascript:;">采矿业（9798）</a>
           <a href="javascript:;">建筑业（9798）</a>
           <a href="javascript:;">批发和零售业（9798）</a>
@@ -118,28 +118,42 @@
           <a href="javascript:;">批发和零售业（9798）</a>
           <a href="javascript:;">挖煤（998）</a>
           <a href="javascript:;">采矿业（9798）</a>
-          <a href="javascript:;">建筑业（9798）</a>
+          <a href="javascript:;" class="choosed">建筑业（9798）</a>
           <a href="javascript:;">批发和零售业（9798）</a>
           <a href="javascript:;">挖煤（998）</a>
           <a href="javascript:;">采矿业（9798）</a>
           <a href="javascript:;">建筑业（9798）</a>
           <a href="javascript:;">批发和零售业（9798）</a>
           <a href="javascript:;">挖煤（998）</a>
-          <a href="javascript:;">2015（98）</a>
-          <a href="javascript:;">2014（8）</a>
         </dd>
       </dl>
     </div>
-    <div class="condition">
+    <div class="condition pos-rela">
+      <a href="javascript:;" class="mt4 f12 fl-r pos-abso col-gray9 lh34" id="foldProvince" style="right:25px;">更多<i class="ml3 ico-down"></i></a>
       <dl class="" style="border-bottom:none;">
         <dt class="col-gray9">省份地区：</dt>
-        <dd>
+        <dd id="cc" style="height:28px; width: 1000px; overflow:hidden;">
           <a href="javascript:;">北京（9798）</a>
           <a href="javascript:;">上海（9798）</a>
           <a href="javascript:;">重庆（9798）</a>
           <a href="javascript:;">福建（998）</a>
           <a href="javascript:;">广东（98）</a>
-          <a href="javascript:;">葫芦岛（8）</a>
+          <a href="javascript:;">四川（8）</a>
+          <a href="javascript:;">广西（9798）</a>
+          <a href="javascript:;">广东（9798）</a>
+          <a href="javascript:;">内蒙古（9798）</a>
+          <a href="javascript:;">甘肃（998）</a>
+          <a href="javascript:;">宁夏（98）</a>
+          <a href="javascript:;">河北（8）</a>
+          <a href="javascript:;">河南（9798）</a>
+          <a href="javascript:;">湖南（9798）</a>
+          <a href="javascript:;">湖北（9798）</a>
+          <a href="javascript:;">西藏（998）</a>
+          <a href="javascript:;" class="choosed">云南（98）</a>
+          <a href="javascript:;">福建（8）</a>
+          <a href="javascript:;">江西（9798）</a>
+          <a href="javascript:;">安徽（9798）</a>
+          <a href="javascript:;">天津（9798）</a>
         </dd>
       </dl>
     </div>
@@ -234,23 +248,43 @@
 <?php include_once('templete/pub_foot.php') ?>
 <script type="text/javascript">
 $(function(){
+  
+  $(".condition dl dd .choosed").each(function(){
+      var $this = $(this);
+      var $parent = $this.parents("dd");
+      if($this.position().top > $parent.height()){//第二行
+          $parent.css("height","auto");
+          $this.parents("dl").siblings("a").addClass("col-default").html('收起<i class="ml3 ico-up"></i>');
+      }
+  })
+  
   $(".condition dl dd a").on("click",function(){//筛选条件，再次点击取消
       if($(this).hasClass("choosed")) {
           $(this).removeClass("choosed");
       }else {
-          $(this).addClass("choosed");
+          $(this).addClass("choosed").siblings().removeClass("choosed");
       }
   })
 
   $("#foldType").on("click",function(){//点击收缩
-			if($(this).hasClass("col-default")){//col-default表示已经收起，要做出展开动作
-				$(this).removeClass("col-default").html('更多<i class="ml3 ico-down"></i>');
-				$(this).siblings("dl").find("dd").css('height','28px');
-			}else{
-				$(this).addClass("col-default").html('收起<i class="ml3 ico-up"></i>');
-        $(this).siblings("dl").find("dd").css('height','auto');
-			}
-		})
+      if($(this).hasClass("col-default")){//col-default表示已经收起，要做出展开动作
+          $(this).removeClass("col-default").html('更多<i class="ml3 ico-down"></i>');
+          $(this).siblings("dl").find("dd").css('height','28px');
+      }else{
+          $(this).addClass("col-default").html('收起<i class="ml3 ico-up"></i>');
+          $(this).siblings("dl").find("dd").css('height','auto');
+      }
+  })
+  
+  $("#foldProvince").on("click",function(){//点击收缩
+      if($(this).hasClass("col-default")){//col-default表示已经收起，要做出展开动作
+          $(this).removeClass("col-default").html('更多<i class="ml3 ico-down"></i>');
+          $(this).siblings("dl").find("dd").css('height','28px');
+      }else{
+          $(this).addClass("col-default").html('收起<i class="ml3 ico-up"></i>');
+          $(this).siblings("dl").find("dd").css('height','auto');
+      }
+  })
 })
 </script>
 </body>
