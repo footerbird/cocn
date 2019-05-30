@@ -46,7 +46,7 @@
               <th width="10%" align="center">意向股权</th>
               <th width="8%" align="right">意向额</th>
               <th width="12%" align="center">意向方向</th>
-              <th width="10%" align="left">发起人</th>
+              <th width="10%" align="left">意向用户</th>
               <th width="10%" align="left">投资方式</th>
               <th width="15%" align="left">状态</th>
             </tr>
@@ -64,7 +64,7 @@
               <td align="">股权转让</td>
               <td align="left">
                 <p class="f12 col-default">
-                <a href="/page/user-intent-page" class="col-default">交易完成</a>
+                <a href="/page/user-intent-page" class="col-default">处理完成</a>
                 </p>
                 <p class="f12 col-gray6">
                   2019-08-30 13:09:19
@@ -78,12 +78,12 @@
               </td>
               <td align="center">0.10%</td>
               <td align="right">&yen;999</td>
-              <td align="center">收到</td>
-              <td align="">ID:137737</td>
+              <td align="center">发起</td>
+              <td align="">我</td>
               <td align="">股权转让</td>
               <td align="left">
                 <p class="f12 col-default">
-                <a href="/page/user-intent-page" class="col-default">交易完成</a>
+                <a href="/page/user-intent-page" class="col-default">待处理</a>
                 </p>
                 <p class="f12 col-gray6">
                   2019-08-30 13:09:19
@@ -98,11 +98,11 @@
               <td align="center">0.10%</td>
               <td align="right">&yen;999</td>
               <td align="center">发起</td>
-              <td align="">ID:9948848</td>
+              <td align="">我</td>
               <td align="">股权转让</td>
               <td align="left">
                 <p class="f12 col-default">
-                <a href="/page/user-intent-page" class="col-default">交易完成</a>
+                <a href="/page/user-intent-page" class="col-default">处理完成</a>
                 </p>
                 <p class="f12 col-gray6">
                   2019-08-30 13:09:19

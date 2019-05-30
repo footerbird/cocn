@@ -64,28 +64,6 @@
               <td>
                 <dl class="info">
                   <dt>
-                    出让股权:
-                  </dt>
-                  <dd>
-                    3.5%
-                  </dd>
-                </dl>
-              </td>
-              <td>
-                <dl class="info">
-                  <dt>
-                    交易限额:
-                  </dt>
-                  <dd>
-                    最低1%
-                  </dd>
-                </dl>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <dl class="info">
-                  <dt>
                     意向股权:
                   </dt>
                   <dd>
@@ -111,7 +89,7 @@
                     意向用户:
                   </dt>
                   <dd>
-                    ID:oikuhuo
+                    ID:oikuhuo / 我
                   </dd>
                 </dl>
               </td>
@@ -151,6 +129,15 @@
         <p class="ta-c f20 col-f4364c mb20 lh22">
           <i class="alert-ico-fail mr4"></i>
           已拒绝
+        </p>
+        <p class="col-gray9 ta-c mb35">
+          2019-09-09 16:00:00
+        </p>
+      </div>
+      <div class="pt15">
+        <p class="ta-c f20 col-f2743d mb20 lh22">
+          <i class="alert-ico-wait mr4"></i>
+          待处理
         </p>
         <p class="col-gray9 ta-c mb35">
           2019-09-09 16:00:00
