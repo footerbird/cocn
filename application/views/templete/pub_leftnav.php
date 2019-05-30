@@ -38,6 +38,16 @@
           </a>
         </li>
         <li>
+          <a href="/page/user-intent">
+            <i class="i-tzyx"></i>
+            <span>投资意向</span>
+            <font>
+              2
+            </font>
+            <em class="ico-red-circle"></em>
+          </a>
+        </li>
+        <li>
           <a href="/page/user-cocn">
             <i class="i-gsgw"></i>
             <span>公司官网</span>
