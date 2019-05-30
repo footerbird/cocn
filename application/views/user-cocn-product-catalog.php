@@ -118,15 +118,15 @@ $(function() {
   		$(this).find(".number").text(i++);//更新序号
   	});
   }
-  $("#catalog_editor_table tr").find('a').on('click',function() {
-    //获取点击的一行tr
-    var tr = $(this).parent().parent();
-    //获取tr的所有td元素
-    var b = tr.children("td");
-    //取得第二列元素
-    var c = b.eq(1);
-    c.find('input').removeAttr("readonly").addClass('on');
-  });
+    $(document).on("click","#catalog_editor_table tr a",function (){//生成用$(document).on()
+      //获取点击的一行tr
+      var tr = $(this).parent().parent();
+      //获取tr的所有td元素
+      var b = tr.children("td");
+      //取得第二列元素
+      var c = b.eq(1);
+      c.find('input').removeAttr("readonly").addClass('on');
+    });
 
   $(".catalog-editor").find("input").on("blur",function(){
     $(this).removeClass('on').attr("readonly",true);
