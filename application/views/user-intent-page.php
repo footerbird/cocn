@@ -9,7 +9,7 @@
 <div class="container-full">
   <?php include_once('templete/pub_leftnav.php') ?>
   <div class="view-frt">
-    <div class="mb15 manage-panel2">
+    <div class="mb15 manage-panel">
       <div class="sub-nav-panel">
         <span class="title">意向内容</span>
       </div>
@@ -108,7 +108,7 @@
         </table>
       </div>
     </div>
-    <div class="manage-panel-spec">
+    <div class="manage-panel">
       <div class="sub-nav-panel mb50">
         <span class="title">意向状态</span>
       </div>
@@ -143,8 +143,59 @@
           2019-09-09 16:00:00
         </p>
       </div>
+      
+      <div class="trading-rank pl40 pr40 pb50">
+        <div class="f16 col-default pb20 ml30">
+          投资人出价记录
+        </div>
+        <table width="100%" class="inner-table ml30">
+          <thead>
+            <tr>
+              <th width="25%">
+                时间
+              </th>
+              <th align="left" width="25%">
+                操作
+              </th>
+              <th align="left" width="25%">
+                买入比例
+              </th>
+              <th align="left" width="25%">
+                我的意向出价
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr align="center">
+              <td>2019-09-08 19:18:11</td>
+              <td align="left" >对方已同意</td>
+              <td align="left" >1.2%</td>
+              <td align="left" class="">&yen;129,000</td>
+            </tr>
+            <tr align="center">
+              <td>2019-09-08 19:18:11</td>
+              <td align="left" >发起询价</td>
+              <td align="left" >1.2%</td>
+              <td  align="left" class="">&yen;129,000</td>
+            </tr>
+            <tr align="center">
+              <td>2019-09-08 19:18:11</td>
+              <td align="left" >对方未应答，交易取消</td>
+              <td align="left" >1.2%</td>
+              <td  align="left" class="">&yen;129,000</td>
+            </tr>
+            <tr align="center">
+              <td>2019-09-08 19:18:11</td>
+              <td align="left" >询价失效</td>
+              <td align="left" >1.2%</td>
+              <td  align="left" class="">&yen;129,000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
     </div>
+    
 
   </div>
 </div>

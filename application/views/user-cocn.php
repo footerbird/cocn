@@ -41,7 +41,7 @@
               <td align="">法定代表人</td>
               <td align="">正常</td>
               <td align="right">
-                <a href="#" class="col-default ml10">续费</a>
+                <a href="/page/trading-pay" class="col-default ml10">续费</a>
                 <a href="/page/user-cocn-zero" class="col-default ml10">管理</a>
               </td>
             </tr>
@@ -72,7 +72,7 @@
               <td align="">网站负责人</td>
               <td align="" class="col-d2434a">待付款</td>
               <td align="right">
-                <a href="#" class="col-default ml10">支付</a>
+                <a href="/page/trading-pay" class="col-default ml10">支付</a>
               </td>
             </tr>
           </tbody>

@@ -48,14 +48,14 @@
                   </td>
                   <td width=" " class="pl25 bg-fa">
                     <div class="col-default f16 lh30">
-                      <a href="/page/user-cocn-settings-set" class="col-default ta-r mr5 in-block pl5">ming.com</a>
+                      <a href="/page/home_model" target="_blank" class="col-default ta-r mr5 in-block pl5">ming.com</a>
                       <em class="block-a-youxiao">有效期275天</em>
                     </div>
                   </td>
                   <td width="20%" class="pl25 bg-fa">
-                    <a href="/page/user-cocn-settings-set" class="col-default f12 in-block ml20">暂停官网
+                    <a href="javascript:;" class="col-default f12 in-block ml20">暂停官网
                     </a>
-                    <a href="/page/user-cocn-settings-set" class="col-default f12 in-block ml20">续费
+                    <a href="/page/trading-pay" class="col-default f12 in-block ml20">续费
                     </a>
                     <a href="/page/user-cocn-settings-set" class="col-default f12 in-block ml20">升级
                     </a>

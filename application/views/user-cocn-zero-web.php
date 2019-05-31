@@ -40,6 +40,18 @@
         </p>
         <div class="install-box">
           <div class="auto-table">
+            <table width="100%" class="mb10">
+              <tbody>
+                <tr class="">
+                  <td width="140" align="center" class="bg-5897cd">
+                    <span class="title lh30 col-white mt25 mb25 in-block">在用网址</span>
+                  </td>
+                  <td width="" colspan="2" class="pl25 bg-fa">
+                      <label class="pos-rela col-default"><font class="f16">mingshang.co.cn</font><em class="block-a-renzheng ml10">生效中</em></label>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
             <table width="100%" class="">
               <tbody>
                 <tr class="">
