@@ -31,7 +31,7 @@
             <tr>
               <td align="center">1</td>
               <td align="">
-                <a href="/page/user-cocn-settings" class="col-default">杭州名商网络有限公司</a>
+                <a href="/page/company-credit-page-simple" class="col-default">杭州名商网络有限公司</a>
               </td>
               <td align="left">林赞松</td>
               <td align="">在业</td>
@@ -44,7 +44,7 @@
             <tr>
               <td align="center">2</td>
               <td align="">
-                <a href="/page/user-cocn-settings" class="col-default">杭州名商网络有限公司</a>
+                <a href="/page/company-credit-page-simple" class="col-default">杭州名商网络有限公司</a>
               </td>
               <td align="left">林赞松</td>
               <td align="">注销</td>
@@ -62,13 +62,10 @@
           </p>
           <img src="/htdocs/images/inner-no-guanzhu.png" alt="" class="m-auto">
           <p class="ta-c col-gray6 lh28 pt30 pb50">
-            您可以“<a href="/page/user-focus-zero" class="col-default">设置我的关注范围</a>”调整感兴趣的公司，快速查找投资对象
+            您可以点击“<a href="/page/company-credit-list" class="col-default">公司信用查询列表</a>”查询感兴趣的公司，快速查找投资对象
           </p>
           <div class="ta-c pb30 pt20">
-            <a href="/page/user-focus-zero" class="w170 pub-btn mr10">
-              设置我的关注范围
-            </a>
-            <a href="/page/" class="w170 pub-btn-b">
+            <a href="/page/company-credit-list" class="w170 pub-btn mr10">
               查看企业信用
             </a>
           </div>

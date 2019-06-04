@@ -39,7 +39,7 @@
           <label class="upload-label mt8 mr10" for="">
             <input type="file" name="" value="">
           </label>
-          <a href="#" class="col-3daaef f12">样本查看</a>
+          <a href="/htdocs/images/idcard-sample.jpg" target="_blank" class="col-3daaef f12">样本查看</a>
         </dd>
       </dl>
       <dl class="info2 mb20">
