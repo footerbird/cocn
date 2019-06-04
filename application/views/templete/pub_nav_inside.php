@@ -23,7 +23,7 @@
         <li class="nav-login pos-rela">
           <a href="javascript:;" class="user pos-rela" id="user">
             <span class="">
-              <img src="" alt="" class="head-img">
+              <img src="/htdocs/images/user-figure.png" alt="" class="head-img">
               <i class="ico-arrow fl-l ml6 mt20"></i>
             </span>
           </a>

@@ -17,7 +17,7 @@
       <div class="mt15 after-cls">
         <div class="table-top-tools after-cls">
           <div class="tools-fl-l">
-            <input type="text" name="" value="" placeholder="评论内容">
+            <input type="text" name="" value="" placeholder="消息内容">
             <a href="javascript:;" class="pub-btn f12">搜索</a>
           </div>
           <div class="tools-fl-r">

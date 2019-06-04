@@ -6,7 +6,7 @@
             <a href="javascript:;" onclick="Pop.open('upwin_login')" class="dl">登录</a><em class="col-f4364c in-block fl-l mt25 ml3 mr3">/</em><a href="javascript:;" onclick="Pop.open('upwin_register')" class="zc">注册</a>
             <a href="javascript:;" class="user pos-rela" id="user">
               <span class="">
-                <img src="" alt="" class="head-img">
+                <img src="/htdocs/images/user-figure.png" alt="" class="head-img">
                 <i class="ico-arrow fl-l ml6 mt20"></i>
               </span>
             </a>
