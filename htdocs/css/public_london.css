@@ -6223,8 +6223,6 @@ body.on #bgblack {
   padding: 0 18px !important;
 }
 .cocn-list p {
-  float: left !important;
-  width: 610px;
   line-height: 24px;
   margin-bottom: 10px;
   font-size: 12px;
