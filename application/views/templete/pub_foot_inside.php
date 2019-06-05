@@ -34,13 +34,6 @@ $(function(){
               "margin-bottom" : "0"
           })
       }
-      // 特殊全屏
-      if($(".manage-panel-spec").length == 1){
-          $(".manage-panel-spec").css({
-              "min-height" : ($(window).height()-500)+"px",
-              "margin-bottom" : "0"
-          })
-      }
     });
 })
 </script>

@@ -7,21 +7,21 @@
 <!-- 开始 -->
 <div class="pub-head" id="pub_head">
   <div class="container">
-    <a href="#" class="main-logo fl-l"></a>
+    <a href="/page/home_model" class="main-logo fl-l"></a>
     <div class="fl-r">
       <a href="javascript:;" id="headerToggle" class="header__toggle"><span></span></a>
       <ul class="main-nav clearfix">
         <li>
-          <a href="javascript:;" class="on">首页</a>
+          <a href="/page/home_model" class="on">首页</a>
         </li>
         <li>
-          <a href="javascript:;">产品列表</a>
+          <a href="/page/home_model_list">产品列表</a>
         </li>
         <li>
-          <a href="javascript:;">关于我们</a>
+          <a href="/page/home_model_about">关于我们</a>
         </li>
         <li>
-          <a href="javascript:;">新闻中心</a>
+          <a href="/page/home_model_news">新闻中心</a>
         </li>
       </ul>
     </div>
@@ -37,9 +37,9 @@
     <p class="f18 col-gray9">Our products and services</p>
   </div>
   <div class="products">
-    <ul>
+    <ul class="after-cls">
       <li>
-        <img src="http://iph.href.lu/320x160?text=320*160" width="" height="" alt="">
+        <img src="http://iph.href.lu/285x285?text=285*285" width="" height="" alt="">
         <div class="name">
           产品名称产品名称产品名称产品名称
         </div>
@@ -52,20 +52,7 @@
         </a>
       </li>
       <li>
-        <img src="http://iph.href.lu/320x160?text=320*160" width="" height="" alt="">
-        <div class="name">
-          产品名称
-        </div>
-        <div class="type">
-          类型
-        </div>
-        <p>产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么</p>
-        <a href="#" class="fl-r">
-          <i class="ico-go"></i>
-        </a>
-      </li>
-      <li class="mr0">
-        <img src="http://iph.href.lu/320x160?text=320*160" width="" height="" alt="">
+        <img src="http://iph.href.lu/285x285?text=285*285" width="" height="" alt="">
         <div class="name">
           产品名称
         </div>
@@ -78,7 +65,33 @@
         </a>
       </li>
       <li>
-        <img src="http://iph.href.lu/320x160?text=320*160" width="" height="" alt="">
+        <img src="http://iph.href.lu/285x285?text=285*285" width="" height="" alt="">
+        <div class="name">
+          产品名称产品名称产品名称产品名称
+        </div>
+        <div class="type">
+          类型
+        </div>
+        <p>产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么</p>
+        <a href="#" class="fl-r">
+          <i class="ico-go"></i>
+        </a>
+      </li>
+      <li>
+        <img src="http://iph.href.lu/285x285?text=285*285" width="" height="" alt="">
+        <div class="name">
+          产品名称
+        </div>
+        <div class="type">
+          类型
+        </div>
+        <p>产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么</p>
+        <a href="#" class="fl-r">
+          <i class="ico-go"></i>
+        </a>
+      </li>
+      <li class="">
+        <img src="http://iph.href.lu/285x285?text=285*285" width="" height="" alt="">
         <div class="name">
           产品名称
         </div>
@@ -91,7 +104,7 @@
         </a>
       </li>
       <li>
-        <img src="http://iph.href.lu/320x160?text=320*160" width="" height="" alt="">
+        <img src="http://iph.href.lu/285x285?text=285*285" width="" height="" alt="">
         <div class="name">
           产品名称
         </div>
@@ -103,8 +116,21 @@
           <i class="ico-go"></i>
         </a>
       </li>
-      <li class="mr0">
-        <img src="http://iph.href.lu/320x160?text=320*160" width="" height="" alt="">
+      <li>
+        <img src="http://iph.href.lu/285x285?text=285*285" width="" height="" alt="">
+        <div class="name">
+          产品名称
+        </div>
+        <div class="type">
+          类型
+        </div>
+        <p>产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么</p>
+        <a href="#" class="fl-r">
+          <i class="ico-go"></i>
+        </a>
+      </li>
+      <li class="">
+        <img src="http://iph.href.lu/285x285?text=285*285" width="" height="" alt="">
         <div class="name">
           产品名称
         </div>
