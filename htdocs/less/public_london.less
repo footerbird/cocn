@@ -3119,14 +3119,16 @@ body.on #bgblack {
 }
 .company-info-simple{
   table{
-    td{
-      padding:0 0 5px 0;
+    tr{
+      height:26px;
     }
   }
   dl{
     &.info{
-      line-height:26px;
+      line-height:20px;
+      padding:2px 0;
       margin-left:120px;
+      width:-webkit-fill-available;
       .fl-l;
       dt{
         font-size:12px;
@@ -3142,7 +3144,6 @@ body.on #bgblack {
         margin-right:6px;
         font-size:12px;
         .fl-l;
-        max-width:230px;
         &.width-auto{
           max-width:max-content;
         }

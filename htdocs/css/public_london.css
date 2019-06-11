@@ -6649,12 +6649,14 @@ body.on #bgblack {
 .site-nav-simple {
   width: 100% !important;
 }
-.company-info-simple table td {
-  padding: 0 0 5px 0;
+.company-info-simple table tr {
+  height: 26px;
 }
 .company-info-simple dl.info {
-  line-height: 26px;
+  line-height: 20px;
+  padding: 2px 0;
   margin-left: 120px;
+  width: -webkit-fill-available;
   float: left !important;
 }
 .company-info-simple dl.info dt {
@@ -6675,7 +6677,6 @@ body.on #bgblack {
   margin-right: 6px;
   font-size: 12px;
   float: left !important;
-  max-width: 230px;
 }
 .company-info-simple dl.info dd.width-auto {
   max-width: max-content;

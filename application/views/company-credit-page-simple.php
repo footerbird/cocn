@@ -56,7 +56,7 @@
       <table width="100%">
         <tbody>
           <tr>
-            <td>
+            <td width="50%">
               <dl class="info">
                 <dt>
                   法定代表人：
@@ -66,7 +66,7 @@
                 </dd>
               </dl>
             </td>
-            <td>
+            <td width="50%">
               <dl class="info">
                 <dt>
                   所属行业：
@@ -78,7 +78,7 @@
             </td>
           </tr>
           <tr>
-            <td>
+            <td width="50%">
               <dl class="info">
                 <dt>
                   注册资本：
@@ -88,7 +88,7 @@
                 </dd>
               </dl>
             </td>
-            <td>
+            <td width="50%">
               <dl class="info">
                 <dt>
                   经营状态：
@@ -100,7 +100,7 @@
             </td>
           </tr>
           <tr>
-            <td>
+            <td width="50%">
               <dl class="info">
                 <dt>
                   成立日期：
@@ -110,19 +110,19 @@
                 </dd>
               </dl>
             </td>
-            <td>
+            <td width="50%">
               <dl class="info">
                 <dt>
                   企业地址：
                 </dt>
                 <dd>
-                  马鞍山市你好新区中非大道233号
+                  马鞍山市你好新区中非大道233号马鞍山市你好新区中非大道233号马鞍山市你好新区中非大道233号
                 </dd>
               </dl>
             </td>
           </tr>
           <tr>
-            <td>
+            <td width="50%">
               <dl class="info">
                 <dt>
                   统一社会信用代码：
@@ -132,7 +132,7 @@
                 </dd>
               </dl>
             </td>
-            <td>
+            <td width="50%">
               <dl class="info">
                 <dt>
                   登记机关：
