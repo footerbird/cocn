@@ -55,7 +55,7 @@
               <a href="/page/news.php">新媒体资讯</a>
             </li>
             <li>
-              <a href="">
+              <a href="/page/help.php">
                 帮助中心
               </a>
             </li>
