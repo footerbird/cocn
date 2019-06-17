@@ -26,7 +26,7 @@
         <div class="bd">
           <div class="tab-box" id="col_left_tab_box">
               <div class="tab">
-                  <a href="javascript:;" class="on">入住公司<em>139489348139489348</em></a>
+                  <a href="javascript:;" class="on">入驻公司<em>139489348139489348</em></a>
                   <a href="javascript:;" class="">发行公司<em>328024</em></a>
                   <a href="javascript:;" class="">股权融资<em class="col-0bb56b">3232322323</em></a>
                   <a href="javascript:;" class="">合格投资人<em>5793479473</em></a>
