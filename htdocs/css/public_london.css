@@ -8681,7 +8681,7 @@ table.inner-table tbody tr {
 .help-r-content .hb .search-banner {
   width: 922px;
   height: 139px;
-  background: url(/htdocs/images/banner/banner-help.jpg) no-repeat 50%;
+  background: url(../images/banner/banner-help.jpg) no-repeat 50%;
 }
 .help-r-content .hb .search-banner .search-box {
   top: 57px;
