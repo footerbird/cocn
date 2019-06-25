@@ -41,7 +41,7 @@
           </dl>
           <dl class="info">
             <dt>住所：</dt>
-            <dd>浙江省杭州市拱墅区上塘路333号11层</dd>
+            <dd class="ellip">浙江省杭州市拱墅区上塘路333号11层</dd>
           </dl>
           <dl class="info">
             <dt>法定代表人：</dt>
@@ -85,7 +85,7 @@
           </dl>
           <dl class="info">
             <dt>住所：</dt>
-            <dd>浙江省杭州市拱墅区上塘路333号11层</dd>
+            <dd class="ellip">浙江省杭州市拱墅区上塘路333号11层杭州名商网络有限公司</dd>
           </dl>
           <dl class="info">
             <dt>法定代表人：</dt>

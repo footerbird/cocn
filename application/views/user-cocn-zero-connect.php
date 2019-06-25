@@ -152,6 +152,7 @@ $(function(){
         type:"get",
         url:"/htdocs/json/city.json",
         async:true,
+        dataType: 'json',
         success:function(data){
             cityJson = data;
             if(cityJson != undefined){
