@@ -177,8 +177,8 @@
               与“南京名商事业有限公司”相关  评论 (78) - 关注 (995)
             </div>
           </div>
-          <div class="w200 fl-r ta-c mt43">
-            <a href="#" class="pub-btn-f4364c">关注</a>
+          <div class="fl-r ta-c mr20">
+            <a href="#" class="abtn-a-guanzhu">关注</a>
           </div>
         </div>
         <div class="box">
@@ -192,7 +192,7 @@
               与“南京名商事业有限公司”相关  评论 (78) - 关注 (995)
             </div>
           </div>
-          <div class="w200 fl-r ta-c mt43">
+          <div class="fl-r ta-c mr20">
             <a href="#" class="pub-btn had">已关注</a>
           </div>
         </div>
@@ -207,8 +207,8 @@
               与“南京名商事业有限公司”相关  评论 (78) - 关注 (995)
             </div>
           </div>
-          <div class="w200 fl-r ta-c mt43">
-            <a href="#" class="pub-btn-f4364c">关注</a>
+          <div class="fl-r ta-c mr20">
+            <a href="#" class="abtn-a-guanzhu">关注</a>
           </div>
         </div>
         <div class="box">
@@ -224,8 +224,8 @@
               与“南京名商事业有限公司”相关  评论 (78) - 关注 (995)
             </div>
           </div>
-          <div class="w200 fl-r ta-c mt43">
-            <a href="#" class="pub-btn-f4364c">关注</a>
+          <div class="fl-r ta-c mr20">
+            <a href="#" class="abtn-a-guanzhu">关注</a>
           </div>
         </div>
         <div class="pages fl-r mr0 mt20 mb20"><em class="fl-l lh23">共有0条，每页显示：20条</em>
@@ -248,7 +248,7 @@
 <?php include_once('templete/pub_foot.php') ?>
 <script type="text/javascript">
 $(function(){
-  
+
   $(".condition dl dd .choosed").each(function(){
       var $this = $(this);
       var $parent = $this.parents("dd");
@@ -257,7 +257,7 @@ $(function(){
           $this.parents("dl").siblings("a").addClass("col-default").html('收起<i class="ml3 ico-up"></i>');
       }
   })
-  
+
   $(".condition dl dd a").on("click",function(){//筛选条件，再次点击取消
       if($(this).hasClass("choosed")) {
           $(this).removeClass("choosed");
@@ -275,7 +275,7 @@ $(function(){
           $(this).siblings("dl").find("dd").css('height','auto');
       }
   })
-  
+
   $("#foldProvince").on("click",function(){//点击收缩
       if($(this).hasClass("col-default")){//col-default表示已经收起，要做出展开动作
           $(this).removeClass("col-default").html('更多<i class="ml3 ico-down"></i>');

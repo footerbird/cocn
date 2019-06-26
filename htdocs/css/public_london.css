@@ -4410,10 +4410,6 @@ textarea {
   -moz-opacity: 0.8;
   opacity: 0.8;
 }
-[class^="pub-btn-"].pub-btn-f4364c,
-.pub-btn.pub-btn-f4364c {
-  background-color: #f4364c !important;
-}
 [class^="pub-btn-"].pub-btn-d2434a,
 .pub-btn.pub-btn-d2434a {
   background-color: #d2434a !important;
@@ -4820,6 +4816,10 @@ input[type=radio]:disabled + i {
 }
 [class^="abtn-a-"].abtn-a-renzheng {
   background-color: #06c594 !important;
+  color: #fff !important;
+}
+[class^="abtn-a-"].abtn-a-guanzhu {
+  background-color: #f4364c !important;
   color: #fff !important;
 }
 /*白底有色边框状态*/
@@ -6084,9 +6084,6 @@ body.on #bgblack {
   -moz-opacity: 0.8;
   opacity: 0.8;
 }
-.search-panel button.pub-btn-f4364c {
-  background-color: #f4364c !important;
-}
 .search-panel button.pub-btn-d2434a {
   background-color: #d2434a !important;
 }
@@ -6229,14 +6226,15 @@ body.on #bgblack {
   height: 30px;
 }
 .cocn-list .bd .pub-btn {
-  line-height: 30px;
-  height: 30px;
+  height: 20px;
+  line-height: 20px;
 }
 .cocn-list .bd .pub-btn.had {
   background-color: #f2f6f8 !important;
   /*已关注灰色*/
   color: #d1dde6 !important;
-  padding: 0 18px !important;
+  font-size: 12px;
+  padding: 0 7px!important;
 }
 .cocn-list p {
   line-height: 24px;
