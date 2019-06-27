@@ -516,7 +516,7 @@ function drawCharts(index){//获取tab的索引号
                 fontFamily: 'PingFang SC'
             },
         },
-        color: ['#13426b'],
+        color: ['#67b8de'],
         grid: {
             left: '50px',
             right: '30px',
@@ -544,27 +544,29 @@ function drawCharts(index){//获取tab的索引号
                 magicType : {
                     show: true,
                     type: ['line', 'bar'],
-                    iconStyle: {
-                        emphasis: {
-                            color: '#f4364c',
+                    title: {
+                        line: '折线图',
+                        bar: '柱状图'
+                    },
+                    emphasis: {
+                        iconStyle: {
                             borderColor: '#f4364c'
                         }
                     }
                 },
                 restore : {
                     show: true,
-                    iconStyle: {
-                        emphasis: {
-                            color: '#f4364c',
+                    emphasis: {
+                        iconStyle: {
                             borderColor: '#f4364c'
                         }
                     }
                 },
                 saveAsImage : {
                     show: true,
-                    iconStyle: {
-                        emphasis: {
-                            color: '#f4364c',
+                    title: '保存',
+                    emphasis: {
+                        iconStyle: {
                             borderColor: '#f4364c'
                         }
                     }
@@ -578,26 +580,29 @@ function drawCharts(index){//获取tab的索引号
             data: xAxisData,
             axisLine: {
                 lineStyle: {
-                    color: "#13426b"
+                    color: "#c6cdd2"
                 }
             },
             axisLabel: {
                 textStyle: {
-                    color: "#13426b"
+                    color: "#546a79"
                 }
             }
         },
         yAxis: {
             type: 'value',
             name: '（数量/个）',
+            nameTextStyle: {
+                color: '#13426b'
+            },
             axisLine: {
                 lineStyle: {
-                    color: "#13426b"
+                    color: "#c6cdd2"
                 }
             },
             axisLabel: {
                 textStyle: {
-                    color: "#13426b"
+                    color: "#546a79"
                 }
             },
             splitLine : {

@@ -193,7 +193,7 @@
             </div>
           </div>
           <div class="fl-r ta-c mr20">
-            <a href="#" class="pub-btn had">已关注</a>
+            <a href="#" class="abtn-a-zaiye-had">已关注</a>
           </div>
         </div>
         <div class="box">
