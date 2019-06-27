@@ -26,27 +26,12 @@
         <div class="bd">
           <div class="tab-box" id="col_left_tab_box">
               <div class="tab">
-                  <a href="javascript:;" class="on">入驻公司<em>139489348139489348</em></a>
-                  <a href="javascript:;" class="">发行公司<em>328024</em></a>
-                  <a href="javascript:;" class="">股权融资<em class="col-0bb56b">3232322323</em></a>
-                  <a href="javascript:;" class="">合格投资人<em>5793479473</em></a>
+                  <a href="javascript:;" class="on">入驻公司<em class="ta-r pr20">1,024</em></a>
+                  <a href="javascript:;" class="">发行公司<em class="ta-r pr20">512</em></a>
+                  <a href="javascript:;" class="">股权融资<em class="ta-r pr20 col-0bb56b">102</em></a>
+                  <a href="javascript:;" class="">合格投资人<em class="ta-r pr20">2,048</em></a>
               </div>
-              <div class="content">
-                  <dl>
-                      <dd style="display: list-item;">
-                        1
-                      </dd>
-                      <dd style="display: none;">
-                        2
-                      </dd>
-                      <dd style="display: none;">
-                        3
-                      </dd>
-                      <dd style="display: none;">
-                        4
-                      </dd>
-                  </dl>
-              </div>
+              <div class="content" id="col_left_content"></div>
           </div>
         </div>
       </div>
@@ -485,15 +470,173 @@
 <?php include_once('templete/pub_foot.php') ?>
 <script src="/htdocs/js/slick/slick.min.js?<?php echo CACHE_TIME; ?>"></script>
 <link rel="stylesheet" href="/htdocs/js/slick/slick.css?<?php echo CACHE_TIME; ?>">
+<script src="/htdocs/js/echarts/echarts.js?<?php echo CACHE_TIME; ?>"></script>
 <script type="text/javascript">
+var chartsData = {};
+
+function drawCharts(index){//获取tab的索引号
+    
+    var myChart = echarts.init(document.getElementById("col_left_content"));
+    
+    var xAxisData = chartsData.date;
+    var yAxisData = [];
+    var axisTitle = "";
+    switch(index){
+        case 0:
+            yAxisData = chartsData.ruzhu;
+            axisTitle = '入驻公司';
+            break;
+        case 1:
+            yAxisData = chartsData.faxing;
+            axisTitle = '发行公司';
+            break;
+        case 2:
+            yAxisData = chartsData.rongzi;
+            axisTitle = '股权融资';
+            break;
+        case 3:
+            yAxisData = chartsData.ruzhu;
+            axisTitle = '合格投资人';
+            break;
+        default:
+            yAxisData = chartsData.person;
+            axisTitle = '入驻公司';
+            break;
+    }
+    var option = {
+        title: {
+            show: true,
+            text: axisTitle+'近10天增长趋势图',
+            top: '10px',
+            left: 'center',
+            textStyle: {
+                fontSize: 16,
+                color: '#13426b',
+                fontWeight: 'normal',
+                fontFamily: 'PingFang SC'
+            },
+        },
+        color: ['#13426b'],
+        grid: {
+            left: '50px',
+            right: '30px',
+            bottom: '30px',
+            top: '50px'
+        },
+        tooltip: {
+            trigger: 'axis',
+            axisPointer: {
+                type: 'cross',
+                label: {
+                    backgroundColor: '#999'
+                }
+            },
+            formatter:function (params, ticket, callback) {
+                return "日期："+params[0].name+"<br/>数量："+params[0].value;
+            },
+            backgroundColor:'#58a2ef',
+            textStyle: {
+                fontSize: 12
+            }
+        },
+        toolbox: {
+            feature: {
+                magicType : {
+                    show: true,
+                    type: ['line', 'bar'],
+                    iconStyle: {
+                        emphasis: {
+                            color: '#f4364c',
+                            borderColor: '#f4364c'
+                        }
+                    }
+                },
+                restore : {
+                    show: true,
+                    iconStyle: {
+                        emphasis: {
+                            color: '#f4364c',
+                            borderColor: '#f4364c'
+                        }
+                    }
+                },
+                saveAsImage : {
+                    show: true,
+                    iconStyle: {
+                        emphasis: {
+                            color: '#f4364c',
+                            borderColor: '#f4364c'
+                        }
+                    }
+                }
+            },
+            top: 10,
+            right: 20
+        },
+        xAxis: {
+            type: 'category',
+            data: xAxisData,
+            axisLine: {
+                lineStyle: {
+                    color: "#13426b"
+                }
+            },
+            axisLabel: {
+                textStyle: {
+                    color: "#13426b"
+                }
+            }
+        },
+        yAxis: {
+            type: 'value',
+            name: '（数量/个）',
+            axisLine: {
+                lineStyle: {
+                    color: "#13426b"
+                }
+            },
+            axisLabel: {
+                textStyle: {
+                    color: "#13426b"
+                }
+            },
+            splitLine : {
+                lineStyle: {
+                    color: ['#e5e5e5'],
+                    type: 'dashed'
+                }
+            },
+        },
+        series: [{
+            data: yAxisData,
+            type: 'line',
+            smooth: true,
+            barMaxWidth: 20
+        }]
+    };
+    
+    myChart.setOption(option);
+
+}
+
 $(function(){
+  
+  $.ajax({
+      type:"get",
+      url:"/htdocs/json/charts.json",
+      async:true,
+      dataType: 'json',
+      success:function(result){
+          chartsData = result.data;
+          drawCharts(0);//初始画入驻公司图表
+      }
+  });
+  
   //切换行业数据、地区分析
   $("#col_left_tab_box .tab a").on('click',function() {
       $(this).addClass('on').siblings().removeClass('on');
       var index = $(this).index();
-      number = index;
-      $('#col_left_tab_box .content dd').hide();
-      $('#col_left_tab_box .content dd:eq(' + index + ')').show();
+      drawCharts(index);
   });
   //幻灯片轮播，该效果会使得弹框在滚动的时候抖动？
   $(".banner-slick").slick({
