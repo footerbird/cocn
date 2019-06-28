@@ -49,7 +49,7 @@
               <a href="/page/trading-center">股权交易中心</a>
             </li>
             <li>
-              <a href="/page/company-credit-list.php">公司信用查询</a>
+              <a href="/page/company-index.php">公司信用查询</a>
             </li>
             <li>
               <a href="/page/news.php">新媒体资讯</a>
