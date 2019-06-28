@@ -3,7 +3,7 @@
 <head>
 <?php include_once('templete/pub_head_london.php') ?>
 </head>
-<body class="big">
+<body class="big pos-rela">
 <?php include_once('templete/pub_nav.php') ?>
 <!-- 公司认证-->
 <div class="container">
@@ -17,8 +17,10 @@
       <em class="mr10 fl-l in-block">热搜榜：</em>
       <a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司</a><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司</a><a href="/page/company-credit-page-simple.php">名商网络科技有限公司</a>
     </div>
+
   </div>
 </div>
+<a href="/page/certify-web.php" class="company-big-bottom"></a>
 <!--用户登录弹框-->
 <div id="upwin_login" class="upwin" style="display: none;">
     <div class="upwin-title" style="border-bottom: none;">&nbsp;<a href="javascript:;" class="upwin-title-close" onclick="Pop.exit();"></a></div>

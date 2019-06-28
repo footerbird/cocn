@@ -9013,3 +9013,13 @@ body.big {
   float: left !important;
   margin-right: 40px;
 }
+.company-big-bottom {
+  position: absolute !important;
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  bottom: 0px;
+  width: 100%;
+  height: 150px;
+  background: url(../images/banner/company-bg-bottom.png) no-repeat 50%;
+}
