@@ -5165,6 +5165,22 @@ table{
           padding:10px 0px;
           line-height:25px;
           display:block;
+          .pos-rela;
+          &::before{
+            content:'';
+            .pos-abso;
+            .bg-f4364c;
+            width:3px;
+            height:46px;
+            left:-20px;
+            top:0px;
+            display:none;
+          }
+          &.cur{
+            &::before{
+              display:block;
+            }
+          }
         }
       }
     }

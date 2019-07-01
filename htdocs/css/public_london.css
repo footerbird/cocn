@@ -8730,6 +8730,20 @@ table.inner-table tbody tr {
   padding: 10px 0px;
   line-height: 25px;
   display: block;
+  position: relative !important;
+}
+.help-nav .bd ul li a::before {
+  content: '';
+  position: absolute !important;
+  background-color: #f4364c !important;
+  width: 3px;
+  height: 46px;
+  left: -20px;
+  top: 0px;
+  display: none;
+}
+.help-nav .bd ul li a.cur::before {
+  display: block;
 }
 .help-r-content {
   float: right !important;

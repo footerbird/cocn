@@ -14,7 +14,7 @@
       <div class="bd">
           <ul>
             <li>
-              <a href="#">账户问题</a>
+              <a href="#" class="cur">账户问题</a>
             </li>
             <li>
               <a href="#">官网</a>
@@ -69,6 +69,22 @@
               <a href="/page/help-pages.php">个人信息修改</a>
             </li>
           </ul>
+          <div class="mt20 hr"></div>
+          <div class="after-cls mt20">
+            <div class="pages fl-r mr0 "><em class="fl-l lh23">共有0条，每页显示：20条</em>
+                <a href="" class="first">首页</a>
+                <a href="" class="prev">上一页</a><b class="cur">1</b>
+                <a href="">2</a>
+                <a href="">3</a>
+                <span class="ml10 mr10 fl-l in-block">...</span>
+                <a href="">4</a>
+                <a href="">5</a>
+                <a href="">6</a>
+                <a href="" class="next">下一页</a>
+                <a href="" class="last">尾页</a><span class="ml5 mr5 fl-l in-block"><input type="text"></span>
+                <a href="" class="go">GO</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
