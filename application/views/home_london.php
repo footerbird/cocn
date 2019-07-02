@@ -210,7 +210,7 @@
         <div class="bd">
           <div class="slider sctz-autoplay">
             <div class="">
-              <a href="#" class="item">
+              <a href="#" class="item" target="_blank">
                 <p class="ellip f20 col-default">名商网络名商网络名商网络名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -227,7 +227,7 @@
               </a>
             </div>
             <div class="">
-              <a href="#" class="item">
+              <a href="#" class="item" target="_blank">
                 <p class="ellip f20 col-default">名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -244,7 +244,7 @@
               </a>
             </div>
             <div class="">
-              <a href="#" class="item">
+              <a href="#" class="item" target="_blank">
                 <p class="ellip f20 col-default">名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -261,7 +261,7 @@
               </a>
             </div>
             <div class="">
-              <a href="#" class="item">
+              <a href="#" class="item" target="_blank">
                 <p class="ellip f20 col-default">名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -278,7 +278,7 @@
               </a>
             </div>
             <div class="">
-              <a href="#" class="item">
+              <a href="#" class="item" target="_blank">
                 <p class="ellip f20 col-default">名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -295,7 +295,7 @@
               </a>
             </div>
             <div class="">
-              <a href="#" class="item">
+              <a href="#" class="item" target="_blank">
                 <p class="ellip f20 col-default">名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -312,7 +312,7 @@
               </a>
             </div>
             <div class="">
-              <a href="#" class="item">
+              <a href="#" class="item" target="_blank">
                 <p class="ellip f20 col-default">名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -329,7 +329,7 @@
               </a>
             </div>
             <div class="">
-              <a href="#" class="item">
+              <a href="#" class="item" target="_blank">
                 <p class="ellip f20 col-default">名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -346,7 +346,7 @@
               </a>
             </div>
             <div class="">
-              <a href="#" class="item">
+              <a href="#" class="item" target="_blank">
                 <p class="ellip f20 col-default">名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -363,7 +363,7 @@
               </a>
             </div>
             <div class="">
-              <a href="#" class="item">
+              <a href="#" class="item" target="_blank">
                 <p class="ellip f20 col-default">名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -380,7 +380,7 @@
               </a>
             </div>
             <div class="">
-              <a href="#" class="item">
+              <a href="#" class="item" target="_blank">
                 <p class="ellip f20 col-default">名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -397,7 +397,7 @@
               </a>
             </div>
             <div class="">
-              <a href="#" class="item">
+              <a href="#" class="item" target="_blank">
                 <p class="ellip f20 col-default">名商网络</p>
                 <p class="col-gray9">
                   股权转让
