@@ -54,6 +54,26 @@
         <div class="pt30 pb30 pl30 pr30">
           <p>1，QQ能登录，且密保手机，QQ安全中心手机版，任何一种可用时，您可以登录QQ安全中心官网=“选择“更换” =”点击“我已换号了” =“输入新手机号=“通过统一安全验证后，即可更换;</p>
           <p>2，QQ无法登录或密保不可用，您可以手机浏览器登录网页：aq.qq.com =“选择”密保手机“=”登录您的QQ帐号=“更换密保手机=”我已经换号了根据界面提示操作即可。 </p>
+          <div class="wdxz">
+            <div class="hd">文档下载</div>
+            <div class="bd2">
+              <p class="item">
+                <i class="ico-help-wd"></i>
+                <em>我是名字不知道有多少就写多长</em>
+                <a href="javascript:;" class="download">下载</a>
+              </p>
+              <p class="item">
+                <i class="ico-help-wd"></i>
+                <em>我是名字不知道有多少就写多长</em>
+                <a href="javascript:;" class="download">下载</a>
+              </p>
+              <p class="item">
+                <i class="ico-help-wd"></i>
+                <em>有多少就写多长</em>
+                <a href="javascript:;" class="download">下载</a>
+              </p>
+            </div>
+          </div>
           <p class="pt40 ta-c">
             <a href="javascript" class="btn mr35"><i class="ico-youyong"></i>有用</a>
             <a href="javascript" class="btn"><i class="ico-meiyong"></i>没用</a>

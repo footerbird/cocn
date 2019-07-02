@@ -1004,6 +1004,13 @@ textarea{resize: none; overflow-y:auto;}
   vertical-align: middle;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAsCAMAAAAQPRtoAAAAY1BMVEUAAADY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjjcXcWAAAAIHRSTlMAoFBABbIb3KWQFOSAI/rTwPa5CuyvppSJeVpCgmUyJz7HytoAAADSSURBVEjH7dPLjoJAFEXRC0qh2F0NNL5f5/+/UiUxOwGsgpETdu50JXdy7EPFJi9sWqm0mMlMZvJNstzVLkR+y6RL7lLuegSxkVzXrCQMBJH0P8swEMRqaREDQYQNBBEzEJcjAgaCCBoIImz+CggiZt4EETctacWuL077Ysi8yEtkHeH2qXkdbcBcpROCDqpM+rEBUz0PQWvJIPRf6hkiRDCIGMEgIgSzPiACJBjEK5lCtmqsVHUbLxZetaWS3yYjy7x0NrtoUsd2GnWjkTX12ewBeAMnphvpmHsAAAAASUVORK5CYII=) no-repeat 50%;
 }
+.ico-help-wd{/*帮助-文档下载*/
+  display: inline-block;
+  width: 17px;
+  height: 18px;
+  vertical-align: middle;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAASCAMAAACKJ8VmAAAAY1BMVEUAAAA1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfI1qfKjq6p3AAAAIHRSTlMA+EdTcfMwFe6HJAXZtbBdOdoM66orHhvixLibmndvV5t9rgoAAABxSURBVBjTfc/XCsMwDIVhuW1Ga8kro22m3v8pEyKIDRnf5Q8HISiMRxzCH1Fbj75r4KcMmRlqIt3UZCoFbCHlGHiC1HMtr9NSCL2XloXbi85FiOUj4uqbCXdzK7xFG1dVucmPq6ty/JQeqZ7BliqVjQsnGgnxjkvMYAAAAABJRU5ErkJggg==) no-repeat 50%;
+}
 
 .alert-ico-wait{/*橙色等待*/
   display: inline-block;
@@ -2650,6 +2657,63 @@ body.on #bgblack {
 
 }
 /*公司信用查询*/
+.company-big-box{
+  .title{
+    .col-white;
+    .ta-c;
+    font-size: 45px;
+    margin-top: 188px;
+    margin-bottom:58px;
+  }
+  .search-box{
+    width:818px;
+    height:50px;
+    .m-auto;
+    .bg-white;
+    input[type=text]{
+      width:721px;
+      font-size:16px;
+      line-height:50px;
+      height:50px;
+      border:none;
+      padding-left:15px;
+      .fl-l;
+    }
+    a{
+      &.btn{
+        width:97px;
+        line-height:50px;
+        height:50px;
+        .in-block;
+        background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAkFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+WABnwAAAAMHRSTlMA+/h5bGD959S+A9rPxpiAXivKklQmIh4YCerhw7iMhnVuaWdNRD43Ew4N8rWon1oRcFM7AAAA0klEQVQoz5WQVxKDMAxEbcVxo5cA6Z2Qfv/bJbYJBvOV/fBq9DRrjZBRnfkLytakQgNdfCqiaU5CBpt5r0/wIzGVPDJedv0DJnaoCrzql4N3/dgrF221WqOBEvzWfqYm3yr0jQnkqKYzZX7kAnmPlS2myBXXs5CPwGqr3iUZAU/vLzK33+CTsslSOiCGm7ISnN8lf5liw5oBIFC0x/GC/qnP0G1TsLTo+ntMbXSZQqavMD8FeD/BlsijR1kgOMDzO6CIVXLYhlGu9rTEkSbx/yT9AAeACjlX8pCyAAAAAElFTkSuQmCC) #f4364c no-repeat 50%;
+        .fl-l;
+      }
+    }
+  }
+  .hot{
+    width:818px;
+    .m-auto;
+    padding-top:25px;
+    .col-white;
+    padding-left:15px;
+    padding-right:15px;
+    a{
+      .in-block;
+      .col-white;
+      .fl-l;
+      margin-right:40px;
+    }
+  }
+}
+.company-big-bottom{
+  .pos-abso;
+  .in-block;
+  bottom:0px;
+  width:100%;
+  height:150px;
+  background:url(../images/banner/company-bg-bottom.png) no-repeat 50%;
+}
+
 .search-panel-box{
   .bg-white;
   padding:10px 14px;
@@ -5163,6 +5227,7 @@ table{
             display:none;
           }
           &.cur{
+            .col-3daaef;
             &::before{
               display:block;
             }
@@ -5226,7 +5291,6 @@ table{
     }
     .bg-white;
     .title{
-      padding-right:30px;
       .line{
         .in-block;
         .bg-f4364c;
@@ -5241,7 +5305,7 @@ table{
         .fl-l;
         .col-default;
         font-size:18px;
-        width:850px;
+        width:860px;
         border-bottom:1px solid @base-border-color;
         line-height:43px;
       }
@@ -5272,6 +5336,40 @@ table{
             }
             &.ico-meiyong{
               background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAASCAMAAACKJ8VmAAAAe1BMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////NgkbwAAAAKHRSTlMAoPBRuPz14cueLhMK8u3ov3FlYEZAGw8G2dawppiWjIeGfF1ZNSUkCSqqxgAAAHlJREFUGNNdykcOwzAMRNFRb+49vSe6/wkDGBYg829IPBK88TqmSjYDHIIhFc4XIggVFZiJihyo3FoqvaPysVSKErzoc1kUjPRaN2N6uct1zq+6A2BjVHLabr/aA48nsloHvFku3yMwnHJZKqBzyDuIYMVORqOu6/IHfsYGbuSfe20AAAAASUVORK5CYII=) no-repeat 50% ;
+            }
+          }
+        }
+      }
+    }
+    .wdxz{
+      .hd{
+        .bg-f6;
+        line-height:33px;
+        height: 33px;
+        padding-left:10px;
+        padding-right:10px;
+      }
+      .bd2{
+        .bg-fa;
+        padding:15px 10px 10px 10px;
+        p{
+          &.item{
+            padding-bottom:3px;
+            i{
+              margin-right:3px;
+            }
+            em{
+              .in-block;
+              .col-gray6;
+              font-size: 12px;
+              margin-right:12px;
+            }
+            a{
+              &.download{
+                .col-3daaef;
+                .in-block;
+                font-size: 12px;
+              }
             }
           }
         }
@@ -5409,60 +5507,4 @@ body{
     height:100%;
     background:url(../images/banner/company-bg-1920.jpg) no-repeat 50%;
   }
-}
-.company-big-box{
-  .title{
-    .col-white;
-    .ta-c;
-    font-size: 45px;
-    margin-top: 188px;
-    margin-bottom:58px;
-  }
-  .search-box{
-    width:818px;
-    height:50px;
-    .m-auto;
-    .bg-white;
-    input[type=text]{
-      width:721px;
-      font-size:16px;
-      line-height:50px;
-      height:50px;
-      border:none;
-      padding-left:15px;
-      .fl-l;
-    }
-    a{
-      &.btn{
-        width:97px;
-        line-height:50px;
-        height:50px;
-        .in-block;
-        background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAkFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+WABnwAAAAMHRSTlMA+/h5bGD959S+A9rPxpiAXivKklQmIh4YCerhw7iMhnVuaWdNRD43Ew4N8rWon1oRcFM7AAAA0klEQVQoz5WQVxKDMAxEbcVxo5cA6Z2Qfv/bJbYJBvOV/fBq9DRrjZBRnfkLytakQgNdfCqiaU5CBpt5r0/wIzGVPDJedv0DJnaoCrzql4N3/dgrF221WqOBEvzWfqYm3yr0jQnkqKYzZX7kAnmPlS2myBXXs5CPwGqr3iUZAU/vLzK33+CTsslSOiCGm7ISnN8lf5liw5oBIFC0x/GC/qnP0G1TsLTo+ntMbXSZQqavMD8FeD/BlsijR1kgOMDzO6CIVXLYhlGu9rTEkSbx/yT9AAeACjlX8pCyAAAAAElFTkSuQmCC) #f4364c no-repeat 50%;
-        .fl-l;
-      }
-    }
-  }
-  .hot{
-    width:818px;
-    .m-auto;
-    padding-top:25px;
-    .col-white;
-    padding-left:15px;
-    padding-right:15px;
-    a{
-      .in-block;
-      .col-white;
-      .fl-l;
-      margin-right:40px;
-    }
-  }
-}
-.company-big-bottom{
-  .pos-abso;
-  .in-block;
-  bottom:0px;
-  width:100%;
-  height:150px;
-  background:url(../images/banner/company-bg-bottom.png) no-repeat 50%;
 }
