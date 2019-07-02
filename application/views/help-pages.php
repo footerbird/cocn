@@ -67,7 +67,9 @@
 <?php include_once('templete/pub_foot.php') ?>
 <script type="text/javascript">
 $(function(){
-
+    $(".help-r-content .bd").css({
+        "min-height" : ($(".help-nav").outerHeight()-$(".help-r-content .hb").outerHeight(true))+'px'
+    })
 })
 </script>
 </body>
