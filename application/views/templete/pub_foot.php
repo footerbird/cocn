@@ -1,7 +1,6 @@
 <div class="footer" style="">
   <div class="container after-cls">
     <div class="right">
-
       <ul class="after-cls">
         <li>
           <a href="#">关于官网</a>
@@ -13,10 +12,10 @@
           <a href="#">隐私条款</a>
         </li>
         <li>
-          <a href="#">用户服务协议</a>
+          <a href="#">用户协议</a>
         </li>
         <li>
-          <a href="#">平台合作链接</a>
+          <a href="#">平台链接</a>
         </li>
         <li>
           <a href="#">客户服务</a>
