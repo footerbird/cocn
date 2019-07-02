@@ -210,7 +210,7 @@
         <div class="bd">
           <div class="slider sctz-autoplay">
             <div class="">
-              <div class="item">
+              <a href="#" class="item">
                 <p class="ellip f20 col-default">名商网络名商网络名商网络名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -224,10 +224,10 @@
                   <div class="percent"><div class="bar" style="width:90%;"></div></div>
                   <span>90.00%</span>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="">
-              <div class="item">
+              <a href="#" class="item">
                 <p class="ellip f20 col-default">名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -241,10 +241,10 @@
                   <div class="percent"><div class="bar" style="width:90%;"></div></div>
                   <span>90.00%</span>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="">
-              <div class="item">
+              <a href="#" class="item">
                 <p class="ellip f20 col-default">名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -258,10 +258,10 @@
                   <div class="percent"><div class="bar" style="width:90%;"></div></div>
                   <span>90.00%</span>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="">
-              <div class="item">
+              <a href="#" class="item">
                 <p class="ellip f20 col-default">名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -275,10 +275,10 @@
                   <div class="percent"><div class="bar" style="width:90%;"></div></div>
                   <span>90.00%</span>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="">
-              <div class="item">
+              <a href="#" class="item">
                 <p class="ellip f20 col-default">名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -292,10 +292,10 @@
                   <div class="percent"><div class="bar" style="width:90%;"></div></div>
                   <span>90.00%</span>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="">
-              <div class="item">
+              <a href="#" class="item">
                 <p class="ellip f20 col-default">名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -309,10 +309,10 @@
                   <div class="percent"><div class="bar" style="width:90%;"></div></div>
                   <span>90.00%</span>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="">
-              <div class="item">
+              <a href="#" class="item">
                 <p class="ellip f20 col-default">名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -326,10 +326,10 @@
                   <div class="percent"><div class="bar" style="width:90%;"></div></div>
                   <span>90.00%</span>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="">
-              <div class="item">
+              <a href="#" class="item">
                 <p class="ellip f20 col-default">名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -343,10 +343,10 @@
                   <div class="percent"><div class="bar" style="width:90%;"></div></div>
                   <span>90.00%</span>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="">
-              <div class="item">
+              <a href="#" class="item">
                 <p class="ellip f20 col-default">名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -360,10 +360,10 @@
                   <div class="percent"><div class="bar" style="width:90%;"></div></div>
                   <span>90.00%</span>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="">
-              <div class="item">
+              <a href="#" class="item">
                 <p class="ellip f20 col-default">名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -377,10 +377,10 @@
                   <div class="percent"><div class="bar" style="width:90%;"></div></div>
                   <span>90.00%</span>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="">
-              <div class="item">
+              <a href="#" class="item">
                 <p class="ellip f20 col-default">名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -394,10 +394,10 @@
                   <div class="percent"><div class="bar" style="width:90%;"></div></div>
                   <span>90.00%</span>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="">
-              <div class="item">
+              <a href="#" class="item">
                 <p class="ellip f20 col-default">名商网络</p>
                 <p class="col-gray9">
                   股权转让
@@ -411,7 +411,7 @@
                   <div class="percent"><div class="bar" style="width:90%;"></div></div>
                   <span>90.00%</span>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -475,9 +475,9 @@
 var chartsData = {};
 
 function drawCharts(index){//获取tab的索引号
-    
+
     var myChart = echarts.init(document.getElementById("col_left_content"));
-    
+
     var xAxisData = chartsData.date;
     var yAxisData = [];
     var axisTitle = "";
@@ -619,13 +619,13 @@ function drawCharts(index){//获取tab的索引号
             barMaxWidth: 20
         }]
     };
-    
+
     myChart.setOption(option);
 
 }
 
 $(function(){
-  
+
   $.ajax({
       type:"get",
       url:"/htdocs/json/charts.json",
@@ -636,7 +636,7 @@ $(function(){
           drawCharts(0);//初始画入驻公司图表
       }
   });
-  
+
   //切换行业数据、地区分析
   $("#col_left_tab_box .tab a").on('click',function() {
       $(this).addClass('on').siblings().removeClass('on');

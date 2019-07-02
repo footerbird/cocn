@@ -5794,6 +5794,7 @@ body.on #bgblack {
   padding: 30px 25px;
   border-left: 1px solid #f2f6f8;
   border-right: 1px solid #f2f6f8;
+  display: block;
   background-color: #fafafa !important;
   margin-left: 20px;
 }
@@ -5981,45 +5982,58 @@ body.on #bgblack {
 }
 /*footer*/
 .footer {
-  padding: 30px 0 20px 0px;
+  padding: 40px 0 0px 0px;
   background-color: #13426b;
   min-width: 1200px;
 }
-.footer .left {
-  float: left !important;
-  margin-left: 15px;
+.footer .right ul {
+  margin: 0 auto !important;
+  display: table;
 }
-.footer .left dl {
-  color: #fff !important;
-  padding-left: 86px;
+.footer .right ul li {
+  float: left !important;
+  height: 15px;
+  position: relative !important;
+}
+.footer .right ul li::after {
+  position: absolute !important;
+  content: '';
+  width: 1px;
+  height: 10px;
+  display: block;
+  top: 2px;
+  right: 0px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.footer .right ul li:last-child::after {
+  display: none;
+}
+.footer .right ul li:last-child a {
+  padding-right: 0px;
+}
+.footer .right ul li a {
   display: inline-block !important;
   *display: inline !important;
   *zoom: 1 !important;
-  float: left !important;
-  width: 220px;
-  min-height: 150px;
+  color: #fff !important;
+  padding: 0 15px;
+  line-height: 14px;
+  height: 14px;
 }
-.footer .left dl dt {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-.footer .left dl dd a {
+.footer .right .bottom {
+  margin-top: 10px;
+  margin-bottom: 20px;
   font-size: 12px;
-  display: inline-block !important;
-  *display: inline !important;
-  *zoom: 1 !important;
+  float: left !important;
+  width: 100% !important;
+  text-align: center !important;
   color: #fff !important;
+}
+.footer .right .bottom p {
   line-height: 24px;
 }
-.footer .right {
-  float: right !important;
-  margin-right: 15px;
-}
-.footer .right .media {
-  padding-top: 70px;
-}
 .footer .right .media .m-auto {
-  width: 74px;
+  width: 220px;
 }
 .footer .right .media .wechat {
   cursor: pointer;
@@ -6035,8 +6049,8 @@ body.on #bgblack {
 .footer .right .media .wechat span {
   padding: 15px;
   position: absolute !important;
-  bottom: 30px;
-  left: -78px;
+  bottom: 45px;
+  left: -75px;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACAQMAAABIeJ9nAAAAA1BMVEUZaKtYrT7qAAAAAXRSTlPM0jRW/QAAAApJREFUCNdjAAIAAAQAASDSLW8AAAAASUVORK5CYII=) repeat;
 }
 .footer .right .media .wechat span.hide {
@@ -6062,44 +6076,6 @@ body.on #bgblack {
   font-size: 16px;
   padding-top: 15px;
   padding-bottom: 10px;
-}
-.footer .right ul {
-  display: inline-block !important;
-  *display: inline !important;
-  *zoom: 1 !important;
-}
-.footer .right ul li {
-  float: left !important;
-  height: 15px;
-  border-right: 1px solid #fff;
-}
-.footer .right ul li:last-child {
-  border: none;
-}
-.footer .right ul li:last-child a {
-  padding-right: 0px;
-}
-.footer .right ul li a {
-  display: inline-block !important;
-  *display: inline !important;
-  *zoom: 1 !important;
-  color: #fff !important;
-  font-size: 12px;
-  padding: 0 15px;
-  line-height: 14px;
-  height: 14px;
-}
-.footer .bottom {
-  margin-top: 15px;
-  border-top: 1px solid #296191;
-  padding-top: 20px;
-  float: left !important;
-  width: 100% !important;
-  text-align: center !important;
-  color: #fff !important;
-}
-.footer .bottom p {
-  line-height: 24px;
 }
 /*公司信用查询*/
 .search-panel-box {

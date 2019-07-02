@@ -14,7 +14,7 @@
       <div class="bd">
           <ul>
             <li>
-              <a href="#">账户问题</a>
+              <a href="#" class="cur">账户问题</a>
             </li>
             <li>
               <a href="#">官网</a>
