@@ -6150,7 +6150,8 @@ body.on #bgblack {
   *display: inline !important;
   *zoom: 1 !important;
   color: #fff !important;
-  margin-right: 30px;
+  margin-left: 10px;
+  margin-right: 20px;
 }
 .company-big-bottom {
   position: absolute !important;
