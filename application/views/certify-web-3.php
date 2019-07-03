@@ -96,17 +96,15 @@ $(function(){
     $('#b').show();
   });
   //certify-panel-only
-  $(function(){
-    $(".certify-panel-only").css({
-        "min-height" : ($(window).height()-385)+"px"
-    })
-    if($(".manage-panel").length == 1){
-        $(".manage-panel").css({
-            "min-height" : ($(window).height()-385)+"px",
-            "margin-bottom" : "0"
-        })
-    }
+  $(".certify-panel-only").css({
+      "min-height" : ($(window).height()-$(".pub-head").outerHeight()-$(".footer").outerHeight()-35)+"px"
   })
+  if($(".manage-panel").length == 1){
+      $(".manage-panel").css({
+          "min-height" : ($(window).height()-$(".pub-head").outerHeight()-$(".footer").outerHeight()-35)+"px",
+          "margin-bottom" : "0"
+      })
+  }
 
 })
 </script>

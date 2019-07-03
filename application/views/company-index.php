@@ -18,9 +18,16 @@
       <div class="box fl-l">
         <div class="winBox">
           <ul class="scroll">
-            <li><a href="/page/company-credit-page-simple.php">杭州名商网络杭州名商网络杭州名商网络科技有限公司</a></li>
-            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司</a></li>
-            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司</a></li>
+            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司1</a></li>
+            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司2</a></li>
+            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司3</a></li>
+            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司4</a></li>
+            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司5</a></li>
+            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司6</a></li>
+            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司7</a></li>
+            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司8</a></li>
+            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司9</a></li>
+            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司10</a></li>
           </ul>
         </div>
       </div>
@@ -218,25 +225,27 @@ $(function(){
 
 })
 var num = 0;
-    function goLeft() {
-        //650是根据你给的尺寸，可变的
-        if (num == -650) {
-            num = 0;
-        }
-        num -= 1;
-        $(".scroll").css({
-            left: num
-        })
+function goLeft() {
+    //650是根据你给的尺寸，可变的
+    if (num == -650) {
+        num = 0;
     }
+    num -= 1;
+    $(".scroll").css({
+        left: num
+    })
+}
+$(function(){
     //设置滚动速度
     var timer = setInterval(goLeft, 40);
     //设置鼠标经过时滚动停止
     $(".box").hover(function() {
         clearInterval(timer);
-    },
-    function() {
+    },function() {
         timer = setInterval(goLeft, 40);
     })
+})
+
 </script>
 
 </body>
