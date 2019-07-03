@@ -15,9 +15,16 @@
     </div>
     <div class="hot">
       <em class="mr10 fl-l in-block">热搜榜：</em>
-      <a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司</a><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司</a><a href="/page/company-credit-page-simple.php">名商网络科技有限公司</a>
+      <div class="box fl-l">
+        <div class="winBox">
+          <ul class="scroll">
+            <li><a href="/page/company-credit-page-simple.php">杭州名商网络杭州名商网络杭州名商网络科技有限公司</a></li>
+            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司</a></li>
+            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-
   </div>
 </div>
 <a href="/page/certify-web.php" class="company-big-bottom"></a>
@@ -210,6 +217,26 @@ $(function(){
     })
 
 })
+var num = 0;
+    function goLeft() {
+        //650是根据你给的尺寸，可变的
+        if (num == -650) {
+            num = 0;
+        }
+        num -= 1;
+        $(".scroll").css({
+            left: num
+        })
+    }
+    //设置滚动速度
+    var timer = setInterval(goLeft, 40);
+    //设置鼠标经过时滚动停止
+    $(".box").hover(function() {
+        clearInterval(timer);
+    },
+    function() {
+        timer = setInterval(goLeft, 40);
+    })
 </script>
 
 </body>

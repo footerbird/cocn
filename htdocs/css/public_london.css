@@ -5820,6 +5820,7 @@ body.on #bgblack {
   margin-top: 16px;
 }
 .sctz .bd .sctz-autoplay .item .percent {
+  background-color: #d1dde6 !important;
   display: inline-block !important;
   *display: inline !important;
   *zoom: 1 !important;
@@ -6126,13 +6127,30 @@ body.on #bgblack {
   padding-left: 15px;
   padding-right: 15px;
 }
-.company-big-box .hot a {
+.company-big-box .hot .box .winBox {
+  width: 722px;
+  height: 30px;
+  overflow: hidden;
+  position: relative !important;
+  top: -8px;
+}
+.company-big-box .hot .box .winBox .scroll {
+  width: 1200px;
+  position: absolute !important;
+  left: 0px;
+  top: 0px;
+}
+.company-big-box .hot .box .winBox .scroll li {
+  float: left !important;
+  text-align: center !important;
+  line-height: 30px;
+}
+.company-big-box .hot .box .winBox .scroll li a {
   display: inline-block !important;
   *display: inline !important;
   *zoom: 1 !important;
   color: #fff !important;
-  float: left !important;
-  margin-right: 40px;
+  margin-right: 30px;
 }
 .company-big-bottom {
   position: absolute !important;
