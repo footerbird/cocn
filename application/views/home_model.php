@@ -187,11 +187,6 @@
         </div>
         <div class="text">
           <p class="lh24 col-gray6">联系电话：0571-88888888
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0571-88888888
-          </p>
-          <p class="lh24 col-gray6">联系传真：0571-88888888
-          </p>
-          <p class="lh24 col-gray6">阿里巴巴：guanwang.168.com
           </p>
           <p class="lh24 col-gray6">企业邮箱：business@cocn.com
           </p>
@@ -258,36 +253,26 @@
         </a>
       </li>
       <li>
-        <span href="#" class="f16">快速访问</span>
-        <p><a href="#" class="">产品列表</a></p>
-        <p><a href="#" class="">关于我们</a></p>
+        <span class="f16">快速访问</span>
+        <p><a href="/page/home_model_list" class="">产品列表</a></p>
+        <p><a href="/page/home_model_about" class="">关于我们</a></p>
       </li>
       <li>
-        <span href="#" class="f16">联系我们</span>
+        <span class="f16">联系我们</span>
         <p><a href="#" class="">400-555-9999</a></p>
         <p><a href="#" class="">business@cocn.com</a></p>
       </li>
       <li>
-        <span href="#" class="f16">社交媒体</span>
+        <span class="f16">社交媒体</span>
         <a href="#" class="" title="微博">
           <i class="ico-weibo"></i>
         </a>
         <a href="#" class="" title="QQ">
           <i class="ico-qq"></i>
         </a>
-        <a href="#" class="" title="ins">
-          <i class="ico-in"></i>
-        </a>
         <a href="#" class="" title="微信">
           <i class="ico-wechat"></i>
         </a>
-      </li>
-      <li>
-        <span href="#" class="f16">关注最新动态</span>
-        <div class="client-mail">
-          <input type="text" name="" value="" placeholder="输入电子邮箱">
-          <a href="#" class="btn">订阅</a>
-        </div>
       </li>
     </ul>
   </div>

@@ -39,7 +39,7 @@
             <table width="100%" class="">
               <tbody>
                 <tr class="">
-                  <td width="140" align="center" rowspan="2" class="bg-5897cd">
+                  <td width="140" align="center" rowspan="3" class="bg-5897cd">
                     <span class="title col-white lh16 mt25 mb25 in-block pos-rela">
                       标志设置
                     </span>
@@ -59,6 +59,18 @@
                   <td width="112" class="pl10 bg-fa">
                     <div class="pr20 ta-r">
                       微信公众号（二维码）
+                    </div>
+                  </td>
+                  <td class="bg-fa">
+                    <label class="upload-label mt15 mb15" for="">
+                      <input type="file" name="" value="">
+                    </label>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="112" class="pl10 bg-fa">
+                    <div class="pr20 ta-r">
+                      首页<br>banner图
                     </div>
                   </td>
                   <td class="bg-fa">

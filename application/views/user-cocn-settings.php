@@ -148,16 +148,6 @@
                 <tr>
                   <td class="pl10 bg-fa" colspan="3">
                     <dl class="info">
-                      <dt>企业介绍：</dt>
-                      <dd class="width-long"><em class="block-a-dairenzheng mr3">待审核</em>7月2日，加拿大总理特鲁多向记者表示，他相信特朗普向中方提及了被捕加拿大人一事。特鲁多这番话让加拿大网友很生气，有网友质疑他“不够称职到需要外国领导人来做他的工作。”7月2日，加拿大总理特鲁多向记者表示，他相信特朗普向中方提及了被捕加拿大人一事。特鲁多这番话让加拿大网友很生气，有网友质疑他“不够称职到需要外国领导人来做他的工作。”
-                      </dd>
-                    </dl>
-                  </td>
-                  <td class="pl10 bg-fa"></td>
-                </tr>
-                <tr>
-                  <td class="pl10 bg-fa" colspan="3">
-                    <dl class="info">
                       <dt>关于我们：</dt>
                       <dd class="width-long"><em class="block-a-youxiao mr3">有效</em>7月2日，加拿大总理特鲁多向记者表示，他相信特朗普向中方提及了被捕加拿大人一事。特鲁多这番话让加拿大网友很生气，有网友质疑他“不够称职到需要外国领导人来做他的工作。”
                       </dd>
@@ -194,11 +184,20 @@
                   </td>
                 </tr>
                 <tr>
-                  <td class="pl10 bg-fa" colspan="4">
+                  <td class="pl10 bg-fa">
                     <dl class="info">
                       <dt>微信公众号（二维码）</dt>
                       <dd class="">
                         <img src="http://iph.href.lu/64x64?text=64*64"  width="" height="" alt="" class="in-block fl-l mt4">
+                        <em class="block-a-zanwu">暂无</em>
+                      </dd>
+                    </dl>
+                  </td>
+                  <td class="pl10 bg-fa" colspan="3">
+                    <dl class="info">
+                      <dt>首页<br>banner图</dt>
+                      <dd class="">
+                        <img src="http://iph.href.lu/128x64?text=128*64"  width="" height="" alt="" class="in-block fl-l mt4">
                         <em class="block-a-zanwu">暂无</em>
                       </dd>
                     </dl>

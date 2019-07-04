@@ -56,7 +56,8 @@
         <table width="100%" class="inner-table">
           <thead>
             <tr>
-              <th width="85%" align="left">评论内容</th>
+              <th width="60%" align="left">评论内容</th>
+              <th width="25%" align="left">来源</th>
               <th width="15%" align="left">状态/时间</th>
             </tr>
           </thead>
@@ -69,6 +70,9 @@
                 <p class="f12 col-gray6">
                   2019-08-30
                 </p>
+              </td>
+              <td align="left">
+                  <a href="/page/news-page" target="_blank">杭州官网科技有限公司开通股权交易服务</a>
               </td>
               <td align="left">
                 <p class="f12">
@@ -89,7 +93,26 @@
                 </p>
               </td>
               <td align="left">
+                  <a href="/page/news-page" target="_blank">杭州官网科技有限公司开通股权交易服务</a>
+              </td>
+              <td align="left">
                 <a href="#" class="col-default">申请辟谣</a>
+              </td>
+            </tr>
+            <tr>
+              <td align="">
+                <p class="f12 col-default">
+                  购买XXX商品（姓名——许多，电话——18767120072，邮箱——kuanker97@163.com）
+                </p>
+                <p class="f12 col-gray6">
+                  2019-08-30
+                </p>
+              </td>
+              <td align="left">
+                  留言
+              </td>
+              <td align="left">
+                
               </td>
             </tr>
             <tr>
