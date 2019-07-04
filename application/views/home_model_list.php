@@ -35,60 +35,26 @@
   <div class="product-list-left">
     <div class="hb">侧导航</div>
     <div class="bd">
-      <table width="100%">
-        <tbody>
-          <tr>
-            <td width="30%" align="right">广州</td>
-            <td width="10%" align="center">-</td>
-            <td width="60%" align="left">影视行业</td>
-          </tr>
-          <tr>
-            <td width="30%" align="right">广州</td>
-            <td width="10%" align="center">-</td>
-            <td width="60%" align="left">影视行业</td>
-          </tr>
-          <tr>
-            <td width="30%" align="right">广州</td>
-            <td width="10%" align="center">-</td>
-            <td width="60%" align="left">影视行业</td>
-          </tr>
-          <tr>
-            <td width="30%" align="right">广州</td>
-            <td width="10%" align="center">-</td>
-            <td width="60%" align="left">影视行业</td>
-          </tr>
-          <tr>
-            <td width="30%" align="right">广州</td>
-            <td width="10%" align="center">-</td>
-            <td width="60%" align="left">影视行业</td>
-          </tr>
-          <tr>
-            <td width="30%" align="right">广州</td>
-            <td width="10%" align="center">-</td>
-            <td width="60%" align="left">影视行业</td>
-          </tr>
-          <tr>
-            <td width="30%" align="right">广州</td>
-            <td width="10%" align="center">-</td>
-            <td width="60%" align="left">影视行业</td>
-          </tr>
-          <tr>
-            <td width="30%" align="right">广州</td>
-            <td width="10%" align="center">-</td>
-            <td width="60%" align="left">影视行业</td>
-          </tr>
-          <tr>
-            <td width="30%" align="right">广州</td>
-            <td width="10%" align="center">-</td>
-            <td width="60%" align="left">影视行业</td>
-          </tr>
-          <tr>
-            <td width="30%" align="right">广州</td>
-            <td width="10%" align="center">-</td>
-            <td width="60%" align="left">影视行业</td>
-          </tr>
-        </tbody>
-      </table>
+      <ul class="nav">
+        <li>
+          <a href="#">化工原料</a>
+        </li>
+        <li>
+          <a href="#">化工原料</a>
+        </li>
+        <li>
+          <a href="#">化工原料</a>
+        </li>
+        <li>
+          <a href="#">化工原料化工原料化工原料化工原料化工原料化工原料</a>
+        </li>
+        <li>
+          <a href="#">化工原料</a>
+        </li>
+        <li>
+          <a href="#">化工原料</a>
+        </li>
+      </ul>
     </div>
   </div>
   <div class="product-list-right product">

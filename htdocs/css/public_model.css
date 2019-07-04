@@ -3141,6 +3141,7 @@ textarea {
   float: left !important;
   margin-right: 20px;
   margin-bottom: 20px;
+  overflow: hidden;
 }
 .products ul li:nth-child(4n+0) {
   margin-right: 0px;
@@ -3152,7 +3153,8 @@ textarea {
 .products ul li img {
   display: block;
   margin: 0 auto 10px auto;
-  width: 100%;
+  width: 285px;
+  height: 285px;
 }
 .products ul li .name {
   padding-top: 5px;
@@ -3199,6 +3201,8 @@ textarea {
 .about .fl-r img {
   display: block;
   background: #e3e3e3;
+  width: 540px;
+  height: 400px;
 }
 .news-eg {
   position: relative !important;
@@ -3392,24 +3396,21 @@ textarea {
   color: #fff !important;
   font-size: 16px;
 }
-.product-list-left .bd table {
+.product-list-left .bd ul.nav {
   border: 1px solid #f2f6f8;
 }
-.product-list-left .bd table tr:nth-child(odd) {
+.product-list-left .bd ul.nav li:nth-child(odd) {
   background: #f2f6f8;
 }
-.product-list-left .bd table tr td {
-  padding: 5px 3px;
+.product-list-left .bd ul.nav li a {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 5px 8px;
   color: #13426b;
   line-height: 24px;
   height: 35px;
-  font-size: 14px;
-}
-.product-list-left .bd table tr td a {
-  display: inline-block !important;
-  *display: inline !important;
-  *zoom: 1 !important;
-  color: #13426b;
   font-size: 14px;
 }
 .product-list-right {
@@ -3456,6 +3457,7 @@ textarea {
 }
 .product-list-right.news .bd ul.news li a.col-3daaef {
   margin-left: 40px;
+  float: right !important;
 }
 .product-list-right.product .bd ul.list {
   margin-left: -10px;
@@ -3465,6 +3467,7 @@ textarea {
   height: 305px;
   width: 225px;
   margin: 0px 10px 20px 10px;
+  overflow: hidden;
   float: left !important;
 }
 .product-list-right.product .bd ul.list li:nth-child(4n+0) {
@@ -3472,7 +3475,8 @@ textarea {
 }
 .product-list-right.product .bd ul.list li img {
   display: block;
-  width: 100%;
+  width: 225px;
+  height: 225px;
   margin: 0 auto 10px auto;
 }
 .product-list-right.product .bd ul.list li p {
@@ -3505,6 +3509,8 @@ textarea {
   }
   .products ul li img {
     margin-bottom: 5px;
+    width: 170px;
+    height: 170px;
   }
   .products ul li .name {
     padding-top: 2px;
@@ -3547,6 +3553,7 @@ textarea {
   }
   .about div.fl-r img {
     width: 80%;
+    height: auto;
     margin: 0 auto !important;
   }
   .contact {
@@ -3836,6 +3843,8 @@ textarea {
   }
   .products ul li img {
     margin-bottom: 0px;
+    width: 128px;
+    height: 128px;
   }
   .products ul li .name {
     font-size: 12px;
@@ -3877,6 +3886,8 @@ textarea {
   .about .fl-r img {
     margin-top: 10px;
     margin-bottom: 80px;
+    width: 280px;
+    height: auto;
   }
   .news-eg {
     padding: 10px;
@@ -4066,5 +4077,7 @@ textarea {
   }
   .product-list-right.product .bd ul.list li img {
     margin-bottom: 5px;
+    width: 130px;
+    height: 130px;
   }
 }

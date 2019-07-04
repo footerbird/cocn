@@ -1006,6 +1006,7 @@ textarea{resize: none; overflow-y:auto;}
       .fl-l;
       margin-right:20px;
       margin-bottom:20px;
+      overflow:hidden;;
       &:hover{
         border:1px solid #e3e3e3;
         box-shadow:0px 3px 6px #e3e3e3;
@@ -1013,7 +1014,8 @@ textarea{resize: none; overflow-y:auto;}
       img{
         display:block;
         margin:0 auto 10px auto;
-        width:100%;
+        width:285px;
+        height:285px;
       }
       .name{
         padding-top:5px;
@@ -1059,6 +1061,8 @@ textarea{resize: none; overflow-y:auto;}
     img{
       display:block;
       background:#e3e3e3;
+      width:540px;
+      height:400px;
     }
   }
 }
@@ -1244,21 +1248,20 @@ textarea{resize: none; overflow-y:auto;}
     font-size:16px;
   }
   .bd{
-    table{
-      border:1px solid #f2f6f8;
-      tr{
-        &:nth-child(odd){
-          background:#f2f6f8;
-        }
-        td{
-          padding:5px 3px;
-          color: @base-color;
-          line-height:24px;
-          height:35px;
-          font-size:14px;
+    ul{
+      &.nav{
+        border:1px solid #f2f6f8;
+        li{
+          &:nth-child(odd){
+            background:#f2f6f8;
+          }
           a{
-            .in-block;
+            display:block;
+            .ellip;
+            padding:5px 8px;
             color: @base-color;
+            line-height:24px;
+            height:35px;
             font-size:14px;
           }
         }
@@ -1311,6 +1314,7 @@ textarea{resize: none; overflow-y:auto;}
               }
               &.col-3daaef{
                 margin-left:40px;
+                .fl-r;
               }
             }
           }
@@ -1328,13 +1332,15 @@ textarea{resize: none; overflow-y:auto;}
             height:305px;
             width:225px;
             margin:0px 10px 20px 10px;
+            overflow: hidden;
             .fl-l;
             &:nth-child(4n+0){
               margin-right:0px;
             }
             img{
               display: block;
-              width: 100%;
+              width:225px;
+              height:225px;
               margin:0 auto 10px auto;
             }
             p{
@@ -1377,6 +1383,8 @@ textarea{resize: none; overflow-y:auto;}
         height:280px;
         img{
           margin-bottom:5px;
+          width:170px;
+          height:170px;
         }
         .name{
           padding-top:2px;
@@ -1421,6 +1429,7 @@ textarea{resize: none; overflow-y:auto;}
         padding-bottom:80px;
         img{
           width:80%;
+          height:auto;
           .m-auto;
         }
       }
@@ -1539,7 +1548,6 @@ textarea{resize: none; overflow-y:auto;}
       }
     }
     &.product{
-
       .bd{
         ul{
           &.list{
@@ -1553,6 +1561,7 @@ textarea{resize: none; overflow-y:auto;}
               &:nth-child(4n+0){
                 margin-right:10px;
               }
+
               p{
                 padding:4px 12px;
               }
@@ -1729,6 +1738,8 @@ textarea{resize: none; overflow-y:auto;}
         }
         img{
           margin-bottom:0px;
+          width:128px;
+          height:128px;
         }
         .name{
           font-size:12px;
@@ -1773,6 +1784,8 @@ textarea{resize: none; overflow-y:auto;}
       img{
         margin-top:10px;
         margin-bottom:80px;
+        width:280px;
+        height: auto;
       }
     }
   }
@@ -1971,6 +1984,8 @@ textarea{resize: none; overflow-y:auto;}
               }
               img{
                 margin-bottom:5px;
+                width:130px;
+                height:130px;
               }
             }
           }
