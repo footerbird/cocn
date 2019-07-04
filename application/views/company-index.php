@@ -10,24 +10,24 @@
   <div class="company-big-box after-cls">
     <div class="title">公司信用查询</div>
     <div class="search-box after-cls">
-      <input type="text" name="" value="" placeholder="查询公司名称、法人或经营范围">
-      <a href="/page/company-credit-list.php" class="btn"></a>
+      <input type="text" name="" value="" onkeyup="companySearch(this)" placeholder="查询公司名称、法人或经营范围">
+      <a href="/page/company-credit-list" class="btn"></a>
     </div>
     <div class="hot">
       <em class="mr10 fl-l in-block">热搜榜：</em>
       <div class="box fl-l">
         <div class="winBox">
           <ul class="scroll">
-            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司1</a></li>
-            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司2</a></li>
-            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司3</a></li>
-            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司4</a></li>
-            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司5</a></li>
-            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司6</a></li>
-            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司7</a></li>
-            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司8</a></li>
-            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司9</a></li>
-            <li><a href="/page/company-credit-page-simple.php">杭州名商网络科技有限公司10</a></li>
+            <li><a href="/page/company-credit-page-simple">杭州名商网络科技有限公司1</a></li>
+            <li><a href="/page/company-credit-page-simple">杭州名商网络科技有限公司2</a></li>
+            <li><a href="/page/company-credit-page-simple">杭州名商网络科技有限公司3</a></li>
+            <li><a href="/page/company-credit-page-simple">杭州名商网络科技有限公司4</a></li>
+            <li><a href="/page/company-credit-page-simple">杭州名商网络科技有限公司5</a></li>
+            <li><a href="/page/company-credit-page-simple">杭州名商网络科技有限公司6</a></li>
+            <li><a href="/page/company-credit-page-simple">杭州名商网络科技有限公司7</a></li>
+            <li><a href="/page/company-credit-page-simple">杭州名商网络科技有限公司8</a></li>
+            <li><a href="/page/company-credit-page-simple">杭州名商网络科技有限公司9</a></li>
+            <li><a href="/page/company-credit-page-simple">杭州名商网络科技有限公司10</a></li>
           </ul>
         </div>
       </div>
@@ -245,6 +245,10 @@ $(function(){
         timer = setInterval(goLeft, 40);
     })
 })
+
+function companySearch(obj){
+    location.href = '/page/company-credit-list';
+}
 
 </script>
 
