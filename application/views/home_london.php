@@ -423,42 +423,42 @@
           <span>最新动态</span>
         </div>
         <div class="bd">
-          <div class="item">
+          <a href="javascript:;" class="item">
               <img src="http://iph.href.lu/390x200?text=390*200" width="" height="" alt="">
             <h3 class="f16 ellip">杭州官网科技有限公司</h3>
             <p class="col-gray9 f12">2019-03-20</p>
             <p class="col-gray6">官网科技总经理林某发布最新网志，讲述最新战略官网科技总经理林某发布最新网志，讲述最新战略。</p>
-          </div>
-          <div class="item">
+          </a>
+          <a href="javascript:;" class="item">
               <img src="http://iph.href.lu/390x200?text=390*200" width="" height="" alt="">
             <h3 class="f16 ellip">杭州官网科技有限公司</h3>
             <p class="col-gray9 f12">2019-03-20</p>
             <p class="col-gray6">官网科技总经理林某发布最新网志，讲述最新战略官网科技总经理林某发布最新网志，讲述最新战略。</p>
-          </div>
-          <div class="item">
+          </a>
+          <a href="javascript:;" class="item">
               <img src="http://iph.href.lu/390x200?text=390*200" width="" height="" alt="">
             <h3 class="f16 ellip">杭州官网科技有限公司</h3>
             <p class="col-gray9 f12">2019-03-20</p>
             <p class="col-gray6">官网科技总经理林某发布最新网志，讲述最新战略官网科技总经理林某发布最新网志，讲述最新战略。</p>
-          </div>
-          <div class="item">
+          </a>
+          <a href="javascript:;" class="item">
               <img src="http://iph.href.lu/390x200?text=390*200" width="" height="" alt="">
             <h3 class="f16 ellip">杭州官网科技有限公司</h3>
             <p class="col-gray9 f12">2019-03-20</p>
             <p class="col-gray6">官网科技总经理林某发布最新网志，讲述最新战略官网科技总经理林某发布最新网志，讲述最新战略。</p>
-          </div>
-          <div class="item">
+          </a>
+          <a href="javascript:;" class="item">
               <img src="http://iph.href.lu/390x200?text=390*200" width="" height="" alt="">
             <h3 class="f16 ellip">杭州官网科技有限公司</h3>
             <p class="col-gray9 f12">2019-03-20</p>
             <p class="col-gray6">官网科技总经理林某发布最新网志，讲述最新战略官网科技总经理林某发布最新网志，讲述最新战略。</p>
-          </div>
-          <div class="item">
+          </a>
+          <a href="javascript:;" class="item">
               <img src="http://iph.href.lu/390x200?text=390*200" width="" height="" alt="">
             <h3 class="f16 ellip">杭州官网科技有限公司</h3>
             <p class="col-gray9 f12">2019-03-20</p>
             <p class="col-gray6">官网科技总经理林某发布最新网志，讲述最新战略官网科技总经理林某发布最新网志，讲述最新战略。</p>
-          </div>
+          </a>
         </div>
       </div>
     </div>

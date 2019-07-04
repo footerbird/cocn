@@ -5869,6 +5869,9 @@ body.on #bgblack {
   *zoom: 1 !important;
 }
 .index-news .bd .item {
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
   width: 390px;
   margin: 0 15px 15px 15px;
   float: left !important;
