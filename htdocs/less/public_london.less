@@ -4161,6 +4161,7 @@ table{
       .border-radius(2px);
       border:1px solid @base-border-color;
       table{
+        table-layout: fixed;
         .border-radius(2px);
         .custom-web{
           margin-bottom:10px;
@@ -4283,6 +4284,10 @@ table{
               max-width:230px;
               &.width-auto{
                 max-width:max-content;
+              }
+              &.width-long{
+                max-width:690px;
+                .ellip;
               }
             }
           }

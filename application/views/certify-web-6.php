@@ -9,6 +9,10 @@
 <div class="container mt15 mb20 bg-white">
   <div class="padding20 certify-panel-only">
     <div class="certify-box after-cls pt50">
+      <div class="ta-c mt30">
+        <i class="alert-ico-succ41 mr10"></i>
+        <h3 class="col-4eb470 f20 ta-c pt15 pb30">支付成功</h3>
+      </div>
       <h3 class="col-default f20 ta-c pt30">杭州名商网络有限公司</h3>
       <div class="mt25 pb20 ta-c">
         <p class="col-f2743d">

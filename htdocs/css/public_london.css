@@ -7721,6 +7721,7 @@ table.inner-table tbody tr {
   border: 1px solid #f2f6f8;
 }
 .install-box .auto-table table {
+  table-layout: fixed;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
@@ -7838,6 +7839,12 @@ table.inner-table tbody tr {
 }
 .install-box .auto-table table dl.info dd.width-auto {
   max-width: max-content;
+}
+.install-box .auto-table table dl.info dd.width-long {
+  max-width: 690px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .install-box .hd {
   margin-right: 25px;
