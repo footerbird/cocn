@@ -7,7 +7,7 @@
 <?php include_once('templete/pub_nav.php') ?>
 <!-- 股权交易中心 -->
 <div class="container mt20 mb20">
-  <div class="bg-white">
+  <div class="bg-white pt20">
     <div class="">
       <div class="trading-title after-cls">
         <div class="left">
@@ -59,7 +59,7 @@
           <dl class="info">
             <dt>起拍价格：</dt>
             <dd>
-              <em class="col-0bb56b">4,890,00元</em>/人民币
+              <em class="col-f4364c f16">4,890,00元</em>/人民币
             </dd>
           </dl>
         </div>
@@ -71,7 +71,7 @@
         <div class="hr fl-l mb15"></div>
         <div class="fl-l w-all mb25">
           <p>
-            <a href="/page/trading-auction" class="w130 pub-btn mb20">买入股权</a>
+            <a href="/page/trading-auction" class="w130 pub-btn pub-btn-d2434a mb20 ">买入股权</a>
           </p>
           <div class="bg-f2f6f8 pl35 pt20 pb20 pr35">
             <p class="lh26 col-gray6">
