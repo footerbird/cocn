@@ -3028,15 +3028,15 @@ textarea {
   display: inline-block !important;
   *display: inline !important;
   *zoom: 1 !important;
-  margin-top: 13px;
+  margin-top: 23px;
   font-size: 0;
   width: auto;
-  height: 70px;
+  height: 50px;
   overflow: hidden;
 }
 .pub-head .main-logo img {
   display: block;
-  height: 70px;
+  height: 50px;
   width: auto;
 }
 .pub-title .f24 {
