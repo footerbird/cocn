@@ -64,7 +64,7 @@
         <li>
           <img src="http://iph.href.lu/225x225?text=225*225" width="" height="" alt="">
           <p class="">
-            <a href="" class="f14">产品名称产品名称产品名称产品名称产品名称产品名称</a>
+            <a href="/page/home_model_list_page" class="f14">产品名称产品名称产品名称产品名称产品名称产品名称</a>
           </p>
           <!-- <p class="">
             <em class="f12 col-gray6">零售价</em>
@@ -74,7 +74,7 @@
         <li>
           <img src="http://iph.href.lu/225x225?text=225*225" width="" height="" alt="">
           <p class="">
-            <a href="" class="f14">产品名称产品名称产品名称产品名称产品名称产品名称</a>
+            <a href="/page/home_model_list_page" class="f14">产品名称产品名称产品名称产品名称产品名称产品名称</a>
           </p>
           <!-- <p class="">
             <em class="f12 col-gray6">零售价</em>
@@ -84,7 +84,7 @@
         <li>
           <img src="http://iph.href.lu/225x225?text=225*225" width="" height="" alt="">
           <p class="">
-            <a href="" class="f14">产品名称产品名称产品名称产品名称产品名称产品名称</a>
+            <a href="/page/home_model_list_page" class="f14">产品名称产品名称产品名称产品名称产品名称产品名称</a>
           </p>
           <!-- <p class="">
             <em class="f12 col-gray6">零售价</em>
@@ -94,7 +94,7 @@
         <li>
           <img src="http://iph.href.lu/225x225?text=225*225" width="" height="" alt="">
           <p class="">
-            <a href="" class="f14">产品名称产品名称产品名称产品名称产品名称产品名称</a>
+            <a href="/page/home_model_list_page" class="f14">产品名称产品名称产品名称产品名称产品名称产品名称</a>
           </p>
           <!-- <p class="">
             <em class="f12 col-gray6">零售价</em>
@@ -104,7 +104,7 @@
         <li>
           <img src="http://iph.href.lu/225x225?text=225*225" width="" height="" alt="">
           <p class="">
-            <a href="" class="f14">产品名称产品名称产品名称产品名称产品名称产品名称</a>
+            <a href="/page/home_model_list_page" class="f14">产品名称产品名称产品名称产品名称产品名称产品名称</a>
           </p>
           <!-- <p class="">
             <em class="f12 col-gray6">零售价</em>
@@ -114,7 +114,7 @@
         <li>
           <img src="http://iph.href.lu/225x225?text=225*225" width="" height="" alt="">
           <p class="">
-            <a href="" class="f14">产品名称产品名称产品名称产品名称产品名称产品名称</a>
+            <a href="/page/home_model_list_page" class="f14">产品名称产品名称产品名称产品名称产品名称产品名称</a>
           </p>
           <!-- <p class="">
             <em class="f12 col-gray6">零售价</em>
@@ -124,7 +124,7 @@
         <li>
           <img src="http://iph.href.lu/225x225?text=225*225" width="" height="" alt="">
           <p class="">
-            <a href="" class="f14">产品名称产品名称产品名称产品名称产品名称产品名称</a>
+            <a href="/page/home_model_list_page" class="f14">产品名称产品名称产品名称产品名称产品名称产品名称</a>
           </p>
           <!-- <p class="">
             <em class="f12 col-gray6">零售价</em>
@@ -134,7 +134,7 @@
         <li>
           <img src="http://iph.href.lu/225x225?text=225*225" width="" height="" alt="">
           <p class="">
-            <a href="" class="f14">产品名称产品名称产品名称产品名称产品名称产品名称</a>
+            <a href="/page/home_model_list_page" class="f14">产品名称产品名称产品名称产品名称产品名称产品名称</a>
           </p>
           <!-- <p class="">
             <em class="f12 col-gray6">零售价</em>
