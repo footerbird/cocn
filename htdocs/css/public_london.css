@@ -5869,10 +5869,9 @@ body.on #bgblack {
   *zoom: 1 !important;
 }
 .index-news .bd .item {
-  display: inline-block !important;
-  *display: inline !important;
-  *zoom: 1 !important;
+  display: inline-block;
   width: 390px;
+  padding-bottom: 11px;
   margin: 0 15px 15px 15px;
   float: left !important;
 }
@@ -5884,8 +5883,9 @@ body.on #bgblack {
   margin-bottom: 10px;
 }
 .index-news .bd .item p.col-gray6 {
-  height: 55px;
+  height: 44px;
   line-height: 22px;
+  overflow: hidden;
   margin-top: 10px;
 }
 /*区域特色经济*/
@@ -5942,15 +5942,14 @@ body.on #bgblack {
   border-bottom: none;
 }
 .index-gwtg .bd ul li a {
-  display: inline-block !important;
-  *display: inline !important;
-  *zoom: 1 !important;
+  display: block;
+  height: 69px;
   padding-left: 18px;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGBAMAAAAS4vJ7AAAAD1BMVEX3M0f3M0f3M0f3M0f3M0dKkuxcAAAABHRSTlPukQaJu9weVAAAABlJREFUCNdjUGQQYhBxcWZgcXEAYRAbJAYAH3ACrdaL5UUAAAAASUVORK5CYII=) no-repeat 0 10px;
 }
 .index-gwtg .bd ul li a p.col-default {
   line-height: 26px;
-  height: 52px;
+  max-height: 52px;
   overflow: hidden;
   margin-bottom: 5px;
 }
@@ -7818,7 +7817,7 @@ table.inner-table tbody tr {
   font-size: 12px;
   width: 65px;
   margin-left: -65px;
-  text-align: right !important;
+  text-align: right;
   display: inline-block !important;
   *display: inline !important;
   *zoom: 1 !important;

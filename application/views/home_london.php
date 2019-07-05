@@ -144,7 +144,7 @@
             <ul>
               <li>
                 <a href="#">
-                  <p class="col-default">官网科技总经理林某发布最新网志，讲述最新战略官网科技总经理林某发布最新网志，讲述最新战略。</p>
+                  <p class="col-default">官网科技总经理林某发布最新网志</p>
                   <p class="f12 col-gray9">2019年3月21日</p>
                 </a>
               </li>
@@ -156,13 +156,13 @@
               </li>
               <li>
                 <a href="#">
-                  <p class="col-default">官网科技总经理林某发布最新网志，讲述最新战略官网科技总经理林某发布最新网志，讲述最新战略。</p>
+                  <p class="col-default">官网科技总经理林某发布最新网志</p>
                   <p class="f12 col-gray9">2019年3月21日</p>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <p class="col-default">官网科技总经理林某发布最新网志，讲述最新战略官网科技总经理林某发布最新网志，讲述最新战略。</p>
+                  <p class="col-default">官网科技总经理林某发布最新网志</p>
                   <p class="f12 col-gray9">2019年3月21日</p>
                 </a>
               </li>

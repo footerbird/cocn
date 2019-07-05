@@ -2423,8 +2423,9 @@ body.on #bgblack {
     padding:10px 15px 0px 15px;
     .in-block;
     .item{
-      .in-block;
+      display: inline-block;
       width:390px;
+      padding-bottom: 11px;
       margin:0 15px 15px 15px;
       .fl-l;
       img{
@@ -2436,8 +2437,9 @@ body.on #bgblack {
       }
       p{
         &.col-gray6{
-          height:55px;
+          height:44px;
           line-height: 22px;
+          overflow: hidden;
           margin-top: 10px;
         }
       }
@@ -2498,13 +2500,14 @@ body.on #bgblack {
           border-bottom: none;
         }
         a{
-          .in-block;
+          display: block;
+          height: 69px;
           padding-left:18px;
           background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGBAMAAAAS4vJ7AAAAD1BMVEX3M0f3M0f3M0f3M0f3M0dKkuxcAAAABHRSTlPukQaJu9weVAAAABlJREFUCNdjUGQQYhBxcWZgcXEAYRAbJAYAH3ACrdaL5UUAAAAASUVORK5CYII=) no-repeat 0 10px;
           p{
             &.col-default{
               line-height: 26px;
-              height: 52px;
+              max-height: 52px;
               overflow:hidden;
               margin-bottom:5px;
             }
@@ -4268,7 +4271,7 @@ table{
               font-size:12px;
               width:65px;
               margin-left:-65px;
-              .ta-r;
+              text-align: right;
               .in-block;
               .fl-l;
             }
