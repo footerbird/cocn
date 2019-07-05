@@ -268,6 +268,7 @@ textarea{resize: none; overflow-y:auto;}
 .bg-white{background-color: #fff !important;}
 .bg-f5{background-color: #f5f5f5 !important;}
 .bg-f4364c{background-color:#f4364c!important;}
+.bg-f2f6f8{background-color:#f2f6f8!important;}
 /*定位position*/
 .pos-fixed{position: fixed !important;}
 .pos-rela{position: relative !important;}
@@ -1361,6 +1362,102 @@ textarea{resize: none; overflow-y:auto;}
     }
   }
 }
+/*新闻详情*/
+/*分割线*/
+.hr{
+  .bg-f2f6f8;
+  .w-all;
+  height: 1px;
+}
+.news-page{
+  padding:20px;
+  .news-hd{
+    padding-left:30px;
+    padding-right: 30px;
+    .title{
+      .ta-c;
+      font-size: 24px;
+      color:#252525;
+      padding:22px 0;
+      line-height:22px;
+    }
+    .action{
+      .fl-r;
+      .pos-rela;
+      height:42px;
+      min-width:120px;
+    }
+  }
+  .news-content{
+    padding-top: 35px;
+    width:830px;
+    .m-auto;
+    .news-desc{
+      padding:26px 30px;
+      .bg-f2f6f8;
+      line-height:24px;
+      border:1px solid #d1dde6;
+      margin-bottom:40px;
+    }
+    p{
+      line-height:28px;
+      padding-bottom:15px;
+      img{
+        margin-top:10px;
+        margin-bottom:10px;
+        display:block;
+        width:820px;
+        height:320px;
+      }
+    }
+  }
+  .news-comm{
+    padding-top:10px;
+    width:830px;
+    .m-auto;
+    .news-comm-con{
+      .w-all;
+      dl{
+        .w-all;
+        dt{
+          .w-all;
+          textarea{
+            background:#fafafa;
+            .w-all;
+            border:1px solid #d1dde6;
+            padding:15px;
+            height:140px;
+            margin-bottom: 10px;
+          }
+        }
+        dd{
+          .w-all;
+          margin-bottom:35px;
+        }
+      }
+    }
+    .news-comm-list{
+      padding-bottom: 30px;
+      dl{
+        border-bottom: 1px solid #f2f6f8;
+        padding-bottom:15px;
+        padding-top:15px;
+        &:last-child{
+          border-bottom: none;
+        }
+        dt{
+          p{
+            line-height:28px;
+          }
+        }
+        dd{
+            font-size:12px;
+        }
+      }
+    }
+  }
+}
+
 /*
  * 媒体查询
  */
@@ -1569,6 +1666,20 @@ textarea{resize: none; overflow-y:auto;}
           }
         }
       }
+    }
+  }
+  .news-page{
+    .news-content{
+      width:690px;
+      p{
+        img{
+          width:100%;
+          height:auto;
+        }
+      }
+    }
+    .news-comm{
+      width:690px;
     }
   }
 }
@@ -1990,6 +2101,52 @@ textarea{resize: none; overflow-y:auto;}
             }
           }
         }
+      }
+    }
+  }
+  .news-page{
+    margin-top: 80px;
+    padding:0px;
+    .news-hd{
+      padding-left:5px;
+      padding-right: 5px;
+      .title{
+        font-size:16px;
+        line-height:20px;
+        padding:10px 0;
+        margin-bottom:10px;
+      }
+    }
+    .news-content{
+      width:280px;
+      padding-top:0px;
+      .news-desc{
+        padding:5px;
+        line-height: 18px;
+        font-size:12px;
+        margin-bottom:20px;
+      }
+      p{
+        font-size: 12px;
+        line-height:20px;
+        img{
+          width:100%;
+          height:auto;
+        }
+      }
+    }
+    .news-comm{
+      width:280px;
+      .news-comm-list{
+        dl{
+          dt{
+            p{
+              font-size:12px;
+              line-height:18px;
+            }
+          }
+        }
+
       }
     }
   }
