@@ -98,6 +98,7 @@ var editor = new E('#editor')
 // 或者 var editor = new E( document.getElementById('editor') )
 // 配置服务器端地址
 editor.customConfig.uploadImgServer = '/upload'
+editor.customConfig.zIndex = 10
 editor.create()
 $(function(){
 
