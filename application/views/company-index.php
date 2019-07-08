@@ -10,7 +10,7 @@
   <div class="company-big-box after-cls">
     <div class="title">公司信用查询</div>
     <div class="search-box after-cls">
-      <input type="text" name="" value="" onkeyup="companySearch(event,this)" placeholder="查询公司名称、法人或经营范围">
+      <input type="text" name="" value="" onkeyup="companySearch(event,this)" placeholder="查询公司名称或法人">
       <a href="/page/company-credit-list" class="btn"></a>
     </div>
     <div class="hot">

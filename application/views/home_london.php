@@ -27,7 +27,7 @@
           <div class="tab-box" id="col_left_tab_box">
               <div class="tab">
                   <a href="javascript:;" class="on">入驻公司<em class="ta-r pr20">1,024</em></a>
-                  <a href="javascript:;" class="">发行公司<em class="ta-r pr20">512</em></a>
+                  <a href="javascript:;" class="">发行标数<em class="ta-r pr20">512</em></a>
                   <a href="javascript:;" class="">股权融资<em class="ta-r pr20 col-0bb56b">102</em></a>
                   <a href="javascript:;" class="">合格投资人<em class="ta-r pr20">2,048</em></a>
               </div>
@@ -488,7 +488,7 @@ function drawCharts(index){//获取tab的索引号
             break;
         case 1:
             yAxisData = chartsData.faxing;
-            axisTitle = '发行公司';
+            axisTitle = '发行标数';
             break;
         case 2:
             yAxisData = chartsData.rongzi;
