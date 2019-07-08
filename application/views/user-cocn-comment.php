@@ -96,7 +96,7 @@
                   <a href="/page/news-page" target="_blank">杭州官网科技有限公司开通股权交易服务</a>
               </td>
               <td align="left">
-                <a href="#" class="col-default">申请辟谣</a>
+                <a href="javascript:;" data-commit="2" onclick="denyRumour(this)" class="col-default">申请辟谣</a>
               </td>
             </tr>
             <tr>
@@ -139,11 +139,41 @@
     </div>
   </div>
 </div>
+
+<!--申请辟谣弹框-->
+<div id="upwin_denyRumour" class="upwin" style="display: none;">
+    <div class="upwin-title">辟谣理由<a href="javascript:;" class="upwin-title-close" onclick="Pop.exit();"></a></div>
+    <div class="upwin-content">
+        <div class="upwin-form" style="margin-top: -20px; position: relative;">
+            <div class="form-tip" id="upwin_denyRumour_error">辟谣理由不能为空</div>
+            <ul>
+                <li>
+                    <div class="form-input-box">
+                        <select id="denyRumour_type" name="denyRumour_desc" class="form-select">
+                            <option>不实信息</option>
+                            <option>其他</option>
+                        </select>
+                    </div>
+                </li>
+                <li id="code_num_box">
+                    <div class="form-input-box">
+                        <textarea id="denyRumour_desc" name="denyRumour_desc" class="form-textarea" placeholder="请填写具体理由"></textarea>
+                    </div>
+                </li>
+            </ul>
+            <a href="javascript:;" id="denyRumour_btn" class="upwin-btn mb20">提交</a>
+        </div>
+    </div>
+</div>
+
 <!-- footer -->
 <?php include_once('templete/pub_foot_inside.php') ?>
 <script src="/htdocs/js/slick/slick.min.js?<?php echo CACHE_TIME; ?>"></script>
 <link rel="stylesheet" href="/htdocs/js/slick/slick.css?<?php echo CACHE_TIME; ?>">
 <script type="text/javascript">
+function denyRumour(obj){
+    Pop.open('upwin_denyRumour');
+}
 $(function(){
 
 })

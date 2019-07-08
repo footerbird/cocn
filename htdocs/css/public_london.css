@@ -3967,6 +3967,26 @@ textarea {
 .upwin-form .form-input-box .form-input:not(:valid) ~ .form-clear {
   display: none;
 }
+.upwin-form .form-input-box .form-select {
+  font-size: 13px;
+  width: 100% !important;
+  height: 40px;
+  padding: 0 15px;
+  border: none;
+}
+.upwin-form .form-input-box .form-select:not(:valid) ~ .form-clear {
+  display: none;
+}
+.upwin-form .form-input-box .form-textarea {
+  font-size: 13px;
+  width: 100% !important;
+  height: 80px;
+  padding: 15px;
+  border: none;
+}
+.upwin-form .form-input-box .form-textarea:not(:valid) ~ .form-clear {
+  display: none;
+}
 .upwin-form .form-input-box .form-clear {
   position: absolute;
   width: 20px;
@@ -8723,10 +8743,12 @@ table.inner-table tbody tr {
   line-height: 28px;
   padding-bottom: 15px;
 }
-.news-page .news-content p img {
+.news-page .news-content img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  display: block;
 }
 .news-page .news-comm {
   padding-top: 10px;

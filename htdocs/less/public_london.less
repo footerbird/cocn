@@ -618,6 +618,26 @@ textarea{resize: none; overflow-y:auto;}
                 display: none;
             }
         }
+        .form-select{
+            font-size: 13px;
+            .w-all;
+            height: 40px;
+            padding: 0 15px;
+            border: none;
+            &:not(:valid)~.form-clear{
+                display: none;
+            }
+        }
+        .form-textarea{
+            font-size: 13px;
+            .w-all;
+            height: 80px;
+            padding: 15px;
+            border: none;
+            &:not(:valid)~.form-clear{
+                display: none;
+            }
+        }
         .form-clear{
             position: absolute;
             width: 20px;
@@ -5167,11 +5187,13 @@ table{
     p{
       line-height:28px;
       padding-bottom:15px;
-      img{
-        margin-top:10px;
-        margin-bottom:10px;
-        display:block;
-      }
+    }
+    img{
+      display: block;
+      max-width: 100%;
+      margin: 0 auto;
+      margin-top:10px;
+      margin-bottom:10px;
     }
   }
   .news-comm{
