@@ -8999,6 +8999,15 @@ table.inner-table tbody tr {
   *zoom: 1 !important;
   font-size: 12px;
 }
+.help-r-content .bd .textarea {
+  width: 100%;
+  background-color: #fff !important;
+  border: 1px solid #d1dde6;
+  padding: 3px 6px;
+  font-size: 12px;
+  line-height: 24px;
+  height: 180px;
+}
 .help-index .hb {
   width: 1200px;
 }

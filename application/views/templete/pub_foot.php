@@ -3,25 +3,25 @@
     <div class="right">
       <ul class="after-cls">
         <li>
-          <a href="#">关于官网</a>
+          <a href="/page/about-cocn.php">关于官网</a>
         </li>
         <li>
-          <a href="#">联系我们</a>
+          <a href="/page/about-contact.php">联系我们</a>
         </li>
         <li>
-          <a href="#">隐私条款</a>
+          <a href="/page/about-privacy.php">隐私条款</a>
         </li>
         <li>
-          <a href="#">用户协议</a>
+          <a href="/page/about-rule.php">用户协议</a>
         </li>
         <li>
-          <a href="#">平台链接</a>
+          <a href="/page/about-link.php">平台链接</a>
         </li>
         <li>
-          <a href="#">客户服务</a>
+          <a href="/page/about-callback.php">客户服务</a>
         </li>
         <li>
-          <a href="#">文档下载</a>
+          <a href="/page/about-download.php">文档下载</a>
         </li>
       </ul>
       <div class="bottom">
