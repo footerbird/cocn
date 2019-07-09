@@ -6,7 +6,7 @@
 <body>
 <?php include_once('templete/pub_nav.php') ?>
 <div class="news-banner bg-white">
-  <img src="/htdocs/images/banner/banner-news.jpg" width="1920" height="320" alt="">
+  <a href="/page/company-index.php"><img src="/htdocs/images/banner/banner-news.jpg" width="1920" height="320" alt=""></a>
 </div>
 <div class="bg-white">
   <div class="container bg-white">

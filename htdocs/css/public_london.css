@@ -8609,12 +8609,15 @@ table.inner-table tbody tr {
   height: 320px;
   position: relative !important;
 }
-.news-banner img {
+.news-banner a {
+  display: block;
   position: absolute !important;
   left: 50%;
   margin-left: -960px;
-  display: block;
   height: 320px;
+}
+.news-banner a img {
+  display: block;
 }
 .news-index .news-lt {
   width: 840px;
