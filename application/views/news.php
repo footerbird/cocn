@@ -6,7 +6,7 @@
 <body>
 <?php include_once('templete/pub_nav.php') ?>
 <div class="news-banner bg-white">
-  <img src="http://iph.href.lu/1920x320?text=1920*320" width="100%" height="" alt="">
+  <img src="/htdocs/images/banner/banner-news.jpg" width="1920" height="320" alt="">
 </div>
 <div class="bg-white">
   <div class="container bg-white">

@@ -8602,6 +8602,20 @@ table.inner-table tbody tr {
   line-height: 16px;
 }
 /*资讯*/
+.news-banner {
+  width: 100%;
+  min-width: 1200px;
+  overflow: hidden;
+  height: 320px;
+  position: relative !important;
+}
+.news-banner img {
+  position: absolute !important;
+  left: 50%;
+  margin-left: -960px;
+  display: block;
+  height: 320px;
+}
 .news-index .news-lt {
   width: 840px;
   float: left !important;
