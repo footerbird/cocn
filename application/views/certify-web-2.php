@@ -40,12 +40,6 @@ $(function(){
     $(".certify-panel-only").css({
         "min-height" : ($(window).height()-$(".pub-head").outerHeight()-$(".footer").outerHeight()-35)+"px"
     })
-    if($(".manage-panel").length == 1){
-        $(".manage-panel").css({
-            "min-height" : ($(window).height()-$(".pub-head").outerHeight()-$(".footer").outerHeight()-35)+"px",
-            "margin-bottom" : "0"
-        })
-    }
   //搜索建议
   $('#certify_search_input').on('focus',function(){
     $('#certify_search_hot').show();

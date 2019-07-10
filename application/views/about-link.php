@@ -44,14 +44,41 @@
           <p class="pb20">
             <b>合作伙伴</b>
           </p>
-          <p class="pb5">
-            <img src="http://iph.href.lu/120x48?text=120*48" width="" height="" alt="" class="in-block mr20 mb20"><img src="http://iph.href.lu/120x48?text=120*48" width="" height="" alt="" class="in-block mr20 mb20"><img src="http://iph.href.lu/120x48?text=120*48" width="" height="" alt="" class="in-block mr20 mb20"><img src="http://iph.href.lu/120x48?text=120*48" width="" height="" alt="" class="in-block mr20 mb20"><img src="http://iph.href.lu/120x48?text=120*48" width="" height="" alt="" class="in-block mr20 mb20"><img src="http://iph.href.lu/120x48?text=120*48" width="" height="" alt="" class="in-block mr20 mb20"><img src="http://iph.href.lu/120x48?text=120*48" width="" height="" alt="" class="in-block mr20 mb20"><img src="http://iph.href.lu/120x48?text=120*48" width="" height="" alt="" class="in-block mr20 mb20">
+          <p class="pb5 after-cls">
+            <a href="" target="_blank" class="fl-l mr20 mb20">
+              <img src="http://iph.href.lu/120x48?text=120*48" width="120" height="48" alt="" class="block" >
+            </a>
+            <a href="" target="_blank" class="fl-l mr20 mb20">
+              <img src="http://iph.href.lu/120x48?text=120*48" width="120" height="48" alt="" class="block" >
+            </a>
+            <a href="" target="_blank" class="fl-l mr20 mb20">
+              <img src="http://iph.href.lu/120x48?text=120*48" width="120" height="48" alt="" class="block" >
+            </a>
+            <a href="" target="_blank" class="fl-l mr20 mb20">
+              <img src="http://iph.href.lu/120x48?text=120*48" width="120" height="48" alt="" class="block" >
+            </a>
+            <a href="" target="_blank" class="fl-l mr20 mb20">
+              <img src="http://iph.href.lu/120x48?text=120*48" width="120" height="48" alt="" class="block" >
+            </a>
+            <a href="" target="_blank" class="fl-l mr20 mb20">
+              <img src="http://iph.href.lu/120x48?text=120*48" width="120" height="48" alt="" class="block" >
+            </a>
+            <a href="" target="_blank" class="fl-l mr20 mb20">
+              <img src="http://iph.href.lu/120x48?text=120*48" width="120" height="48" alt="" class="block" >
+            </a>
+            <a href="" target="_blank" class="fl-l mr20 mb20">
+              <img src="http://iph.href.lu/120x48?text=120*48" width="120" height="48" alt="" class="block" >
+            </a>
           </p>
           <div class="hr mb25"></div>
           <p class="pb10">
             <b>查看详情</b>
           </p>
-          <p><a href="#" class="in-block mr10 f12">官网</a><em class="f12 in-block col-gray9 mr10">|</em><a href="#" class="in-block mr10 f12">官网</a><em class="f12 in-block col-gray9 mr10">|</em><a href="#" class="in-block mr10 f12">官网</a><em class="f12 in-block col-gray9 mr10">|</em><a href="#" class="in-block mr10 f12">官网</a>
+          <p>
+            <a href="#" class="in-block mr10 f12">官网</a><em class="f12 in-block col-gray9 mr10">|</em>
+            <a href="#" class="in-block mr10 f12">官网</a><em class="f12 in-block col-gray9 mr10">|</em>
+            <a href="#" class="in-block mr10 f12">官网</a><em class="f12 in-block col-gray9 mr10">|</em>
+            <a href="#" class="in-block mr10 f12">官网</a>
           </p>
           <div class="hr mb25"></div>
           <p class="pb5">
@@ -70,8 +97,16 @@
 <?php include_once('templete/pub_foot.php') ?>
 <script type="text/javascript">
 $(function(){
+    var contentH = $(window).height()-$(".pub-head").outerHeight()-$(".footer").outerHeight()-$(".breadcrumbs").outerHeight()-20;
+    var helpnavH = $(".help-nav").outerHeight();
+    var minHelpH;
+    if($(".help-r-content .hb").length == 1){
+        minHelpH = helpnavH > contentH ? (helpnavH-$(".help-r-content .hb").outerHeight(true)) : (contentH-$(".help-r-content .hb").outerHeight(true));
+    }else{
+        minHelpH = helpnavH > contentH ? helpnavH : contentH;
+    }
     $(".help-r-content .bd").css({
-        "min-height" : ($(".help-nav").outerHeight()-$(".help-r-content .hb").outerHeight(true))+'px'
+        "min-height" : minHelpH+'px'
     })
 })
 </script>

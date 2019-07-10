@@ -45,13 +45,13 @@
             <b>投诉与建议</b>
           </p>
           <p>
-            邮箱：fuwu@cocn.com
+            邮箱：fuwu@co.cn
           </p>
           <p class="pb5">
             <b>客服部</b>
           </p>
           <p>
-            邮箱：fuwu@cocn.com<br>
+            邮箱：fuwu@co.cn<br>
             QQ : <a href="#" class="col-3daaef in-block">233333</a>
           </p>
         </div>
@@ -63,8 +63,16 @@
 <?php include_once('templete/pub_foot.php') ?>
 <script type="text/javascript">
 $(function(){
+    var contentH = $(window).height()-$(".pub-head").outerHeight()-$(".footer").outerHeight()-$(".breadcrumbs").outerHeight()-20;
+    var helpnavH = $(".help-nav").outerHeight();
+    var minHelpH;
+    if($(".help-r-content .hb").length == 1){
+        minHelpH = helpnavH > contentH ? (helpnavH-$(".help-r-content .hb").outerHeight(true)) : (contentH-$(".help-r-content .hb").outerHeight(true));
+    }else{
+        minHelpH = helpnavH > contentH ? helpnavH : contentH;
+    }
     $(".help-r-content .bd").css({
-        "min-height" : ($(".help-nav").outerHeight()-$(".help-r-content .hb").outerHeight(true))+'px'
+        "min-height" : minHelpH+'px'
     })
 })
 </script>
