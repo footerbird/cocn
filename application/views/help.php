@@ -7,7 +7,7 @@
 <?php include_once('templete/pub_nav.php') ?>
 <!-- 帮助中心 -->
 <div class="container mb20">
-  <div class="breadcrumbs"><a href="/">首页</a><em></em><a href="/">帮助中心</a><em></em><a href="/">分类标题</a><em></em><a href="/">内容标题</a></div>
+  <div class="breadcrumbs"><a href="/">首页</a><em></em>帮助中心</div>
   <div class="help-index">
     <div class="hb mb20">
       <div class="search-banner">
