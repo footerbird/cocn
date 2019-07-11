@@ -41,7 +41,18 @@
             <p class="f12 col-gray9 fl-l w-all pb5 lh30"><em class="in-block mr40">注册日期&nbsp;&nbsp;&nbsp;&nbsp;2018-12-24</em><em class="in-block mr40">最近登录&nbsp;&nbsp;&nbsp;&nbsp;2019-02-28 13:35</em></p>
           </div>
           <div class="pl15 pr15 mt8 mb25"><div class="hr "></div></div>
-          <div class="f16 col-default ta-c mb20">您未持有公司股权，进入<a href="/page/trading-center" class="col-3daaef">股权交易中心</a>选择股权投资</div>
+          <div class="cocn-kaitong">
+            <p class="ta-c f18 col-default pt15 pb30">
+              您未持有公司股权
+            </p>
+            <img src="/htdocs/images/inner-no-kaitong.png" alt="" class="m-auto">
+            <p class="ta-c col-gray9 lh28 pt30">
+              选择您心仪的公司进行股权投资，分享企业经营带来的收益<br />投资公司股权，像淘宝一样简单。
+            </p>
+            <div class="ta-c pb15 pt30">
+              进入<a href="/page/trading-center" class="col-3daaef">股权交易中心</a>选择股权投资
+            </div>
+          </div>
           <table class="">
             <tbody>
               <tr class="col-default">
