@@ -2994,6 +2994,7 @@ textarea {
 /*头部*/
 .pub-head {
   height: 100px;
+  border-bottom: 1px solid #f0f0f0;
 }
 .pub-head .main-nav {
   margin-top: 32px;
@@ -3324,6 +3325,7 @@ textarea {
 }
 .foot {
   padding: 60px 0;
+  border-top: 1px solid #f0f0f0;
 }
 .foot ul {
   color: #666 !important;

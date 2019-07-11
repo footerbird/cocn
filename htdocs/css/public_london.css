@@ -7848,6 +7848,9 @@ table.inner-table tbody tr {
   font-size: 12px;
   float: left !important;
   max-width: 230px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .install-box .auto-table table dl.info dd [class^="block-a-"] {
   margin-left: 8px;
@@ -7860,9 +7863,6 @@ table.inner-table tbody tr {
 }
 .install-box .auto-table table dl.info dd.width-long {
   max-width: 690px;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
 .install-box .hd {
   margin-right: 25px;
