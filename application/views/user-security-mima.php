@@ -70,7 +70,7 @@
         </div>
         <div class="fl-l w-all mt30 mb10">
           <p class="ta-c mt15 mb20">
-            <a href="/page/user-cocn-settings" class="pub-btn w150">完成</a>
+            <a href="/page/user-security" class="pub-btn w150">完成</a>
           </p>
         </div>
       </div>
