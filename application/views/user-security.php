@@ -32,7 +32,7 @@
                       <dd class="">13288888888</dd>
                     </dl>
                     <p class="ta-r">
-                      <a href="#" class="col-default f12 in-block">设置
+                      <a href="/page/user-security-mima.php" class="col-default f12 in-block">修改
                         <i class="ico-blue-arrow"></i>
                       </a>
                     </p>
