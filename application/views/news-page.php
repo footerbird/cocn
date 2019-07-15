@@ -15,6 +15,7 @@
         </div>
       </div>
       <div class="hd after-cls fl-l w-all">
+        <a href="javascript:;" class="col-gray9 mr10"><i class="ico-chakan mr5"></i>3344</a>
         <a href="javascript:;" class="col-gray9 mr10"><i class="ico-zhuanfa mr5"></i>3344</a>
         <a href="javascript:;" class="col-gray9 mr10"><i class="ico-pinlun mr5"></i>2</a>
         <a href="javascript:;" class="col-gray9 mr10"><i class="ico-zan mr5"></i>33</a>
