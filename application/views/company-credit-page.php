@@ -98,7 +98,7 @@
                 <td colspan="2">
                   <font>简介：</font>
                   <p>名商网络名商网络名商网络名商网络名商网络名商网络名商网络名商网络名商网络名商网络名商网络名商网络名商网络名商网络名商网络名商网络名商网络名商网络名商网络名商网络名商网络名商网络</p>
-                  <a href="#" class="col-3daaef">查看详情</a>
+                  <a href="javascript:;" id="jianjie_detail" class="col-3daaef">查看详情</a>
                 </td>
               </tr>
             </tbody>
@@ -155,8 +155,8 @@
           <thead>
             <tr class="top lh20">
               <th width="300" class="ta-c col-default">法定代表人信息</th>
-              <th width="300" class="ta-c col-default">企业关联图谱</th>
-              <th width="300" class="br0 ta-c col-default">股权结构图</th>
+              <th width="290" class="ta-c col-default">企业关联图谱</th>
+              <th width="290" class="br0 ta-c col-default">股权结构图</th>
             </tr>
           </thead>
           <tbody>
@@ -190,18 +190,59 @@
                     </div>
                    </div>
               </td>
-             <td width="300" class="ta-c">
+             <td width="290" class="ta-c">
                 <img width="250" height="100" src="" alt="pic" class="in-block bg-f3">
                <div class="ta-c mt15">
                  <a href="javascript:;" onclick="" class="pub-btn-m">查看详情</a>
                </div>
              </td>
-             <td width="300" class="br0 ta-c">
+             <td width="290" class="br0 ta-c">
                 <img width="250" height="100" src="" alt="pic" class="in-block bg-f3">
                <div class="ta-c mt15">
                  <a href="javascript:;" onclick="" class="pub-btn-m">查看详情</a>
                </div>
              </td>
+            </tr>
+         </tbody>
+       </table>
+       <div class="f16 pb10 pt5 in-block w-all col-default">工商信息</div>
+        <table class="business-infor-panel top" width="100%">
+          <thead>
+            <tr class="top lh20">
+              <th class="ta-c col-default">法定代表人信息</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="top">
+              <td class="boss-td">
+                  <div class="clearfix">
+                    <div class="fl-l mr18 mt5">
+                      <img class="bheadimg" src="https://co-image.qichacha.com/PersonImage/paaf42621cae39f4af41b9008f3e42cd.jpg">
+                    </div>
+                    <div class="fl-l w700 mt5 mb5">
+                      <a href="" class="in-block ellip w-all">
+                      <h2 class="col-default f18">林赞松</h2>
+                      </a>
+                      <span class="in-block pt5 lh26">共任职 <span class="col-f4364c">7</span> 家企业，<br />主要分布：</span>
+                    </div>
+                  </div>
+                  <div class="clearfix lh30">
+                    <div class="col-sm-2">
+                        浙江 (共<span class="col-f4364c">6</span>家)
+                    </div>
+                    <div class="col-sm-10 ellip">
+                        杭州三六五电子商务股…等
+                    </div>
+                  </div>
+                  <div class="clearfix  lh30">
+                    <div class="col-sm-2">
+                        江西 (共<span class="col-f4364c">1</span>家)
+                    </div>
+                    <div class="col-sm-10 ellip">
+                        上饶市隐保商务服务有限...
+                    </div>
+                   </div>
+              </td>
             </tr>
          </tbody>
        </table>
@@ -315,14 +356,14 @@
           <thead>
             <tr>
               <th width="46">序号</th>
-              <th width="253">股东（发起人)
+              <th width="254">股东（发起人)
                 <a href="javascript:;" onclick="" class="ml15 col-3daaef">查看最终受益人&gt;</a>
               </th>
               <th width="80">持股比例</th>
-              <th width="133" style="padding-left: 0px;padding-right: 0px;">认缴出资额(万元)</th>
-              <th width="120" style="padding-left: 0px;padding-right: 0px;">认缴出资日期</th>
-              <th width="133" style="padding-left: 0px;padding-right: 0px;">实缴出资额(万元)</th>
-              <th width="133" style="padding-left: 0px;padding-right: 0px;">实缴出资日期</th>
+              <th width="125" style="padding-left: 0px;padding-right: 0px;">认缴出资额(万元)</th>
+              <th width="125" style="padding-left: 0px;padding-right: 0px;">认缴出资日期</th>
+              <th width="125" style="padding-left: 0px;padding-right: 0px;">实缴出资额(万元)</th>
+              <th width="125" style="padding-left: 0px;padding-right: 0px;">实缴出资日期</th>
             </tr>
           </thead>
           <tbody>
@@ -398,10 +439,10 @@
               <th width="280">股东（发起人)
                 <a href="javascript:;" onclick="" class="ml15 col-3daaef">查看最终受益人&gt;</a>
               </th>
-              <th width="115">持股比例</th>
-              <th width="153">认缴出资额(万元)</th>
-              <th width="153">认缴出资日期</th>
-              <th width="153">认缴公示日期</th>
+              <th width="105">持股比例</th>
+              <th width="150">认缴出资额(万元)</th>
+              <th width="150">认缴出资日期</th>
+              <th width="150">认缴公示日期</th>
             </tr>
           </thead>
           <tbody>
@@ -644,7 +685,10 @@
 <?php include_once('templete/pub_foot.php') ?>
 <script type="text/javascript">
 $(function(){
-
+    $("#jianjie_detail").on("click",function(){
+        var jianjie_str = $(this).siblings("p").text();
+        $(this).parents("td").html("<font>简介：</font>"+jianjie_str);
+    })
 })
 </script>
 </body>
