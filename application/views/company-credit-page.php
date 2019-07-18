@@ -167,7 +167,7 @@
               <td width="300" class="boss-td">
                   <div class="clearfix">
                     <div class="fl-l mr18 mt5">
-                      <img class="bheadimg" src="https://co-image.qichacha.com/PersonImage/paaf42621cae39f4af41b9008f3e42cd.jpg">
+                      <img class="bheadimg" src="/htdocs/images/legal-figure.png">
                     </div>
                     <div class="fl-l w160 mt5 mb5">
                       <a href="" class="in-block ellip w-all">
@@ -220,7 +220,7 @@
               <td class="boss-td">
                   <div class="clearfix">
                     <div class="fl-l mr18 mt5">
-                      <img class="bheadimg" src="https://co-image.qichacha.com/PersonImage/paaf42621cae39f4af41b9008f3e42cd.jpg">
+                      <img class="bheadimg" src="/htdocs/images/legal-figure.png">
                     </div>
                     <div class="fl-l w700 mt5 mb5">
                       <a href="" class="in-block ellip w-all">
@@ -530,7 +530,7 @@
                   <tbody>
                     <tr>
                       <td width="50">
-                        <img class="headimg" src="https://co-image.qichacha.com/PersonImage/paaf42621cae39f4af41b9008f3e42cd.jpg">
+                        <img class="headimg" src="/htdocs/images/comp-figure.png">
                       </td>
                       <td>
                         <a href="" target="_blank" class="col-default">杭州普望信息技术有限公司
@@ -552,7 +552,7 @@
                   <tbody>
                     <tr>
                       <td width="50">
-                        <img class="headimg" src="https://co-image.qichacha.com/PersonImage/paaf42621cae39f4af41b9008f3e42cd.jpg">
+                        <img class="headimg" src="/htdocs/images/legal-figure.png">
                       </td>
                       <td>
                         <a href="" class="col-default">曾赢
