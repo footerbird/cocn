@@ -7,7 +7,7 @@ class Index_controller extends CI_Controller {
         
     }
     
-    public function uploadImage(){//dropzone.js图片上传检测
+    public function uploadImage(){//CKeditor上传图片
         
         function uploadFile($fileInfo,$uploadPath = 'uploads/images/temp',$flag=true,$allowExt=array('jpeg','jpg','gif','png','JPEG','JPG','GIF','PNG'),$maxSize = 10485760){
             // 判断错误号
@@ -88,9 +88,10 @@ class Index_controller extends CI_Controller {
             );
         }
         
-        $fileUpload = $_FILES['file'];
+        $fileUpload = $_FILES['upload'];
+        $callback = $_GET['CKEditorFuncNum'];
         $result = uploadFile($fileUpload);
-        echo json_encode($result);
+        echo '<script type="text/javascript">window.parent.CKEDITOR.tools.callFunction('.$callback.',"/'.$result['url'].'","上传成功")</script>';
 
     }
     

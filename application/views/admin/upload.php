@@ -71,6 +71,16 @@
                 </div>
               </div>
               
+              <form role="form" method="post">
+              	
+              	<div class="form-group">
+              	
+              		<textarea class="form-control" name="ckeditor" rows="10"></textarea>
+              		
+              	</div>
+              	
+              </form>
+              
             </div>
             
           </div>
@@ -87,6 +97,8 @@
   
 <?php include_once('templete/pub_foot.php') ?>
 <script src="/htdocs/admin/js/dropzone/dropzone.min.js?<?php echo CACHE_TIME; ?>"></script>
+<script src="/htdocs/admin/js/ckeditor/ckeditor.js?<?php echo CACHE_TIME; ?>"></script>
+<script src="/htdocs/admin/js/ckeditor/adapters/jquery.js?<?php echo CACHE_TIME; ?>"></script>
 <script type="text/javascript">
 $(function(){
     var i = 1,
@@ -139,6 +151,12 @@ $(function(){
     $("#advancedDropzone").css({
       minHeight: 200
     });
+    
+    CKEDITOR.replace( 'ckeditor', {
+        filebrowserImageUploadUrl : '/admin/Index_controller/uploadImage',
+        image_previewText : '&nbsp;'
+    });
+    
 })
 </script>
 </body>

@@ -70,10 +70,11 @@
         </div>
         <div class="detail">
           <h3>杭州名商网络有限公司杭州名商网络有限公司杭州名商网络有限公司</h3>
-          <p class="pb10 pt10">
-            <em class="block-a-zaiye mr4">在业</em>
-            <em class="block-a-zhishu mr4">0.88.7.hk</em>
-            <em class="block-a-renzheng mr4">认证</em>
+          <p class="pb10 pt10 after-cls">
+            <em class="block-a-zaiye fl-l mr5">在业</em>
+            <em class="block-a-zhishu fl-l mr5">0.88.7.hk</em>
+            <em class="block-a-renzheng fl-l mr5">认证</em>
+            <a href="#" class="abtn-renzheng fl-l"></a>
           </p>
           <table width="100%">
             <tbody>
@@ -90,8 +91,8 @@
                 <td>
                   <font>邮箱：</font>gs@marksmile.com
                 </td>
-                <td>
-                  <font>地址：</font>浙江省杭州市上塘路333号11层
+                <td class="ellip" title="浙江省杭州市上塘路333号11层浙江省杭州市上塘路333号11层">
+                  <font>地址：</font>浙江省杭州市上塘路333号11层浙江省杭州市上塘路333号11层
                 </td>
               </tr>
               <tr>
@@ -127,7 +128,6 @@
               关注
             </a>
           </p>
-          <a href="#" class="abtn-renzheng mt45 fl-r"></a>
         </div>
       </div>
       <div class="foot">
@@ -213,7 +213,7 @@
             </tr>
           </thead>
           <tbody>
-            <tr class="top">
+            <tr>
               <td class="boss-td">
                   <div class="clearfix">
                     <div class="fl-l mr18 mt5">
