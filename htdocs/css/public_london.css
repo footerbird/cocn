@@ -5715,7 +5715,7 @@ body.on #bgblack {
   height: 302px;
 }
 .screen-outer .col-right {
-  width: 308px;
+  width: 310px;
   float: right !important;
 }
 .screen-outer .col-right .hd {
@@ -5855,6 +5855,9 @@ body.on #bgblack {
   margin-left: 2px;
   margin-right: 2px;
   width: 60px;
+}
+.index-gscx {
+  width: 310px;
 }
 .index-gscx .bd {
   border-bottom: 1px solid #a2b4c4;

@@ -39,7 +39,7 @@
         <!-- 自助建站服务 -->
         <div class="mb20">
           <a href="/page/self-building">
-            <img src="/htdocs/images/enter-self-building.png" alt="">
+            <img src="/htdocs/images/enter-self-building.png" alt="自助餐建站服务"  width="310" height="110">
           </a>
         </div>
         <!-- 公司信用查询 -->
