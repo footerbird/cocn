@@ -41,11 +41,18 @@
   <div class="hr fl-l mb20"></div>
   <div class="pay-wrap pb20 after-cls">
     <h3 class="f16 pb20">支付平台</h3>
-    <div class="check-pay-box">
+    <div class="check-pay-box mr10">
       <label for="action1">
         <input type="radio" name="payway" value="" id="action1" checked>
         <i class="tick" id="payway1_tick"></i>
         <img src="/htdocs/images/pay-zfb.png" alt="">
+      </label>
+    </div>
+    <div class="check-pay-box">
+      <label for="action2">
+        <input type="radio" name="payway" value="" id="action2">
+        <i class="tick" id="payway2_tick"></i>
+        <img src="/htdocs/images/pay-wechat.png" alt="">
       </label>
     </div>
     <div class="f16 pb15 pt30">

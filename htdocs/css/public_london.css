@@ -5983,43 +5983,17 @@ body.on #bgblack {
   overflow: hidden;
   margin-bottom: 5px;
 }
-/*关注我们*/
-.index-gzwm {
+/*四方格*/
+.index-sfg {
   background-color: #fff !important;
-  float: right !important;
-  margin-left: 10px;
-  width: 310px;
+  padding: 10px;
   border-bottom: 1px solid #a2b4c4;
 }
-.index-gzwm .hb {
-  float: left !important;
-  background: #13426b;
-  color: #fff;
-  font-size: 16px;
-  padding: 13px 18px;
-  width: 310px;
-}
-.index-gzwm .bd {
-  float: left !important;
-  padding: 25px 14px 10px 14px;
-}
-.index-gzwm .bd ul li {
-  float: left !important;
-  text-align: center !important;
-  width: 140px;
-  margin-bottom: 5px;
-}
-.index-gzwm .bd ul li img {
-  border: 1px solid #f2f6f8;
-  width: 100px;
-  height: 100px;
+.index-sfg a {
   display: inline-block !important;
   *display: inline !important;
   *zoom: 1 !important;
-}
-.index-gzwm .bd ul li p {
-  color: #13426b !important;
-  line-height: 26px;
+  float: left !important;
 }
 /*footer*/
 .footer {

@@ -36,6 +36,21 @@
         </div>
       </div>
       <div class="col-right">
+        <!-- 四个入口 -->
+        <div class="index-sfg mb20 after-cls">
+          <a href="#" class="mr10 mb14">
+            <img src="/htdocs/images/index-wyrz.png" alt="">
+          </a>
+          <a href="#" class="mb14">
+            <img src="/htdocs/images/index-wyzr.png" alt="">
+          </a>
+          <a href="#" class="mr10">
+            <img src="/htdocs/images/index-gfwz.png" alt="">
+          </a>
+          <a href="#">
+            <img src="/htdocs/images/index-wytz.png" alt="">
+          </a>
+        </div>
         <!-- 自助建站服务 -->
         <div class="mb20">
           <a href="/page/self-building">
@@ -52,13 +67,19 @@
               <input type="text" name="" value="" placeholder="编号/公司名称">
               <a href="/page/company-credit-list.php" class="btn"><i class="ico-search"></i></a>
             </div>
-            <div class="hot mt30">
+            <div class="hot mt20 pb0">
               <p class="col-gray9">热搜公司</p>
               <p>
                 <a href="/page/company-credit-page.php" class="col-gray6">小米科技</a>
               </p>
               <p>
                 <a href="/page/company-credit-page.php" class="col-gray6">华为</a>
+              </p>
+              <p>
+                <a href="/page/company-credit-page.php#" class="col-gray6">杭州名商网络有限公司</a>
+              </p>
+              <p>
+                <a href="/page/company-credit-page.php" class="col-gray6">杭州娃哈哈食品股份有限公司</a>
               </p>
               <p>
                 <a href="/page/company-credit-page.php#" class="col-gray6">杭州名商网络有限公司</a>
@@ -164,34 +185,6 @@
                 <a href="#">
                   <p class="col-default">官网科技总经理林某发布最新网志</p>
                   <p class="f12 col-gray9">2019年3月21日</p>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- 关注我们 -->
-        <div class="index-gzwm mb20">
-          <div class="hb">
-              关注我们
-          </div>
-          <div class="bd">
-            <ul>
-              <li>
-                  <img src="/htdocs/images/qrcode.jpg" alt="">
-                  <p>微信公众号</p>
-              </li>
-              <li>
-                <img src="" alt="">
-                <p>微信小程序</p>
-              </li>
-              <li>
-                <img src="" alt="">
-                <p>微信公众号</p>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="" alt="">
-                  <p>新浪微博</p>
                 </a>
               </li>
             </ul>
