@@ -8394,7 +8394,7 @@ table.inner-table tbody tr {
   border: 1px solid #d1dde6;
 }
 .trading-rank table.rank tbody tr td:first-child {
-  text-indent: 80px;
+  text-align: center !important;
 }
 .trading-rank table.rank tbody tr td:nth-child(2) {
   text-align: center;
