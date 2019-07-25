@@ -59,37 +59,37 @@
       银行借记卡
     </div>
     <div class="check-pay-box mr10">
-      <label for="action2">
-        <input type="radio" name="payway" value="" id="action2">
-        <i class="tick" id="payway2_tick"></i>
-        <img src="/htdocs/images/pay-gs.png" alt="">
-      </label>
-    </div>
-    <div class="check-pay-box mr10">
       <label for="action3">
         <input type="radio" name="payway" value="" id="action3">
         <i class="tick" id="payway3_tick"></i>
-        <img src="/htdocs/images/pay-zs.png" alt="">
+        <img src="/htdocs/images/pay-gs.png" alt="">
       </label>
     </div>
     <div class="check-pay-box mr10">
       <label for="action4">
         <input type="radio" name="payway" value="" id="action4">
-        <i class="tick" id="paywa4_tick"></i>
-        <img src="/htdocs/images/pay-js.png" alt="">
+        <i class="tick" id="payway4_tick"></i>
+        <img src="/htdocs/images/pay-zs.png" alt="">
       </label>
     </div>
     <div class="check-pay-box mr10">
       <label for="action5">
         <input type="radio" name="payway" value="" id="action5">
-        <i class="tick" id="payway5_tick"></i>
-        <img src="/htdocs/images/pay-zg.png" alt="">
+        <i class="tick" id="paywa5_tick"></i>
+        <img src="/htdocs/images/pay-js.png" alt="">
       </label>
     </div>
     <div class="check-pay-box mr10">
       <label for="action6">
         <input type="radio" name="payway" value="" id="action6">
         <i class="tick" id="payway6_tick"></i>
+        <img src="/htdocs/images/pay-zg.png" alt="">
+      </label>
+    </div>
+    <div class="check-pay-box mr10">
+      <label for="action7">
+        <input type="radio" name="payway" value="" id="action7">
+        <i class="tick" id="payway7_tick"></i>
         <img src="/htdocs/images/pay-ny.png" alt="">
       </label>
     </div>
@@ -97,9 +97,9 @@
       其他
     </div>
     <div class="check-pay-box mr10">
-      <label for="action7">
-        <input type="radio" name="payway" value="xxhk" id="action7">
-        <i class="tick" id="payway7_tick"></i>
+      <label for="action8">
+        <input type="radio" name="payway" value="xxhk" id="action8">
+        <i class="tick" id="payway8_tick"></i>
         <img src="/htdocs/images/pay-o2o.png" alt="">
       </label>
     </div>
@@ -128,15 +128,33 @@
     </div>
   </div>
 </div>
+
+<!-- 确认支付结果 -->
+<div id="alert_confirmPay" class="upwin" style="min-width: 360px; display: none;">
+  <div class="upwin-title">确认支付结果<a href="javascript:;" class="upwin-title-close" onclick="Pop.exit();"></a></div>
+  <div class="upwin-content pt0">
+    <div style="padding:20px 0;font-size:14px;line-height:24px;word-break:break-all;text-align:center;">
+      <p style="font-size: 16px; padding-bottom: 10px;">请您在新打开的页面完成支付</p>
+      <p style="color: #999;">支付完成前请不要关闭此窗口</p>
+      <p style="color: #999;">支付完成后，请根据结果选择</p>
+    </div>
+    <div style="text-align:center;padding:0 0 12px;">
+      <a href="javascript:location.reload();" class="alert-btn0">支付成功</a>
+      <a href="javascript:location.reload();" class="alert-btn1">支付失败，重新支付</a>
+    </div>
+  </div>
+</div>
+
 <?php include_once('templete/pub_foot.php') ?>
 <script type="text/javascript">
 $(function() {
   $(".order-confirm-btn").on("click", function() {
       if($("input[name=payway]:checked").length == 0) {
-          alert("请选择支付方式！");
+          Pop.alert("请选择支付方式！");
       } else if($("input[name=payway]:checked").val() == "xxhk") {
           location.href = "/page/trading-pay-o2o";
       }
+      Pop.open("alert_confirmPay");
   })
 })
 </script>
