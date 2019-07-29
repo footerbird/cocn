@@ -4578,6 +4578,28 @@ textarea {
 .pub-btn-m.pub-btn-m-5897cd {
   background-color: #5897cd !important;
 }
+.pub-btn-big {
+  /*默认高度30，颜色 @base-color f24 默认色*/
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  font-size: 24px;
+  color: #fff;
+  background-color: #13426b !important;
+  border: none;
+  text-align: center;
+  padding: 0 50px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+}
+.pub-btn-big:hover {
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
 /*字体颜色*/
 .col-default {
   color: #13426b !important;
@@ -9116,4 +9138,69 @@ body.big {
   width: 100%;
   height: 100%;
   background: url(../images/banner/company-bg-1920.jpg) no-repeat 50%;
+}
+/*四方格详情*/
+.sfg-top {
+  width: 100%;
+  min-width: 1200px;
+  overflow: hidden;
+  height: 292px;
+  position: relative !important;
+}
+.sfg-top .banner {
+  background: url(../images/banner/banner-sfg-wyrz.png) 50% no-repeat;
+}
+.sfg-top .banner .cont {
+  width: 1200px;
+  height: 292px;
+  z-index: 1;
+  margin: 0 auto !important;
+}
+.sfg-top .banner .cont .title {
+  width: 100% !important;
+  text-align: center !important;
+  color: #fff !important;
+  font-size: 46px;
+  padding-top: 55px;
+  padding-bottom: 25px;
+}
+.sfg-top .banner .cont .desc {
+  width: 100% !important;
+  text-align: center !important;
+  color: #fff !important;
+  font-size: 16px;
+  line-height: 45px;
+}
+.sfg-top img {
+  position: absolute !important;
+  display: block;
+  min-width: 1200px;
+}
+.sfg-wyrz-animate {
+  position: absolute !important;
+  left: -150px;
+  -moz-animation: jump 1.5s infinite linear;
+  -webkit-animation: jump 1.5s infinite linear;
+}
+@-moz-keyframes jump {
+  0% {
+    top: -6px;
+  }
+  50% {
+    top: 0px;
+  }
+  100% {
+    top: -6px;
+  }
+}
+@-webkit-keyframes jump {
+  0% {
+    top: -6px;
+  }
+  50% {
+    top: 0px;
+  }
+  100% {
+    top: -6px;
+  }
 }

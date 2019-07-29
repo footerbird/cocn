@@ -38,16 +38,16 @@
       <div class="col-right">
         <!-- 四个入口 -->
         <div class="index-sfg mb20 after-cls">
-          <a href="#" class="mr10 mb14">
+          <a href="/page/sfg-wyrz.php" class="mr10 mb14">
             <img src="/htdocs/images/index-wyrz.png" alt="">
           </a>
-          <a href="#" class="mb14">
+          <a href="/page/sfg-wyzr.php" class="mb14">
             <img src="/htdocs/images/index-wyzr.png" alt="">
           </a>
-          <a href="#" class="mr10">
+          <a href="/page/sfg-gfwz.php" class="mr10">
             <img src="/htdocs/images/index-gfwz.png" alt="">
           </a>
-          <a href="#">
+          <a href="/page/sfg-wytz.php">
             <img src="/htdocs/images/index-wytz.png" alt="">
           </a>
         </div>
