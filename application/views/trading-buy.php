@@ -98,7 +98,7 @@
           <p class="f12 col-gray9 pb30 lh26">
             说明：预付定金师交易前期支付的保证金，投资金额师本次交易的资金总额。
           </p>
-          <label class=""><input type="checkbox" name="yuedu" value="yuedu" id=""><i></i><font>我已了解<a href="#" class="col-3daaef">《股权投资风险》</a></font>并同意购买公司股权</label>
+          <label class=""><input type="checkbox" name="yuedu" value="yuedu" id=""><i></i><font>我已了解<a href="/page/about-risk" target="_blank" class="col-3daaef">《股权投资风险》</a></font>并同意购买公司股权</label>
           <div class="hr fl-l mt25 mb25"></div>
           <p>
             <a href="/page/trading-pay" class="pub-btn mb20">确认出价，并预付保证金</a>

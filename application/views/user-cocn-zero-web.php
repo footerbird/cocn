@@ -191,7 +191,7 @@
         </div>
         <div class="fl-l w-all mt30 mb10">
           <p class="ta-c pos-rela mb5">
-              <label class="col-default ml40"><input type="checkbox" name="yuedu" value="yuedu" id=""><i></i><font>我已阅读并同意<a href="#" class="col-3daaef">《公司审核条款》</a></font></label>
+              <label class="col-default ml40"><input type="checkbox" name="yuedu" value="yuedu" id=""><i></i><font>我已阅读并同意<a href="/page/about-rule" target="_blank" class="col-3daaef">《官网用户协议》</a></font></label>
           </p>
           <p class="ta-c mt15 mb20">
             <a href="/page/user-cocn-zero-connect" class="pub-btn w190">下一步，设置联系方式</a>
