@@ -12,12 +12,11 @@
       <div class="title">我要融资</div>
       <div class="desc">股权交易平台为具备一定创新能力的中小微企业提供融资机会，<br>包括公司股权转让和增资扩股等</div>
     </div>
-    <img src="" alt="">
   </div>
 </div>
 <div class="bg-white pb25">
   <div class="container">
-    <div class="f30 ta-c col-default pt40">入住条件</div>
+    <div class="f30 ta-c col-default pt40">入驻条件</div>
     <div class="fl-l lh30 ml30 mt45">
       <p class="f16 lh30 mb15">1.合法设立并有效存续的公司；</p>
       <p class="f16 lh30 mb15">2.所属行业符合国家和地区产业政策；</p>
@@ -38,7 +37,7 @@
 </div>
 <div class="bg-f2f6f8 pb50">
   <div class="container">
-    <div class="f30 ta-c col-default pt40 mb50">入住材料</div>
+    <div class="f30 ta-c col-default pt40 mb50">入驻材料</div>
     <div class="fl-l ml100 pb20 mt10">
       <img src="/htdocs/images/sfg-wyrz-rzcl.png" alt="" class="in-block ml20">
     </div>
@@ -53,7 +52,7 @@
 </div>
 <div class="bg-white pb100">
   <div class="container after-cls">
-    <div class="f30 ta-c col-default pt40 mb50">入住流程</div>
+    <div class="f30 ta-c col-default pt40 mb50">入驻流程</div>
     <div class="mb35 pt30">
       <img src="/htdocs/images/sfg-wyrz-rzlc.png" alt="">
     </div>
@@ -75,27 +74,7 @@
 </div>
 <!-- footer -->
 <?php include_once('templete/pub_foot.php') ?>
-<script src="/htdocs/js/slick/slick.min.js?<?php echo CACHE_TIME; ?>"></script>
-<link rel="stylesheet" href="/htdocs/js/slick/slick.css?<?php echo CACHE_TIME; ?>">
 <script type="text/javascript">
-$(function(){
-  //幻灯片轮播，该效果会使得弹框在滚动的时候抖动？
-  $(".banner-slick").slick({
-    dots: true,
-    autoplay:true,
-    autoplaySpeed:3000,//默认3000
-    arrows:false
-  });
-  $(".sctz-autoplay").slick({
-    infinite:true,
-    slidesToShow: 4,
-    slidesToScroll: 4,
-    autoplay: true,
-    autoplaySpeed: 25000,
-    arrows:false,
-    dots: true
-  });
-})
 </script>
 </body>
 </html>

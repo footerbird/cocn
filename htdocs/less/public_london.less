@@ -298,6 +298,8 @@ textarea{resize: none; overflow-y:auto;}
 .bg-ffdb6d{background-color:#ffdb6d !important;}
 .bg-ff6a29{background-color:#ff6a29 !important;}
 .bg-ffb494{background-color:#ffb494 !important;}
+.bg-27a9fa{background-color:#27a9fa !important;}
+.bg-498df8{background-color:#498df8 !important;}
 
 /*定位position*/
 .pos-fixed{position: fixed !important;}
@@ -1203,20 +1205,29 @@ textarea{resize: none; overflow-y:auto;}
       .bg-5897cd;
     }
 }
-.pub-btn-big{/*默认高度30，颜色 @base-color f24 默认色*/
+.pub-btn-big{/*默认高度50，颜色 @base-color f20 默认色*/
     display: inline-block;
-    height: 60px;
-    line-height: 60px;
-    font-size: 24px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
     color: #fff;
-    background-color: @base-color !important;
+    background-color: @base-color;
     border:none;
     text-align: center;
-    padding: 0 50px;
+    padding: 0 70px;
     .border-radius(2px);
     .transition-all;
     &:hover{
         .opacity(.8);
+    }
+    &.pub-btn-27a9fa{
+      .bg-27a9fa;
+    }
+    &.pub-btn-f4364c{
+      .bg-f4364c;
+    }
+    &.pub-btn-498df8{
+      .bg-498df8;
     }
 }
 /*字体颜色*/
@@ -1258,6 +1269,9 @@ textarea{resize: none; overflow-y:auto;}
 }
 .col-5897cd{/*卡片蓝色*/
   color:#5897cd !important;
+}
+.col-27a9fa{/*专题蓝色*/
+  color:#27a9fa !important;
 }
 /*按钮字体色*/
 .col-009cff{color:#009cff!important;}
@@ -5593,6 +5607,21 @@ body{
   overflow: hidden;
   height: 292px;
   .pos-rela;
+  &.sfg-gfwz{
+    .banner{
+      background:url(../images/banner/banner-sfg-gfwz.jpg) 50% no-repeat;
+    }
+  }
+  &.sfg-wyzr{
+    .banner{
+      background:url(../images/banner/banner-sfg-wyzr.jpg) 50% no-repeat;
+    }
+  }
+  &.sfg-wytz{
+    .banner{
+      background:url(../images/banner/banner-sfg-wytz.jpg) 50% no-repeat;
+    }
+  }
   .banner{
     background:url(../images/banner/banner-sfg-wyrz.png) 50% no-repeat;
     .cont{
@@ -5616,17 +5645,24 @@ body{
         line-height:45px;
       }
     }
-
-  }
-  img{
-    .pos-abso;
-    display:block;
-    min-width:1200px;
   }
 }
 .sfg-wyrz-animate{
   .pos-abso;
   left: -150px;
+  -moz-animation: jump 1.5s infinite linear;
+  -webkit-animation: jump 1.5s infinite linear;
+}
+.sfg-wyzr-animate{
+  .pos-abso;
+  left:-70px;
+  margin-top:125px;
+  -moz-animation: jump 1.5s infinite linear;
+  -webkit-animation: jump 1.5s infinite linear;
+}
+.sfg-gfwz-animate{
+  .pos-abso;
+  left:-70px;
   -moz-animation: jump 1.5s infinite linear;
   -webkit-animation: jump 1.5s infinite linear;
 }
