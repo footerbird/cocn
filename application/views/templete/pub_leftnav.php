@@ -37,7 +37,7 @@
             <em class="ico-red-circle"></em>
           </a>
         </li>
-        <li>
+        <!-- <li>
           <a href="/page/user-intent">
             <i class="i-tzyx"></i>
             <span>投资意向</span>
@@ -46,7 +46,7 @@
             </font>
             <em class="ico-red-circle"></em>
           </a>
-        </li>
+        </li> -->
         <li>
           <a href="/page/user-cocn">
             <i class="i-gsgw"></i>

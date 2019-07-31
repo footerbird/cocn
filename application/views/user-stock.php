@@ -68,14 +68,14 @@
           </p>
           <img src="/htdocs/images/inner-no-chiyou.png" alt="" class="m-auto">
           <p class="ta-c col-gray6 lh28 pt30 pb50">
-            您可以“<a href="/page/certify-web" class="col-default">公司官网认证</a>”出售持有公司股权，或投资其他公司股权，
-            <br />进入“<a href="/page/user-dealing" class="col-default">股权交易中心</a>”获取更多股权交易信息
+            您可以“<a href="/page/certify-web" class="col-default">公司认证</a>”出售持有公司股权，或投资其他公司股权，
+            <br />进入“<a href="/page/trading-center" class="col-default">股权交易中心</a>”获取更多股权交易信息
           </p>
           <div class="ta-c pb30 pt20">
-            <a href="/page/user-stock-" class="w170 pub-btn mr10">
+            <a href="/page/certify-web" class="w170 pub-btn mr10">
               出售自有公司股权
             </a>
-            <a href="/page/" class="w170 pub-btn-b">
+            <a href="/page/trading-center" class="w170 pub-btn-b">
               进入股权交易中心
             </a>
           </div>

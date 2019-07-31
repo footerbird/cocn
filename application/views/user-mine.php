@@ -230,7 +230,8 @@
       <div class="all-frt">
         <div class="mine-box mb15 after-cls padding20">
           <div class="ta-c col-default lh30 mb20 mt5 f20">官网认证</div>
-          <p class="ta-c lh20">经检测，您持有<em class="col-f4364c in-block ml4 mr4">3</em>家公司未开启官网认证</p>
+          <!-- <p class="ta-c lh20">经检测，您持有<em class="col-f4364c in-block ml4 mr4">3</em>家公司未开启官网认证</p> -->
+          <p class="ta-c lh20 col-gray9">如果您是公司法人，点击开通公司官网</p>
           <p class="mt40 mb25 ta-c">
             <a href="/page/certify-web" class="pub-btn w180">点击认证</a>
           </p>
