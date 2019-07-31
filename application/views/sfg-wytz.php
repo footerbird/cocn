@@ -63,7 +63,7 @@
       </tbody>
     </table>
     <div class="pt100 ta-c">
-      <a href="#" class="mt10 pub-btn-big pub-btn-498df8 mb15">合格投资人认证</a>
+      <a href="/page/user-personal" class="mt10 pub-btn-big pub-btn-498df8 mb15">合格投资人认证</a>
     </div>
   </div>
 </div>

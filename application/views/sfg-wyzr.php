@@ -79,8 +79,8 @@
       <p class="f14 lh30">公司的注册资金是否出资到位，是否有抽逃资金的现象，公司账目是否合法等等。</p>
     </div>
     <div class="mt30 pt50 ta-c w-all fl-l">
-      <a href="#" class="mt10 pub-btn-big pub-btn-27a9fa mb15 mr30">我要出让公司</a>
-      <a href="#" class="mt10 pub-btn-big pub-btn-27a9fa mb15">我要购买公司</a>
+      <a href="/page/user-stock" class="mt10 pub-btn-big pub-btn-27a9fa mb15 mr30">我要出让公司</a>
+      <a href="/page/trading-center" class="mt10 pub-btn-big pub-btn-27a9fa mb15">我要购买公司</a>
     </div>
   </div>
 </div>

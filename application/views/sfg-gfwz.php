@@ -67,7 +67,7 @@
       </tbody>
     </table>
     <div class="pt100 ta-c">
-      <a href="#" class="mt10 pub-btn-big pub-btn-f4364c mb15">开通公司官网</a>
+      <a href="/page/user-cocn" class="mt10 pub-btn-big pub-btn-f4364c mb15">开通公司官网</a>
     </div>
   </div>
 </div>

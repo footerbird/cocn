@@ -68,7 +68,7 @@
       </tbody>
     </table>
     <div class="pt100 ta-c">
-      <a href="#" class="mt10 pub-btn-big mb15">开通股权交易</a>
+      <a href="/page/user-stock" class="mt10 pub-btn-big mb15">开通股权交易</a>
     </div>
   </div>
 </div>
