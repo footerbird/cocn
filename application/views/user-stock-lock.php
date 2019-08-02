@@ -94,6 +94,7 @@
       <div class="mt15">
         <p class="col-gray6 lh26 pb15">
           股权锁仓功能介绍...<br />锁仓功能启动以后，除交易中的股权，其他所有股权将禁止启动交易功能。<br />锁仓股权，必须经过股东大会决议，并由公司法定代表人发起。
+          <a href="/htdocs/files/公司股权锁仓决议样本.docx" target="_blank" class="col-3daaef">《股权锁仓决议》下载</a>
         </p>
         <div class="col-gray9 pb20 after-cls">
           <a href="javascript:;" class="upload-label-word fl-l" id="upload_licence_btn"><i class="ico-upload"></i>上传锁仓决议</a>

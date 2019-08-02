@@ -116,7 +116,7 @@
             </ul>
 
             <div class="ta-r mb10 h15" style="margin-top: -10px; color: #999;">
-                <label class="fl-l"><input type="checkbox" name="reg_agreement" checked=""><i style="top: -1px;"></i>我已阅读并同意<a href="" class="upwin-link" target="_blank">《官网用户服务协议和隐私条款》</a></label>
+                <label class="fl-l"><input type="checkbox" name="reg_agreement" checked=""><i style="top: -1px;"></i>我已阅读并同意<a href="/page/about-rule" class="upwin-link" target="_blank">《官网用户协议》</a>和<a href="/page/about-privacy" class="upwin-link" target="_blank">《隐私条款》</a></label>
             </div>
             <a href="javascript:;" id="register_btn" class="upwin-btn mb20 forbid">立即注册</a>
             <div class="login-bottom-text">已有账号，<a href="javascript:;" class="upwin-link f14" id="upwin_tologin">直接登录</a></div>

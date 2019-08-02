@@ -288,7 +288,7 @@
       
       <div class="hr fl-l mt15 mb25"></div>
       <div class="fl-l w-all mb10">
-        <label class=""><input type="checkbox" name="yuedu" value="yuedu" id=""><i></i><font>我已了解<a href="#" class="col-3daaef">《股权交易规则》</a></font>并同意发布股权交易</label>
+        <label class=""><input type="checkbox" name="yuedu" value="yuedu" id=""><i></i><font>我已了解<a href="/page/about-trading-rule" target="_blank" class="col-3daaef">《股权交易规则》</a></font>并同意发布股权交易</label>
         <p>
           <a href="javascript:;" class="pub-btn mt25 w200 mb20" id="stock_deal_start_btn">开始，发布股权交易</a>
           <a href="/page/user-stock-yikoujia.php">内部一口价</a>
