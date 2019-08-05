@@ -72,6 +72,12 @@
             <span>账户资料</span>
           </a>
         </li>
+        <li class="">
+          <a href="/page/user-order">
+            <i class="i-tzyx"></i>
+            <span>我的订单</span>
+          </a>
+        </li>
         <li>
           <a href="/page/user-money">
             <i class="i-zjls"></i>
