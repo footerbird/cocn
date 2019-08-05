@@ -10,8 +10,9 @@ body {
   height: 100%;
 }
 body {
-  font: 12px/1 -apple-system-font, arial, verdana, helvetica, 'PingFang SC', 'HanHei SC', STHeitiSC-Light, Microsoft Yahei, sans-serif;
+  font-size: 16px;
   color: #333;
+  font-family: -apple-system-font, arial, verdana, helvetica, 'PingFang SC', 'HanHei SC', STHeitiSC-Light, Microsoft Yahei, sans-serif;
   background: #f7f7f7;
 }
 li {
@@ -40,10 +41,12 @@ img {
   visibility: hidden;
   clear: both;
 }
-.flex-one {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  flex: 1;
+.display-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 .forbid {
   opacity: .8 !important;

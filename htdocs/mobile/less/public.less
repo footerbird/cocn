@@ -9,7 +9,9 @@ html,body{
     height:100%;
 }
 body{
-    font: 12px/1 -apple-system-font,arial,verdana,helvetica,'PingFang SC','HanHei SC',STHeitiSC-Light,Microsoft Yahei,sans-serif; color: #333;
+    font-size: 16px;
+    color: #333;
+    font-family: -apple-system-font,arial,verdana,helvetica,'PingFang SC','HanHei SC',STHeitiSC-Light,Microsoft Yahei,sans-serif;
     background: #f7f7f7;
 }
 li{
@@ -27,7 +29,6 @@ img{
 
 /*变量*/
 @base-color: #13426b;//基本色号
-@my-color: #13426b;//控制中心色号
 
 
 /*常用的一些混合*/
@@ -42,22 +43,22 @@ img{
         visibility: hidden; clear: both;
     }
 }
-.border-box(){//盒模型
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-.display-flex(){//flex布局
+.display-flex{//flex布局
     display: -webkit-box;
     display: -moz-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
 }
-.flex-one{
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    flex: 1;
+.flex-number(@num: 1){
+    -webkit-box-flex: @num;
+    -webkit-flex: @num;
+    flex: @num;
+}
+.border-box(){//盒模型
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 .border-radius(@radius: 0){//边框圆角
     -webkit-border-radius: @radius;
@@ -280,7 +281,7 @@ img{
             z-index: 2;
         }
         .item{
-            .flex-one;
+            .flex-number;
             font-size: 14px;
             color: @base-color;
             height: 49px;
