@@ -3,22 +3,15 @@
 <script src="/htdocs/js/dom-ready.js?<?php echo CACHE_TIME; ?>"></script>
 <script type="text/javascript">
 $(function(){
-
-  $("#user").on("click",function(){//点击用户菜单下拉
-      if($(this).hasClass("on")) {
-          $(this).removeClass("on");
-          $("#nav_user_panel").hide();
-      }else {
-          $(this).addClass("on");
-          $("#nav_user_panel").show();
-      }
-      $("body").toggleClass('on');
+  
+  $(".nav-login").on("mouseenter",function(){//点击用户菜单下拉
+      $(this).find(".user").addClass("on");
+      $("#nav_user_panel").show();
+  }).on("mouseleave",function(){
+      $(this).find(".user").removeClass("on");
+      $("#nav_user_panel").hide();
   })
-  $("#bgblack").on('click',function () {//点击用户菜单收起
-    $("body").removeClass('on');
-    $('#user').removeClass("on");
-    $("#nav_user_panel").hide();
-  })
+  
   $("#manage_leftnav li a").on('click',function(){//左侧菜单切换样式
     $(this).parent('li').addClass('cur').siblings('li').removeClass('cur');
   })

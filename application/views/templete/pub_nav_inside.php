@@ -21,7 +21,7 @@
           </a>
         </li>
         <li class="nav-login pos-rela">
-          <a href="javascript:;" class="user pos-rela" id="user">
+          <a href="/page/user-mine" class="user pos-rela" id="user">
             <span class="">
               <img src="/htdocs/images/user-figure.png" alt="" class="head-img">
               <i class="ico-arrow fl-l ml6 mt20"></i>
@@ -30,7 +30,7 @@
           <div class="nav-user-panel pos-abso" id="nav_user_panel" style="display:none">
             <ul>
               <li class="name">
-                <a href="/page/user-mine">XXXXXX</a>
+                <a href="/page/user-personal">XXXXXX</a>
                 <font class="had">已实名</font>
               </li>
               <li>

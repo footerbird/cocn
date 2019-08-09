@@ -4,7 +4,7 @@
         <a href="/page/home_london.php" class="main-logo fl-l mb10">co.cn</a>
         <div class="nav-login pos-rela">
             <a href="javascript:;" onclick="Pop.open('upwin_login')" class="dl">登录</a><em class="col-999 f12 in-block fl-l mt25 ml10 mr10"></em><a href="javascript:;" onclick="Pop.open('upwin_register')" class="zc">注册</a>
-            <a href="javascript:;" class="user pos-rela" id="user">
+            <a href="/page/user-mine" class="user pos-rela" id="user">
               <span class="">
                 <img src="/htdocs/images/user-figure.png" alt="" class="head-img">
                 <i class="ico-arrow fl-l ml6 mt20"></i>
@@ -13,7 +13,7 @@
             <div class="nav-user-panel pos-abso" id="nav_user_panel" style="display:none">
               <ul>
                 <li class="name">
-                  <a href="/page/user-mine">XXXXXX</a>
+                  <a href="/page/user-personal">XXXXXX</a>
                   <font class="had">已实名</font>
                 </li>
                 <li>
@@ -41,7 +41,7 @@
 
         </div>
         <div class="nav-box fl-r">
-          <ul>
+          <ul class="mr20">
             <li class="cur">
               <a href="/page/home_london.php">首页</a>
             </li>
@@ -54,9 +54,14 @@
             <li>
               <a href="/page/news.php">新媒体资讯</a>
             </li>
-            <li>
+            <li style="margin-right: 100px;">
               <a href="/page/help.php">
                 帮助中心
+              </a>
+            </li>
+            <li>
+              <a href="/page/help.php">
+                个人中心
               </a>
             </li>
           </ul>

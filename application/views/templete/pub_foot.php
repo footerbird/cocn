@@ -194,20 +194,12 @@
 <script type="text/javascript">
 $(function(){
 
-  $("#user").on("click",function(){//点击用户菜单下拉
-      if($(this).hasClass("on")) {
-          $(this).removeClass("on");
-          $("#nav_user_panel").hide();
-      }else {
-          $(this).addClass("on");
-          $("#nav_user_panel").show();
-      }
-      $("body").toggleClass('on');
-  })
-  $("#bgblack").on('click',function () {//点击用户菜单收起
-    $("body").removeClass('on');
-    $('#user').removeClass("on");
-    $("#nav_user_panel").hide();
+  $(".nav-login").on("mouseenter",function(){//点击用户菜单下拉
+      $(this).find(".user").addClass("on");
+      $("#nav_user_panel").show();
+  }).on("mouseleave",function(){
+      $(this).find(".user").removeClass("on");
+      $("#nav_user_panel").hide();
   })
     $("#upwin_login .login-tab a").on("click",function(){
         var $this = $(this);
