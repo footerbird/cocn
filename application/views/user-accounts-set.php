@@ -95,6 +95,7 @@
 <script src="/htdocs/js/bankcard.js?<?php echo CACHE_TIME; ?>"></script>
 <script type="text/javascript">
 function checkBankCard(){
+  $("#bank_name_text").html(""); 
   var account_num = $.trim($("#account_num").val());
   if(account_num != ""){
     if(account_num.toString().length <= 15 && account_num.toString().length >= 20) {
