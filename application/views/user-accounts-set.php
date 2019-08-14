@@ -71,17 +71,7 @@
                     </div>
                   </td>
                   <td class="bg-fa">
-                      <input type="text" name="" value="" placeholder="请输入账号" class="input w190">
-                  </td>
-                </tr>
-                <tr>
-                  <td width="112" class="pl10 bg-fa">
-                    <div class="pr20 ta-r">
-                      开通时间
-                    </div>
-                  </td>
-                  <td class="bg-fa">
-                      <input type="text" name="" value="" placeholder="请输入开通时间" class="datetxt input w190" id="date">
+                      <input type="text" name="" value="" id="account_num" placeholder="请输入账号" class="input w380"><span class="ml20 f12 col-06c594" id="bank_name_text"></span>
                   </td>
                 </tr>
               </tbody>
@@ -90,7 +80,7 @@
         </div>
         <div class="fl-l w-all mt30 mb10">
           <p class="ta-c mt15 mb20">
-            <a href="/page/user-accounts" class="pub-btn w150">完成</a>
+            <a href="javascript:;" onclick="setAccount()" class="pub-btn w150">完成</a>
           </p>
         </div>
       </div>
@@ -101,8 +91,43 @@
 <?php include_once('templete/pub_foot_inside.php') ?>
 <script src="/htdocs/js/slick/slick.min.js?<?php echo CACHE_TIME; ?>"></script>
 <link rel="stylesheet" href="/htdocs/js/slick/slick.css?<?php echo CACHE_TIME; ?>">
-<script src="/htdocs/js/lyz.calendar.min.js?<?php echo CACHE_TIME; ?>"></script>
+<script src="/htdocs/js/luhmCheck.js?<?php echo CACHE_TIME; ?>"></script>
+<script src="/htdocs/js/bankcard.js?<?php echo CACHE_TIME; ?>"></script>
 <script type="text/javascript">
+function checkBankCard(){
+  var account_num = $.trim($("#account_num").val());
+  if(account_num != ""){
+    if(account_num.toString().length <= 15 && account_num.toString().length >= 20) {
+      Pop.alert("银行卡号长度必须在16到19之间！");
+      return false;
+    }
+    if(!/^\d*$/.test(account_num)) {
+      Pop.alert("银行卡号必须全为数字！");
+      return false;
+    }
+    //开头6位
+    var strBin ="10,18,30,35,37,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,58,60,62,65,68,69,84,87,88,94,95,98,99";
+    if(strBin.indexOf(account_num.substring(0,2)) == -1) {
+      Pop.alert("银行卡号开头6位不符合规范！");
+      return false;
+    }
+    //Luhm校验（新） luhmCheck()是验证银行卡号码正误的
+    if(!luhmCheck(account_num)){
+      Pop.alert("银行卡号码有误！");
+      return false;
+    }else{
+      //这里是展示给用户看得银行卡开户名以及传递给表单隐藏域的bankCardAttribution()方法就是自动匹配开户银行的
+      var b_name = bankCardAttribution(account_num);
+      $("#bank_name_text").html(b_name["bankName"]+"&nbsp;√"); 
+    }
+  }else{
+      Pop.alert("请输入银行卡号码！");
+      return false;           
+  } 
+}
+function setAccount(){
+  location.href = '/page/user-accounts';
+}
 $(function() {
   //类型决定是否输入开户行
     $("#select_type").on("change", function() {
@@ -113,10 +138,11 @@ $(function() {
           $("input[name=kaihu]").attr("readonly",true).addClass("read");
         }
     })
-    // 时间选择器
-    $("#date").calendar({
-  		readonly : false
-  	});
+    
+    $("#account_num").on("blur",function(){
+        checkBankCard();
+    })
+    
 })
 </script>
 </body>
