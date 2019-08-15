@@ -7850,14 +7850,12 @@ table.inner-table tbody tr {
 }
 .install-box .auto-table table dl.info {
   line-height: 26px;
-  margin-left: 80px;
-  float: left !important;
+  padding-left: 15px;
 }
 .install-box .auto-table table dl.info dt {
   color: #999 !important;
   font-size: 12px;
   width: 65px;
-  margin-left: -65px;
   text-align: right;
   display: inline-block !important;
   *display: inline !important;
@@ -7865,13 +7863,10 @@ table.inner-table tbody tr {
   float: left !important;
 }
 .install-box .auto-table table dl.info dd {
-  display: inline-block !important;
-  *display: inline !important;
-  *zoom: 1 !important;
   padding-left: 2px;
+  margin-left: 65px;
   margin-right: 6px;
   font-size: 12px;
-  float: left !important;
   max-width: 230px;
   overflow: hidden;
   white-space: nowrap;

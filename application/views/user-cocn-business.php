@@ -149,7 +149,7 @@
                     <em class="block-a-zanwu">暂无</em>
                   </td>
                   <td width="20%" class="pl25 bg-fa">
-                    <a href="/page/user-cocn--set" class="col-default f12 in-block ml20">设置<i class="ico-blue-arrow ml3"></i>
+                    <a href="/page/user-stock-manage" class="col-default f12 in-block ml20">设置<i class="ico-blue-arrow ml3"></i>
                     </a>
                   </td>
                 </tr>
@@ -171,8 +171,7 @@
                     <em class="block-a-zanwu">暂无</em>
                   </td>
                   <td width="20%" class="pl25 bg-fa">
-                    <a href="/page/user-cocn--set" class="col-default f12 in-block ml20">设置<i class="ico-blue-arrow ml3"></i>
-                    </a>
+                    
                   </td>
                 </tr>
               </tbody>
