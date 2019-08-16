@@ -4807,16 +4807,7 @@ input[type=radio]:disabled + i {
   margin-right: 15px;
 }
 .upload-label input[type=file] {
-  width: 86px;
-  position: absolute !important;
-  font-size: 86px;
-  right: 0;
-  top: 0;
-  filter: alpha(opacity=0);
-  -moz-opacity: 0;
-  opacity: 0;
-  cursor: pointer;
-  height: 86px;
+  display: none;
 }
 .abtn-renzheng {
   /*官网认证按钮136*38*/

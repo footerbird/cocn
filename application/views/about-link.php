@@ -45,14 +45,14 @@
             <b>合作伙伴</b>
           </p>
           <p class="pb5 after-cls">
-            <a href="" target="_blank" class="fl-l mr20 mb20">
-              <img src="http://iph.href.lu/120x48?text=120*48" width="120" height="48" alt="" class="block" >
+            <a href="https://www.marksmile.com/" target="_blank" class="fl-l mr20 mb20">
+              <img src="/htdocs/images/link-marksmile.png" width="120" height="48" alt="" class="block" >
             </a>
-            <a href="" target="_blank" class="fl-l mr20 mb20">
-              <img src="http://iph.href.lu/120x48?text=120*48" width="120" height="48" alt="" class="block" >
+            <a href="http://www.shangbiao.com/" target="_blank" class="fl-l mr20 mb20">
+              <img src="/htdocs/images/link-yumi.png" width="120" height="48" alt="" class="block" >
             </a>
-            <a href="" target="_blank" class="fl-l mr20 mb20">
-              <img src="http://iph.href.lu/120x48?text=120*48" width="120" height="48" alt="" class="block" >
+            <a href="http://www.yumi.com/" target="_blank" class="fl-l mr20 mb20">
+              <img src="/htdocs/images/link-shangbiao.png" width="120" height="48" alt="" class="block" >
             </a>
             <a href="" target="_blank" class="fl-l mr20 mb20">
               <img src="http://iph.href.lu/120x48?text=120*48" width="120" height="48" alt="" class="block" >
@@ -85,7 +85,7 @@
             <b>申请友情链接</b>
           </p>
           <p>
-            欢迎与本网站交换友情链接。联系QQ：
+            欢迎与本网站交换友情链接。联系QQ：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=419595036&amp;site=qq&amp;menu=yes" target="_blank">419595036</a>
           </p>
           <div class="hr"></div>
         </div>
