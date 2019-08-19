@@ -4,17 +4,10 @@
     <?php include_once('templete/pub_head.php') ?>
     </head>
     <body>
-    <div class="header">
-        <!-- <div class="header-container">
-            <a href="<?php echo base_url() ?>mobile/home" target="_parent" class="logo">
-                <img src="/htdocs/mobile/images/logo.png" height="100%" />
-            </a>
-        </div> -->
-        <div class="header-search index">
-          <a href="/mobile/home-search-history.php" class="index">搜索</a>
-        </div>
-    </div>
     <div class="container pb50">
+      <div class="header-search index">
+        <a href="/mobile/home-search-history.php" class="index">搜索</a>
+      </div>
         <!--banner图轮播-->
         <div class="index-banner-box">
           <div class="banner-box">
@@ -39,11 +32,11 @@
         <!--三入口-->
         <div class="index-entry">
           <div class="row">
-            <a href="#" class="cols">
+            <a href="/mobile/trading-center.php" class="cols">
               <span class="a"><i class="ico-index-gqjy"></i></span>
               <p>股权交易中心</p>
             </a>
-            <a href="#" class="cols">
+            <a href="/mobile/company-credit-list.php" class="cols">
               <span class="b"><i class="ico-index-gsxy"></i></span>
               <p>公司信用查询</p>
             </a>
