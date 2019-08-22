@@ -13,10 +13,10 @@
       <dl class="info mt50">
         <dt class="">请上传身份证复印件：</dt>
         <dd>
-          <label class="upload-label mt8 mr10" for="">
+          <label class="upload-label mt8 mr10">
             <input type="file" name="" value="">
           </label>
-          <label class="upload-label mt8 mr10" for="">
+          <label class="upload-label mt8 mr10">
             <input type="file" name="" value="">
           </label>
           <a href="/htdocs/images/idcard-sample.jpg" target="_blank" class="col-3daaef f12">样本查看</a>

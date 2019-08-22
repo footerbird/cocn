@@ -19,7 +19,7 @@
       <dl class="info2 mt5">
         <dt class="col-gray9">请上传公司营业执照<br />（复印件盖章）</dt>
         <dd>
-          <label class="upload-label mt8" for="">
+          <label class="upload-label mt8">
             <input type="file" name="" value="">
           </label>
         </dd>
@@ -33,10 +33,10 @@
       <dl class="info2 mt10">
         <dt class="col-gray9">请上传身份证复印件</dt>
         <dd>
-          <label class="upload-label mt8 mr10" for="">
+          <label class="upload-label mt8 mr10">
             <input type="file" name="" value="">
           </label>
-          <label class="upload-label mt8 mr10" for="">
+          <label class="upload-label mt8 mr10">
             <input type="file" name="" value="">
           </label>
           <a href="/htdocs/images/idcard-sample.jpg" target="_blank" class="col-3daaef f12">样本查看</a>

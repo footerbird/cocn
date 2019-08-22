@@ -101,7 +101,7 @@
       </div>
       <div class="mt20 after-cls">
         <div class="w86 mr20 fl-l">
-          <label class="upload-label mb10" for="">
+          <label class="upload-label mb10">
             <input type="file" name="" value="">
           </label>
           <div class="full-input">
@@ -109,7 +109,7 @@
           </div>
         </div>
         <div class="w86 mr20 fl-l">
-          <label class="upload-label mb10" for="">
+          <label class="upload-label mb10">
             <input type="file" name="" value="">
           </label>
           <div class="full-input">
@@ -117,7 +117,7 @@
           </div>
         </div>
         <div class="w86 mr20 fl-l">
-          <label class="upload-label mb10" for="">
+          <label class="upload-label mb10">
             <input type="file" name="" value="">
           </label>
           <div class="full-input">
@@ -125,7 +125,7 @@
           </div>
         </div>
         <div class="w86 mr20 fl-l">
-          <label class="upload-label mb10" for="">
+          <label class="upload-label mb10">
             <input type="file" name="" value="">
           </label>
           <div class="full-input">
@@ -133,7 +133,7 @@
           </div>
         </div>
         <div class="w86 mr20 fl-l">
-          <label class="upload-label mb10" for="">
+          <label class="upload-label mb10">
             <input type="file" name="" value="">
           </label>
           <div class="full-input">
@@ -141,7 +141,7 @@
           </div>
         </div>
         <div class="w86 mr20 fl-l">
-          <label class="upload-label mb10" for="">
+          <label class="upload-label mb10">
             <input type="file" name="" value="">
           </label>
           <div class="full-input">

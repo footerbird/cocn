@@ -50,7 +50,7 @@
                     </div>
                   </td>
                   <td class="bg-fa">
-                    <label class="upload-label mt15 mb15" for="">
+                    <label class="upload-label mt15 mb15">
                       <input type="file" name="" value="">
                     </label>
                   </td>
@@ -62,7 +62,7 @@
                     </div>
                   </td>
                   <td class="bg-fa">
-                    <label class="upload-label mt15 mb15" for="">
+                    <label class="upload-label mt15 mb15">
                       <input type="file" name="" value="">
                     </label>
                   </td>
@@ -74,7 +74,7 @@
                     </div>
                   </td>
                   <td class="bg-fa">
-                    <label class="upload-label mt15 mb15" for="">
+                    <label class="upload-label mt15 mb15">
                       <input type="file" name="" value="">
                     </label>
                   </td>

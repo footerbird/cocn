@@ -74,7 +74,7 @@
                       缩略图
                     </div>
                     <div class="w-all after-cls mb30">
-                      <label class="upload-label" for="">
+                      <label class="upload-label">
                         <input type="file" name="" value="">
                       </label>
                     </div>
