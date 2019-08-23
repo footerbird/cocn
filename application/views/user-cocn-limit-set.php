@@ -77,6 +77,16 @@
             </table>
           </div>
         </div>
+		
+		<div class="remark lh24 fl-l" style="width: 100%;">
+		  <p class="f12 col-default fb mb15">注意：</p>
+		  <p class="f12 col-gray5">
+		    1. 添加网站负责人需要保证姓名和身份证号码信息一致
+		    <br />
+		    2. 网站负责人需在个人实名认证通过并且和上述填写的信息一致后方可开通网站管理权限
+		  </p>
+		</div>
+		
         <div class="fl-l w-all mt30 mb10">
           <p class="ta-c mt15 mb20">
             <a href="/page/user-cocn-limit" class="pub-btn w150">完成</a>
