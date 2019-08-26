@@ -5693,6 +5693,7 @@ body.on #bgblack {
 }
 .screen-outer .main .main-inner .bd {
   width: 880px;
+  height: 260px;
   float: left !important;
   border-bottom: 1px solid #a2b4c4;
 }
@@ -5803,6 +5804,7 @@ body.on #bgblack {
   background-color: #fff !important;
   overflow: hidden;
   width: 880px;
+  height: 254px;
   border-bottom: 1px solid #a2b4c4;
   padding-bottom: 10px;
   float: left !important;
@@ -5889,9 +5891,10 @@ body.on #bgblack {
   width: 60px;
 }
 .index-gscx {
+  background-color: #fff !important;
+  overflow: hidden;
   width: 310px;
-}
-.index-gscx .bd {
+  height: 346px;
   border-bottom: 1px solid #a2b4c4;
 }
 /*最新动态*/
@@ -5899,6 +5902,7 @@ body.on #bgblack {
   background-color: #fff !important;
   overflow: hidden;
   width: 880px;
+  height: 1078px;
   border-bottom: 1px solid #a2b4c4;
   float: left !important;
 }
@@ -5956,6 +5960,7 @@ body.on #bgblack {
   float: right !important;
   margin-left: 10px;
   width: 310px;
+  height: 418px;
   border-bottom: 1px solid #a2b4c4;
 }
 .index-tshy .hb {
@@ -5983,6 +5988,7 @@ body.on #bgblack {
   float: right !important;
   margin-left: 10px;
   width: 310px;
+  height: 418px;
   border-bottom: 1px solid #a2b4c4;
 }
 .index-gwtg .hb {
@@ -6018,14 +6024,15 @@ body.on #bgblack {
 /*四方格*/
 .index-sfg {
   background-color: #fff !important;
+  height: 302px;
   padding: 10px;
   border-bottom: 1px solid #a2b4c4;
 }
 .index-sfg a {
-  display: inline-block !important;
-  *display: inline !important;
-  *zoom: 1 !important;
   float: left !important;
+}
+.index-sfg a img {
+  display: block;
 }
 /*footer*/
 .footer {
