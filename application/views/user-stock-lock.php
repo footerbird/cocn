@@ -98,7 +98,7 @@
         </p>
         <div class="col-gray9 pb20 after-cls">
           <a href="javascript:;" class="upload-label-word fl-l" id="upload_licence_btn"><i class="ico-upload"></i>上传锁仓决议</a>
-          <input type="file" name="" value="" id="upload_licence_file" style="display: none;" >
+          <input type="file" name="" value="" id="upload_licence_file" accept="application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document" style="display: none;" >
           <div class="upload-result" id="upload_licence_result" style="display: none;">
               <span class="upload-result-title">XXX营业执照.png</span>
               <span class="upload-result-size">94.57K</span>
