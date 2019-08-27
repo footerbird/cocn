@@ -52,7 +52,7 @@
           </p>
           <p>
             邮箱：fuwu@co.cn<br>
-            QQ : <a href="#" class="col-3daaef in-block">233333</a>
+            QQ : <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=3051608&amp;site=qq&amp;menu=yes" class="col-3daaef in-block">3051608</a>
           </p>
         </div>
       </div>
