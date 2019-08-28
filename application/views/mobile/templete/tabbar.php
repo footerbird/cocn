@@ -9,7 +9,7 @@
         <a href="<?php echo base_url() ?>mobile/news" target="_parent" class="item">
           <i class="ico-tab-zx"></i>
           <p>资讯</p></a>
-        <a href="<?php echo base_url() ?>mobile/user-mine" target="_parent" class="item">
+        <a href="javascript:;" id="open_login" class="open-popup item">
           <i class="ico-tab-wd"></i>
           <p>我的</p></a>
     </div>

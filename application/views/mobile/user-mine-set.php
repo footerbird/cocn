@@ -86,31 +86,12 @@
 
       </div>
     </div>
-    <!-- <div class="back-top" id="back-top" >
-    	<i class="ico-back-top"></i>
-    </div> -->
-    <?php include_once('templete/tabbar.php') ?>
-
     <?php include_once('templete/pub_foot.php') ?>
 
+    <?php include_once('templete/tabbar.php') ?>
     <script>
     $(function () {
-      //返回顶部
-      // $(".container").on("scroll",function(){
-      //   	var $_top = $(".cont-box").offset().top;
-      //   	var $_hh = $(".header").height();
-      //   	var $_height = $(this).height();
-      //     // console.log($_height);
-      //   	if( $_top - $_hh + $_height < 0 ){
-    	// 		$("#back-top").fadeIn();
-      //   	}else{
-      //   		$("#back-top").fadeOut();
-      //   	}
-      //   });
-      //   $(".ico-back-top").on("click",function(){//go top
-      //   	$(".container").animate({scrollTop:0},500)
-      //   });
-      })
+    })
     </script>
     </body>
 </html>

@@ -8,4 +8,3 @@
 <link rel="stylesheet" href="/htdocs/mobile/dist/css/weui.css?<?php echo CACHE_TIME; ?>">
 <link rel="stylesheet" href="/htdocs/mobile/dist/css/jquery-weui.css?<?php echo CACHE_TIME; ?>">
 <link rel="stylesheet" href="/htdocs/mobile/css/public.css?<?php echo CACHE_TIME; ?>">
-
