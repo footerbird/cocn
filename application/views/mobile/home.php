@@ -40,7 +40,7 @@
               <span class="b"><i class="ico-index-gsxy"></i></span>
               <p>公司信用查询</p>
             </a>
-            <a href="#" class="cols">
+            <a href="/mobile/news.php" class="cols">
               <span class="c"><i class="ico-index-mtzx"></i></span>
               <p>新媒体资讯</p>
             </a>
@@ -327,9 +327,10 @@
           </div>
       </div>
     </div>
-    <?php include_once('templete/tabbar.php') ?>
-
     <?php include_once('templete/pub_foot.php') ?>
+
+    <?php include_once('templete/tabbar.php') ?>
+    <?php include_once('templete/right-login.php') ?>
     <link rel="stylesheet" href="/htdocs/mobile/dist/css/swiper.min.css?<?php echo CACHE_TIME; ?>">
     <link rel="stylesheet" href="/htdocs/mobile/dist/css/animate.min.css?<?php echo CACHE_TIME; ?>">
     <script src="/htdocs/mobile/dist/js/swiper.min.js?<?php echo CACHE_TIME; ?>"></script>

@@ -47,8 +47,6 @@
         </div>
       </div>
     </div>
-    <!-- <?php include_once('templete/tabbar.php') ?> -->
-
     <?php include_once('templete/pub_foot.php') ?>
     <script>
     $(function () {

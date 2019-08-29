@@ -66,10 +66,10 @@
     <div class="back-top" id="back-top" >
     	<i class="ico-back-top"></i>
     </div>
-    <?php include_once('templete/tabbar.php') ?>
-
     <?php include_once('templete/pub_foot.php') ?>
 
+    <?php include_once('templete/tabbar.php') ?>
+    <?php include_once('templete/right-login.php') ?>
     <script>
     $(function () {
       //返回顶部
@@ -87,18 +87,6 @@
         $(".ico-back-top").on("click",function(){//go top
         	$(".container").animate({scrollTop:0},500)
         });
-
-      //加载更多
-      var loading = false;  //状态标记
-      $(document.body).infinite().on("infinite", function() {
-        if(loading) return;
-        loading = true;
-        setTimeout(function() {
-          $("#list").append("<li> 我是新加载的内容 </li>");
-          loading = false;
-        }, 1500);   //模拟延迟
-      });
-
       })
     </script>
     </body>

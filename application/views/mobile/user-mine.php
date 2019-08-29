@@ -25,8 +25,9 @@
                 <img src="/htdocs/images/user-figure.png" alt="">
               </div>
               <div class="right">
-                <p><div class="name">杭先生<i class="ico-gwrz"></i></div></p>
-                <p><font class="state-sfrz">身份认证</font><font class="state-zjzh">资金账户</font><font class="state-dsf">第三方认证</font><font class="state-sfrz not">身份认证</font><font class="state-zjzh not">资金账户</font><font class="state-dsf not">第三方认证</font></p>
+                <div class="name">杭先生<i class="ico-gwrz"></i></div>
+                <p><font class="state-sfrz">身份认证</font><font class="state-zjzh">资金账户</font><font class="state-dsf">第三方认证</font></p>
+                <p><font class="state-sfrz not">身份认证</font><font class="state-zjzh not">资金账户</font><font class="state-dsf not">第三方认证</font></p>
               </div>
             </div>
             <div class="bd-box">

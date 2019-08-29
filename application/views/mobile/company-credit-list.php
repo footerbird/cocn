@@ -333,13 +333,11 @@
     <div class="back-top" id="back-top" >
     	<i class="ico-back-top"></i>
     </div>
-    <?php include_once('templete/tabbar.php') ?>
-
-    <?php include_once('templete/rightBar.php') ?>
-
-
     <?php include_once('templete/pub_foot.php') ?>
 
+    <?php include_once('templete/tabbar.php') ?>
+    <?php include_once('templete/rightBar_sift.php') ?>
+    <?php include_once('templete/right-login.php') ?>
     <script>
     $(function () {
       //返回顶部
