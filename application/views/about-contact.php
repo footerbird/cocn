@@ -42,18 +42,24 @@
         <div class="title after-cls"><em class="line"></em><span>联系我们</span></div>
         <div class="pt30 pb30 pl30 pr30">
           <p class="pb5">
-            <b>投诉与建议</b>
+            <b>客服支持</b>
           </p>
           <p>
-            邮箱：fuwu@co.cn
+            邮箱：fuwu@mail.co.cn<br>
+			QQ ：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=3051608&amp;site=qq&amp;menu=yes" class="col-3daaef in-block">3051608</a>
           </p>
           <p class="pb5">
-            <b>客服部</b>
+            <b>商务合作</b>
           </p>
           <p>
-            邮箱：fuwu@co.cn<br>
-            QQ : <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=3051608&amp;site=qq&amp;menu=yes" class="col-3daaef in-block">3051608</a>
+            邮箱：hezuo@mail.co.cn
           </p>
+		  <p class="pb5">
+		    <b>杭州总部地址</b>
+		  </p>
+		  <p>
+		    杭州市上塘路329号11层
+		  </p>
         </div>
       </div>
     </div>
