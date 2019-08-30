@@ -48,7 +48,7 @@
       </div>
     </div>
     <?php include_once('templete/pub_foot.php') ?>
-    <script>
+    <script type="text/javascript">
     $(function () {
       $("#clear_history").on("click",function () {
         $("#history").empty();

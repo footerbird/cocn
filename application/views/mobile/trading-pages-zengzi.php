@@ -18,7 +18,7 @@
         <div class="circle-half-bg">
           <div class="trading-pages-box">
             <div class="hd">
-              <div class="name">杭州官网科技有限公司杭州官网科技有限公司</div>
+              <div class="name">杭州官网科技有限公司杭州官网科技有限公司增资扩股</div>
               <div class="action"><a href="javascript:;" id="guanzhu" class="btn">关注</a>
               </div>
             </div>
@@ -26,7 +26,7 @@
               <table width="100%">
                 <tbody>
                   <tr>
-                    <td width="">
+                    <td width="50%">
                       <label>项目编号：</label>23
                     </td>
                     <td>
@@ -34,30 +34,30 @@
                     </td>
                   </tr>
                   <tr>
-                    <td width="">
-                      <label>投资方式：</label>股权转让
+                    <td width="50%">
+                      <label>投资方式：</label>增资扩股
                     </td>
                     <td>
-                      <label>交易类型：</label>一口价
+                      <label>公司估值：</label>1,500万元
                     </td>
                   </tr>
                   <tr>
-                    <td width="">
-                      <label>交易股权：</label>5.5%
+                    <td width="50%">
+                      <label>增资比例：</label>20%
                     </td>
                     <td>
-                      <label>交易限额：</label>最低1%
+                      <label>最小限额：</label>最低1%
                     </td>
                   </tr>
                   <tr>
-                    <td width="" colspan="2">
-                      <label>标的总价：</label><font class="col-f4364c">4,980,00</font>元
+                    <td width="50%" colspan="2">
+                      <label>增资金额：</label><font class="col-f4364c">4,980,00</font>元
                     </td>
                   </tr>
                 </tbody>
               </table>
               <p class="ta-c">
-                <a href="/mobile/trading-buy.php" class="btn">买入股权</a>
+                <a href="/mobile/trading-expand.php" class="btn">买入股权</a>
               </p>
             </div>
             <div class="ft">

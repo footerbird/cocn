@@ -89,7 +89,7 @@
     <?php include_once('templete/pub_foot.php') ?>
 
     <?php include_once('templete/tabbar.php') ?>
-    <script>
+    <script type="text/javascript">
     $(function () {
     })
     </script>

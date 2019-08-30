@@ -3082,7 +3082,7 @@ table {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
-  top: .02rem;
+  top: .03rem;
   margin-right: .05rem;
   background: transparent;
 }
@@ -3091,6 +3091,7 @@ table {
 }
 .login-right-bar .right-screen-bar .reg-box .weui-agree .weui-agree__text {
   color: #999 !important;
+  font-size: 12px;
 }
 .login-right-bar .right-screen-bar .reg-box .btn {
   background-color: #13426b !important;
@@ -3500,6 +3501,7 @@ table {
   background-color: #fff !important;
   padding-top: .33rem;
   padding-bottom: .33rem;
+  height: 2.22rem;
 }
 .index-entry .row {
   width: 6.9rem;
@@ -3538,10 +3540,14 @@ table {
 }
 .index-jysc {
   margin-top: .2rem;
+  height: 4.4rem;
   background-color: #fff !important;
 }
 .index-jysc .index-title {
   border-bottom-color: #fff;
+}
+.index-jysc .weui-tab {
+  height: auto;
 }
 .index-jysc .weui-tab .weui-navbar {
   width: 6.28rem;
@@ -3602,6 +3608,7 @@ table {
 }
 .index-sctz {
   margin-top: .2rem;
+  height: 7.21rem;
   background-color: #fff !important;
 }
 .index-sctz .content {
@@ -4414,6 +4421,9 @@ table {
 }
 .trading-pages-box .bd table td label {
   color: #999 !important;
+}
+.trading-pages-box .bd table td .countdown {
+  display: inline-block;
 }
 .trading-pages-box .bd a.btn {
   line-height: .6rem;

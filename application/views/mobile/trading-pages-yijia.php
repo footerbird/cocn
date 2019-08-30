@@ -26,7 +26,7 @@
               <table width="100%">
                 <tbody>
                   <tr>
-                    <td width="">
+                    <td width="50%">
                       <label>项目编号：</label>23
                     </td>
                     <td>
@@ -34,15 +34,15 @@
                     </td>
                   </tr>
                   <tr>
-                    <td width="">
+                    <td width="50%">
                       <label>投资方式：</label>股权转让
                     </td>
                     <td>
-                      <label>交易类型：</label>一口价
+                      <label>交易类型：</label>投资人出价
                     </td>
                   </tr>
                   <tr>
-                    <td width="">
+                    <td width="50%">
                       <label>交易股权：</label>5.5%
                     </td>
                     <td>
@@ -50,14 +50,14 @@
                     </td>
                   </tr>
                   <tr>
-                    <td width="" colspan="2">
+                    <td width="50%" colspan="2">
                       <label>标的总价：</label><font class="col-f4364c">4,980,00</font>元
                     </td>
                   </tr>
                 </tbody>
               </table>
               <p class="ta-c">
-                <a href="/mobile/trading-buy.php" class="btn">买入股权</a>
+                <a href="/mobile/trading-bidding.php" class="btn">买入股权</a>
               </p>
             </div>
             <div class="ft">

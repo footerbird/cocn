@@ -335,7 +335,7 @@
     <link rel="stylesheet" href="/htdocs/mobile/dist/css/animate.min.css?<?php echo CACHE_TIME; ?>">
     <script src="/htdocs/mobile/dist/js/swiper.min.js?<?php echo CACHE_TIME; ?>"></script>
     <script src="/htdocs/mobile/dist/js/swiper.animate.min.js?<?php echo CACHE_TIME; ?>"></script>
-    <script>
+    <script type="text/javascript">
     window.onload = function(){
 
     }

@@ -18,7 +18,7 @@
         <div class="circle-half-bg">
           <div class="trading-pages-box">
             <div class="hd">
-              <div class="name">杭州官网科技有限公司杭州官网科技有限公司</div>
+              <div class="name">杭州官网科技有限公司杭州官网科技有限公司股权拍卖</div>
               <div class="action"><a href="javascript:;" id="guanzhu" class="btn">关注</a>
               </div>
             </div>
@@ -26,38 +26,35 @@
               <table width="100%">
                 <tbody>
                   <tr>
-                    <td width="">
-                      <label>项目编号：</label>23
-                    </td>
-                    <td>
-                      <label>有效日期：</label>2019年09月08日
+                    <td width="50%" colspan="2">
+                      <label>项目编号：</label>23484848
                     </td>
                   </tr>
                   <tr>
-                    <td width="">
+                    <td width="50%" colspan="2">
+                      <label>剩余时间：</label><div id="countdown" class="countdown"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="50%">
                       <label>投资方式：</label>股权转让
                     </td>
                     <td>
-                      <label>交易类型：</label>一口价
+                      <label>交易类型：</label>拍卖
                     </td>
                   </tr>
                   <tr>
-                    <td width="">
+                    <td width="50%">
                       <label>交易股权：</label>5.5%
                     </td>
                     <td>
-                      <label>交易限额：</label>最低1%
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="" colspan="2">
-                      <label>标的总价：</label><font class="col-f4364c">4,980,00</font>元
+                      <label>起拍价格：</label><font class="col-f4364c">4,980,00</font>元
                     </td>
                   </tr>
                 </tbody>
               </table>
               <p class="ta-c">
-                <a href="/mobile/trading-buy.php" class="btn">买入股权</a>
+                <a href="/mobile/trading-auction.php" class="btn">买入股权</a>
               </p>
             </div>
             <div class="ft">
@@ -305,7 +302,48 @@
         	$(".container").animate({scrollTop:0},500)
         });
 
-      })
+        //拍卖页面倒计时
+        function countDown(id,leftTime,callback){
+            var $id = $("#"+id),runtime = 0,wait = leftTime/1000;
+            time();
+
+            function time(){
+                var str = "";
+                wait--;
+                if(wait<0){
+                    if(typeof(callback)=="function"){
+                        callback();
+                        return false;
+                    }else{
+                        return false;
+                    }
+                }
+                var nD=Math.floor(wait/(60*60*24));
+                var nH=Math.floor(wait/(60*60))%24;
+                var nM=Math.floor(wait/(60)) % 60;
+                var nS=wait % 60;
+
+                if(nD){
+                    str+= " <font class='col-f4364c'>" + nD + "</font>" + "天";
+                }
+                if(nD || nH){
+                    str+= " <font class='col-f4364c'>" + nH + "</font>" + "小时";
+                }
+                if(nD || nH || nM){
+                    str+= " <font class='col-f4364c'>" + nM + "</font>" + "分";
+                }
+                str+= " <font class='col-f4364c'>" + nS + "</font>" + "秒";
+                $id.html(str);
+
+                setTimeout(function(){
+                    time();
+                },1000)
+            }
+        }
+        //竞价倒计时
+          countDown("countdown",2592000*1000);//从服务器取出剩余时间，如果单位是秒
+    })
+
     </script>
     </body>
 </html>

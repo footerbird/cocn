@@ -128,12 +128,12 @@
                   </div>
                 </div>
               </form>
-              <label for="weuiAgree" class="weui-agree mr3 fl-l">
+              <p class="col-gray9 f12"><label for="weuiAgree" class="weui-agree in-block">
                 <input id="weuiAgree" type="checkbox" class="weui-agree__checkbox">
-              </label>
-              <span class="weui-agree__text">我已阅读并同意<a href="javascript:;" id="" class="col-3daaef">《官网用户服务协议》</a>和
-              <a href="javascript:;" id="" class="col-3daaef">《隐私条款》</a>
-              </span>
+                <span class="weui-agree__text">我已阅读并同意
+                </span>
+              </label><a href="javascript:;" id="" class="col-3daaef">《官网用户服务协议》</a>和
+              <a href="javascript:;" id="" class="col-3daaef">《隐私条款》</a></p>
               <a href="javascript:;" id="btn_go_login" class="btn">注册</a>
               <p class="ta-c">
                 <a href="javascript:;" id="btn_login2" class="col-base">登录&nbsp;></a>

@@ -214,7 +214,7 @@
 
     <?php include_once('templete/pub_foot.php') ?>
 
-    <script>
+    <script type="text/javascript">
     $(function () {
       //返回顶部
       $(".container").on("scroll",function(){
