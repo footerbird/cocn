@@ -9,9 +9,9 @@
 <div class="container after-cls">
   <div class="banner index-banner mt10">
   		<div class="banner-slick">
-  			<div><a href="" target="_blank"><img src="/htdocs/images/banner/banner1.jpg" width="1200" height="215" alt=""></a></div>
-        <div><a href="" target="_blank"><img src="/htdocs/images/banner/banner1.jpg" width="1200" height="215" alt=""></a></div>
-        <div><a href="" target="_blank"><img src="/htdocs/images/banner/banner1.jpg" width="1200" height="215" alt=""></a></div>
+  			<div><a href="/page/trading-center" target="_blank"><img src="/htdocs/images/banner/banner_trade.jpg" width="1200" height="215" alt=""></a></div>
+        <div><a href="/page/sfg-wyrz" target="_blank"><img src="/htdocs/images/banner/banner_finance.jpg" width="1200" height="215" alt=""></a></div>
+        <div><a href="/page/sfg-gfwz" target="_blank"><img src="/htdocs/images/banner/banner_website.jpg" width="1200" height="215" alt=""></a></div>
   		</div>
   </div>
 </div>
