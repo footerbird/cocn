@@ -38,7 +38,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
 @base-color: #13426b;//基本色号
 @base-color2: #f4364c;//基本色号
 @base-body-background: #f2f6f8;//大背景色
-@base-border-color: #f2f6f8;//基本内边框色
+@base-border-color: #d1dde6;//基本内边框色
 
 /*常用的一些混合*/
 .ellip{//超出隐藏或换行
@@ -429,21 +429,29 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
   background: url(/htdocs/mobile/images/login-wechat.png) no-repeat 50% 50%;
   background-size:contain;
 }
-.ico-{/**/
+.ico-zfb{/*支付宝*/
   display: inline-block;
-  width: .rem;
-  height: .rem;
+  width: .58rem;
+  height: .57rem;
   vertical-align: middle;
-  background: url() no-repeat 50% 50%;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAA5CAMAAABQ8ci0AAAApVBMVEUrren///87supLt+wureh5x/FTue39/v/a8Pvi8/xItuzW7vvs9/6R0fRvxPBEtOv5/P7T7fzP6/ui2PZVuu4yr+rv+P7A5fhqwu/2+/7e8vy64viy3/it3Pd2xvBOuO3y+f7n9f3k9P3K6frF5/rD5/qL0PSKzvM+s+s4seuv3fem2faY1fWU0/R9yvFevu624fiGzvSCzPJzxfBkwPBcvO6d1vVQ3fV5AAACUElEQVRIx7XX55KqMBiA4Xz0XgQUUcC29raWvf9LOzFBqVFh5rx/HIVnook0BJ17UiMWfY3/mOaLsVGijhmgrwsOTk5VCbVKUp9UDVDLApVSWUOt02RCTdQh80EN1Kk+prtudIepJTRvS1xF15UzQwoWpqyFmcOjKXOBMF0zto0I1Vl0jSnXjXL/h24J7X1Jw6P4KukRqiZi3jFk0j58qM+kyieqMKnNFxrQnfli9nfTNG6apjbU/Zpy6eu7ZV84P2FJ3Ft6gMZkkt2F5tPLpmtfqqephO4FFmUXyIT6HegfkRFC7emU0MNbejPjwXw+GHura1o4KOgkr9k02KtQaDYwT/QsRA+hMWLScAq1ol2IBB9IEpNegeQ4FT3zXPL6gxhU4AF3FiVb4+/JcqzL9QOVNaoL4PooXzj+MhoWqaKx6AlL6vJsUy9i9+/USGNwOEyrWefy0N6tTnXYosYMKKfGyaZEBQN+G6XbdGobXWy8KaA06DdeZIUfsu9wUNXDxZJH2ahT+GFKsAR/61S1rFOK8E612deyCV6SN55RxdmoRzx9QnlIcQIkM/t8Y0YNFDcD0KXcodPz9/0SSRN7TfQOuK3F0b/ScQG0SeWSfxvJNYpEuqsyX8yj1+aFhqqlnpHTbIlDFSqpF9TUZqVkNL8h2E+LsLdCzK4LStN8dpJdT530J2pvvPLR2+6xgWlYOZi4DRNUb348AXVp3/1GzwBEVr11wgoe1LHbU9shFCKh9aARUAoK307ySv7YMFy2kcth6WFl5lkp90Wp5c0y8g+kNSPCvRdWlQAAAABJRU5ErkJggg==) no-repeat 50% 50%;
   background-size:contain;
 }
-.ico-{/**/
+.ico-wechat{/*微信支付*/
   display: inline-block;
-  width: .rem;
-  height: .rem;
+  width: .58rem;
+  height: .57rem;
   vertical-align: middle;
-  background: url() no-repeat 50% 50%;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAA5CAMAAABQ8ci0AAAAyVBMVEX///////8A0WIA0F4Az1sAzlYA0mQA0mcA2Hn3/vsA13QA1GwAzlkA4Zrz/fkAzFLs/fXm/PGY8MsA4JIA3YkA3IYA2X0l5KEA24P5//zP9+aq89Of8c6E7sHU+ei89tuI7sN+7b5w67lr67c95qcA340A1W8A1GnZ+etK56oA4Zfp/PTh++/c+u2v89WO78VY6K8d5KDD9+C39dmT78h37Lsz5aMB4p0A1nHu/fej8tBi6bNT560u5KLE9uFl6rTF9uLF9uEN4p2U7n6zAAAAAXRSTlP6HY7DZAAAAwpJREFUSMflltey2yAQhiMWUC9WO+69926fnuT9HypYBjcVO77KTP4LjYD9WHaBYX9IT+v/Ravr+cvihYl9393Jw6g1G4Y6ECHQQ9MtPIKq9XwPY0BnAQY9X7mPLgMEnLukQfZX2ai6kQGlqNdUM9DXNkHpgp2TiqoLQrnVNcObhuekoXNOAkEY0xNoUGqgSGRnJaNvfHK83zbminFagFmpm9wxaRaSUEfhaK/M2lMFc68vKgvlhc8jL5PQD25KBlFHhRyNldyh5WjRvJQMrTg6Ek7tctSxOm4TDo7jAeLR1OJohZnyeKIOl3sNI6+WJhLxqcZQU8QG3SJrF/Oi3WaZKbSjLaIyUy6GMlMhrTWthCBa1HNdD2GkK2aztPxVintVziiCm+OPDRoOipLTL9ZK5cpsVc1doSyYuASrNCVr9R7IxCZMuOu1atYZ3aehFIOZs9Y+JhhOc9m936UMr4JELWnq28bNSmz9sxqL9caG1qWWTBIGSL4kMpxCbgptnDyGtZnY10SZ0oeIMc7q7gGt95IMQLNckp57rNQYqoZJFrRSFQdUN01ddCsezyrxLHZzmihBmjQwOFlmN1qPAGDX5ys8/uIKQ6Ugwe33RKSgIzHtSBTE4ZC36NFtJ8fQn90YC5OyQANmrnrGLYrgjaHSmt6yuuOJLjqf9OfcYNgv1ERq7PcDKjUQ0CunnZF2Psh+wElAgamJ1ZBhhEp12bhCF7mLqYzz/mKCT78+fzhKIb5EBw66JxxwVJpqcIFuR/QeanQEWpYhFmumyEKgbfvwrHV1GQGTnhvCHdRucLQaGljOz6qlb9NXmMaucSfU/ZKjrk2DBn8cnHF/rPbvOW0XjqhjKg1VupS6tWlWkvZf/GkexUuOoo7TSYBNVvFTxxn3dfeahaofBqSRXi675FIHkMwCIzmayjb0JJZ+vj5Q6NV8Gd3S4FuP1YhrX6cghJHMYug6Ar2n6cBXuj1Z7nWV/LbVQRjKAn1A1dKssamXi+zUWM087jxb1Pbb2vjperg2/meq8L9Dn9cfIOVAcdNNQKcAAAAASUVORK5CYII=) no-repeat 50% 50%;
   background-size:contain;
+}
+.ico-xxhk{/*线下支付*/
+  display: inline-block;
+  width: .55rem;
+  height: .43rem;
+  vertical-align: middle;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAArCAMAAADrEeCUAAABR1BMVEUAAAAawdAhr9D+V1YkptAuitD+V1YuitAuitAawdAuitAawdAawdD+V1b+V1YuitAawdAawdD+V1b+V1YuitAuitAawdD+V1YawdAuitD+V1YuitAuitD+V1YuitAuitAuitAuitAuitAuitAuitAuitAawdAuitD+V1YawdD+V1YuitD+V1YawdD+V1YuitAuitAawdAuitAuitAuitAuitD+V1YuitAuitAawdD+V1YawdAuitD+V1b+V1YawdAuitD+V1YawdD+V1b+V1YuitD+V1YuitD+V1YawdAuitAawdD+V1YawdAuitAuitAawdD+V1b+V1b+V1YawdAuitAawdD+V1YuitD+V1YawdAawdAuitD+V1YuitAawdD+V1YawdD+V1YawdD+V1YawdAuitD+V1YawdD+V1YuitAawdD+V1bJnn6iAAAAanRSTlMA+wUFA/z49+zVtn92dv3x7d/d1tDGxcO+vrquin93TEE5KRQPCgkHAvXw17CvopqQjoWAcWVkUkdCPjkzMCckHhMQ6ubh4eDPzsq1qaSkopqakYiHfHBwbmxmXV1dW1NTTktKODIwHxYK6GCn9QAAAbhJREFUSMeF1ldTGlAYhOGXIoIoCipW7CWJxl4TTTS999571MP/v1ZHPQ7Mruz9M9+cm90DqbbOTPU8JZhoOhDJpiEXjpLItSYh1V+tyRwMH6i0wK1EOElvkkq1NmswKN0Q/AxnyVOqczegW7pRWIyuSKGW3YFJ+bzmJJSjS1B37gmMyHN9MJUIMfXuIyxLtwybwbtt6JNuBPLeXbnEdLN83iT0ejcLo/JcNyQve9cGQ9INwvXg3R9okW4YWr3LpEi3K9Y0AY+964d/8lwXpDu8q8AH6Rbgb/DuGgxItw7vvMvsQ1a6cbjqXQ+MSTYDdHj3Glalm4ebwbtf8Fy6L/DJu8Iu3JduB5569wB2JLsLFL17Bd+kexafJ90PmJduFT5f4HZhRroxeOFdJ4xLlgVy3r2EdekGYC949xUWpFuB7xe4/9Al3RYsenfPDUp7Gh56NwcbflC8W4MlNyi/g3KNB+WNd7dt405D2bvZBoPi3Ht4K90SbAbvtl3jbkBeuDgornGPB0W4QmzcLXnuUe2gxL0txUFZaTwoMUUqonHtoMTkSfWcDkrjxj1PeerkvyQaVw9K/C8dAhQzUN+EBo5RAAAAAElFTkSuQmCC) no-repeat 50% 50%;
+  background-size:100%;
 }
 .ico-{/**/
   display: inline-block;
@@ -1008,27 +1016,6 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
           }
         }
       }
-      .weui-agree{
-        padding:0;
-        .weui-agree__checkbox{
-          width:.24rem;
-          height:.24rem;
-          border:.01rem solid @base-color;
-          .border-radius(0);
-          top:.03rem;
-          margin-right:.05rem;
-          background:transparent;
-          &:checked{
-            &::before{
-              .col-base;
-            }
-          }
-        }
-        .weui-agree__text{
-          .col-gray9;
-          font-size:12px;
-        }
-      }
       .btn{
         .bg-13426b;
         .col-white;
@@ -1046,7 +1033,34 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
     }
   }
 }
-
+/*实线*/
+.line{
+  .w-all;
+  height:.01rem;
+  .bg-f2f6f8;
+}
+/*勾选*/
+.weui-agree{
+  padding:0;
+  .weui-agree__checkbox{
+    width:.24rem;
+    height:.24rem;
+    border:.01rem solid @base-color;
+    .border-radius(0);
+    top:.03rem;
+    margin-right:.05rem;
+    background:transparent;
+    &:checked{
+      &::before{
+        .col-base;
+      }
+    }
+  }
+  .weui-agree__text{
+    .col-gray9;
+    font-size:12px;
+  }
+}
 /*占比条蓝色*/
 .percent{
   .pos-rela;
@@ -1082,6 +1096,17 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
   right:.36rem;
   bottom:2rem;
   z-index: 2;
+}
+/*按钮*/
+.btn-pay{
+  line-height:.8rem;
+  .border-radius(.4rem);
+  font-size:14px;
+  width:5rem;
+  .in-block;
+  .bg-d2434a;
+  .col-white;
+  box-shadow: 0px .07rem .31rem 0px rgba(210, 67, 174, 0.55);
 }
 /*半圆顶部背景*/
 .circle-half-bg{
@@ -2221,16 +2246,91 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
           display:inline-block;
         }
       }
+      &.history{
+        th{
+          .bg-fa;
+          line-height:.74rem;
+          height:.74rem;
+          padding:0 .15rem;
+          font-weight:normal;
+        }
+        td{
+          line-height:.5rem;
+          padding:0 .15rem;
+          .col-gray3;
+        }
+      }
     }
     a{
       &.btn{
-        line-height:.6rem;
-        .border-radius(.3rem);
+        line-height:.8rem;
+        .border-radius(.4rem);
         padding:0 .6rem;
+        font-size:14px;
         .in-block;
         .bg-13426b;
         .col-white;
         box-shadow: 0px .07rem .13rem 0px rgba(19, 66, 107, 0.47);
+        &.big{
+          padding:0 1rem;
+        }
+      }
+    }
+    .trade-input{
+      .w-all;
+      li{
+        .w-all;
+        &.tit{
+          font-size:14px;
+          line-height: .72rem;
+        }
+        &.cont{
+          border:.01rem solid @base-border-color;
+          line-height: .72rem;
+          input{
+            padding-left:.2rem;
+            line-height: .7rem;
+            height:.7rem;
+            border:none;
+            .in-block;
+            margin-left:.02rem;
+          }
+          span{
+            .fl-r;
+            .in-block;
+            .ta-r;
+            width:1.4rem;
+            margin-right:.2rem;
+            line-height: .72rem;
+            letter-spacing:.02rem;
+          }
+        }
+        &.tip{
+          font-size:12px;
+          margin:.2rem 0;
+        }
+      }
+    }
+    .pay-wrap{
+      .clearfix;
+      margin-left:1.4rem;
+      font-size:14px;
+      line-height:.8rem;
+      dt{
+        float:left;
+        margin-left:-1.4rem;
+        width: 1.4rem;
+      }
+      dd{
+        float:left;
+      }
+    }
+    .weui-cells{
+      .weui-cell{
+        padding:.15rem .3rem;
+      }
+      .weui-cell__ft{
+        padding-right: 0;
       }
     }
   }
