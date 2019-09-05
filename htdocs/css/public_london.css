@@ -7002,7 +7002,7 @@ body.on #bgblack {
   height: 100%;
   width: 212px;
   background: #13426b;
-  position: relative !important;
+  position: relative;
 }
 .container-full .view-frt {
   display: table-cell;
