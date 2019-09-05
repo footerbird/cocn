@@ -15,11 +15,11 @@
     </header>
     <div class="container pt44 pb50">
       <div class="cont-box">
-        <a href="/mobile/trading-pages.php" class="col-base">详情页</a>
+        <a href="/mobile/trading-pages.php" class="col-base">一口价</a>
         <a href="/mobile/trading-pages-paimai.php" class="col-base">拍卖</a>
-        <a href="/mobile/trading-pages-yijia.php" class="col-base">议价</a>
-        <a href="/mobile/trading-pages-zengzi.php" class="col-base">增资</a>
-        <a href="/mobile/trading-pages-zhuanrang.php" class="col-base">转让</a>
+        <a href="/mobile/trading-pages-yijia.php" class="col-base">投资人出价</a>
+        <a href="/mobile/trading-pages-zengzi.php" class="col-base">增资扩股</a>
+        <a href="/mobile/trading-pages-zhuanrang.php" class="col-base">公司转让</a>
 
 
 
