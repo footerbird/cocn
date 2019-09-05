@@ -6998,13 +6998,15 @@ body.on #bgblack {
 }
 .container-full .view-flt {
   display: table-cell;
+  vertical-align: top;
   height: 100%;
-  width: 210px;
+  width: 212px;
   background: #13426b;
   position: relative !important;
 }
 .container-full .view-frt {
   display: table-cell;
+  vertical-align: top;
   height: 100%;
   padding: 15px;
 }
@@ -7085,7 +7087,7 @@ body.on #bgblack {
   box-sizing: border-box;
   left: 0px;
   top: 55px;
-  width: 210px;
+  width: 212px;
   height: 100%;
 }
 .aside .box {
