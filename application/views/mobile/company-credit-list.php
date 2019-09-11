@@ -62,7 +62,7 @@
                   </ul>
                 </div>
                 <div class="action">
-                  <a href="javascript:;" class="gz">关注</a>
+                  <a href="javascript:;" class="ygz">已关注</a>
                 </div>
               </div>
               <p class="ft">

@@ -3571,21 +3571,21 @@ table {
 }
 .index-jysc {
   margin-top: .2rem;
-  height: 4.4rem;
+  height: 5rem;
   background-color: #fff !important;
 }
 .index-jysc .index-title {
   border-bottom-color: #fff;
 }
-.index-jysc .weui-tab {
-  height: auto;
+.index-jysc .deal-tab {
+  position: relative !important;
 }
-.index-jysc .weui-tab .weui-navbar {
+.index-jysc .deal-tab .tab {
   width: 6.28rem;
   height: .7rem;
-  left: .61rem;
-  bottom: .34rem;
-  top: auto;
+  position: absolute !important;
+  left: .45rem;
+  bottom: -3.6rem;
   z-index: 0;
   -webkit-border-radius: 0.325rem;
   -moz-border-radius: 0.325rem;
@@ -3593,23 +3593,35 @@ table {
   background-color: #fff !important;
   border: .01rem solid #d1dde6;
   overflow: hidden;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
-.index-jysc .weui-tab .weui-navbar .weui-navbar__item {
+.index-jysc .deal-tab .tab a {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
   line-height: .7rem;
   height: .7rem;
   color: #666 !important;
-  padding: 0px;
-  font-size: 12px;
+  text-align: center !important;
+  display: block;
+  border-right: .01rem solid #d1dde6;
 }
-.index-jysc .weui-tab .weui-navbar .weui-navbar__item::after {
-  border-right: 0.01rem solid #13426b;
+.index-jysc .deal-tab .tab a:last-child {
+  border-right: none;
 }
-.index-jysc .weui-tab .weui-navbar .weui-navbar__item.weui-bar__item--on {
+.index-jysc .deal-tab .tab a.on {
   background-color: #13426b !important;
   color: #fff !important;
 }
-.index-jysc .weui-tab .weui-tab__bd {
-  top: -0.45rem;
+.index-jysc .deal-tab .content {
+  position: absolute !important;
+  width: 100%;
+  overflow: hidden;
+  top: -0.6rem;
   height: 3.36rem;
   padding: 0px .3rem;
 }
@@ -4040,6 +4052,20 @@ table {
   border-radius: 0.24rem;
   color: #fff !important;
   background-color: #f4364c !important;
+  margin-top: .3rem;
+}
+.company-results-list .items li .hd .action a.ygz {
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  line-height: .48rem;
+  height: .48rem;
+  padding: 0 .25rem;
+  -webkit-border-radius: 0.24rem;
+  -moz-border-radius: 0.24rem;
+  border-radius: 0.24rem;
+  color: #fff !important;
+  background-color: #cccccc !important;
   margin-top: .3rem;
 }
 .company-results-list .items li .ft {

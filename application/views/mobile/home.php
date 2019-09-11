@@ -51,36 +51,22 @@
           <div class="index-title">
             <span>股权交易市场</span>
           </div>
-          <div class="weui-tab">
-            <div class="weui-navbar">
-              <a class="weui-navbar__item weui-bar__item--on" href="#tab1">
+          <div class="deal-tab" id="deal_tab">
+            <div class="tab">
+              <a href="javascript:;" class="on">
                 入驻公司
               </a>
-              <a class="weui-navbar__item" href="#tab2">
+              <a href="javascript:;" class="">
                 发行公司
               </a>
-              <a class="weui-navbar__item" href="#tab3">
+              <a href="javascript:;" class="">
                 股权融资
               </a>
-              <a class="weui-navbar__item" href="#tab4">
+              <a href="javascript:;" class="">
                 合格投资人
               </a>
             </div>
-            <div class="weui-tab__bd">
-              <div id="tab1" class="weui-tab__bd-item weui-tab__bd-item--active">
-                <h1>页面1</h1>
-              </div>
-              <div id="tab2" class="weui-tab__bd-item">
-                <h1>页面2</h1>
-              </div>
-              <div id="tab3" class="weui-tab__bd-item">
-                <h1>页面3</h1>
-              </div>
-              <div id="tab4" class="weui-tab__bd-item">
-                <h1>页面4</h1>
-              </div>
-            </div>
-
+            <div class="content" id="deal_tab_content"></div>
           </div>
         </div>
         <!--市场投资-->
@@ -335,11 +321,9 @@
     <link rel="stylesheet" href="/htdocs/mobile/dist/css/animate.min.css?<?php echo CACHE_TIME; ?>">
     <script src="/htdocs/mobile/dist/js/swiper.min.js?<?php echo CACHE_TIME; ?>"></script>
     <script src="/htdocs/mobile/dist/js/swiper.animate.min.js?<?php echo CACHE_TIME; ?>"></script>
+    <script src="/htdocs/mobile/dist/js/echarts/echarts.js?<?php echo CACHE_TIME; ?>"></script>
+
     <script type="text/javascript">
-    window.onload = function(){
-
-    }
-
     $(function(){
         var mySwiper_banner = new Swiper ('#banner_swiper', {
             loop : true,
@@ -352,6 +336,174 @@
         })
     })
 
+    var chartsData = {};
+
+    function drawCharts(index){//获取tab的索引号
+
+        var myChart = echarts.init(document.getElementById("deal_tab_content"));
+
+        var xAxisData = chartsData.date;
+        var yAxisData = [];
+        var axisTitle = "";
+        switch(index){
+            case 0:
+                yAxisData = chartsData.ruzhu;
+                axisTitle = '入驻公司';
+                break;
+            case 1:
+                yAxisData = chartsData.faxing;
+                axisTitle = '发行标数';
+                break;
+            case 2:
+                yAxisData = chartsData.rongzi;
+                axisTitle = '股权融资';
+                break;
+            case 3:
+                yAxisData = chartsData.ruzhu;
+                axisTitle = '合格投资人';
+                break;
+            default:
+                yAxisData = chartsData.person;
+                axisTitle = '入驻公司';
+                break;
+        }
+        var option = {
+            title: {
+                show: true,
+                text: axisTitle+'近10天增长趋势图',
+                top: '18px',
+                left: 'center',
+                textStyle: {
+                    fontSize: '12',
+                    color: '#13426b',
+                    fontWeight: 'normal',
+                    fontFamily: 'PingFang SC'
+                },
+            },
+            color: ['#67b8de'],
+            grid: {
+                left: '40px',
+                right: '20px',
+                bottom: '20px',
+                top: '50px'
+            },
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'cross',
+                    label: {
+                        backgroundColor: '#999'
+                    }
+                },
+                formatter:function (params, ticket, callback) {
+                    return "日期："+params[0].name+"<br/>数量："+params[0].value;
+                },
+                backgroundColor:'#58a2ef',
+                textStyle: {
+                    fontSize: 12
+                }
+            },
+            toolbox: {
+                feature: {
+                    magicType : {
+                        show: true,
+                        type: ['bar'],
+                        title: {
+                            bar: '柱状图'
+                        },
+                        emphasis: {
+                            iconStyle: {
+                                borderColor: '#f4364c'
+                            }
+                        }
+                    },
+                    restore : {
+                        show: true,
+                        emphasis: {
+                            iconStyle: {
+                                borderColor: '#f4364c'
+                            }
+                        }
+                    },
+                    saveAsImage : {
+                        show: false,
+                        title: '保存',
+                        emphasis: {
+                            iconStyle: {
+                                borderColor: '#f4364c'
+                            }
+                        }
+                    }
+                },
+                top: 12,
+                right: 15
+            },
+            xAxis: {
+                type: 'category',
+                data: xAxisData,
+                axisLine: {
+                    lineStyle: {
+                        color: "#c6cdd2"
+                    }
+                },
+                axisLabel: {
+                    textStyle: {
+                        color: "#546a79"
+                    }
+                }
+            },
+            yAxis: {
+                type: 'value',
+                name: '数量/个',
+                nameTextStyle: {
+                    color: '#13426b'
+                },
+                axisLine: {
+                    lineStyle: {
+                        color: "#c6cdd2"
+                    }
+                },
+                axisLabel: {
+                    textStyle: {
+                        color: "#546a79"
+                    }
+                },
+                splitLine : {
+                    lineStyle: {
+                        color: ['#e5e5e5'],
+                        type: 'dashed'
+                    }
+                },
+            },
+            series: [{
+                data: yAxisData,
+                type: 'line',
+                smooth: true,
+                barMaxWidth: 10
+            }]
+        };
+
+        myChart.setOption(option);
+
+    }
+    $(function(){
+      $.ajax({
+          type:"get",
+          url:"/htdocs/mobile/json/charts.json",
+          async:true,
+          dataType: 'json',
+          success:function(result){
+              chartsData = result.data;
+              drawCharts(0);//初始画入驻公司图表
+          }
+      });
+      //切换行业数据、地区分析
+      $("#deal_tab .tab a").on('click',function() {
+          $(this).addClass('on').siblings().removeClass('on');
+          var index = $(this).index();
+          drawCharts(index);
+      });
+    })
     </script>
     </body>
 </html>

@@ -1468,41 +1468,47 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
 }
 .index-jysc{
   margin-top:.2rem;
-  height:4.4rem;
+  height:5rem;
   .bg-white;
   .index-title{
     border-bottom-color:#fff;
   }
-  .weui-tab{
-    height:auto;
-    .weui-navbar{
+  .deal-tab{
+    .pos-rela;
+    .tab{
       width:6.28rem;
       height:.7rem;
-      left:.61rem;
-      bottom: .34rem;
-      top:auto;
+      .pos-abso;
+      left:.45rem;
+      bottom: -3.6rem;
       z-index:0;
       .border-radius(.325rem);
       .bg-white;
       border:.01rem solid #d1dde6;
       overflow: hidden;
-      .weui-navbar__item{
+      .display-flex;
+      a{
+        .flex-number;
         line-height:.7rem;
         height:.7rem;
         .col-gray6;
-        padding:0px;
-        font-size: 12px;
-        &::after{
-          border-right:.01rem solid @base-color;
+        .ta-c;
+        display:block;
+        border-right:.01rem solid #d1dde6;
+        &:last-child{
+          border-right:none;
         }
-        &.weui-bar__item--on{
+        &.on{
           .bg-13426b;
           .col-white;
         }
       }
     }
-    .weui-tab__bd{
-      top:-.45rem;
+    .content{
+      .pos-abso;
+      width:100%;
+      overflow:hidden;
+      top:-.6rem;
       height:3.36rem;
       padding:0px .3rem;
     }
@@ -1880,6 +1886,16 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
               .border-radius(.24rem);
               .col-white;
               .bg-f4364c;
+              margin-top:.3rem;
+            }
+            &.ygz{
+              .in-block;
+              line-height:.48rem;
+              height: .48rem;
+              padding:0 .25rem;
+              .border-radius(.24rem);
+              .col-white;
+              .bg-cc;
               margin-top:.3rem;
             }
           }

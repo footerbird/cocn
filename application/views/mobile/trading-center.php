@@ -15,14 +15,58 @@
     </header>
     <div class="container pt44 pb50">
       <div class="cont-box">
-        <a href="/mobile/trading-pages.php" class="col-base">一口价</a>
-        <a href="/mobile/trading-pages-paimai.php" class="col-base">拍卖</a>
-        <a href="/mobile/trading-pages-yijia.php" class="col-base">投资人出价</a>
-        <a href="/mobile/trading-pages-zengzi.php" class="col-base">增资扩股</a>
-        <a href="/mobile/trading-pages-zhuanrang.php" class="col-base">公司转让</a>
-
-
-
+        <table width="100%">
+          <thead>
+            <tr>
+              <th width="">名称</th>
+              <th width="">交易比例</th>
+              <th width="">交易类型</th>
+              <th width="">最新价</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>
+                <a href="/mobile/trading-pages.php" class="col-base">一口价</a>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>
+                <a href="/mobile/trading-pages-paimai.php" class="col-base">拍卖</a>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>
+                <a href="/mobile/trading-pages-yijia.php" class="col-base">投资人出价</a>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>
+                <a href="/mobile/trading-pages-zengzi.php" class="col-base">增资扩股</a>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>
+                <a href="/mobile/trading-pages-zhuanrang.php" class="col-base">公司转让</a>
+              </td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
     <div class="back-top" id="back-top" >
