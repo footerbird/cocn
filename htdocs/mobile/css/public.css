@@ -10,7 +10,7 @@ body {
   height: 100%;
 }
 body {
-  font-size: .08rem;
+  font-size: 12px;
   color: #333;
   font-family: -apple-system-font, arial, verdana, helvetica, 'PingFang SC', 'HanHei SC', STHeitiSC-Light, Microsoft Yahei, sans-serif;
   background: #f2f6f8;
@@ -3101,7 +3101,7 @@ table {
 }
 /*实线*/
 .line {
-  width: 100% !important;
+  width: 100%;
   height: .01rem;
   background-color: #f2f6f8 !important;
 }
@@ -3609,6 +3609,7 @@ table {
   color: #fff !important;
 }
 .index-jysc .weui-tab .weui-tab__bd {
+  top: -0.45rem;
   height: 3.36rem;
   padding: 0px .3rem;
 }
@@ -3782,7 +3783,10 @@ table {
   *zoom: 1 !important;
 }
 .index-tshy .content .items .bd em.line {
+  width: auto;
+  height: auto;
   margin: 0 .1rem;
+  background-color: #fff !important;
 }
 .index-tshy .content .items .ft {
   color: #999 !important;
