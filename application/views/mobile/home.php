@@ -15,12 +15,17 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <a href="javascript:;">
-                            <img src="/htdocs/mobile/images/banner_1.jpg" />
+                            <img src="/htdocs/mobile/images/banner/index-banner1.png" />
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a href="javascript:;">
-                            <img src="/htdocs/mobile/images/banner_2.jpg" />
+                            <img src="/htdocs/mobile/images/banner/index-banner2.png" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="/htdocs/mobile/images/banner/index-banner3.png" />
                         </a>
                     </div>
                 </div>
