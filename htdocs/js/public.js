@@ -12,7 +12,7 @@ var Valid = function(){
     methods.isMobile = function(str){//验证手机号码
         return /^1[3|4|5|6|7|8|9][0-9]\d{8}$/.test(str);
     };
-    
+
     methods.isPwd = function(str){//验证密码复杂度，密码，至少8位英文数字组合
         return /^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{8,}$/.test(str);
     };
@@ -172,7 +172,7 @@ var Pop = (function(){//弹出框
                 options.title = arguments[3];
             }
         }
-        
+
         $("#upwin_alert").remove();
         $(".upwin-mask").remove();
         var type_str = typeof(options.type) == "number"?'<i class="alert-ico alert-ico'+options.type+'"></i>':'';
@@ -190,7 +190,7 @@ var Pop = (function(){//弹出框
             options.yes();
         })
     }
-    
+
     methods.confirm = function(){
         var options = {
             content : 'hello world!',
@@ -212,7 +212,7 @@ var Pop = (function(){//弹出框
                 options.title = arguments[3];
             }
         }
-        
+
         $("#upwin_confirm").remove();
         $(".upwin-mask").remove();
         var confirm_str = '<div id="upwin_confirm" class="upwin" style="min-width:360px;">'+
@@ -233,7 +233,7 @@ var Pop = (function(){//弹出框
             options.cancel();
         })
     }
-    
+
     methods.msg = function(str,callback){
         if($("#upwin_msg").length > 0){
             return false;
@@ -306,7 +306,7 @@ function sendCode(obj,seconds,phone,errorId){
             return false;
         }
         $this.text("发送成功("+wait+")");
-        
+
         setTimeout(function(){
             time();
         },1000);
@@ -380,13 +380,13 @@ function showMarquee(id,time){
 //返回顶部
 var scrollTop = function(id){
     var $toTopBar = $("#"+id);
-    
+
     if($(window).scrollTop()>100){
         $toTopBar.show();
     }else{
         $toTopBar.hide();
     }
-    
+
     $(window).on("scroll",function(){
         if($(window).scrollTop()>100){
             $toTopBar.slideDown();
@@ -394,7 +394,7 @@ var scrollTop = function(id){
             $toTopBar.slideUp();
         }
     })
-    
+
     $toTopBar.on("click",function(){//点击返回顶部
         $("html,body").animate({scrollTop:0},500);
     })
@@ -424,3 +424,18 @@ var HtmlUtil = {
         return output;
     }
 };
+//判断系统类型并修改字体
+function OSnow(){
+  var agent = navigator.userAgent.toLowerCase();
+  var isMac = /macintosh|mac os x/i.test(navigator.userAgent);
+  if (agent.indexOf("win32") >= 0 || agent.indexOf("wow32") >= 0) {
+    $("body").css("font-family","Microsoft Yahei");
+    }
+  if (agent.indexOf("win64") >= 0 || agent.indexOf("wow64") >= 0) {
+    $("body").css("font-family","Microsoft Yahei");
+  }
+  if(isMac){
+    $("body").css("font-family","PingFang SC");
+  }
+}
+OSnow();

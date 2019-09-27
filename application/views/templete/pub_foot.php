@@ -232,19 +232,4 @@ $(function(){
     })
 
 })
-//判断系统类型
-function OSnow(){
-  var agent = navigator.userAgent.toLowerCase();
-  var isMac = /macintosh|mac os x/i.test(navigator.userAgent);
-  if (agent.indexOf("win32") >= 0 || agent.indexOf("wow32") >= 0) {
-    $("body").css("font-family",",Microsoft Yahei");
-    }
-  if (agent.indexOf("win64") >= 0 || agent.indexOf("wow64") >= 0) {
-    $("body").css("font-family",",Microsoft Yahei");
-  }
-  if(isMac){
-    $("body").css("font-family","PingFang SC");
-  }
-}
-OSnow();
 </script>
