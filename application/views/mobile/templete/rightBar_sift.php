@@ -151,21 +151,101 @@
                             <p>批发和零售业</p>
                         </div>
                     </li>
-                    <li class="">
-                        <div class="item">
-                            <p>住宿和餐饮业</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="item">
-                            <p>制造业</p>
-                        </div>
-                    </li>
+					<li class="long">
+					    <div class="item">
+					        <p>居民服务修理和其他服务业</p>
+					    </div>
+					</li>
                     <li class="long">
                         <div class="item">
-                            <p>居民服务修理和其他服务业</p>
+                            <p>租赁和商务服务业</p>
                         </div>
                     </li>
+					<li>
+					    <div class="item">
+					        <p>住宿和餐饮业</p>
+					    </div>
+					</li>
+					<li>
+					    <div class="item">
+					        <p>制造业</p>
+					    </div>
+					</li>
+					<li class="long">
+					    <div class="item">
+					        <p>农、林、牧、渔业</p>
+					    </div>
+					</li>
+					<li class="long">
+					    <div class="item">
+					        <p>交通运输、仓储和邮政业</p>
+					    </div>
+					</li>
+					<li>
+					    <div class="item">
+					        <p>建筑业</p>
+					    </div>
+					</li>
+					<li>
+					    <div class="item">
+					        <p>房地产业</p>
+					    </div>
+					</li>
+					<li class="long">
+					    <div class="item">
+					        <p>科学研究和技术服务业</p>
+					    </div>
+					</li>
+					<li class="long">
+					    <div class="item">
+					        <p>软件和信息技术服务业</p>
+					    </div>
+					</li>
+					<li>
+					    <div class="item">
+					        <p>金融业</p>
+					    </div>
+					</li>
+					<li>
+					    <div class="item">
+					        <p>采矿业</p>
+					    </div>
+					</li>
+					<li class="long">
+					    <div class="item">
+					        <p>文化、体育和娱乐业</p>
+					    </div>
+					</li>
+					<li class="long">
+					    <div class="item">
+					        <p>水利、环境和公共设施管理业</p>
+					    </div>
+					</li>
+					<li>
+					    <div class="item">
+					        <p>社会工作</p>
+					    </div>
+					</li>
+					<li>
+					    <div class="item">
+					        <p>教育</p>
+					    </div>
+					</li>
+					<li class="long">
+					    <div class="item">
+					        <p>电、热、燃气及水生产和供应业</p>
+					    </div>
+					</li>
+					<li class="long">
+					    <div class="item">
+					        <p>公共管理、社会保障和社会组织</p>
+					    </div>
+					</li>
+					<li>
+					    <div class="item">
+					        <p>国际组织</p>
+					    </div>
+					</li>
                 </ul>
             </div>
             <div class="list">

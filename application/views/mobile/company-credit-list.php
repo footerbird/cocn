@@ -372,7 +372,8 @@
         if($(this).hasClass("choosed")) {
             $(this).removeClass("choosed");
         }else {
-            $(this).addClass("choosed").siblings().removeClass("choosed");
+            $(this).addClass("choosed");
+            $(this).parent().siblings().find(".item").removeClass("choosed");
         }
       });
       //重置

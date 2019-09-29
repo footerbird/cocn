@@ -491,7 +491,7 @@
         myChart.setOption(option);
 
     }
-    $(function(){
+    window.onload = function(){
       $.ajax({
           type:"get",
           url:"/htdocs/mobile/json/charts.json",
@@ -508,7 +508,7 @@
           var index = $(this).index();
           drawCharts(index);
       });
-    })
+    }
     </script>
     </body>
 </html>
