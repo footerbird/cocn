@@ -17,9 +17,6 @@
             <i class="weui-icon-search"></i>
             <span>公司信息</span>
           </label>
-          <a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">
-            <i class="ico-search-cancel"></i>
-          </a>
         </form>
         <a href="javascript:history.go(-1);" id="" class="cancel">取消</a>
       </div>

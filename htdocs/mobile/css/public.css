@@ -2565,10 +2565,12 @@ table {
 }
 .header-search.history .weui-search-bar .weui-search-bar__form .weui-search-bar__box {
   height: .58rem;
-  width: 85%;
+  width: 100%;
 }
 .header-search.history .weui-search-bar .weui-search-bar__form .weui-search-bar__box .weui-search-bar__input {
-  width: auto;
+  width: 90%;
+  height: .4rem;
+  line-height: .4rem;
   font-size: 12px;
 }
 .header-search.history .weui-search-bar .weui-search-bar__label {
