@@ -3453,43 +3453,34 @@ table {
 }
 /*头条详细页面*/
 .weui-article {
-  font-size: .09rem;
+  padding: .4rem;
+  font-size: 12px;
   line-height: 1.8;
   background-color: #fff;
   color: #333;
 }
 .weui-article .article-title {
-  padding: .05rem;
-  font-size: .11rem;
-  font-weight: 600;
+  font-size: 16px;
   text-align: center;
   margin-bottom: .5em;
+  line-height: 1.2;
 }
 .weui-article .article-summary {
-  position: relative;
-  font-size: .08rem;
-  color: #666;
-  padding: .05rem .05rem .05rem .18rem;
-  background-color: #f7f7f7;
-  margin-bottom: .1rem;
-}
-.weui-article .article-summary:before {
-  position: absolute;
-  content: "“";
-  font-size: .16rem;
-  height: .18rem;
-  top: .03rem;
-  left: .05rem;
+  padding: 0 .4rem;
+  font-size: 12px;
+  color: #999;
+  margin-bottom: .4rem;
 }
 .weui-article section p {
-  margin: 0 0 1em;
+  margin: 0 0 .4rem;
+  color: #666 !important;
 }
 .weui-article section h2 {
-  font-size: .1rem;
+  font-size: 14px;
   font-weight: 600;
 }
 .weui-article section h3 {
-  font-size: .09rem;
+  font-size: 12px;
   font-weight: 600;
 }
 .weui-article section a {
@@ -3499,6 +3490,12 @@ table {
   border-color: #999;
   padding: 0 0 1px;
   word-break: break-word;
+}
+.weui-article section img {
+  width: 5.3rem;
+  display: block;
+  margin: 0 auto !important;
+  padding-bottom: .5rem;
 }
 /*首页*/
 .index-banner-box {
@@ -4671,6 +4668,9 @@ table {
   border-bottom: .01rem solid #cedbe5;
   margin: 0 .3rem;
 }
+.article-list .head-nav.f16 {
+  border-bottom: none;
+}
 .article-list .head-nav a {
   font-size: 14px;
   display: inline-block !important;
@@ -4695,6 +4695,13 @@ table {
   bottom: 0rem;
   left: 0rem;
 }
+.article-list .weui-panel__bd a.weui-media-box {
+  padding-top: .35rem;
+  padding-bottom: .35rem;
+}
+.article-list .weui-panel__bd a:first-child {
+  padding-top: .25rem;
+}
 .article-list .weui-media-box__bd p {
   font-size: 12px;
   color: #999 !important;
@@ -4706,19 +4713,12 @@ table {
   color: #13426b !important;
   height: .8rem;
   font-weight: normal;
-  margin-top: -0.2rem;
-}
-.article-list .weui-media-box__desc {
-  -webkit-line-clamp: 3;
-  font-size: 12px;
-  color: #666 !important;
-  line-height: .44rem;
-  margin-bottom: .1rem;
+  margin-top: -0.3rem;
+  margin-bottom: .3rem;
 }
 .article-list .weui-media-box_appmsg .weui-media-box__hd {
   width: 2.44rem;
-  height: 2.44rem;
-  margin-bottom: .1rem;
+  height: 1.3rem;
 }
 .article-list .weui-media-box_appmsg .weui-media-box__hd img {
   -webkit-border-radius: 0.06rem;

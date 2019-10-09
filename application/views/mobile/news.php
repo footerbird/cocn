@@ -51,111 +51,45 @@
           <a href="#" class="">行情</a>
           <a href="#" class="">交易</a>
         </div>
-        <div class="weui-panel__bd" id="article_html">
-              <a href="<?php echo base_url() ?>mobile/news_detail" target="_parent" class="weui-media-box weui-media-box_appmsg">
-                  <div class="weui-media-box__bd">
-                      <h4 class="weui-media-box__title">跑步“钱”进：中国资本是如何爆买美国生物医药资产的</h4>
-                      <div class="weui-media-box__desc">伴随公司股权交易系统的开发，已经完成第一轮资金投资，官网科技成立3年后正式开通股权交易服务比例为3.9%</div>
-                      <p class="">2019-09-09 19:07:25</p>
-                  </div>
-                  <div class="weui-media-box__hd">
-                      <img class="weui-media-box__thumb" src="https://pic.36krcnd.com/201809/29024418/si83eg3wrfggu2of!heading">
-                  </div>
-
-              </a>
-              <a href="<?php echo base_url() ?>mobile/news_detail" target="_parent" class="weui-media-box weui-media-box_appmsg">
-                  <div class="weui-media-box__bd">
-                      <h4 class="weui-media-box__title">跑步“钱”进：中国资本是如何爆买美国生物医药资产的</h4>
-                      <div class="weui-media-box__desc">伴随公司股权交易系统的开发，已经完成第一轮资金投资，官网科技成立3年后正式开通股权交易服务比例为3.9%</div>
-                      <p class="">2019-09-09 19:07:25</p>
-                  </div>
-                  <div class="weui-media-box__hd">
-                      <img class="weui-media-box__thumb" src="https://pic.36krcnd.com/201809/29024418/si83eg3wrfggu2of!heading">
-                  </div>
-              </a>
-              <a href="<?php echo base_url() ?>mobile/news_detail" target="_parent" class="weui-media-box weui-media-box_appmsg">
-                  <div class="weui-media-box__bd">
-                      <h4 class="weui-media-box__title">跑步“钱”进：中国资本是如何爆买美国生物医药资产的</h4>
-                      <div class="weui-media-box__desc">伴随公司股权交易系统的开发，已经完成第一轮资金投资，官网科技成立3年后正式开通股权交易服务比例为3.9%</div>
-                      <p class="">2019-09-09 19:07:25</p>
-                  </div>
-                  <div class="weui-media-box__hd">
-                      <img class="weui-media-box__thumb" src="https://pic.36krcnd.com/201809/29024418/si83eg3wrfggu2of!heading">
-                  </div>
-              </a>
-              <a href="<?php echo base_url() ?>mobile/news_detail" target="_parent" class="weui-media-box weui-media-box_appmsg">
-                  <div class="weui-media-box__bd">
-                      <h4 class="weui-media-box__title">跑步“钱”进：中国资本是如何爆买美国生物医药资产的</h4>
-                      <div class="weui-media-box__desc">伴随公司股权交易系统的开发，已经完成第一轮资金投资，官网科技成立3年后正式开通股权交易服务比例为3.9%</div>
-                      <p class="">2019-09-09 19:07:25</p>
-                  </div>
-                  <div class="weui-media-box__hd">
-                      <img class="weui-media-box__thumb" src="https://pic.36krcnd.com/201809/29024418/si83eg3wrfggu2of!heading">
-                  </div>
-              </a>
-              <a href="<?php echo base_url() ?>mobile/news_detail" target="_parent" class="weui-media-box weui-media-box_appmsg">
-                  <div class="weui-media-box__bd">
-                      <h4 class="weui-media-box__title">跑步“钱”进：中国资本是如何爆买美国生物医药资产的</h4>
-                      <div class="weui-media-box__desc">伴随公司股权交易系统的开发，已经完成第一轮资金投资，官网科技成立3年后正式开通股权交易服务比例为3.9%</div>
-                      <p class="">2019-09-09 19:07:25</p>
-                  </div>
-                  <div class="weui-media-box__hd">
-                      <img class="weui-media-box__thumb" src="https://pic.36krcnd.com/201809/29024418/si83eg3wrfggu2of!heading">
-                  </div>
-              </a>
-              <a href="<?php echo base_url() ?>mobile/news_detail" target="_parent" class="weui-media-box weui-media-box_appmsg">
-                  <div class="weui-media-box__bd">
-                      <h4 class="weui-media-box__title">跑步“钱”进：中国资本是如何爆买美国生物医药资产的</h4>
-                      <div class="weui-media-box__desc">伴随公司股权交易系统的开发，已经完成第一轮资金投资，官网科技成立3年后正式开通股权交易服务比例为3.9%</div>
-                      <p class="">2019-09-09 19:07:25</p>
-                  </div>
-                  <div class="weui-media-box__hd">
-                      <img class="weui-media-box__thumb" src="https://pic.36krcnd.com/201809/29024418/si83eg3wrfggu2of!heading">
-                  </div>
-              </a>
-              <a href="<?php echo base_url() ?>mobile/news_detail" target="_parent" class="weui-media-box weui-media-box_appmsg">
-                  <div class="weui-media-box__bd">
-                      <h4 class="weui-media-box__title">跑步“钱”进：中国资本是如何爆买美国生物医药资产的</h4>
-                      <div class="weui-media-box__desc">伴随公司股权交易系统的开发，已经完成第一轮资金投资，官网科技成立3年后正式开通股权交易服务比例为3.9%</div>
-                      <p class="">2019-09-09 19:07:25</p>
-                  </div>
-                  <div class="weui-media-box__hd">
-                      <img class="weui-media-box__thumb" src="https://pic.36krcnd.com/201809/29024418/si83eg3wrfggu2of!heading">
-                  </div>
-              </a>
-              <a href="<?php echo base_url() ?>mobile/news_detail" target="_parent" class="weui-media-box weui-media-box_appmsg">
-                  <div class="weui-media-box__bd">
-                      <h4 class="weui-media-box__title">跑步“钱”进：中国资本是如何爆买美国生物医药资产的</h4>
-                      <div class="weui-media-box__desc">伴随公司股权交易系统的开发，已经完成第一轮资金投资，官网科技成立3年后正式开通股权交易服务比例为3.9%</div>
-                      <p class="">2019-09-09 19:07:25</p>
-                  </div>
-                  <div class="weui-media-box__hd">
-                      <img class="weui-media-box__thumb" src="https://pic.36krcnd.com/201809/29024418/si83eg3wrfggu2of!heading">
-                  </div>
-              </a>
-              <a href="<?php echo base_url() ?>mobile/news_detail" target="_parent" class="weui-media-box weui-media-box_appmsg">
-                  <div class="weui-media-box__bd">
-                      <h4 class="weui-media-box__title">跑步“钱”进：中国资本是如何爆买美国生物医药资产的</h4>
-                      <div class="weui-media-box__desc">伴随公司股权交易系统的开发，已经完成第一轮资金投资，官网科技成立3年后正式开通股权交易服务比例为3.9%</div>
-                      <p class="">2019-09-09 19:07:25</p>
-                  </div>
-                  <div class="weui-media-box__hd">
-                      <img class="weui-media-box__thumb" src="https://pic.36krcnd.com/201809/29024418/si83eg3wrfggu2of!heading">
-                  </div>
-              </a>
-              <a href="<?php echo base_url() ?>mobile/news_detail" target="_parent" class="weui-media-box weui-media-box_appmsg">
-                  <div class="weui-media-box__bd">
-                      <h4 class="weui-media-box__title">跑步“钱”进：中国资本是如何爆买美国生物医药资产的</h4>
-                      <div class="weui-media-box__desc">伴随公司股权交易系统的开发，已经完成第一轮资金投资，官网科技成立3年后正式开通股权交易服务比例为3.9%</div>
-                      <p class="">2019-09-09 19:07:25</p>
-                  </div>
-                  <div class="weui-media-box__hd">
-                      <img class="weui-media-box__thumb" src="https://pic.36krcnd.com/201809/29024418/si83eg3wrfggu2of!heading">
-                  </div>
-              </a>
-          </div>
+        <div class="weui-panel__bd">
+          <a href="<?php echo base_url() ?>mobile/news_detail" target="_parent" class="weui-media-box weui-media-box_appmsg">
+              <div class="weui-media-box__bd">
+                  <h4 class="weui-media-box__title">跑步“钱”进：中国资本是如何爆买美国生物医药资产的</h4>
+                  <p class="">2019-09-09 19:07:25</p>
+              </div>
+              <div class="weui-media-box__hd">
+                  <img class="weui-media-box__thumb" src="https://pic.36krcnd.com/201809/29024418/si83eg3wrfggu2of!heading">
+              </div>
+          </a>
+          <a href="<?php echo base_url() ?>mobile/news_detail" target="_parent" class="weui-media-box weui-media-box_appmsg">
+              <div class="weui-media-box__bd">
+                  <h4 class="weui-media-box__title">跑步“钱”进：中国资本是如何爆买美国生物医药资产的</h4>
+                  <p class="">2019-09-09 19:07:25</p>
+              </div>
+              <div class="weui-media-box__hd">
+                  <img class="weui-media-box__thumb" src="https://pic.36krcnd.com/201809/29024418/si83eg3wrfggu2of!heading">
+              </div>
+          </a>
+          <a href="<?php echo base_url() ?>mobile/news_detail" target="_parent" class="weui-media-box weui-media-box_appmsg">
+              <div class="weui-media-box__bd">
+                  <h4 class="weui-media-box__title">跑步“钱”进：中国资本是如何爆买美国生物医药资产的</h4>
+                  <p class="">2019-09-09 19:07:25</p>
+              </div>
+              <div class="weui-media-box__hd">
+                  <img class="weui-media-box__thumb" src="https://pic.36krcnd.com/201809/29024418/si83eg3wrfggu2of!heading">
+              </div>
+          </a>
+          <a href="<?php echo base_url() ?>mobile/news_detail" target="_parent" class="weui-media-box weui-media-box_appmsg">
+              <div class="weui-media-box__bd">
+                  <h4 class="weui-media-box__title">跑步“钱”进：中国资本是如何爆买美国生物医药资产的</h4>
+                  <p class="">2019-09-09 19:07:25</p>
+              </div>
+              <div class="weui-media-box__hd">
+                  <img class="weui-media-box__thumb" src="https://pic.36krcnd.com/201809/29024418/si83eg3wrfggu2of!heading">
+              </div>
+          </a>
+        </div>
       </div>
-
       <div class="weui-loadmore" id="article_loading">
           <i class="weui-loading"></i>
           <span class="weui-loadmore__tips">正在加载</span>

@@ -1353,43 +1353,34 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
 
 /*头条详细页面*/
 .weui-article{
-    font-size: .09rem;
+  padding:.4rem;
+    font-size: 12px;
     line-height: 1.8;
     background-color: #fff;
     color: #333;
     .article-title{
-        padding: .05rem;
-        font-size: .11rem;
-        font-weight: 600;
+        font-size: 16px;
         text-align: center;
         margin-bottom: .5em;
+        line-height: 1.2;
     }
     .article-summary{
-        position: relative;
-        font-size: .08rem;
-        color: #666;
-        padding: .05rem .05rem .05rem .18rem;
-        background-color: #f7f7f7;
-        margin-bottom: .1rem;
-        &:before{
-            position: absolute;
-            content: "“";
-            font-size: .16rem;
-            height: .18rem;
-            top: .03rem;
-            left: .05rem;
-        }
+        padding:0 .4rem;
+        font-size: 12px;
+        color: #999;
+        margin-bottom: .4rem;
     }
     section{
         p{
-            margin: 0 0 1em;
+            margin: 0 0 .4rem;
+            .col-gray6;
         }
         h2{
-            font-size: .1rem;
+            font-size: 14px;
             font-weight: 600;
         }
         h3{
-            font-size: .09rem;
+            font-size: 12px;
             font-weight: 600;
         }
         a{
@@ -1399,6 +1390,12 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
             border-color: #999;
             padding: 0 0 1px;
             word-break: break-word;
+        }
+        img{
+          width:5.3rem;
+          display:block;
+          .m-auto;
+          padding-bottom: .5rem;
         }
     }
 }
@@ -2469,6 +2466,9 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
     height:.7rem;
     border-bottom:.01rem solid #cedbe5;
     margin:0 .3rem;
+    &.f16{
+      border-bottom:none;
+    }
     a{
       font-size:14px;
       .in-block;
@@ -2480,7 +2480,6 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
       }
       &.on{
         .col-e3464e;
-
         &::after{
           .pos-abso;
           content:'';
@@ -2494,8 +2493,16 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
       }
     }
   }
-  .weui-media-box{
-
+  .weui-panel__bd{
+    a{
+      &.weui-media-box{
+        padding-top:.35rem;
+        padding-bottom:.35rem;
+      }
+      &:first-child{
+        padding-top:.25rem;
+      }
+    }
   }
   .weui-media-box__bd{
     p{
@@ -2510,20 +2517,13 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
     .col-base;
     height:.8rem;
     font-weight:normal;
-    margin-top:-.2rem;
-  }
-  .weui-media-box__desc{
-    -webkit-line-clamp: 3;
-    font-size:12px;
-    .col-gray6;
-    line-height:.44rem;
-    margin-bottom:.1rem;
+    margin-top:-.3rem;
+    margin-bottom:.3rem;
   }
   .weui-media-box_appmsg{
     .weui-media-box__hd{
       width:2.44rem;
-      height:2.44rem;
-      margin-bottom:.1rem;
+      height:1.3rem;
       img{
       .border-radius(.06rem);
       }
