@@ -3454,7 +3454,7 @@ table {
 /*头条详细页面*/
 .weui-article {
   padding: .4rem;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.8;
   background-color: #fff;
   color: #333;
@@ -3492,7 +3492,7 @@ table {
   word-break: break-word;
 }
 .weui-article section img {
-  width: 5.3rem;
+  width: 100%;
   display: block;
   margin: 0 auto !important;
   padding-bottom: .5rem;
