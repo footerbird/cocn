@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<?php include_once('templete/pub_head_london.php') ?>
+</head>
+<body>
+<?php include_once('templete/pub_nav_a.php') ?>
+<!-- 股权交易中心 -->
+<div class="container mt20 mb20">
+  <div class="trading-center after-cls">
+      <div class="trading-center2-left">
+        <table width="100%" class="inner-table mb20">
+          <thead>
+            <tr>
+              <th width="10%">编号</th>
+              <th width="20%">名称</th>
+              <th width="10%">交易比例</th>
+              <th width="10%">最新价</th>
+              <th width="10%">投资方式</th>
+              <th width="10%">交易类型</th>
+              <th width="10%">注册资本</th>
+              <th width="10%">市场流通</th>
+              <th width="10%">有效期</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr align="center">
+              <td>7823457875</td>
+              <td>
+                <a href="/page/trading-pages" class="col-default">杭州名商网络</a>
+              </td>
+              <td>0.08%</td>
+              <td>130万</td>
+              <td>股权转让</td>
+              <td>一口价</td>
+              <td>500万</td>
+              <td>80%</td>
+              <td>2019-09-09</td>
+            </tr>
+            <tr align="center">
+              <td>7823457875</td>
+              <td>
+                <a href="/page/trading-pages-paimai" class="col-default">杭州商网络杭州商网络杭州商网络杭州商网络杭州商网络</a>
+              </td>
+              <td>0.08%</td>
+              <td>130万</td>
+              <td>股权转让</td>
+              <td>拍卖</td>
+              <td>500万</td>
+              <td>80%</td>
+              <td>2019-09-09</td>
+            </tr>
+            <tr align="center">
+              <td>7823457875</td>
+              <td>
+                <a href="/page/trading-pages-yijia" class="col-default">杭州商网</a>
+              </td>
+              <td>0.08%</td>
+              <td>130万</td>
+              <td>股权转让</td>
+              <td>投资人出价</td>
+              <td>500万</td>
+              <td>80%</td>
+              <td>2019-09-09</td>
+            </tr>
+            <tr align="center">
+              <td>7823457875</td>
+              <td>
+                <a href="/page/trading-pages-zengzi" class="col-default">杭州商网</a>
+              </td>
+              <td>0.08%</td>
+              <td>130万</td>
+              <td>增资扩股</td>
+              <td>一口价</td>
+              <td>500万</td>
+              <td>80%</td>
+              <td>2019-09-09</td>
+            </tr>
+            <tr align="center">
+              <td>7823457875</td>
+              <td>
+                <a href="/page/trading-pages-zhuanrang" class="col-default">杭州商网</a>
+              </td>
+              <td>0.08%</td>
+              <td>130万</td>
+              <td>公司转让</td>
+              <td>一口价</td>
+              <td>500万</td>
+              <td>80%</td>
+              <td>2019-09-09</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="after-cls mb20">
+          <div class="pages fl-r mr0 "><em class="fl-l lh23">共有0条，每页显示：20条</em>
+              <a href="" class="first">首页</a>
+              <a href="" class="prev">上一页</a><b class="cur">1</b>
+              <a href="">2</a>
+              <a href="">3</a>
+              <span class="ml10 mr10 fl-l in-block">...</span>
+              <a href="">4</a>
+              <a href="">5</a>
+              <a href="">6</a>
+              <a href="" class="next">下一页</a>
+              <a href="" class="last">尾页</a><span class="ml5 mr5 fl-l in-block"><input type="text"></span>
+              <a href="" class="go">GO</a>
+          </div>
+        </div>
+        <div class="no-results">
+          <img src="/htdocs/images/inner-nothing.png" alt="" class="m-auto">
+          <p class="ta-c col-default f18 lh24 pt20 pb20">
+            没找到结果，
+            <br />
+            您可以换个方法，试试看...
+          </p>
+        </div>
+      </div>
+      <div class="right-filter">
+        <div class="title lh24 col-default">
+          筛选
+        </div>
+        <div class="search">
+          <input type="text" name="" value="" placeholder="编号/公司名称">
+          <a href="#" class="btn">
+            <i class="ico-search"></i>
+          </a>
+        </div>
+        <div class="select-panel after-cls">
+          <p class="f12 col-gray9">投资方式</p>
+          <select class="" name="">
+            <option value="">全部</option>
+            <option value="">股权转让</option>
+            <option value="">增资扩股</option>
+          </select>
+        </div>
+        <div class="select-panel after-cls">
+          <p class="f12 col-gray9">交易类型</p>
+          <select class="" name="">
+            <option value="">全部</option>
+            <option value="">标价</option>
+            <option value="">拍卖</option>
+          </select>
+        </div>
+        <div class="select-panel after-cls">
+          <p class="f12 col-gray9">选择地区</p>
+          <select  name="" class="w94 mr10" id="province" onchange="selectProvince(this)">
+            <option value="">选择省份</option>
+          </select>
+          <select  name="" class="w94" id="city">
+            <option value="">选择城市</option>
+          </select>
+        </div>
+        <div class="fanwei">
+          <p class="f12 col-gray9 mb10">经营范围</p>
+          <div class="box after-cls" id="fanwei_a">
+            <a href="javascript:;">文化传播</a>
+            <a href="javascript:;">广告</a>
+            <a href="javascript:;">房地产中介</a>
+            <a href="javascript:;">房地产投资</a>
+            <a href="javascript:;">教育发展</a>
+            <a href="javascript:;">知识产权咨询</a>
+          </div>
+        </div>
+        <div class="bottom after-cls">
+          <a href="javascript:;" class="a fl-l">
+            清空
+          </a>
+          <a href="javascript:;" class="b fl-r">
+            搜索
+          </a>
+        </div>
+      </div>
+    </div>
+</div>
+
+<?php include_once('templete/pub_foot_a.php') ?>
+<script type="text/javascript">
+//地区
+var cityJson;//城市数据
+var cityMap = {};//省份对应城市,直接用键值对形式,避免再次循环,例如cityMap['101210000'] = [{code:101210100,name:'杭州'}]这样子
+
+function selectProvince(obj){
+    var code = $(obj).val();
+    var hotCityList = cityMap[code];
+    var citylist_str = '<option>选择城市</option>';
+    $.each(hotCityList,function(j){
+        if(hotCityList[j].code == '100010000'){
+            return true;
+        }
+        citylist_str += '<option value="'+hotCityList[j].code+'">'+hotCityList[j].name+'</option>';
+    })
+    $("#city").html(citylist_str);
+}
+
+$(function(){
+
+    $.ajax({
+        type:"get",
+        url:"/htdocs/json/city.json",
+        async:true,
+        success:function(data){
+            cityJson = data;
+            if(cityJson != undefined){
+                var allCityList = cityJson.data.cityList;
+                var provincelist_str = '<option>选择省份</option>';
+                $.each(allCityList,function(i){
+                    cityMap[allCityList[i].code] = allCityList[i].subLevelModelList;
+                    provincelist_str += '<option value="'+allCityList[i].code+'">'+allCityList[i].name+'</option>';
+                })
+                $("#province").html(provincelist_str);
+            }
+        }
+    });
+
+})
+$(function(){
+  $('#fanwei_a').find("a").on("click",function () {
+    $(this).toggleClass("choosed");
+  })
+
+})
+</script>
+</body>
+</html>
