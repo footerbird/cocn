@@ -26,7 +26,7 @@
           <div class="line"></div>
         </div>
         <div class="trading-center">
-          <table width="100%">
+          <table width="100%" id="trading_center">
             <thead>
               <tr>
                 <th width="32%" align="left">名称</th>
@@ -40,7 +40,7 @@
                 <td>杭州名商网杭州名商网杭州名商网杭州名商网</td>
                 <td align="center">0.08%</td>
                 <td align="center">
-                  <a href="/mobile/trading-pages.php" class="col-base">一口价</a>
+                  <a href="/mobile/trading-pages.php" >一口价</a>
                 </td>
                 <td class="col-f4364c" align="right">130万</td>
               </tr>
@@ -48,7 +48,7 @@
                 <td>杭州名商网杭州名商网</td>
                 <td align="center">0.08%</td>
                 <td align="center">
-                  <a href="/mobile/trading-pages-paimai.php" class="col-base">拍卖</a>
+                  <a href="/mobile/trading-pages-paimai.php" >拍卖</a>
                 </td>
                 <td class="col-f4364c" align="right">130万</td>
               </tr>
@@ -56,7 +56,7 @@
                 <td>杭州名商网</td>
                 <td align="center">0.08%</td>
                 <td align="center">
-                  <a href="/mobile/trading-pages-yijia.php" class="col-base">投资人出价</a>
+                  <a href="/mobile/trading-pages-yijia.php" >投资人出价</a>
                 </td>
                 <td class="col-f4364c" align="right">130万</td>
               </tr>
@@ -64,7 +64,7 @@
                 <td>杭州名商网杭州名商网</td>
                 <td align="center">0.08%</td>
                 <td align="center">
-                  <a href="/mobile/trading-pages-zengzi.php" class="col-base">增资扩股</a>
+                  <a href="/mobile/trading-pages-zengzi.php" >增资扩股</a>
                 </td>
                 <td class="col-f4364c" align="right">130万</td>
               </tr>
@@ -72,7 +72,7 @@
                 <td>杭州名商网杭州名商网</td>
                 <td align="center">0.08%</td>
                 <td align="center">
-                  <a href="/mobile/trading-pages-zhuanrang.php" class="col-base">公司转让</a>
+                  <a href="/mobile/trading-pages-zhuanrang.php" >公司转让</a>
                 </td>
                 <td class="col-f4364c" align="right">130万</td>
               </tr>
@@ -105,20 +105,26 @@
         	}else{
         		$("#back-top").fadeOut();
         	}
-        });
-        $(".ico-back-top").on("click",function(){//go top
-        	$(".container").animate({scrollTop:0},500)
-        });
+      });
 
-        //筛选
-        $("#rightBar_choose .list li").find('.item').on('click',function(){
-          if($(this).hasClass("choosed")) {
-              $(this).removeClass("choosed");
-          }else {
-              $(this).addClass("choosed");
-              $(this).parent().siblings().find(".item").removeClass("choosed");
-          }
-        });
+      $(".ico-back-top").on("click",function(){//go top
+      	$(".container").animate({scrollTop:0},500)
+      });
+
+      //筛选
+      $("#rightBar_choose .list li").find('.item').on('click',function(){
+        if($(this).hasClass("choosed")) {
+            $(this).removeClass("choosed");
+        }else {
+            $(this).addClass("choosed");
+            $(this).parent().siblings().find(".item").removeClass("choosed");
+        }
+      });
+
+      //tr点击跳转
+      $("#trading_center").find('tr').on('click',function(){
+        location.href = $(this).children("td").find('a').attr("href");
+      });
       })
     </script>
     </body>
