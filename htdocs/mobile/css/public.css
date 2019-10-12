@@ -4725,3 +4725,26 @@ table {
   -moz-border-radius: 0.06rem;
   border-radius: 0.06rem;
 }
+/*交易中心*/
+.trading-center {
+  padding-left: .3rem;
+  padding-right: .3rem;
+  background-color: #fff !important;
+}
+.trading-center table th {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: .4rem;
+  padding: .2rem .1rem;
+  color: #13426b !important;
+  border-bottom: 1px solid #aebecc;
+}
+.trading-center table td {
+  line-height: .3rem;
+  font-size: 12px;
+  padding: .15rem .1rem;
+  border-bottom: 1px solid #f2f6f8;
+}
+.trading-center table tr:last-child td {
+  border-bottom: 1px solid #d1dde6;
+}

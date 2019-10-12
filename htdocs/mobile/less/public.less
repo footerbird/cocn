@@ -2530,3 +2530,33 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
     }
   }
 }
+/*交易中心*/
+.trading-center{
+  padding-left:.3rem;
+  padding-right: .3rem;
+  .bg-white;
+  table{
+    th{
+      font-weight:normal;
+      font-size:14px;
+      line-height:.4rem;
+      padding:.2rem .1rem;
+      .col-base;
+      border-bottom:1px solid #aebecc;
+    }
+    td{
+      line-height:.3rem;
+      font-size:12px;
+      padding:.15rem .1rem;
+      border-bottom:1px solid @base-body-background;
+    }
+    tr{
+      &:last-child{
+        td{
+          border-bottom:1px solid @base-border-color;
+        }
+      }
+    }
+
+  }
+}

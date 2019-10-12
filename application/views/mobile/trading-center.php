@@ -11,62 +11,68 @@
           <i class="ico-header-back"></i>
         </a>
         <h4>股权交易中心</h4>
+        <div class="right">
+          <a href="javascript:;" class="open-popup col-white" id="" data-target="#rightBar">筛选<i class="ico-sift ml4"></i></a>
+        </div>
       </div>
     </header>
     <div class="container pt44 pb50">
-      <div class="cont-box">
+      <div class="cont-box trading-center">
         <table width="100%">
           <thead>
             <tr>
-              <th width="">名称</th>
-              <th width="">交易比例</th>
-              <th width="">交易类型</th>
-              <th width="">最新价</th>
+              <th width="32%">名称</th>
+              <th width="24%">交易比例</th>
+              <th width="24%">交易类型</th>
+              <th width="20%" align="right">最新价</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td></td>
-              <td></td>
-              <td>
+              <td>杭州名商网杭州名商网杭州名商网杭州名商网</td>
+              <td align="center">0.08%</td>
+              <td align="center">
                 <a href="/mobile/trading-pages.php" class="col-base">一口价</a>
               </td>
-              <td></td>
+              <td class="col-f4364c" align="right">130万</td>
             </tr>
             <tr>
-              <td></td>
-              <td></td>
-              <td>
+              <td>杭州名商网杭州名商网</td>
+              <td align="center">0.08%</td>
+              <td align="center">
                 <a href="/mobile/trading-pages-paimai.php" class="col-base">拍卖</a>
               </td>
-              <td></td>
+              <td class="col-f4364c" align="right">130万</td>
             </tr>
             <tr>
-              <td></td>
-              <td></td>
-              <td>
+              <td>杭州名商网</td>
+              <td align="center">0.08%</td>
+              <td align="center">
                 <a href="/mobile/trading-pages-yijia.php" class="col-base">投资人出价</a>
               </td>
-              <td></td>
+              <td class="col-f4364c" align="right">130万</td>
             </tr>
             <tr>
-              <td></td>
-              <td></td>
-              <td>
+              <td>杭州名商网杭州名商网</td>
+              <td align="center">0.08%</td>
+              <td align="center">
                 <a href="/mobile/trading-pages-zengzi.php" class="col-base">增资扩股</a>
               </td>
-              <td></td>
+              <td class="col-f4364c" align="right">130万</td>
             </tr>
             <tr>
-              <td></td>
-              <td></td>
-              <td>
+              <td>杭州名商网杭州名商网</td>
+              <td align="center">0.08%</td>
+              <td align="center">
                 <a href="/mobile/trading-pages-zhuanrang.php" class="col-base">公司转让</a>
               </td>
-              <td></td>
+              <td class="col-f4364c" align="right">130万</td>
             </tr>
           </tbody>
         </table>
+        <p class="ta-c pt15 pb15">
+          <a href="#" class="col-gray9">加载更多</a>
+        </p>
       </div>
     </div>
     <div class="back-top" id="back-top" >
@@ -75,6 +81,7 @@
     <?php include_once('templete/pub_foot.php') ?>
 
     <?php include_once('templete/tabbar.php') ?>
+    <?php include_once('templete/rightBar_sift_trading.php') ?>
     <?php include_once('templete/right-login.php') ?>
     <script type="text/javascript">
     $(function () {
