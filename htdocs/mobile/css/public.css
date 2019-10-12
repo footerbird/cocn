@@ -2757,7 +2757,7 @@ table {
   color: #fff !important;
 }
 .right-screen-bar .ft .fixed-bottom .btn.reset {
-  border: .01rem solid #999;
+  border: 1px solid #999;
 }
 @-webkit-keyframes bounceInRight {
   from,
@@ -3114,7 +3114,7 @@ table {
 .weui-agree .weui-agree__checkbox {
   width: .24rem;
   height: .24rem;
-  border: 0.01rem solid #13426b;
+  border: 1px solid #13426b;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
@@ -3161,7 +3161,7 @@ table {
   -moz-border-radius: 50%;
   border-radius: 50%;
   text-align: center !important;
-  border: .01rem solid #999;
+  border: 1px solid #999;
   position: fixed !important;
   right: .36rem;
   bottom: 2rem;
@@ -3306,11 +3306,11 @@ table {
   border-radius: 0.02rem;
 }
 [class^="state-"].state-zaiye {
-  border: .01rem solid #5a80b8;
+  border: 1px solid #5a80b8;
   color: #5a80b8;
 }
 [class^="state-"].state-renzheng {
-  border: .01rem solid #0bb56b;
+  border: 1px solid #0bb56b;
   color: #0bb56b;
 }
 [class^="state-"].state-zhuxiao {
@@ -3321,7 +3321,7 @@ table {
   -webkit-border-radius: 0.17rem;
   -moz-border-radius: 0.17rem;
   border-radius: 0.17rem;
-  border: .01rem solid #3cb391;
+  border: 1px solid #3cb391;
   color: #3cb391;
   padding: 0 .2rem;
 }
@@ -3334,7 +3334,7 @@ table {
   -webkit-border-radius: 0.17rem;
   -moz-border-radius: 0.17rem;
   border-radius: 0.17rem;
-  border: .01rem solid #3daaef;
+  border: 1px solid #3daaef;
   color: #3daaef;
   padding: 0 .2rem;
 }
@@ -3347,7 +3347,7 @@ table {
   -webkit-border-radius: 0.17rem;
   -moz-border-radius: 0.17rem;
   border-radius: 0.17rem;
-  border: .01rem solid #d2434a;
+  border: 1px solid #d2434a;
   color: #d2434a;
   padding: 0 .2rem;
 }
@@ -3357,14 +3357,14 @@ table {
   border-color: #f3f3f3;
 }
 [class^="state-"].state-wshiming {
-  border: .01rem solid #f4364c;
+  border: 1px solid #f4364c;
   color: #f4364c;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
 }
 [class^="state-"].state-yshiming {
-  border: .01rem solid #0bb56b;
+  border: 1px solid #0bb56b;
   color: #0bb56b;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -3592,7 +3592,7 @@ table {
   -moz-border-radius: 0.325rem;
   border-radius: 0.325rem;
   background-color: #fff !important;
-  border: .01rem solid #d1dde6;
+  border: 1px solid #d1dde6;
   overflow: hidden;
   display: -webkit-box;
   display: -moz-box;
@@ -3848,7 +3848,7 @@ table {
 }
 .index-gwtg .content .items span.zx {
   color: #ffe082 !important;
-  border: .01rem solid #ffe082;
+  border: 1px solid #ffe082;
 }
 .index-gwtg .content .items p {
   font-size: 12px;
@@ -4527,7 +4527,7 @@ table {
   line-height: .72rem;
 }
 .trading-pages-box .bd .trade-input li.cont {
-  border: 0.01rem solid #d1dde6;
+  border: 1px solid #d1dde6;
   line-height: .72rem;
 }
 .trading-pages-box .bd .trade-input li.cont input {
@@ -4626,13 +4626,13 @@ table {
 .trading-pages-info table.finance th {
   font-size: 12px;
   font-weight: normal;
-  border: .01rem solid #d1dde6;
+  border: 1px solid #d1dde6;
   background-color: #fafafa !important;
   line-height: .34rem;
   padding: .14rem 0;
 }
 .trading-pages-info table.finance td {
-  border: .01rem solid #d1dde6;
+  border: 1px solid #d1dde6;
   line-height: .34rem;
   padding: .14rem .05rem;
 }

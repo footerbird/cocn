@@ -17,62 +17,71 @@
       </div>
     </header>
     <div class="container pt44 pb50">
-      <div class="cont-box trading-center">
-        <table width="100%">
-          <thead>
-            <tr>
-              <th width="32%">名称</th>
-              <th width="24%">交易比例</th>
-              <th width="24%">交易类型</th>
-              <th width="20%" align="right">最新价</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>杭州名商网杭州名商网杭州名商网杭州名商网</td>
-              <td align="center">0.08%</td>
-              <td align="center">
-                <a href="/mobile/trading-pages.php" class="col-base">一口价</a>
-              </td>
-              <td class="col-f4364c" align="right">130万</td>
-            </tr>
-            <tr>
-              <td>杭州名商网杭州名商网</td>
-              <td align="center">0.08%</td>
-              <td align="center">
-                <a href="/mobile/trading-pages-paimai.php" class="col-base">拍卖</a>
-              </td>
-              <td class="col-f4364c" align="right">130万</td>
-            </tr>
-            <tr>
-              <td>杭州名商网</td>
-              <td align="center">0.08%</td>
-              <td align="center">
-                <a href="/mobile/trading-pages-yijia.php" class="col-base">投资人出价</a>
-              </td>
-              <td class="col-f4364c" align="right">130万</td>
-            </tr>
-            <tr>
-              <td>杭州名商网杭州名商网</td>
-              <td align="center">0.08%</td>
-              <td align="center">
-                <a href="/mobile/trading-pages-zengzi.php" class="col-base">增资扩股</a>
-              </td>
-              <td class="col-f4364c" align="right">130万</td>
-            </tr>
-            <tr>
-              <td>杭州名商网杭州名商网</td>
-              <td align="center">0.08%</td>
-              <td align="center">
-                <a href="/mobile/trading-pages-zhuanrang.php" class="col-base">公司转让</a>
-              </td>
-              <td class="col-f4364c" align="right">130万</td>
-            </tr>
-          </tbody>
-        </table>
-        <p class="ta-c pt15 pb15">
-          <a href="#" class="col-gray9">加载更多</a>
-        </p>
+      <div class="cont-box">
+        <div class="company-credit-content">
+          <form class="search-box company">
+            <i class="ico-search"></i>
+            <input type="search" class="search-bar-input" id="" placeholder="编号/公司名称" required="">
+          </form>
+          <div class="line"></div>
+        </div>
+        <div class="trading-center">
+          <table width="100%">
+            <thead>
+              <tr>
+                <th width="32%" align="left">名称</th>
+                <th width="24%">交易比例</th>
+                <th width="24%">交易类型</th>
+                <th width="20%" align="right">最新价</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>杭州名商网杭州名商网杭州名商网杭州名商网</td>
+                <td align="center">0.08%</td>
+                <td align="center">
+                  <a href="/mobile/trading-pages.php" class="col-base">一口价</a>
+                </td>
+                <td class="col-f4364c" align="right">130万</td>
+              </tr>
+              <tr>
+                <td>杭州名商网杭州名商网</td>
+                <td align="center">0.08%</td>
+                <td align="center">
+                  <a href="/mobile/trading-pages-paimai.php" class="col-base">拍卖</a>
+                </td>
+                <td class="col-f4364c" align="right">130万</td>
+              </tr>
+              <tr>
+                <td>杭州名商网</td>
+                <td align="center">0.08%</td>
+                <td align="center">
+                  <a href="/mobile/trading-pages-yijia.php" class="col-base">投资人出价</a>
+                </td>
+                <td class="col-f4364c" align="right">130万</td>
+              </tr>
+              <tr>
+                <td>杭州名商网杭州名商网</td>
+                <td align="center">0.08%</td>
+                <td align="center">
+                  <a href="/mobile/trading-pages-zengzi.php" class="col-base">增资扩股</a>
+                </td>
+                <td class="col-f4364c" align="right">130万</td>
+              </tr>
+              <tr>
+                <td>杭州名商网杭州名商网</td>
+                <td align="center">0.08%</td>
+                <td align="center">
+                  <a href="/mobile/trading-pages-zhuanrang.php" class="col-base">公司转让</a>
+                </td>
+                <td class="col-f4364c" align="right">130万</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="ta-c pt15 pb15">
+            <a href="#" class="col-gray9">加载更多</a>
+          </p>
+        </div>
       </div>
     </div>
     <div class="back-top" id="back-top" >
@@ -101,6 +110,15 @@
         	$(".container").animate({scrollTop:0},500)
         });
 
+        //筛选
+        $("#rightBar_choose .list li").find('.item').on('click',function(){
+          if($(this).hasClass("choosed")) {
+              $(this).removeClass("choosed");
+          }else {
+              $(this).addClass("choosed");
+              $(this).parent().siblings().find(".item").removeClass("choosed");
+          }
+        });
       })
     </script>
     </body>
