@@ -21,7 +21,7 @@
         <div class="company-credit-content">
           <form class="search-box company">
             <i class="ico-search"></i>
-            <input type="search" class="search-bar-input" id="" placeholder="编号/公司名称" required="">
+            <input type="search" class="search-bar-input" id="" placeholder="公司编号/公司名称" required="">
           </form>
           <div class="line"></div>
         </div>

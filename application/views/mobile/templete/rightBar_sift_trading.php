@@ -7,11 +7,6 @@
               <div class="title">投资方式</div>
               <ul class="after-cls">
                   <li>
-                      <div class="item choosed">
-                          <p>全部</p>
-                      </div>
-                  </li>
-                  <li>
                       <div class="item">
                           <p>股权转让</p>
                       </div>
@@ -21,6 +16,11 @@
                           <p>增资扩股</p>
                       </div>
                   </li>
+                  <li>
+                      <div class="item">
+                          <p>公司转让</p>
+                      </div>
+                  </li>
               </ul>
           </div>
           <div class="list">
@@ -28,12 +28,12 @@
               <ul class="after-cls">
                   <li>
                       <div class="item choosed">
-                          <p>全部</p>
+                          <p>一口价</p>
                       </div>
                   </li>
                   <li>
                       <div class="item">
-                          <p>标价</p>
+                          <p>投资人出价</p>
                       </div>
                   </li>
                   <li>
@@ -46,6 +46,11 @@
           <div class="list">
               <div class="title">经营范围</div>
               <ul class="after-cls">
+                  <li>
+                      <div class="item choosed">
+                          <p>企业管理</p>
+                      </div>
+                  </li>
                   <li>
                       <div class="item choosed">
                           <p>文化传播</p>
@@ -79,7 +84,7 @@
               </ul>
           </div>
           <div class="list">
-            <div class="title">省份地区</div>
+            <div class="title">选择地区</div>
             <ul class="after-cls">
               <li><div class="item"><p>杭州</p></div></li>
               <li class=""><div class="item"><p>上海</p></div></li>
@@ -90,8 +95,8 @@
         </div>
         <div class="ft">
             <div class="fixed-bottom">
-                <a class="btn reset" id="reset">重置</a>
-                <a class="btn default" id="subimt">确定选择</a>
+                <a class="btn reset" id="reset">清空</a>
+                <a class="btn default" id="subimt">搜索</a>
             </div>
         </div>
     </div>
