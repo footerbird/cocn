@@ -14,59 +14,57 @@
         <div class="left">
           <p class="f16 col-gray9 lh30 mb10">按行业找公司</p>
           <div class="items">
-            <a href="#">计算机</a>
-            <a href="#">网络</a>
-            <a href="#">电子商务</a>
-            <a href="#">区块链</a>
-            <a href="#">服务业</a>
-            <a href="#">进出口</a>
-            <a href="#">贸易</a>
-            <a href="#">物流</a>
-            <a href="#">广告</a>
-            <a href="#">汽车</a>
-            <a href="#">房地产</a>
-            <a href="#">保险</a>
-            <a href="#">旅游</a>
-            <a href="#">食品</a>
-            <a href="#">人工智能</a>
-            <a href="#">厨具</a>
-            <a href="#">家装</a>
-            <a href="#">数码产品</a>
-            <a href="#">珠宝</a>
-            <a href="#">高等教育</a>
-            <a href="#">医药保健</a>
-            <a href="#">新能源</a>
+            <a data-value="批发和零售业" href="#">批发零售</a>
+			<a data-value="住宿和餐饮业" href="#">餐饮住宿</a>
+			<a data-value="制造业" href="#">制造业</a>
+			<a data-value="居民服务、修理和其他服务业" href="#">生活服务</a>
+			<a data-value="租赁和商务服务业" href="#">商务服务</a>
+			<a data-value="农、林、牧、渔业" href="#">农林牧渔</a>
+			<a data-value="交通运输、仓储和邮政业" href="#">交运物流</a>
+			<a data-value="建筑业" href="#">建筑业</a>
+			<a data-value="科学研究和技术服务业" href="#">科研技术</a>
+			<a data-value="信息传输、软件和信息技术服务业" href="#">信息技术</a>
+			<a data-value="文化、体育和娱乐业" href="#">文化娱乐</a>
+			<a data-value="房地产业" href="#">房地产业</a>
+			<a data-value="金融业" href="#">金融业</a>
+			<a data-value="卫生和社会工作" href="#">公共卫生</a>
+			<a data-value="采矿业" href="#">采矿业</a>
+			<a data-value="水利、环境和公共设施管理业" href="#">公共管理</a>
+			<a data-value="教育" href="#">教育</a>
+			<a data-value="电力、热力、燃气及水生产和供应业" href="#">水电供应</a>
+			<a data-value="公共管理、社会保障和社会组织" href="#">社会工作</a>
+			<a data-value="国际组织" href="#">国际组织</a>
           </div>
           <p class="f16 col-gray9 lh30 mb10">按区域找公司</p>
-          <div class="items">
-            <a href="#">广州</a>
-            <a href="#">上海</a>
-            <a href="#">深圳</a>
-            <a href="#">南京</a>
-            <a href="#">北京</a>
-            <a href="#">台州</a>
-            <a href="#">杭州</a>
-            <a href="#">重庆</a>
-            <a href="#">温州</a>
-            <a href="#">福州</a>
-            <a href="#">宁波</a>
-            <a href="#">福建</a>
-            <a href="#">武汉</a>
-            <a href="#">深圳</a>
-            <a href="#">天津</a>
-            <a href="#">济南</a>
-            <a href="#">三亚</a>
-            <a href="#">云南</a>
-          </div>
+		  <div class="items">
+		    <a href="#">北京</a>
+		    <a href="#">上海</a>
+		    <a href="#">天津</a>
+		    <a href="#">重庆</a>
+		    <a href="#">广东</a>
+		    <a href="#">江苏</a>
+		    <a href="#">山东</a>
+		    <a href="#">浙江</a>
+		    <a href="#">河南</a>
+		    <a href="#">四川</a>
+		    <a href="#">湖北</a>
+		    <a href="#">湖南</a>
+		    <a href="#">河北</a>
+		    <a href="#">福建</a>
+		    <a href="#">安徽</a>
+		    <a href="#">辽宁</a>
+		    <a href="#">陕西</a>
+		    <a href="#">江西</a>
+		  </div>
         </div>
         <div class="right">
           <!-- 轮播 -->
           <div class="top-banner">
             <div class="banner index-banner">
             		<div class="banner-slick">
-            			<div><a href="/page/trading-center" target="_blank"><img src="/htdocs/images/banner/banner_trade.jpg" width="842" height="196" alt=""></a></div>
-                  <div><a href="/page/sfg-wyrz" target="_blank"><img src="/htdocs/images/banner/banner_finance.jpg" width="842" height="196" alt=""></a></div>
-                  <div><a href="/page/sfg-gfwz" target="_blank"><img src="/htdocs/images/banner/banner_website.jpg" width="842" height="196" alt=""></a></div>
+            			<div><a href="/page/trading-center" target="_blank"><img src="/htdocs/images/banner/banner_trade_v2.jpg" width="842" height="196" alt=""></a></div>
+                  <div><a href="/page/sfg-wyrz" target="_blank"><img src="/htdocs/images/banner/banner_finance_v2.jpg" width="842" height="196" alt=""></a></div>
+                  <div><a href="/page/sfg-gfwz" target="_blank"><img src="/htdocs/images/banner/banner_website_v2.jpg" width="842" height="196" alt=""></a></div>
             		</div>
             </div>
           </div>
@@ -98,7 +96,23 @@
       <a href="#" class="btn">查询</a>
     </div>
     <div class="index-search-hot after-cls">
-      <span>热搜公司：</span><a href="#">建筑有限公司</a><a href="#">建筑有限公司</a><a href="#">建筑有限公司</a><a href="#">建筑有限公司</a><a href="#">网络科技有限公司</a><a href="#">网络科技有限公司</a><a href="#">网络科技有限公司</a><a href="#">网络科技有限公司</a>
+      <em class="mr10 fl-l">热搜公司：</em>
+      <div class="box fl-l">
+        <div class="winBox">
+          <ul class="scroll">
+            <li><a href="/page/company-credit-page-simple">杭州名商网络科技有限公司1</a></li>
+            <li><a href="/page/company-credit-page-simple">杭州名商网络科技有限公司2</a></li>
+            <li><a href="/page/company-credit-page-simple">杭州名商网络科技有限公司3</a></li>
+            <li><a href="/page/company-credit-page-simple">杭州名商网络科技有限公司4</a></li>
+            <li><a href="/page/company-credit-page-simple">杭州名商网络科技有限公司5</a></li>
+            <li><a href="/page/company-credit-page-simple">杭州名商网络科技有限公司6</a></li>
+            <li><a href="/page/company-credit-page-simple">杭州名商网络科技有限公司7</a></li>
+            <li><a href="/page/company-credit-page-simple">杭州名商网络科技有限公司8</a></li>
+            <li><a href="/page/company-credit-page-simple">杭州名商网络科技有限公司9</a></li>
+            <li><a href="/page/company-credit-page-simple">杭州名商网络科技有限公司10</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -524,6 +538,17 @@
 <script src="/htdocs/js/slick/slick.min.js?<?php echo CACHE_TIME; ?>"></script>
 <link rel="stylesheet" href="/htdocs/js/slick/slick.css?<?php echo CACHE_TIME; ?>">
 <script type="text/javascript">
+var num = 0;
+function goLeft() {
+    //650是根据你给的尺寸，可变的
+    if (num == -650) {
+        num = 0;
+    }
+    num -= 1;
+    $(".scroll").css({
+        left: num
+    })
+}
 $(function(){
   //幻灯片轮播，该效果会使得弹框在滚动的时候抖动？
   $(".banner-slick").slick({
@@ -541,6 +566,16 @@ $(function(){
     arrows:false,
     dots: true
   });
+  
+    //设置滚动速度
+    var timer = setInterval(goLeft, 40);
+    //设置鼠标经过时滚动停止
+    $(".box").hover(function() {
+        clearInterval(timer);
+    },function() {
+        timer = setInterval(goLeft, 40);
+    })
+	  
 })
 </script>
 </body>

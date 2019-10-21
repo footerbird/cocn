@@ -5907,21 +5907,32 @@ body{
   }
 }
 .index-search-hot{//查询热词
-  font-size:14px;
-  max-width:1080px;
-  padding-top: 6px;
-  .ta-c;
-  .m-auto;
-  span{
-    .col-default;
-    display: inline-block;
-  }
-  a{
-    display:inline-block;
-    .col-default;
-    margin-right: 30px;
-    &:last-child{
-      margin-right:0px;
+  width:890px;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 auto;
+  margin-top:5px;
+  .box {
+    .winBox {
+      width:810px;
+      height:20px;
+      overflow:hidden;
+      position: relative;
+      .scroll{
+        width:3000px;
+        position: absolute;
+        left:0px;
+        top:0px;
+        li{
+          float: left;
+          a{
+            display: inline-block;
+            color: @base-color;
+            margin-left:10px;
+            margin-right:20px;
+          }
+        }
+      }
     }
   }
 }

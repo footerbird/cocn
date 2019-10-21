@@ -9459,23 +9459,32 @@ body.big {
   text-align: center !important;
 }
 .index-search-hot {
-  font-size: 14px;
-  max-width: 1080px;
-  padding-top: 6px;
-  text-align: center !important;
-  margin: 0 auto !important;
+  width: 890px;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 auto;
+  margin-top: 5px;
 }
-.index-search-hot span {
-  color: #13426b !important;
+.index-search-hot .box .winBox {
+  width: 810px;
+  height: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.index-search-hot .box .winBox .scroll {
+  width: 3000px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.index-search-hot .box .winBox .scroll li {
+  float: left;
+}
+.index-search-hot .box .winBox .scroll li a {
   display: inline-block;
-}
-.index-search-hot a {
-  display: inline-block;
-  color: #13426b !important;
-  margin-right: 30px;
-}
-.index-search-hot a:last-child {
-  margin-right: 0px;
+  color: #13426b;
+  margin-left: 10px;
+  margin-right: 20px;
 }
 .index-hdbd {
   padding-top: 35px;
