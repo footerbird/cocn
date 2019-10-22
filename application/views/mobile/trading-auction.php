@@ -16,6 +16,8 @@
     <div class="container pt44 pb50">
       <div class="cont-box">
         <div class="circle-half-bg">
+          <a href="/mobile/user-mine-set-certify-person.php" class="attention">您需要完成合格投资人认证才能购买公司股权。<i class="ico-arrow-r2"></i>
+          </a>
           <div class="trading-pages-box">
             <div class="hd">
               <div class="name">杭州官网科技有限公司杭州官网科技有限公司股权拍卖</div>
@@ -71,7 +73,7 @@
                 <a href="/mobile/trading-pay.php" class="btn big">确认出价，并预付保证金</a>
               </p>
               <div class="f14 mt40 mb10">出价记录</div>
-              <table width="100%" class="history">
+              <table width="100%" class="history mb0">
                 <thead>
                   <tr>
                     <th align="center" width="50%">

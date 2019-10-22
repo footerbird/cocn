@@ -2228,6 +2228,9 @@ table {
 .bg-e3464e {
   background-color: #e3464e !important;
 }
+.bg-00436e {
+  background-color: #00436e !important;
+}
 /*定位position*/
 .pos-fixed {
   position: fixed !important;
@@ -2315,6 +2318,15 @@ table {
   height: .22rem;
   vertical-align: middle;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAWCAMAAAAsJOYWAAAAYFBMVEUAAACqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq3LE1oAAAAIHRSTlMA/vXIkRoUCAP67+vj3LqpQjgr0Z16cFlSIw7f1bMyJfLUqv8AAABuSURBVBjTXY9HEoAwDANxEkoghZpC/f8vuTkC33bGo5Uq1VVw4mqBpkHWgNkeM2Aj+xGw9ToCdoo2TA60oikJt39MC5oea34moNrpArG3E795Wjl0NEPiaoocx9+nCFxy0wuLsiRV1guD43wD8AJsUgQgxbjMygAAAABJRU5ErkJggg==) no-repeat 50% 50%;
+  background-size: contain;
+}
+.ico-arrow-r2 {
+  /*向右红色箭头10*21*/
+  display: inline-block;
+  width: .10rem;
+  height: .21rem;
+  vertical-align: middle;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAVCAMAAABIbI/BAAAATlBMVEUAAAD/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X9/xvDAAAAGXRSTlMA+Wk3JBb16tu/k4ZOC9LIsaR3BvLoyrdbIG6CbQAAAFhJREFUCNdljkcOwDAIBN3txCW98P+P5uKFSOY0QjC7qmWFmcgAfdIF7GKwYBuiAxedPNjQUsGZVlZuNAOPn97RKdtdbsUweCVNOvhL92a10dtfHhaqm8M/cYMDgVCzHHIAAAAASUVORK5CYII=) no-repeat 50% 50%;
   background-size: contain;
 }
 .ico-tab-sy {
@@ -2612,18 +2624,18 @@ table {
   position: relative !important;
   padding: 0 .3rem;
   background: #13426b;
+  height: 44px;
+  line-height: 44px;
   justify-content: space-between;
   align-items: center;
-  line-height: .88rem;
-  height: .88rem;
 }
 .header-title .back {
   display: inline-block !important;
   *display: inline !important;
   *zoom: 1 !important;
   color: #fff !important;
-  line-height: .88rem;
-  height: .88rem;
+  height: 44px;
+  line-height: 44px;
   padding-right: .3rem;
 }
 .header-title h4 {
@@ -2633,8 +2645,8 @@ table {
   width: 50%;
   left: 50%;
   margin-left: -25%;
-  line-height: .88rem;
-  height: .88rem;
+  height: 44px;
+  line-height: 44px;
   font-size: 16px;
   font-weight: normal;
 }
@@ -3107,6 +3119,19 @@ table {
   height: .01rem;
   background-color: #f2f6f8 !important;
 }
+/*黄底黑字顶部头部提示*/
+.attention {
+  line-height: .3rem;
+  background-color: #ffdb6d !important;
+  padding: .2rem 0;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: .2rem;
+}
+.attention .ico-arrow-r2 {
+  margin-top: -3px;
+}
 /*勾选*/
 .weui-agree {
   padding: 0;
@@ -3181,6 +3206,72 @@ table {
   background-color: #d2434a !important;
   color: #fff !important;
   box-shadow: 0px 0.07rem 0.31rem 0px rgba(210, 67, 174, 0.55);
+}
+.btn-default {
+  line-height: .8rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  border-radius: 0.4rem;
+  font-size: 14px;
+  width: 5rem;
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  background-color: #00436e !important;
+  color: #fff !important;
+  text-align: center;
+  box-shadow: 0px 0.07rem 0.21rem 0px rgba(0, 67, 110, 0.55);
+}
+/*上传*/
+.weui-uploader__files.identity .weui-uploader__file {
+  float: none;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  width: 4.04rem;
+  height: 2.32rem;
+}
+.upload-label {
+  float: left;
+  width: .86rem;
+  height: 86rem;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAABWCAMAAABiiJHFAAAAUVBMVEX7+/zO3efO3efi6/Ho7/Tj7PL////O3efd3d3r6+v29vbm5ubi4uLy8vLu7u7l5eX9/f7y9vjv9Pfr8fXj7PLb5u7R3+je6O/19fXg4ODw8PCeGb4LAAAABnRSTlP++Hj2fHti5X07AAABZUlEQVRYw+2WYW+CMBBAD7dd73o9h25u4P//oTsyLGZBVwKNSPo+EIzx5WxfCrCrvrB2zi15rXZwAlwceAHMAhwwA0dwmAH3ZNoTZuC7lFBKMLZcwnkPmMS0LWupyaF9J5+uPeXQWgk5tFZCDu1x2to+fMu2WwLgUiUoR1oSjsC8Eloax8/bsmYfaYnP8QMsWAI8VQnlTFiFdgUlNJihhJaaHCU0Z8AkyhujseU3xmRKCUYpwdhOCaxX9zzcE/aoIPqAI9wrgalDbmtFTc04Dhz+mTZQT/ijDZevNLUEpR65vQgcOvWkLdNe50e0l8kp8PA3JmsDReR6WhazhcQS0hdBfOgnp0klDBv+q1W+1g5tiSSXwGw/UjHVXa2SYuCEM2EYJPhOIB6FesamDcTpJZisG1A0pmAoo1BELosgsoozYQbl6WBs5+kwg1KCUUowSglGxi2ralycuoK3+tM594GLXl9/ANnVuaiGrhn4AAAAAElFTkSuQmCC) 50% no-repeat;
+}
+.upload-label.identity-front {
+  display: block;
+  float: none;
+  width: 4.04rem;
+  height: 2.32rem;
+  background: url(../images/id-front.png) no-repeat 50%;
+  background-size: contain;
+}
+.upload-label.identity-back {
+  display: block;
+  float: none;
+  width: 4.04rem;
+  height: 2.32rem;
+  background: url(../images/id-back.png) no-repeat 50%;
+  background-size: contain;
+}
+.upload-label input[type=file] {
+  display: none;
+}
+/*表单*/
+.normal-from {
+  padding-left: .3rem;
+  padding-right: .3rem;
+  background: white;
+}
+.normal-from li {
+  border-bottom: 1px solid #f2f6f8;
+}
+.normal-from li input {
+  outline: none;
+  border: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: .88rem;
+  font-size: 14px;
 }
 /*半圆顶部背景*/
 .circle-half-bg {
@@ -3267,6 +3358,43 @@ table {
 .weui-cells {
   margin-top: .14rem;
 }
+.weui-cells.form .weui-cell {
+  padding: .1rem .3rem;
+  line-height: .7rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.weui-cells.form .weui-cell .weui-cell__bd {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+.weui-cells.form .weui-cell .weui-cell__ft {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+  flex: 3;
+}
+.weui-cells.form .weui-cell .weui-cell__ft input {
+  text-align: right;
+  width: 100%;
+}
+.weui-cells.form .weui-cell .weui-cell__ft :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #ccc !important;
+}
+.weui-cells.form .weui-cell .weui-cell__ft ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #ccc !important;
+}
+.weui-cells.form .weui-cell .weui-cell__ft input:-ms-input-placeholder {
+  color: #ccc !important;
+}
+.weui-cells.form .weui-cell .weui-cell__ft input::-webkit-input-placeholder {
+  color: #ccc !important;
+}
 .weui-cells .weui-cell {
   padding: .28rem .3rem;
 }
@@ -3291,6 +3419,9 @@ table {
 .weui-cells .weui-cell__ft {
   font-size: 14px;
   padding-right: .36rem;
+}
+.weui-cells .weui-cell__ft input {
+  outline: none;
 }
 /*白底有色边框状态*/
 [class^="state-"] {

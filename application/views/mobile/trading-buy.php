@@ -16,6 +16,8 @@
     <div class="container pt44 pb50">
       <div class="cont-box">
         <div class="circle-half-bg">
+          <a href="/mobile/user-mine-set-certify-person.php" class="attention">您需要完成合格投资人认证才能购买公司股权。<i class="ico-arrow-r2"></i>
+          </a>
           <div class="trading-pages-box panel-maxheight">
             <div class="hd">
               <div class="name">杭州官网科技有限公司杭州官网科技有限公司</div>
@@ -103,10 +105,10 @@
         $(".ico-back-top").on("click",function(){//go top
         	$(".container").animate({scrollTop:0},500)
         });
-        //铺满
+        //铺满(已算入加认证提示的高度)
         if ($('.panel-maxheight').length == 1) {
             $('.panel-maxheight').css({
-              'min-height':($(window).height() - 106)/50+'rem'
+              'min-height':($(window).height() - 160)/50+'rem'
             })
         }
       })
