@@ -17,7 +17,7 @@
       <div class="cont-box">
         <div class="mine-set">
           <div class="weui-cells">
-            <a class="weui-cell weui-cell_access" href="javascript:;">
+            <a class="weui-cell weui-cell_access" href="/mobile/user-mine-set-certify-person.php">
               <div class="weui-cell__hd">
                 <p>账户名称</p>
               </div>
@@ -32,7 +32,7 @@
             </a>
           </div>
           <div class="weui-cells">
-            <a class="weui-cell weui-cell_access" href="javascript:;">
+            <a class="weui-cell weui-cell_access" href="/mobile/user-mine-set-security-mima.php">
               <div class="weui-cell__bd">
                 <p>安全设置</p>
               </div>
@@ -42,7 +42,7 @@
             </a>
           </div>
           <div class="weui-cells">
-            <a class="weui-cell weui-cell_access" href="javascript:;">
+            <a class="weui-cell weui-cell_access" href="/mobile/user-mine-set-shouji.php">
               <div class="weui-cell__bd">
                 <p>绑定手机</p>
               </div>
@@ -50,7 +50,7 @@
                 182****3794
               </div>
             </a>
-            <a class="weui-cell weui-cell_access" href="javascript:;">
+            <a class="weui-cell weui-cell_access" href="/mobile/user-mine-set-wechat.php">
               <div class="weui-cell__bd">
                 <p>绑定微信</p>
               </div>
@@ -58,7 +58,7 @@
                 dalaoban
               </div>
             </a>
-            <a class="weui-cell weui-cell_access" href="javascript:;">
+            <a class="weui-cell weui-cell_access" href="/mobile/user-mine-set-weibo.php">
               <div class="weui-cell__bd">
                 <p>绑定微博</p>
               </div>
@@ -66,7 +66,7 @@
                 mingshang.weibo.com
               </div>
             </a>
-            <a class="weui-cell weui-cell_access" href="javascript:;">
+            <a class="weui-cell weui-cell_access" href="/mobile/user-mine-set-email.php">
               <div class="weui-cell__bd">
                 <p>绑定邮箱</p>
               </div>

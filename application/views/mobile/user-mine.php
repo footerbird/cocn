@@ -58,7 +58,7 @@
                 <a href="#" class="cols xxzx">
                   <p>消息中心</p>
                 </a>
-                <a href="#" class="cols zhzl">
+                <a href="/mobile/user-account.php" class="cols zhzl">
                   <p>账户资料</p>
                 </a>
                 <a href="#" class="cols zjls">
