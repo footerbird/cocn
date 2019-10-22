@@ -18,10 +18,10 @@
         <div class="mine-set">
           <ul class="normal-from mt10 mb10">
             <li>
-              <input type="text" name="" value="" placeholder="姓名">
+              <input type="text" name="" value="" placeholder="请输入姓名">
             </li>
             <li>
-              <input type="text" name="" value="" placeholder="身份证">
+              <input type="text" name="" value="" placeholder="请输入身份证号码">
             </li>
           </ul>
           <!-- <div class="weui-cells_form">

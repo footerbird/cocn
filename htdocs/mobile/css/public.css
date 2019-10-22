@@ -3423,6 +3423,11 @@ table {
 .weui-cells .weui-cell__ft input {
   outline: none;
 }
+.weui-cells .weui-cell__ft.long {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+  flex: 3;
+}
 /*白底有色边框状态*/
 [class^="state-"] {
   display: inline-block !important;

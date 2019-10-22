@@ -50,6 +50,14 @@
                 182****3794
               </div>
             </a>
+            <a class="weui-cell weui-cell_access" href="/mobile/user-mine-set-qq.php">
+              <div class="weui-cell__bd">
+                <p>绑定QQ</p>
+              </div>
+              <div class="weui-cell__ft">
+                22222222
+              </div>
+            </a>
             <a class="weui-cell weui-cell_access" href="/mobile/user-mine-set-wechat.php">
               <div class="weui-cell__bd">
                 <p>绑定微信</p>
@@ -72,6 +80,14 @@
               </div>
               <div class="weui-cell__ft">
                 maimai@marksmile.com
+              </div>
+            </a>
+            <a class="weui-cell weui-cell_access" href="/mobile/user-mine-set-dizhi.php">
+              <div class="weui-cell__bd">
+                <p>绑定地址</p>
+              </div>
+              <div class="weui-cell__ft long">
+                浙江省杭州市下城区上塘路333号海外海商务写字楼11楼
               </div>
             </a>
           </div>
