@@ -125,8 +125,6 @@
               <div class="title">
                 <a class="f18" href="/page/company-credit-page.php">北京<em class="col-f4364c">完美</em>视通科技有限公司</a>
                 <a href="javascript:;" class="abtn-a-zaiye-had">注销</a>
-                <a href="#" class="abtn-a-guanzhu">关注</a>
-                <a href="#" class="abtn-a-kaitong">我是法人，申请开通官网</a>
               </div>
               <div class="info">
                 <span>法定代表人： 徐兴建</span>
