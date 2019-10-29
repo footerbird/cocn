@@ -41,30 +41,30 @@
             </div>
             <div class="bd-box">
               <div class="row">
-                <a href="#" class="cols gzgs">
+                <a href="/mobile/user-focus.php" class="cols gzgs">
                   <p>关注的公司</p>
                 </a>
-                <a href="#" class="cols wdgq">
+                <a href="/mobile/user-.php" class="cols wdgq">
                   <p>我的股权</p>
                 </a>
-                <a href="#" class="cols gqjy">
+                <a href="/mobile/user-.php" class="cols gqjy">
                   <p>股权交易</p>
                 </a>
-                <a href="#" class="cols gsgw">
+                <a href="/mobile/user-.php" class="cols gsgw">
                   <p>公司官网</p>
                 </a>
               </div>
               <div class="row">
-                <a href="#" class="cols xxzx">
+                <a href="/mobile/user-.php" class="cols xxzx">
                   <p>消息中心</p>
                 </a>
                 <a href="/mobile/user-account.php" class="cols zhzl">
                   <p>账户资料</p>
                 </a>
-                <a href="#" class="cols zjls">
+                <a href="/mobile/user-.php" class="cols zjls">
                   <p>资金流水</p>
                 </a>
-                <a href="#" class="cols aqsz">
+                <a href="/mobile/user-.php" class="cols aqsz">
                   <p>安全设置</p>
                 </a>
               </div>
@@ -141,7 +141,7 @@
             </div>
             <div class="list-box">
               <div class="hd">重要信息提醒
-                <font class="state2-xiaoxi">消息</font>
+                <font class="state2-orange">消息</font>
               </div>
               <div class="bd">
                 <ul>

@@ -19,7 +19,7 @@
           <div class="company-credit-page-box">
             <div class="hd">
               <div class="name">杭州官网科技有限公司</div>
-              <font class="state-zaiye">在业</font>
+              <font class="state-blue">在业</font>
             </div>
             <div class="bd">
               <div class="left">

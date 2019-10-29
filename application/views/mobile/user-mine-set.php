@@ -24,8 +24,8 @@
               <div class="weui-cell__bd ta-c">
                 <p class="col-base">
                   林海
-                  <font class="state-wshiming">未实名</font>
-                  <font class="state-yshiming">已实名</font></p>
+                  <font class="state-red">未实名</font>
+                  <font class="state-green">已实名</font></p>
               </div>
               <div class="weui-cell__ft">进行实名认证
               </div>

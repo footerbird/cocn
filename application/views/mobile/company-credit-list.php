@@ -37,9 +37,9 @@
             <li>
               <h4 class="title">
                 <a href="/mobile/company-credit-page.php" class="name">杭州科技有限公司</a>
-                <font class="state-zaiye">在业</font>
-                <font class="state-renzheng">认证</font>
-                <font class="state-zhuxiao">注销</font>
+                <font class="state-blue">在业</font>
+                <font class="state-green">认证</font>
+                <font class="state-gray">注销</font>
               </h4>
               <div class="hd">
                 <div class="left">
@@ -73,9 +73,9 @@
             <li>
               <h4 class="title">
                 <a href="/mobile/company-credit-page.php" class="name">杭州官网科司杭州官网科技有限公司杭州官网科司杭州官网科技有限公司</a>
-                <font class="state-zaiye">在业</font>
-                <font class="state-renzheng">认证</font>
-                <font class="state-zhuxiao">注销</font>
+                <font class="state-blue">在业</font>
+                <font class="state-green">认证</font>
+                <font class="state-gray">注销</font>
               </h4>
               <div class="hd">
                 <div class="left">
@@ -109,9 +109,9 @@
             <li>
               <h4 class="title">
                 <a href="/mobile/company-credit-page.php" class="name">杭州官网科司杭州官网科技有限公司杭州官网科司杭州官网科技有限公司</a>
-                <font class="state-zaiye">在业</font>
-                <font class="state-renzheng">认证</font>
-                <font class="state-zhuxiao">注销</font>
+                <font class="state-blue">在业</font>
+                <font class="state-green">认证</font>
+                <font class="state-gray">注销</font>
               </h4>
               <div class="hd">
                 <div class="left">
@@ -145,9 +145,9 @@
             <li>
               <h4 class="title">
                 <a href="/mobile/company-credit-page.php" class="name">杭州官网科司杭州官网科技有限公司杭州官网科司杭州官网科技有限公司</a>
-                <font class="state-zaiye">在业</font>
-                <font class="state-renzheng">认证</font>
-                <font class="state-zhuxiao">注销</font>
+                <font class="state-blue">在业</font>
+                <font class="state-green">认证</font>
+                <font class="state-gray">注销</font>
               </h4>
               <div class="hd">
                 <div class="left">
@@ -181,9 +181,9 @@
             <li>
               <h4 class="title">
                 <a href="/mobile/company-credit-page.php" class="name">杭州官网科司杭州官网科技有限公司杭州官网科司杭州官网科技有限公司</a>
-                <font class="state-zaiye">在业</font>
-                <font class="state-renzheng">认证</font>
-                <font class="state-zhuxiao">注销</font>
+                <font class="state-blue">在业</font>
+                <font class="state-green">认证</font>
+                <font class="state-gray">注销</font>
               </h4>
               <div class="hd">
                 <div class="left">
@@ -217,9 +217,9 @@
             <li>
               <h4 class="title">
                 <a href="/mobile/company-credit-page.php" class="name">杭州官网科司杭州官网科技有限公司杭州官网科司杭州官网科技有限公司</a>
-                <font class="state-zaiye">在业</font>
-                <font class="state-renzheng">认证</font>
-                <font class="state-zhuxiao">注销</font>
+                <font class="state-blue">在业</font>
+                <font class="state-green">认证</font>
+                <font class="state-gray">注销</font>
               </h4>
               <div class="hd">
                 <div class="left">
@@ -253,9 +253,9 @@
             <li>
               <h4 class="title">
                 <a href="/mobile/company-credit-page.php" class="name">杭州官网科司杭州官网科技有限公司杭州官网科司杭州官网科技有限公司</a>
-                <font class="state-zaiye">在业</font>
-                <font class="state-renzheng">认证</font>
-                <font class="state-zhuxiao">注销</font>
+                <font class="state-blue">在业</font>
+                <font class="state-green">认证</font>
+                <font class="state-gray">注销</font>
               </h4>
               <div class="hd">
                 <div class="left">
@@ -289,9 +289,9 @@
             <li>
               <h4 class="title">
                 <a href="/mobile/company-credit-page.php" class="name">杭州官网科司杭州官网科技有限公司杭州官网科司杭州官网科技有限公司</a>
-                <font class="state-zaiye">在业</font>
-                <font class="state-renzheng">认证</font>
-                <font class="state-zhuxiao">注销</font>
+                <font class="state-blue">在业</font>
+                <font class="state-green">认证</font>
+                <font class="state-gray">注销</font>
               </h4>
               <div class="hd">
                 <div class="left">

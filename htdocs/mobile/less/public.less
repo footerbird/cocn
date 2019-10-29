@@ -302,6 +302,14 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAbCAMAAABY1h8eAAAAgVBMVEUAAACqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqpNmSdBAAAAKnRSTlMAB/mf7k4m9dLHuEhCF/Lm4dvXlY6AcGhgNi8ewLCopIpUDgzLglo+fiADXTKjAAABBUlEQVQoz3WS127DMAxFaXnvHa94Nk3a+/8fWFoGGllwzoMk8NikQIoU2hSw/LqjKyocPGw1ajQPuYVR9FwK1tPXW2XI6c0rALz4ULcUgE8qTxfeRkyJnYBO9BYmeQgTljOdeQms+94BAiVp1MgN3kwEv3OtSyPFymsCm1fS+cG4Z3Wl0XH2eIs7XWKhpxvMa+lzuRrVtRzRfv7zztL+VDNDSAOSy9vGgEOU8xc6PLEGFh++9a7vsWko5F0GgUiXJRgZXZDFmpzZub0skMPfzjIAIyrZxgSeo3WHXXnk6yyIRU1dQJjD/wg8QIxN2EerIRtgqpnkM5PIQps+etv0LLiF+qD/AFlxGPXReujPAAAAAElFTkSuQmCC) no-repeat 50% 50%;
   background-size:contain;
 }
+.ico-refresh-blue{/*换一批*/
+  display: inline-block;
+  width: .22rem;
+  height: .22rem;
+  vertical-align: middle;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAMAAADzapwJAAAAilBMVEUAAAAArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfVmCHxZAAAALXRSTlMAKAfX0L64+/bryqF+ZxUD4mxBFwzn3IdLNSIR8LSXjXdVRy8d5NnCr3h2YD3Q7JV2AAAAw0lEQVQY022RybbCIBBEiyEEAoTMg3HWNyr//3suNEqUu+pzT3ctqnFnKkXrvUr2NV5QI5k5ElL9ZXLXzLbOimGeK94R1ARA3okmuNwq0mvAJQlFQKNZZgGr8tASz70ncF8WC852w4FhTRFhqxHjp4zIHNn1055TxDjF9bGIarPBSfyTd81LGK/SZGkrOUFwtVquU9YDcnyrCppR4OLybzEFu7pdPd9wcHMuYw8LuP266w/jOBgud2FiY3+LNG1F+ej+Bk8rCmlnJ3yeAAAAAElFTkSuQmCC) no-repeat 50% 50%;
+  background-size:contain;
+}
 .ico-arrow-r{/*向右灰色箭头13*22*/
   display: inline-block;
   width: .13rem;
@@ -642,7 +650,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
       margin-bottom: .25rem;
       .title{
         font-size:12px;
-        border-bottom:.01rem solid @base-body-background;
+        border-bottom:1px solid @base-body-background;
         line-height:.56rem;
         height: .56rem;
         margin-bottom: .2rem;
@@ -690,7 +698,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
     bottom: 0;
     width:100%;
     .fixed-bottom{
-      border-top: .01rem solid rgba(210, 210, 210, 0.75);
+      border-top: 1px solid rgba(210, 210, 210, 0.75);
       .display-flex;
       justify-content: space-around;
       padding: .3rem .3rem;
@@ -824,7 +832,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
           padding:0px;
           line-height: .6rem;
           height:.6rem;
-          border-bottom:.01rem solid #cccccc;
+          border-bottom:1px solid #cccccc;
           margin-bottom: .24rem;
           &:last-child{
             margin-bottom:.2rem;
@@ -852,7 +860,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
             margin-top:-.23rem;
             border:none;
             width:2rem;
-            border-left:.01rem solid #ccc;
+            border-left:1px solid #ccc;
             &.forbid{
               .col-c;
             }
@@ -924,7 +932,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
           padding:0px;
           line-height: .6rem;
           height:.6rem;
-          border-bottom:.01rem solid #cccccc;
+          border-bottom:1px solid #cccccc;
           margin-bottom: .24rem;
           &:last-child{
             margin-bottom:.2rem;
@@ -952,7 +960,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
             margin-top:-.23rem;
             border:none;
             width:2rem;
-            border-left:.01rem solid #ccc;
+            border-left:1px solid #ccc;
             &.forbid{
               .col-c;
             }
@@ -991,7 +999,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
           padding:0px;
           line-height: .6rem;
           height:.6rem;
-          border-bottom:.01rem solid #cccccc;
+          border-bottom:1px solid #cccccc;
           margin-bottom: .24rem;
           &:last-child{
             margin-bottom:.2rem;
@@ -1019,7 +1027,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
             margin-top:-.23rem;
             border:none;
             width:2rem;
-            border-left:.01rem solid #ccc;
+            border-left:1px solid #ccc;
             &.forbid{
               .col-c;
             }
@@ -1219,7 +1227,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
         height: 1rem;
         .display-flex;
         justify-content: space-around;
-        border-top: .01rem solid rgba(210, 210, 210, 0.75);
+        border-top: 1px solid rgba(210, 210, 210, 0.75);
         .item{
             .flex-number;
             justify-content: space-around;
@@ -1295,11 +1303,28 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
       }
     }
   }
+  &.dl{
+    .weui-cell{
+      font-size:14px;
+      padding: .2rem .3rem;
+      .weui-cell__bd{
+        p{
+          &.date{
+            .col-gray9;
+          }
+        }
+      }
+      .weui-cell__ft{
+        .col-gray3;
+        padding-right: 0;
+      }
+    }
+  }
   .weui-cell{
     padding:.28rem .3rem;
     &:before{
       left:0px;
-      border-top: .01rem solid @base-body-background;
+      border-top: 1px solid @base-body-background;
     }
     &.weui-cell_access{
       .weui-cell__ft{
@@ -1331,28 +1356,32 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
     }
   }
 }
-/*白底有色边框状态*/
+/*线框状态*/
 [class^="state-"]{
   .in-block;
   line-height:.34rem;
   height: .34rem;
-  padding:0 .06rem;
+  padding:0 .1rem;
   font-size:12px;
   .border-radius(.02rem);
-  &.state-zaiye{//在业
-    border:1px solid #5a80b8;
-    color:#5a80b8;
+  &.state-blue{//在业
+    border:1px solid #3daaef;
+    color:#3daaef;
   }
-  &.state-renzheng{//认证
+  &.state-green{//认证、已实名
     border:1px solid #0bb56b;
     color:#0bb56b;
   }
-  &.state-zhuxiao{//注销
+  &.state-red{//未实名
+    border:1px solid #f4364c;
+    color:#f4364c;
+  }
+  &.state-gray{//注销、暂无
     .bg-f3;
     .col-gray9;
   }
   &.state-sfrz{//身份认证
-    .border-radius(.17rem);
+    .border-radius(.2rem);
     border:1px solid #3cb391;
     color:#3cb391;
     padding:0 .2rem;
@@ -1363,7 +1392,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
     }
   }
   &.state-zjzh{//资金账户
-    .border-radius(.17rem);
+    .border-radius(.2rem);
     border:1px solid #3daaef;
     color:#3daaef;
     padding:0 .2rem;
@@ -1374,9 +1403,9 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
     }
   }
   &.state-dsf{//第三方认证
-    .border-radius(.17rem);
-    border:1px solid #d2434a;
-    color:#d2434a;
+    .border-radius(.2rem);
+    border:1px solid #f4364c;
+    color:#f4364c;
     padding:0 .2rem;
     &.not{
       .bg-f3;
@@ -1384,27 +1413,17 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
       border-color:#f3f3f3;
     }
   }
-  &.state-wshiming{//未实名
-    border:1px solid #f4364c;
-    color:#f4364c;
-    .border-radius(0);
-  }
-  &.state-yshiming{//已实名
-    border:1px solid #0bb56b;
-    color:#0bb56b;
-    .border-radius(0);
-  }
 }
 /*实色状态*/
 [class^="state2-"]{
   .in-block;
   line-height:.34rem;
   height: .34rem;
-  padding:0 .06rem;
+  padding:0 .1rem;
   font-size:12px;
   .border-radius(.02rem);
   .col-white;
-  &.state2-xiaoxi{
+  &.state2-orange{
     .bg-ff6a29;
   }
 }
@@ -1618,7 +1637,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
         .col-gray6;
         .ta-c;
         display:block;
-        border-right:.01rem solid #d1dde6;
+        border-right:1px solid #d1dde6;
         &:last-child{
           border-right:none;
         }
@@ -1643,7 +1662,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
   padding-bottom: .24rem;
   margin-left:.3rem;
   margin-right:.3rem;
-  border-bottom:.01rem solid @base-body-background;
+  border-bottom:1px solid @base-body-background;
   span{
     font-size: 16px;
     margin-right: .16rem;
@@ -1729,7 +1748,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
       .in-block;
       .w-all;
       padding-bottom: .2rem;
-      border-bottom:.01rem solid @base-body-background;
+      border-bottom:1px solid @base-body-background;
       margin-bottom:.4rem;
       img{
         width:6.9rem;
@@ -1773,7 +1792,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
       font-size:14px;
       line-height:.72rem;
       height:.72rem;
-      border-bottom:.01rem solid @base-body-background;
+      border-bottom:1px solid @base-body-background;
       &:last-child{
         border-bottom:none;
       }
@@ -1807,7 +1826,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
     .items{
       .in-block;
       font-size: 14px;
-      border-bottom:.01rem solid @base-body-background;
+      border-bottom:1px solid @base-body-background;
       padding:.2rem 0;
       line-height:.46rem;
       &:last-child{
@@ -1848,7 +1867,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
     line-height:.75rem;
     padding-left:.3rem;
     padding-right:.3rem;
-    border-bottom:.01rem solid @base-body-background;
+    border-bottom:1px solid @base-body-background;
     a{
       &.fl-r{
         padding-left:.5rem;
@@ -1860,7 +1879,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
     .list{
       li{
         height: .8erm;
-        border-bottom:.01rem solid @base-body-background;
+        border-bottom:1px solid @base-body-background;
         padding-left: .3rem;
         padding-right: .3rem;
         a{
@@ -1982,7 +2001,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
       .hd{
         .display-flex;
         .border-box;
-        border-bottom:.01rem solid @base-body-background;
+        border-bottom:1px solid @base-body-background;
         margin-bottom:.15rem;
         .left{
           .flex-number;
@@ -2279,7 +2298,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
       }
     }
     .bd{
-      border-top:.01rem solid @base-body-background;
+      border-top:1px solid @base-body-background;
       margin-top: .2rem;
       padding-bottom: .3rem;
       .tit{
@@ -2331,7 +2350,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
     }
     .bd{
       ul{
-        border-bottom:.01rem solid @base-body-background;
+        border-bottom:1px solid @base-body-background;
         li{
           .display-flex;
           justify-content: space-around;
@@ -2520,7 +2539,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
   table{
     &.rank{
       thead{
-        border-bottom:.01rem solid #a8b9c8;
+        border-bottom:1px solid #a8b9c8;
         th{
           font-size:14px;
           font-weight:normal;
@@ -2530,7 +2549,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
       }
       tbody{
         tr{
-          border-bottom:.01rem solid @base-border-color;
+          border-bottom:1px solid @base-border-color;
           td{
             line-height: .34rem;
             padding:.14rem 0;
@@ -2583,7 +2602,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
   .head-nav{
     line-height:.7rem;
     height:.7rem;
-    border-bottom:.01rem solid #cedbe5;
+    border-bottom:1px solid #cedbe5;
     margin:0 .3rem;
     &.f16{
       border-bottom:none;
@@ -2678,4 +2697,147 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
     }
 
   }
+}
+/*账户资料*/
+.user-account{
+  .head-nav{
+    background:#fff;
+    line-height:.7rem;
+    height:.7rem;
+    border-bottom:1px solid #cedbe5;
+    padding:0 .3rem;
+    a{
+      font-size:14px;
+      .in-block;
+      padding:0 .12rem;
+      margin-right: .34rem;
+      .pos-rela;
+      &:last-child{
+        margin-right:0;
+      }
+      &.on{
+        .col-e3464e;
+        &::after{
+          .pos-abso;
+          content:'';
+          width:100%;
+          height:.02rem;
+          .bg-e3464e;
+          bottom:0rem;
+          left:0rem;
+        }
+      }
+    }
+  }
+  .bd{
+    .bd-items{
+    margin-left:.3rem;
+    margin-right:.3rem;
+    .border-radius(.2rem);
+    padding:.25rem .3rem .1rem .3rem;
+    background:#fff;
+    margin-bottom: .3rem;
+    .title{
+      display:inline-block;
+      border-bottom:1px solid #cedbe5;
+      width:100%;
+      padding-bottom: .2rem;
+      .display-flex;
+      span{
+        font-size:16px;
+        .flex-number(3);
+        margin-right: .5rem;
+      }
+      .ico-arrow-r,.ico-refresh-blue{
+        margin-top:.15rem;
+      }
+    }
+    .weui-cells{
+      margin-top:0px;
+      &::after,&::before{
+        display:none;
+      }
+      .weui-cell{
+        padding: .25rem 0;
+        line-height:.45rem;
+        .weui-cell__bd{
+          .col-gray6;
+          p{
+            width:100%;
+          }
+        }
+        .weui-cell__ft{
+          padding-right:0px;
+          .col-gray3;
+          [class^="state-"]{
+            margin-right:.25rem;
+          }
+        }
+      }
+    }
+    }
+    .add-btn{
+      display:inline-block;
+      margin:0 .3rem;
+      width:6.9rem;
+      font-size:14px;
+      .col-3daaef;
+      .border-radius(.1rem);
+      line-height:.4rem;
+      padding:.2rem 0;
+      height: .8rem;
+      .ta-c;
+      border:1px solid #3daaef;
+    }
+    .company-box{
+      .hd{
+        .pos-rela;
+        padding-top: .25rem;
+        padding-bottom: .1rem;
+        color: #1e4069;
+        font-size:14px;
+        font{
+          margin-left: .1rem;
+        }
+        .cancel-btn{
+          .pos-abso;
+          bottom: -.48rem;
+          right: 0;
+          font-size:12px;
+          display:inline-block;
+          line-height:.48rem;
+          .border-radius(.24rem);
+          padding:0 .2rem;
+          .col-f4364c;
+          border: 1px solid @base-color2;
+        }
+      }
+      .bd{
+        padding-bottom: .25rem;
+        dl{
+          &.info{
+            .display-flex;
+            line-height:.43rem;
+            dt{
+              .col-gray9;
+              font-size:12px;
+              .ta-r;
+              .flex-number(1);
+            }
+            dd{
+              .flex-number(3);
+            }
+          }
+        }
+      }
+    }
+    .user-zj-tit{
+      font-size:14px;
+      line-height:.3rem;
+      color:#13426b;
+      border-bottom:1px solid @base-body-background;
+      padding: .3rem 0;
+    }
+  }
+
 }

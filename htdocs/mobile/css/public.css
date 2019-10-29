@@ -2311,6 +2311,15 @@ table {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAbCAMAAABY1h8eAAAAgVBMVEUAAACqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqpNmSdBAAAAKnRSTlMAB/mf7k4m9dLHuEhCF/Lm4dvXlY6AcGhgNi8ewLCopIpUDgzLglo+fiADXTKjAAABBUlEQVQoz3WS127DMAxFaXnvHa94Nk3a+/8fWFoGGllwzoMk8NikQIoU2hSw/LqjKyocPGw1ajQPuYVR9FwK1tPXW2XI6c0rALz4ULcUgE8qTxfeRkyJnYBO9BYmeQgTljOdeQms+94BAiVp1MgN3kwEv3OtSyPFymsCm1fS+cG4Z3Wl0XH2eIs7XWKhpxvMa+lzuRrVtRzRfv7zztL+VDNDSAOSy9vGgEOU8xc6PLEGFh++9a7vsWko5F0GgUiXJRgZXZDFmpzZub0skMPfzjIAIyrZxgSeo3WHXXnk6yyIRU1dQJjD/wg8QIxN2EerIRtgqpnkM5PIQps+etv0LLiF+qD/AFlxGPXReujPAAAAAElFTkSuQmCC) no-repeat 50% 50%;
   background-size: contain;
 }
+.ico-refresh-blue {
+  /*换一批*/
+  display: inline-block;
+  width: .22rem;
+  height: .22rem;
+  vertical-align: middle;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAMAAADzapwJAAAAilBMVEUAAAAArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfVmCHxZAAAALXRSTlMAKAfX0L64+/bryqF+ZxUD4mxBFwzn3IdLNSIR8LSXjXdVRy8d5NnCr3h2YD3Q7JV2AAAAw0lEQVQY022RybbCIBBEiyEEAoTMg3HWNyr//3suNEqUu+pzT3ctqnFnKkXrvUr2NV5QI5k5ElL9ZXLXzLbOimGeK94R1ARA3okmuNwq0mvAJQlFQKNZZgGr8tASz70ncF8WC852w4FhTRFhqxHjp4zIHNn1055TxDjF9bGIarPBSfyTd81LGK/SZGkrOUFwtVquU9YDcnyrCppR4OLybzEFu7pdPd9wcHMuYw8LuP266w/jOBgud2FiY3+LNG1F+ej+Bk8rCmlnJ3yeAAAAAElFTkSuQmCC) no-repeat 50% 50%;
+  background-size: contain;
+}
 .ico-arrow-r {
   /*向右灰色箭头13*22*/
   display: inline-block;
@@ -2692,7 +2701,7 @@ table {
 }
 .right-screen-bar .bd .list .title {
   font-size: 12px;
-  border-bottom: 0.01rem solid #f2f6f8;
+  border-bottom: 1px solid #f2f6f8;
   line-height: .56rem;
   height: .56rem;
   margin-bottom: .2rem;
@@ -2741,7 +2750,7 @@ table {
   width: 100%;
 }
 .right-screen-bar .ft .fixed-bottom {
-  border-top: 0.01rem solid rgba(210, 210, 210, 0.75);
+  border-top: 1px solid rgba(210, 210, 210, 0.75);
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -2880,7 +2889,7 @@ table {
   padding: 0px;
   line-height: .6rem;
   height: .6rem;
-  border-bottom: .01rem solid #cccccc;
+  border-bottom: 1px solid #cccccc;
   margin-bottom: .24rem;
 }
 .login-right-bar .right-screen-bar .login-switch .weui-cells .weui-cell:last-child {
@@ -2911,7 +2920,7 @@ table {
   margin-top: -0.23rem;
   border: none;
   width: 2rem;
-  border-left: .01rem solid #ccc;
+  border-left: 1px solid #ccc;
 }
 .login-right-bar .right-screen-bar .login-switch .weui-cells .weui-cell .weui-vcode-btn.forbid {
   color: #ccc !important;
@@ -2986,7 +2995,7 @@ table {
   padding: 0px;
   line-height: .6rem;
   height: .6rem;
-  border-bottom: .01rem solid #cccccc;
+  border-bottom: 1px solid #cccccc;
   margin-bottom: .24rem;
 }
 .login-right-bar .right-screen-bar .forgot-mima-box .weui-cells .weui-cell:last-child {
@@ -3017,7 +3026,7 @@ table {
   margin-top: -0.23rem;
   border: none;
   width: 2rem;
-  border-left: .01rem solid #ccc;
+  border-left: 1px solid #ccc;
 }
 .login-right-bar .right-screen-bar .forgot-mima-box .weui-cells .weui-cell .weui-vcode-btn.forbid {
   color: #ccc !important;
@@ -3059,7 +3068,7 @@ table {
   padding: 0px;
   line-height: .6rem;
   height: .6rem;
-  border-bottom: .01rem solid #cccccc;
+  border-bottom: 1px solid #cccccc;
   margin-bottom: .24rem;
 }
 .login-right-bar .right-screen-bar .reg-box .weui-cells .weui-cell:last-child {
@@ -3090,7 +3099,7 @@ table {
   margin-top: -0.23rem;
   border: none;
   width: 2rem;
-  border-left: .01rem solid #ccc;
+  border-left: 1px solid #ccc;
 }
 .login-right-bar .right-screen-bar .reg-box .weui-cells .weui-cell .weui-vcode-btn.forbid {
   color: #ccc !important;
@@ -3305,7 +3314,7 @@ table {
   display: -ms-flexbox;
   display: flex;
   justify-content: space-around;
-  border-top: 0.01rem solid rgba(210, 210, 210, 0.75);
+  border-top: 1px solid rgba(210, 210, 210, 0.75);
 }
 .footer .footer-container .item {
   -webkit-box-flex: 1;
@@ -3395,12 +3404,23 @@ table {
 .weui-cells.form .weui-cell .weui-cell__ft input::-webkit-input-placeholder {
   color: #ccc !important;
 }
+.weui-cells.dl .weui-cell {
+  font-size: 14px;
+  padding: .2rem .3rem;
+}
+.weui-cells.dl .weui-cell .weui-cell__bd p.date {
+  color: #999 !important;
+}
+.weui-cells.dl .weui-cell .weui-cell__ft {
+  color: #333 !important;
+  padding-right: 0;
+}
 .weui-cells .weui-cell {
   padding: .28rem .3rem;
 }
 .weui-cells .weui-cell:before {
   left: 0px;
-  border-top: 0.01rem solid #f2f6f8;
+  border-top: 1px solid #f2f6f8;
 }
 .weui-cells .weui-cell.weui-cell_access .weui-cell__ft:after {
   transform: none;
@@ -3428,35 +3448,39 @@ table {
   -webkit-flex: 3;
   flex: 3;
 }
-/*白底有色边框状态*/
+/*线框状态*/
 [class^="state-"] {
   display: inline-block !important;
   *display: inline !important;
   *zoom: 1 !important;
   line-height: .34rem;
   height: .34rem;
-  padding: 0 .06rem;
+  padding: 0 .1rem;
   font-size: 12px;
   -webkit-border-radius: 0.02rem;
   -moz-border-radius: 0.02rem;
   border-radius: 0.02rem;
 }
-[class^="state-"].state-zaiye {
-  border: 1px solid #5a80b8;
-  color: #5a80b8;
+[class^="state-"].state-blue {
+  border: 1px solid #3daaef;
+  color: #3daaef;
 }
-[class^="state-"].state-renzheng {
+[class^="state-"].state-green {
   border: 1px solid #0bb56b;
   color: #0bb56b;
 }
-[class^="state-"].state-zhuxiao {
+[class^="state-"].state-red {
+  border: 1px solid #f4364c;
+  color: #f4364c;
+}
+[class^="state-"].state-gray {
   background-color: #f3f3f3 !important;
   color: #999 !important;
 }
 [class^="state-"].state-sfrz {
-  -webkit-border-radius: 0.17rem;
-  -moz-border-radius: 0.17rem;
-  border-radius: 0.17rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  border-radius: 0.2rem;
   border: 1px solid #3cb391;
   color: #3cb391;
   padding: 0 .2rem;
@@ -3467,9 +3491,9 @@ table {
   border-color: #f3f3f3;
 }
 [class^="state-"].state-zjzh {
-  -webkit-border-radius: 0.17rem;
-  -moz-border-radius: 0.17rem;
-  border-radius: 0.17rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  border-radius: 0.2rem;
   border: 1px solid #3daaef;
   color: #3daaef;
   padding: 0 .2rem;
@@ -3480,31 +3504,17 @@ table {
   border-color: #f3f3f3;
 }
 [class^="state-"].state-dsf {
-  -webkit-border-radius: 0.17rem;
-  -moz-border-radius: 0.17rem;
-  border-radius: 0.17rem;
-  border: 1px solid #d2434a;
-  color: #d2434a;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  border-radius: 0.2rem;
+  border: 1px solid #f4364c;
+  color: #f4364c;
   padding: 0 .2rem;
 }
 [class^="state-"].state-dsf.not {
   background-color: #f3f3f3 !important;
   color: #ccc !important;
   border-color: #f3f3f3;
-}
-[class^="state-"].state-wshiming {
-  border: 1px solid #f4364c;
-  color: #f4364c;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-}
-[class^="state-"].state-yshiming {
-  border: 1px solid #0bb56b;
-  color: #0bb56b;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
 }
 /*实色状态*/
 [class^="state2-"] {
@@ -3513,14 +3523,14 @@ table {
   *zoom: 1 !important;
   line-height: .34rem;
   height: .34rem;
-  padding: 0 .06rem;
+  padding: 0 .1rem;
   font-size: 12px;
   -webkit-border-radius: 0.02rem;
   -moz-border-radius: 0.02rem;
   border-radius: 0.02rem;
   color: #fff !important;
 }
-[class^="state2-"].state2-xiaoxi {
+[class^="state2-"].state2-orange {
   background-color: #ff6a29 !important;
 }
 /*轮播图*/
@@ -3745,7 +3755,7 @@ table {
   color: #666 !important;
   text-align: center !important;
   display: block;
-  border-right: .01rem solid #d1dde6;
+  border-right: 1px solid #d1dde6;
 }
 .index-jysc .deal-tab .tab a:last-child {
   border-right: none;
@@ -3767,7 +3777,7 @@ table {
   padding-bottom: .24rem;
   margin-left: .3rem;
   margin-right: .3rem;
-  border-bottom: 0.01rem solid #f2f6f8;
+  border-bottom: 1px solid #f2f6f8;
 }
 .index-title span {
   font-size: 16px;
@@ -3859,7 +3869,7 @@ table {
   *zoom: 1 !important;
   width: 100% !important;
   padding-bottom: .2rem;
-  border-bottom: 0.01rem solid #f2f6f8;
+  border-bottom: 1px solid #f2f6f8;
   margin-bottom: .4rem;
 }
 .index-zxdt .content .items:last-child {
@@ -3915,7 +3925,7 @@ table {
   font-size: 14px;
   line-height: .72rem;
   height: .72rem;
-  border-bottom: 0.01rem solid #f2f6f8;
+  border-bottom: 1px solid #f2f6f8;
 }
 .index-tshy .content .items:last-child {
   border-bottom: none;
@@ -3955,7 +3965,7 @@ table {
   *display: inline !important;
   *zoom: 1 !important;
   font-size: 14px;
-  border-bottom: 0.01rem solid #f2f6f8;
+  border-bottom: 1px solid #f2f6f8;
   padding: .2rem 0;
   line-height: .46rem;
 }
@@ -3997,7 +4007,7 @@ table {
   line-height: .75rem;
   padding-left: .3rem;
   padding-right: .3rem;
-  border-bottom: 0.01rem solid #f2f6f8;
+  border-bottom: 1px solid #f2f6f8;
 }
 .search-history-box .hd a.fl-r {
   padding-left: .5rem;
@@ -4007,7 +4017,7 @@ table {
 }
 .search-history-box .bd .list li {
   height: .8erm;
-  border-bottom: 0.01rem solid #f2f6f8;
+  border-bottom: 1px solid #f2f6f8;
   padding-left: .3rem;
   padding-right: .3rem;
 }
@@ -4154,7 +4164,7 @@ table {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border-bottom: 0.01rem solid #f2f6f8;
+  border-bottom: 1px solid #f2f6f8;
   margin-bottom: .15rem;
 }
 .company-results-list .items li .hd .left {
@@ -4489,7 +4499,7 @@ table {
   line-height: .42rem;
 }
 .user-mine-box .eg-company .bd {
-  border-top: 0.01rem solid #f2f6f8;
+  border-top: 1px solid #f2f6f8;
   margin-top: .2rem;
   padding-bottom: .3rem;
 }
@@ -4548,7 +4558,7 @@ table {
   top: -0.05rem;
 }
 .user-mine-box .list-box .bd ul {
-  border-bottom: 0.01rem solid #f2f6f8;
+  border-bottom: 1px solid #f2f6f8;
 }
 .user-mine-box .list-box .bd ul li {
   display: -webkit-box;
@@ -4744,7 +4754,7 @@ table {
   margin-right: .05rem;
 }
 .trading-pages-info table.rank thead {
-  border-bottom: .01rem solid #a8b9c8;
+  border-bottom: 1px solid #a8b9c8;
 }
 .trading-pages-info table.rank thead th {
   font-size: 14px;
@@ -4753,7 +4763,7 @@ table {
   line-height: .7rem;
 }
 .trading-pages-info table.rank tbody tr {
-  border-bottom: 0.01rem solid #d1dde6;
+  border-bottom: 1px solid #d1dde6;
 }
 .trading-pages-info table.rank tbody tr td {
   line-height: .34rem;
@@ -4801,7 +4811,7 @@ table {
 .article-list .head-nav {
   line-height: .7rem;
   height: .7rem;
-  border-bottom: .01rem solid #cedbe5;
+  border-bottom: 1px solid #cedbe5;
   margin: 0 .3rem;
 }
 .article-list .head-nav.f16 {
@@ -4883,4 +4893,162 @@ table {
 }
 .trading-center table tr:last-child td {
   border-bottom: 1px solid #d1dde6;
+}
+/*账户资料*/
+.user-account .head-nav {
+  background: #fff;
+  line-height: .7rem;
+  height: .7rem;
+  border-bottom: 1px solid #cedbe5;
+  padding: 0 .3rem;
+}
+.user-account .head-nav a {
+  font-size: 14px;
+  display: inline-block !important;
+  *display: inline !important;
+  *zoom: 1 !important;
+  padding: 0 .12rem;
+  margin-right: .34rem;
+  position: relative !important;
+}
+.user-account .head-nav a:last-child {
+  margin-right: 0;
+}
+.user-account .head-nav a.on {
+  color: #e3464e !important;
+}
+.user-account .head-nav a.on::after {
+  position: absolute !important;
+  content: '';
+  width: 100%;
+  height: .02rem;
+  background-color: #e3464e !important;
+  bottom: 0rem;
+  left: 0rem;
+}
+.user-account .bd .bd-items {
+  margin-left: .3rem;
+  margin-right: .3rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  border-radius: 0.2rem;
+  padding: .25rem .3rem .1rem .3rem;
+  background: #fff;
+  margin-bottom: .3rem;
+}
+.user-account .bd .bd-items .title {
+  display: inline-block;
+  border-bottom: 1px solid #cedbe5;
+  width: 100%;
+  padding-bottom: .2rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.user-account .bd .bd-items .title span {
+  font-size: 16px;
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+  flex: 3;
+  margin-right: .5rem;
+}
+.user-account .bd .bd-items .title .ico-arrow-r,
+.user-account .bd .bd-items .title .ico-refresh-blue {
+  margin-top: .15rem;
+}
+.user-account .bd .bd-items .weui-cells {
+  margin-top: 0px;
+}
+.user-account .bd .bd-items .weui-cells::after,
+.user-account .bd .bd-items .weui-cells::before {
+  display: none;
+}
+.user-account .bd .bd-items .weui-cells .weui-cell {
+  padding: .25rem 0;
+  line-height: .45rem;
+}
+.user-account .bd .bd-items .weui-cells .weui-cell .weui-cell__bd {
+  color: #666 !important;
+}
+.user-account .bd .bd-items .weui-cells .weui-cell .weui-cell__bd p {
+  width: 100%;
+}
+.user-account .bd .bd-items .weui-cells .weui-cell .weui-cell__ft {
+  padding-right: 0px;
+  color: #333 !important;
+}
+.user-account .bd .bd-items .weui-cells .weui-cell .weui-cell__ft [class^="state-"] {
+  margin-right: .25rem;
+}
+.user-account .bd .add-btn {
+  display: inline-block;
+  margin: 0 .3rem;
+  width: 6.9rem;
+  font-size: 14px;
+  color: #3daaef !important;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  border-radius: 0.1rem;
+  line-height: .4rem;
+  padding: .2rem 0;
+  height: .8rem;
+  text-align: center !important;
+  border: 1px solid #3daaef;
+}
+.user-account .bd .company-box .hd {
+  position: relative !important;
+  padding-top: .25rem;
+  padding-bottom: .1rem;
+  color: #1e4069;
+  font-size: 14px;
+}
+.user-account .bd .company-box .hd font {
+  margin-left: .1rem;
+}
+.user-account .bd .company-box .hd .cancel-btn {
+  position: absolute !important;
+  bottom: -0.48rem;
+  right: 0;
+  font-size: 12px;
+  display: inline-block;
+  line-height: .48rem;
+  -webkit-border-radius: 0.24rem;
+  -moz-border-radius: 0.24rem;
+  border-radius: 0.24rem;
+  padding: 0 .2rem;
+  color: #f4364c !important;
+  border: 1px solid #f4364c;
+}
+.user-account .bd .company-box .bd {
+  padding-bottom: .25rem;
+}
+.user-account .bd .company-box .bd dl.info {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: .43rem;
+}
+.user-account .bd .company-box .bd dl.info dt {
+  color: #999 !important;
+  font-size: 12px;
+  text-align: right !important;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+.user-account .bd .company-box .bd dl.info dd {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+  flex: 3;
+}
+.user-account .bd .user-zj-tit {
+  font-size: 14px;
+  line-height: .3rem;
+  color: #13426b;
+  border-bottom: 1px solid #f2f6f8;
+  padding: .3rem 0;
 }
