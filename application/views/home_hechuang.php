@@ -62,9 +62,9 @@
           <div class="top-banner">
             <div class="banner index-banner">
             		<div class="banner-slick">
-            			<div><a href="/page/trading-center" target="_blank"><img src="/htdocs/images/banner/banner_trade_v2.jpg" width="auto" height="225" alt=""></a></div>
-                  <div><a href="/page/sfg-wyrz" target="_blank"><img src="/htdocs/images/banner/banner_finance_v2.jpg" width="620" height="225" alt=""></a></div>
-                  <div><a href="/page/sfg-gfwz" target="_blank"><img src="/htdocs/images/banner/banner_website_v2.jpg" width="620" height="225" alt=""></a></div>
+            			<div><a href="#" target="_blank"><img src="/htdocs/images/banner/banner_index.png" width="auto" height="224" alt=""></a></div>
+                  <div><a href="#"  target="_blank"><img src="/htdocs/images/banner/banner_index.png" width="auto" height="224" alt=""></a></div>
+                  <div><a href="#"  target="_blank"><img src="/htdocs/images/banner/banner_index.png" width="auto" height="224" alt=""></a></div>
             		</div>
             </div>
           </div>
@@ -150,7 +150,7 @@
     <span>10万+公司覆盖</span>
     <span>100%信息安全</span>
     <span>1对1交易员支持</span>
-    <span>24H热线服务</span>
+    <span>24H服务支持</span>
   </div>
 </div>
 <div class="index-gqjy">

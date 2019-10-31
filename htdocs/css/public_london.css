@@ -9314,16 +9314,24 @@ body.big {
   margin-top: 13px;
   background-color: #f4364c !important;
 }
+.focus-part {
+  height: 365px;
+}
+.focus-part .main {
+  height: 365px;
+}
 .focus-part .main .left {
   float: left;
   width: 320px;
+  height: 365px;
   background-color: #fff !important;
   padding: 17px 20px;
   margin-right: 20px;
 }
 .focus-part .main .left .items a {
   font-size: 14px;
-  display: inline-block;
+  display: block;
+  float: left;
   margin-right: 14px;
   margin-bottom: 14px;
   color: #666 !important;
@@ -9333,13 +9341,14 @@ body.big {
   color: #3daaef !important;
 }
 .focus-part .main .center {
+  height: 365px;
   padding: 20px 0;
   float: left;
   width: 620px;
 }
 .focus-part .main .center .index-banner {
   min-width: 620px;
-  height: 225px;
+  height: 224px;
 }
 .focus-part .main .center .index-banner .slick-dots {
   bottom: 15px;
@@ -9384,6 +9393,7 @@ body.big {
   line-height: 22px;
 }
 .focus-part .main .right {
+  height: 365px;
   float: right;
   width: 220px;
   padding: 20px 0;
@@ -9391,7 +9401,7 @@ body.big {
 .focus-part .main .right .dl-box {
   background-color: #fff !important;
   padding: 40px 14px 14px 14px;
-  height: 225px;
+  height: 224px;
   margin-bottom: 20px;
 }
 .focus-part .main .right .dl-box img {
@@ -9431,7 +9441,7 @@ body.big {
 .focus-part .main .right .after_dl-box {
   background-color: #fff !important;
   padding: 20px 0 0 0;
-  height: 225px;
+  height: 224px;
   margin-bottom: 20px;
 }
 .focus-part .main .right .after_dl-box img {
