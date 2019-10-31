@@ -1,6 +1,6 @@
 <div class="manage-top">
   <div class="manage-top-logo">
-    <a href="/page/home_london" class="home">
+    <a href="/page/home_hechuang.php" class="home">
       <i class="logo-white"></i>
     </a>
   </div>
