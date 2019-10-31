@@ -13,7 +13,7 @@
       <div class="main after-cls">
         <div class="left">
           <p class="f16 col-gray9 lh30 mb10">按行业找公司</p>
-          <div class="items">
+          <div class="items after-cls">
             <a data-value="批发和零售业" href="#">批发零售</a>
       			<a data-value="住宿和餐饮业" href="#">餐饮住宿</a>
       			<a data-value="制造业" href="#">制造业</a>
@@ -36,7 +36,7 @@
       			<a data-value="国际组织" href="#">国际组织</a>
           </div>
           <p class="f16 col-gray9 lh30 mb10">按区域找公司</p>
-    		  <div class="items">
+    		  <div class="items after-cls">
     		    <a href="#">北京</a>
     		    <a href="#">上海</a>
     		    <a href="#">天津</a>
