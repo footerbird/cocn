@@ -55,7 +55,7 @@
                 </a>
               </div>
               <div class="row">
-                <a href="/mobile/user-.php" class="cols xxzx">
+                <a href="/mobile/user-message.php" class="cols xxzx">
                   <p>消息中心</p>
                 </a>
                 <a href="/mobile/user-account.php" class="cols zhzl">
