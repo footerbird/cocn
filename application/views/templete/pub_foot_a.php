@@ -2,78 +2,64 @@
   <div class="container after-cls">
     <div class="left">
       <ul class="item">
-        <li class="tit">售前咨询热线</li>
-        <li class="tit">0571-88365363</li>
+        <li class="tit">客户服务</li>
+        <li class="tit f16 mb15">电话咨询 0571-88365363</li>
+        <li class="tit f16">周一至周五 9:00-17:00</li>
         <li class="link">
-          <a href="#">公司信用查询</a>
+          <a href="/page/trading-center2.php">公司股权转让信息</a>
         </li>
         <li class="link">
-          <a href="#">官网建设</a>
+          <a href="/page/company-credit-list2.php">公司信用查询</a>
         </li>
         <li class="link">
-          <a href="#">实名网址.CO.CN</a>
-        </li>
-        <li class="link">
-          <a href="#">公司融资</a>
-        </li>
-        <li class="link">
-          <a href="#">股权交易服务</a>
+          <a href="/page/home_hechuang.php">公司官网</a>
         </li>
       </ul>
     </div>
     <div class="right after-cls">
       <ul class="item">
-        <li class="tit">支持与服务</li>
+        <li class="tit">服务与支持</li>
+        <li class="link">
+          <a href="/page/about-download.php">标准文档下载</a>
+        </li>
+        <li class="link">
+          <a href="/page/about-cocn.php">关于官网</a>
+        </li>
         <li class="link">
           <a href="/page/about-contact.php">联系我们</a>
         </li>
         <li class="link">
-          <a href="#">支持计划</a>
+          <a href="/page/about-privacy.php">隐私条款</a>
         </li>
         <li class="link">
-          <a href="#">新手学堂</a>
+          <a href="/page/about-rule.php">用户服务协议</a>
         </li>
         <li class="link">
-          <a href="#">自助工具</a>
-        </li>
-        <li class="link">
-          <a href="#">设计与咨询</a>
-        </li>
-        <li class="link">
-          <a href="#">迁移与部署</a>
+          <a href="/page/about-callback.php">客户服务</a>
         </li>
       </ul>
       <ul class="item">
-        <li class="tit">快捷入口</li>
+        <li class="tit">快捷导航</li>
         <li class="link">
-          <a href="#">域名信息查询</a>
+          <a href="/page/self-building">公司官网建设</a>
         </li>
         <li class="link">
-          <a href="#">定价</a>
+          <a href="/page/trading-center2.php">公司股权转让信息</a>
         </li>
         <li class="link">
-          <a href="#">云产品快报</a>
+          <a href="/page/sfg-wyzr.php">公司资质转让</a>
         </li>
         <li class="link">
-          <a href="#">海外上云</a>
+          <a href="/page/sfg-wytz.php">合格投资人</a>
         </li>
         <li class="link">
-          <a href="#">域名信息查询</a>
-        </li>
-        <li class="link">
-          <a href="#">定价</a>
-        </li>
-        <li class="link">
-          <a href="#">云产品快报</a>
+          <a href="#">疑难问题简答</a>
         </li>
       </ul>
       <ul class="item">
-        <li class="tit">关注公司合创网</li>
+        <li class="tit">关于官网</li>
         <li class="link">
-          <a href="#">企业决策必读</a>
-        </li>
-        <li class="link">
-          <a href="#">官网APP</a>
+          <a href="#">微博@sina.com</a>
         </li>
         <li class="qrcode">
           <img src="/htdocs/images/qrcode.jpg" width="100" height="100" alt="">

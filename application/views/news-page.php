@@ -4,7 +4,7 @@
 <?php include_once('templete/pub_head_london.php') ?>
 </head>
 <body>
-<?php include_once('templete/pub_nav.php') ?>
+<?php include_once('templete/pub_nav_a.php') ?>
 <div class="container bg-white">
   <div class="news-page after-cls mt20 mb20 padding20">
     <div class="news-hd after-cls">

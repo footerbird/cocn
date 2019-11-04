@@ -4,7 +4,7 @@
 <?php include_once('templete/pub_head_london.php') ?>
 </head>
 <body>
-<?php include_once('templete/pub_nav.php') ?>
+<?php include_once('templete/pub_nav_a.php') ?>
 <!-- 轮播开始 -->
 <div class="after-cls pos-rela sfg-top">
   <div class="banner">
