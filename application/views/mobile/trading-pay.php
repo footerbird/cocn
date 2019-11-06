@@ -39,8 +39,8 @@
               <div class="weui-cells weui-cells_checkbox mt0">
                 <label class="weui-cell weui-check__label">
                   <div class="weui-cell__bd">
-                    <input type="radio" class="weui-check" name="payway" checked="checked">
-                    <i class="weui-icon-checked"></i>
+                    <input type="radio" class="weui-radio" name="payway" checked="checked">
+                    <i class="mr5"></i>
                     支付宝
                   </div>
                   <div class="weui-cell__ft">
@@ -49,8 +49,8 @@
                 </label>
                 <label class="weui-cell weui-check__label">
                   <div class="weui-cell__bd">
-                    <input type="radio" name="payway" class="weui-check">
-                    <i class="weui-icon-checked"></i>
+                    <input type="radio" name="payway" class="weui-radio">
+                    <i class="mr5"></i>
                     微信
                   </div>
                   <div class="weui-cell__ft">
@@ -59,8 +59,8 @@
                 </label>
                 <label class="weui-cell weui-check__label">
                   <div class="weui-cell__bd">
-                    <input type="radio" name="payway" class="weui-check">
-                    <i class="weui-icon-checked"></i>
+                    <input type="radio" name="payway" class="weui-radio">
+                    <i class="mr5"></i>
                     线下汇款
                   </div>
                   <div class="weui-cell__ft">
