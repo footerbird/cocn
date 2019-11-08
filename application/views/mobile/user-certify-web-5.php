@@ -66,7 +66,7 @@
           </div>
         </div>
         <div class="ta-c mt40">
-          <a href="/mobile/trading-pay.php" class="btn-default">在线支付</a>
+          <a href="/mobile/user-certify-web-6.php" class="btn-default">在线支付</a>
         </div>
       </div>
     </div>

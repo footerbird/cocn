@@ -75,7 +75,7 @@
             &yen;1000.00
           </p>
           <p class="ta-c">
-            <a href="javascript:;" class="btn-pay">确认支付</a>
+            <a href="/mobile/pay-result.php" class="btn-pay">确认支付</a>
           </p>
         </div>
       </div>

@@ -211,6 +211,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
 .col-e3464e{color:#e3464e !important;}
 .col-ffe082{color:#ffe082 !important;}
 .col-3daaef{color:#3daaef !important;}
+.col-f47433{color:#f47433 !important;}
 /*背景颜色*/
 .bg-gray3{background-color: #333 !important;}
 .bg-gray6{background-color: #666 !important;}
@@ -476,6 +477,22 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
   height: .1rem;
   vertical-align: middle;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFBAMAAAB/QTvWAAAAFVBMVEU1qfI1qfI1qfI1qfI1qfI1qfI1qfJktecOAAAABnRSTlP0ux6/uh9qVLfdAAAAGElEQVQI12NQYVFgEEszYGBLYwDTiowBABdXAn/bbhsjAAAAAElFTkSuQmCC) no-repeat 50% 50%;
+  background-size:contain;
+}
+.ico-alert-fail{/*失败*/
+  display:block;
+  width: 1.14rem;
+  height: 1.14rem;
+  vertical-align: middle;
+  background: url(/htdocs/mobile/images/alert-ico-fail.png) no-repeat 50% 50%;
+  background-size:contain;
+}
+.ico-alert-succ{/*成功*/
+  display:block;
+  width: 1.14rem;
+  height: 1.14rem;
+  vertical-align: middle;
+  background: url(/htdocs/mobile/images/alert-ico-succ.png) no-repeat 50% 50%;
   background-size:contain;
 }
 .ico-{/**/
@@ -1062,7 +1079,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
 /*实线*/
 .line{
   width:100%;
-  height:.01rem;
+  height:1px;
   .bg-f2f6f8;
 }
 /*黄底黑字顶部头部提示*/
@@ -1157,6 +1174,16 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
   text-align:center;
   box-shadow: 0px .07rem .21rem 0px rgba(0, 67, 110, 0.55);
 }
+.btn-default-b{//浅蓝边500px按钮
+  line-height:.8rem;
+  .border-radius(.4rem);
+  font-size:14px;
+  width:5rem;
+  .in-block;
+  .col-3daaef;
+  text-align:center;
+  border:1px solid #3daaef;
+}
 /*上传*/
 .weui-uploader__files{
   &.identity{
@@ -1213,6 +1240,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
       outline:none;
       border:none;
       .border-box;
+      width:100%;
       line-height:.88rem;
       font-size:14px;
     }
@@ -1344,9 +1372,13 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
       }
       .weui-cell__ft{
         .flex-number(3);
+        padding-right:0;
         input{
           text-align:right;
           width:100%;
+          line-height:.7rem;
+          border:none;
+          outline:none;
         }
         :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
         .col-c;
