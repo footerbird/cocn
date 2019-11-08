@@ -3138,16 +3138,19 @@ textarea {
 .products ul {
   width: 100%;
   padding-bottom: 50px;
+  text-align: center;
 }
 .products ul li {
+  cursor: pointer;
   width: 285px;
   height: 420px;
   border: 1px solid #f2f6f8;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  float: left !important;
-  margin-right: 20px;
+  display: inline-block;
+  font-size: 0px;
+  margin-right: 14px;
   margin-bottom: 20px;
   overflow: hidden;
 }
@@ -3171,10 +3174,12 @@ textarea {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  text-align: left !important;
   padding-left: 15px;
   padding-right: 15px;
 }
 .products ul li .type {
+  text-align: left !important;
   font-size: 14px;
   line-height: 26px;
   margin-bottom: 5px;
@@ -3182,6 +3187,7 @@ textarea {
   padding-right: 15px;
 }
 .products ul li p {
+  text-align: left !important;
   color: #999 !important;
   line-height: 18px;
   height: 38px;

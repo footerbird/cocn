@@ -38,8 +38,8 @@
     <p class="f24">我们的产品和服务</p>
     <p class="f18 col-gray9">Our products and services</p>
   </div>
-  <div class="products">
-    <ul class="after-cls">
+  <div class="products" id="index_products">
+    <ul class="">
       <li>
         <img src="http://iph.href.lu/285x285?text=285*285" width="" height="" alt="">
         <div class="name">
@@ -49,7 +49,7 @@
           类型
         </div>
         <p>产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么</p>
-        <a href="#" class="fl-r">
+        <a href="/page/home_model_list.php" class="fl-r">
           <i class="ico-go"></i>
         </a>
       </li>
@@ -62,7 +62,7 @@
           类型
         </div>
         <p>产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么</p>
-        <a href="#" class="fl-r">
+        <a href="/page/home_model_list.php" class="fl-r">
           <i class="ico-go"></i>
         </a>
       </li>
@@ -75,7 +75,7 @@
           类型
         </div>
         <p>产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么</p>
-        <a href="#" class="fl-r">
+        <a href="/page/home_model_list.php" class="fl-r">
           <i class="ico-go"></i>
         </a>
       </li>
@@ -88,7 +88,7 @@
           类型
         </div>
         <p>产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么</p>
-        <a href="#" class="fl-r">
+        <a href="/page/home_model_list.php" class="fl-r">
           <i class="ico-go"></i>
         </a>
       </li>
@@ -101,7 +101,7 @@
           类型
         </div>
         <p>产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么</p>
-        <a href="#" class="fl-r">
+        <a href="/page/home_model_list.php" class="fl-r">
           <i class="ico-go"></i>
         </a>
       </li>
@@ -114,7 +114,7 @@
           类型
         </div>
         <p>产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么</p>
-        <a href="#" class="fl-r">
+        <a href="/page/home_model_list.php" class="fl-r">
           <i class="ico-go"></i>
         </a>
       </li>
@@ -127,7 +127,7 @@
           类型
         </div>
         <p>产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么</p>
-        <a href="#" class="fl-r">
+        <a href="/page/home_model_list.php" class="fl-r">
           <i class="ico-go"></i>
         </a>
       </li>
@@ -140,7 +140,7 @@
           类型
         </div>
         <p>产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么</p>
-        <a href="#" class="fl-r">
+        <a href="/page/home_model_list.php" class="fl-r">
           <i class="ico-go"></i>
         </a>
       </li>
@@ -289,8 +289,11 @@ $(function(){
   $("#bgblack").on('click',function () {
     $("#pub_head").removeClass('pub-head-on');
     $("body").removeClass('on');
-
   })
+  //产品li点击跳转
+  $("#index_products ul").find('li').on('click',function(){
+    location.href = $(this).children('a').attr("href");
+  });
 })
 </script>
 </body>
