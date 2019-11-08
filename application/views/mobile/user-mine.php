@@ -44,13 +44,13 @@
                 <a href="/mobile/user-focus.php" class="cols gzgs">
                   <p>关注的公司</p>
                 </a>
-                <a href="/mobile/user-.php" class="cols wdgq">
+                <a href="/mobile/user-stock.php" class="cols wdgq">
                   <p>我的股权</p>
                 </a>
-                <a href="/mobile/user-.php" class="cols gqjy">
+                <a href="/mobile/user-dealing.php" class="cols gqjy">
                   <p>股权交易</p>
                 </a>
-                <a href="/mobile/user-.php" class="cols gsgw">
+                <a href="/mobile/user-cocn.php" class="cols gsgw">
                   <p>公司官网</p>
                 </a>
               </div>
@@ -61,10 +61,10 @@
                 <a href="/mobile/user-account.php" class="cols zhzl">
                   <p>账户资料</p>
                 </a>
-                <a href="/mobile/user-.php" class="cols zjls">
+                <a href="/mobile/user-money.php" class="cols zjls">
                   <p>资金流水</p>
                 </a>
-                <a href="/mobile/user-.php" class="cols aqsz">
+                <a href="/mobile/user-security.php" class="cols aqsz">
                   <p>安全设置</p>
                 </a>
               </div>
