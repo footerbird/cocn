@@ -20,13 +20,13 @@
             <i class="ico-search"></i>
             <input type="search" class="search-bar-input" id="" placeholder="公司编号/公司名称" required="">
           </form>
-          <div class="pb10 ta-c f14 col-white">当前持有股权预估值：<font class="col-f4364c f16 mr3">8888</font>元/人民币</div>
+          <div class="pb10 ta-c f14 col-white">当前持有股权预估值:<font class="col-f4364c f16 mr3">8888</font>元/人民币</div>
           <div class="user-stock">
             <ul class="user-stock-ul">
               <li>
                 <div class="hd">
-                  <span>名商网络有限公司名商网络有限公司名商网络有限公司</span>
-                  <a href="/mobile/user-stock-history.php">资产流通记录</a>
+                  <a href="/mobile/user-stock-change-list.php" class="name">名商网络有限名商网络有限公司名商网络有限名商网络有限公司</a>
+                  <a href="/mobile/user-stock-history.php" class="link">资产流通记录</a>
                 </div>
                 <div class="bd">
                   <table width="100%">
@@ -34,7 +34,7 @@
                       <tr>
                         <td colspan="2">
                         <div class="tit">
-                          编号：
+                          编号:
                         </div>
                         <div class="cont">
                           39399393
@@ -44,7 +44,7 @@
                       <tr>
                         <td  width="65%">
                           <div class="tit">
-                            持有总量：
+                            持有总量:
                           </div>
                           <div class="cont">
                             100%
@@ -52,7 +52,7 @@
                         </td>
                         <td  width="35%">
                           <div class="tit">
-                            可用份额：
+                            可用份额:
                           </div>
                           <div class="cont">
                             3%
@@ -62,7 +62,7 @@
                       <tr>
                         <td>
                         <div class="tit">
-                          交易冻结：
+                          交易冻结:
                         </div>
                         <div class="cont">
                           0.6%
@@ -70,7 +70,7 @@
                         </td>
                         <td>
                           <div class="tit">
-                            异常冻结：
+                            异常冻结:
                           </div>
                           <div class="cont">
                             0.5%
@@ -80,7 +80,7 @@
                       <tr>
                         <td>
                         <div class="tit">
-                          在途份额：
+                          在途份额:
                         </div>
                         <div class="cont">
                         0.8%
@@ -88,7 +88,7 @@
                         </td>
                         <td>
                           <div class="tit">
-                          质押份额：
+                          质押份额:
                           </div>
                           <div class="cont">
                             0.5%
@@ -107,8 +107,8 @@
               </li>
               <li>
                 <div class="hd">
-                  <span>名商网络有限公司</span>
-                  <a href="/mobile/user-stock-history.php">资产流通记录</a>
+                  <a href="/mobile/user-stock-change-list.php" class="name">名商网络有限公司</a>
+                  <a href="/mobile/user-stock-history.php" class="link">资产流通记录</a>
                 </div>
                 <div class="bd">
                   <table width="100%">
@@ -116,7 +116,7 @@
                       <tr>
                         <td colspan="2">
                         <div class="tit">
-                          编号：
+                          编号:
                         </div>
                         <div class="cont">
                           39399393
@@ -126,7 +126,7 @@
                       <tr>
                         <td  width="65%">
                           <div class="tit">
-                            持有总量：
+                            持有总量:
                           </div>
                           <div class="cont">
                             100%
@@ -134,7 +134,7 @@
                         </td>
                         <td  width="35%">
                           <div class="tit">
-                            可用份额：
+                            可用份额:
                           </div>
                           <div class="cont">
                             3%
@@ -144,7 +144,7 @@
                       <tr>
                         <td>
                         <div class="tit">
-                          交易冻结：
+                          交易冻结:
                         </div>
                         <div class="cont">
                           0.6%
@@ -152,7 +152,7 @@
                         </td>
                         <td>
                           <div class="tit">
-                            异常冻结：
+                            异常冻结:
                           </div>
                           <div class="cont">
                             0.5%
@@ -162,7 +162,7 @@
                       <tr>
                         <td>
                         <div class="tit">
-                          在途份额：
+                          在途份额:
                         </div>
                         <div class="cont">
                         0.8%
@@ -170,7 +170,7 @@
                         </td>
                         <td>
                           <div class="tit">
-                          质押份额：
+                          质押份额:
                           </div>
                           <div class="cont">
                             0.5%
@@ -189,8 +189,8 @@
               </li>
               <li>
                 <div class="hd">
-                  <span>名商网络有限公司</span>
-                  <a href="/mobile/user-stock-history.php">资产流通记录</a>
+                  <a href="/mobile/user-stock-change-list.php" class="name">名商网络有限公司</a>
+                  <a href="/mobile/user-stock-history.php" class="link">资产流通记录</a>
                 </div>
                 <div class="bd">
                   <table width="100%">
@@ -198,7 +198,7 @@
                       <tr>
                         <td colspan="2">
                         <div class="tit">
-                          编号：
+                          编号:
                         </div>
                         <div class="cont">
                           39399393
@@ -208,7 +208,7 @@
                       <tr>
                         <td  width="65%">
                           <div class="tit">
-                            持有总量：
+                            持有总量:
                           </div>
                           <div class="cont">
                             100%
@@ -216,7 +216,7 @@
                         </td>
                         <td  width="35%">
                           <div class="tit">
-                            可用份额：
+                            可用份额:
                           </div>
                           <div class="cont">
                             3%
@@ -226,7 +226,7 @@
                       <tr>
                         <td>
                         <div class="tit">
-                          交易冻结：
+                          交易冻结:
                         </div>
                         <div class="cont">
                           0.6%
@@ -234,7 +234,7 @@
                         </td>
                         <td>
                           <div class="tit">
-                            异常冻结：
+                            异常冻结:
                           </div>
                           <div class="cont">
                             0.5%
@@ -244,7 +244,7 @@
                       <tr>
                         <td>
                         <div class="tit">
-                          在途份额：
+                          在途份额:
                         </div>
                         <div class="cont">
                         0.8%
@@ -252,7 +252,7 @@
                         </td>
                         <td>
                           <div class="tit">
-                          质押份额：
+                          质押份额:
                           </div>
                           <div class="cont">
                             0.5%
@@ -267,6 +267,14 @@
                   <a href="/mobile/user-stock-disclosure-tip.php" class="btn xxpl">信息披露</a>
                   <a href="/mobile/user-stock-manage.php" class="btn gl">管理</a>
                   <a href="/mobile/user-stock-lock.php" class="btn sc">锁仓</a>
+                </div>
+              </li>
+              <li>
+                <div class="f16 col-base pb5 ta-c">您尚未持有公司</div>
+                <p class="col-gray6">您可以“<a href="#" class="col-3daaef">公司认证</a>”出售持有公司股权，或投资其他公司股权，进入“<a href="#" class="col-3daaef">股权交易中心</a>”获取更多股权交易信息。</p>
+                <div class="ta-c mt30 mb15">
+                  <a href="/mobile/user-certify-web.php" class="btn-default mb25">出售自有公司股权</a>
+                  <a href="/mobile/trading-center.php" class="btn-default-b">进入股权交易中心</a>
                 </div>
               </li>
             </ul>
@@ -279,9 +287,6 @@
     </div>
     <?php include_once('templete/pub_foot.php') ?>
 
-    <?php include_once('templete/tabbar.php') ?>
-    <?php include_once('templete/rightBar_sift_trading.php') ?>
-    <?php include_once('templete/right-login.php') ?>
     <script type="text/javascript">
     $(function () {
       //返回顶部

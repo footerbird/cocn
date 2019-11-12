@@ -212,6 +212,11 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
 .col-ffe082{color:#ffe082 !important;}
 .col-3daaef{color:#3daaef !important;}
 .col-f47433{color:#f47433 !important;}
+.col-3cb391{color:#3cb391 !important;}
+.col-ff6a29{color:#ff6a29 !important;}
+
+
+
 /*背景颜色*/
 .bg-gray3{background-color: #333 !important;}
 .bg-gray6{background-color: #666 !important;}
@@ -325,6 +330,14 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
   height: .21rem;
   vertical-align: middle;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAVCAMAAABIbI/BAAAATlBMVEUAAAD/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X9/xvDAAAAGXRSTlMA+Wk3JBb16tu/k4ZOC9LIsaR3BvLoyrdbIG6CbQAAAFhJREFUCNdljkcOwDAIBN3txCW98P+P5uKFSOY0QjC7qmWFmcgAfdIF7GKwYBuiAxedPNjQUsGZVlZuNAOPn97RKdtdbsUweCVNOvhL92a10dtfHhaqm8M/cYMDgVCzHHIAAAAASUVORK5CYII=) no-repeat 50% 50%;
+  background-size:contain;
+}
+.ico-arrow-d{/*向下白色箭头10*21*/
+  display: inline-block;
+  width: .18rem;
+  height: .09rem;
+  vertical-align: middle;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAJCAMAAAAIAYw9AAAAbFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8+T+BWAAAAI3RSTlMA+ez89fLo4dzW0cnDfltSSUE0KSMcErGqlI1qZjkuGBcLCe7UKMgAAABgSURBVAjXVcxHDsAgDETRgfReKOnV979jhEgEeZux/sLIxxuea8gwUald0QXNQEW5+orKqDK7BImwRSTBaq+G8d7sxsMGry6KWqANeee+9jGraxbv8MiUKJX4OYryhPUAiuIEJnMwE+AAAAAASUVORK5CYII=) no-repeat 50% 50%;
   background-size:contain;
 }
 .ico-tab-sy{/*灰色首页*/
@@ -697,7 +710,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
             .pos-rela;
             &.choosed{
               background-color: #fff0e9;
-              color: #ff6a29;
+              .col-ff6a29;
               &::after{
                 content: '';
                 display:inline-block;
@@ -1520,7 +1533,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
   &.state-sfrz{//身份认证
     .border-radius(.2rem);
     border:1px solid #3cb391;
-    color:#3cb391;
+    .col-3cb391;
     padding:0 .2rem;
     &.not{
       .bg-f3;
@@ -2418,7 +2431,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
       }
       .economy{
         background:#fff3ee;
-        color:#ff6a29;
+        .col-ff6a29;
         .border-radius(.2rem);
         line-height:.42rem;
         padding:0 .2rem;
@@ -3042,13 +3055,17 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
         border-bottom:1px solid #cedbe5;
         .display-flex;
         padding:0 0 .3rem 0;
-        span{
+        .name{
           font-size:14px;
           .flex-number(3);
           .ellip;
           .col-base;
         }
-        a{
+        span{
+          font-size:14px;
+          line-height:.4rem;
+        }
+        .link{
           .flex-number(1);
           display:block;
           .col-3daaef;
@@ -3067,6 +3084,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
               }
               .cont{
                 display:inline-block;
+                padding-left:.1rem;
               }
             }
           }
@@ -3096,7 +3114,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
             }
             &.gl{
               border-color:#ff6a29;
-              color:#ff6a29;
+              .col-ff6a29;
             }
             &.sc{
               border-color:#f4364c;
@@ -3104,6 +3122,103 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
             }
           }
         }
+      }
+    }
+  }
+}
+/*股权交易*/
+.top-filter{
+  margin:0 .3rem .3rem .3rem;
+  table{
+    width:6.9rem;
+    table-layout: fixed;
+    input{
+      outline:none;
+      display:block;
+      float:left;
+      background:transparent;
+      .col-white;
+      border:none;
+      font-size:14px;
+      &.faxiang{
+        max-width:1.3rem;
+        float: left;
+        text-align:left;
+      }
+      &.leixing{
+        max-width:1.5rem;
+        float: right;
+        padding-right: .15rem;
+        text-align:right;
+      }
+      &.fangshi{
+        max-width:1.5rem;
+        text-align:center;
+        margin-left: .3rem;
+      }
+    }
+    i{
+      margin-top:.15rem;
+      float:left;
+    }
+  }
+}
+.user-dealing{
+  .border-radius(.2rem);
+  .bg-white;
+  padding:.15rem .3rem .3rem .3rem;
+  table{
+    table-layout:fixed;
+    th{
+      font-weight:normal;
+      font-size:14px;
+      border-bottom:1px solid @base-border-color;
+      line-height:.75rem;
+    }
+    td{
+      font-size:12px;
+      line-height: .7rem;
+      a{
+        &.ellip{
+          display:block;
+        }
+      }
+      .cont{
+        .border-radius(.04rem);
+        .bg-f6;
+        padding:.1rem .25rem;
+        .cols{
+          line-height:.5rem;
+          .col-gray6;
+          .tit{
+            display:inline-block;
+          }
+          em{
+            &.text{
+              display:inline-block;
+            }
+            &.date{
+              margin-left: .2rem;
+              display:inline-block;
+              .col-gray9;
+            }
+          }
+          a{
+            &.text{
+              display:inline-block;
+              .col-base;
+              &.ing{
+                .col-ff6a29;
+              }
+            }
+          }
+        }
+      }
+      .line{
+        .w-all;
+        .bg-white;
+        height:.24rem;
+        border-bottom:1px solid @base-border-color;
       }
     }
   }
