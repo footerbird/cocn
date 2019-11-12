@@ -217,12 +217,21 @@
       })
       //全选
       $("#allSelect").on("click",function(){
-          $('#delBatch').removeClass('forbid');
+		  if(this.checked){
+			  $('#delBatch').removeClass('forbid');
+		  }else{
+			  $('#delBatch').addClass('forbid');
+		  }
           $(".weui-cells_checkbox .weui-check").not("#allSelect").prop("checked",this.checked);
       })
       $(".weui-cells_checkbox .weui-check").not("#allSelect").on("click",function(){
           $("#allSelect").prop("checked",$(".weui-cells_checkbox .weui-check").not("#allSelect").length == $(".weui-cells_checkbox .weui-check:checked").not("#allSelect").length);
-      })
+		  if($(".weui-cells_checkbox .weui-check:checked").not("#allSelect").length > 0){
+			  $('#delBatch').removeClass('forbid');
+		  }else{
+			  $('#delBatch').addClass('forbid');
+		  }
+	  })
     })
     </script>
     </body>
