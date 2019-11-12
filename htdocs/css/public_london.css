@@ -9998,13 +9998,13 @@ body.big {
 }
 .cocn-list2 .bd .box .top .abtn-a-kaitong {
   position: relative !important;
-  background-color: #13426b !important;
+  background-color: #f7f7f7 !important;
   float: right !important;
   font-size: 14px;
   line-height: 30px;
   height: 30px;
   padding: 0 14px;
-  color: #fff !important;
+  color: #13426b !important;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
