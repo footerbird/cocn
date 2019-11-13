@@ -6,7 +6,7 @@
 <body>
 <?php include_once('templete/pub_nav_a.php') ?>
 <div class="news-banner bg-white">
-  <a href="/page/company-index.php"><img src="/htdocs/images/banner/banner-news.jpg" width="1920" height="320" alt=""></a>
+  <a href="/page/company-index.php"><img src="/htdocs/images/banner/banner-news.png" width="1920" height="120" alt=""></a>
 </div>
 <div class="bg-white">
   <div class="container bg-white">
@@ -124,13 +124,13 @@
       </div>
       <div class="news-rt">
         <div class="news-rt-tg mb20">
-          <a href="/page/certify-web"><img src="/htdocs/images/news-r-gsrz.png" alt=""></a>
+          <a href="/page/certify-web"><img src="/htdocs/images/news-r-ktgw.png" alt=""></a>
         </div>
         <div class="news-rt-tg mb20">
-          <a href="/page/self-building"><img src="/htdocs/images/news-r-ktgw.png" alt=""></a>
+          <a href="/page/self-building"><img src="/htdocs/images/news-r-gqzr.png" alt=""></a>
         </div>
         <div class="news-rt-tg mb20">
-          <a href="/page/certify-person"><img src="/htdocs/images/news-r-tzrz.png" alt=""></a>
+          <a href="/page/certify-person"><img src="/htdocs/images/news-r-tzr.png" alt=""></a>
         </div>
         <div class="news-rt-box mb20">
           <div class="hd">最新版权交易</div>

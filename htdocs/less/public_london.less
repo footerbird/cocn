@@ -4662,9 +4662,32 @@ table{
   .trading-center2-left{
     float:left;
     width:956px;
-    padding:16px;
+    padding:0 16px 16px 16px;
     background:#fff;
     .inner-table{
+      .pos-rela;
+      &::after{
+        .pos-abso;
+        top:0;
+        left:-16px;
+        content:'';
+        height: 44px;
+        width:16px;
+        .bg-f2f6f8;
+        display:inline-block;
+      }
+      &::before{
+        .pos-abso;
+        top:0;
+        right:-16px;
+        content:'';
+        height: 44px;
+        width:16px;
+        .bg-f2f6f8;
+        display:inline-block;
+      }
+      border-left:none;
+      border-right:none;
       tbody{
         td{
           padding:11px;
@@ -5074,7 +5097,7 @@ table{
   width:100%;
   min-width:1200px;
   overflow:hidden;
-  height:320px;
+  height:120px;
   .pos-rela;
   a{
     display: block;

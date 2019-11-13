@@ -8238,8 +8238,33 @@ table.inner-table tbody tr {
 .trading-center .trading-center2-left {
   float: left;
   width: 956px;
-  padding: 16px;
+  padding: 0 16px 16px 16px;
   background: #fff;
+}
+.trading-center .trading-center2-left .inner-table {
+  position: relative !important;
+  border-left: none;
+  border-right: none;
+}
+.trading-center .trading-center2-left .inner-table::after {
+  position: absolute !important;
+  top: 0;
+  left: -16px;
+  content: '';
+  height: 44px;
+  width: 16px;
+  background-color: #f2f6f8 !important;
+  display: inline-block;
+}
+.trading-center .trading-center2-left .inner-table::before {
+  position: absolute !important;
+  top: 0;
+  right: -16px;
+  content: '';
+  height: 44px;
+  width: 16px;
+  background-color: #f2f6f8 !important;
+  display: inline-block;
 }
 .trading-center .trading-center2-left .inner-table tbody td {
   padding: 11px;
@@ -8635,7 +8660,7 @@ table.inner-table tbody tr {
   width: 100%;
   min-width: 1200px;
   overflow: hidden;
-  height: 320px;
+  height: 120px;
   position: relative !important;
 }
 .news-banner a {

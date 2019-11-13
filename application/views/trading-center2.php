@@ -12,82 +12,58 @@
         <table width="100%" class="inner-table mb20">
           <thead>
             <tr>
-              <th width="10%">编号</th>
-              <th width="20%">名称</th>
-              <th width="10%">交易比例</th>
-              <th width="10%">最新价</th>
-              <th width="10%">投资方式</th>
-              <th width="10%">交易类型</th>
-              <th width="10%">注册资本</th>
-              <th width="10%">市场流通</th>
-              <th width="10%">有效期</th>
+              <th width="10%">公司代码</th>
+              <th width="34%" align="left">公司全称</th>
+              <th width="18%">转让比例</th>
+              <th width="18%">投资方式</th>
+              <th width="20%">地区</th>
             </tr>
           </thead>
           <tbody>
             <tr align="center">
-              <td>7823457875</td>
-              <td>
-                <a href="/page/trading-pages" class="col-default">杭州名商网络</a>
+              <td>123456</td>
+              <td align="left">
+                <a href="/page/trading-pages" class="col-default">杭州名商网络杭州名商网络杭州名商网络</a>
               </td>
               <td>0.08%</td>
-              <td>130万</td>
               <td>股权转让</td>
-              <td>一口价</td>
-              <td>500万</td>
-              <td>80%</td>
-              <td>2019-09-09</td>
+              <td>浙江省 杭州市</td>
             </tr>
             <tr align="center">
-              <td>7823457875</td>
-              <td>
-                <a href="/page/trading-pages-paimai" class="col-default">杭州商网络杭州商网络杭州商网络杭州商网络杭州商网络</a>
+              <td>123456</td>
+              <td align="left">
+                <a href="/page/trading-pages-paimai" class="col-default">杭州商网络杭州商网络杭州商网络杭州商网络杭州商网络杭州商网络杭州商</a>
               </td>
               <td>0.08%</td>
-              <td>130万</td>
               <td>股权转让</td>
-              <td>拍卖</td>
-              <td>500万</td>
-              <td>80%</td>
-              <td>2019-09-09</td>
+              <td>浙江省 杭州市</td>
             </tr>
             <tr align="center">
-              <td>7823457875</td>
-              <td>
+              <td>123456</td>
+              <td align="left">
                 <a href="/page/trading-pages-yijia" class="col-default">杭州商网</a>
               </td>
               <td>0.08%</td>
-              <td>130万</td>
               <td>股权转让</td>
-              <td>投资人出价</td>
-              <td>500万</td>
-              <td>80%</td>
-              <td>2019-09-09</td>
+              <td>浙江省 杭州市</td>
             </tr>
             <tr align="center">
-              <td>7823457875</td>
-              <td>
+              <td>123456</td>
+              <td align="left">
                 <a href="/page/trading-pages-zengzi" class="col-default">杭州商网</a>
               </td>
               <td>0.08%</td>
-              <td>130万</td>
               <td>增资扩股</td>
-              <td>一口价</td>
-              <td>500万</td>
-              <td>80%</td>
-              <td>2019-09-09</td>
+              <td>浙江省 杭州市</td>
             </tr>
             <tr align="center">
-              <td>7823457875</td>
-              <td>
+              <td>123456</td>
+              <td align="left">
                 <a href="/page/trading-pages-zhuanrang" class="col-default">杭州商网</a>
               </td>
               <td>0.08%</td>
-              <td>130万</td>
               <td>公司转让</td>
-              <td>一口价</td>
-              <td>500万</td>
-              <td>80%</td>
-              <td>2019-09-09</td>
+              <td>浙江省 杭州市</td>
             </tr>
           </tbody>
         </table>
