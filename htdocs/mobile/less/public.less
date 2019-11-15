@@ -1197,6 +1197,19 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
   text-align:center;
   border:1px solid #3daaef;
 }
+.add-btn{
+  display:inline-block;
+  margin:0 .3rem;
+  width:6.9rem;
+  font-size:14px;
+  .col-3daaef;
+  .border-radius(.1rem);
+  line-height:.4rem;
+  padding:.2rem 0;
+  height: .8rem;
+  .ta-c;
+  border:1px solid #3daaef;
+}
 /*上传*/
 .weui-uploader__files{
   &.identity{
@@ -2930,19 +2943,6 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
       }
     }
     }
-    .add-btn{
-      display:inline-block;
-      margin:0 .3rem;
-      width:6.9rem;
-      font-size:14px;
-      .col-3daaef;
-      .border-radius(.1rem);
-      line-height:.4rem;
-      padding:.2rem 0;
-      height: .8rem;
-      .ta-c;
-      border:1px solid #3daaef;
-    }
     .company-box{
       .hd{
         .pos-rela;
@@ -2955,15 +2955,14 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
         }
         .cancel-btn{
           .pos-abso;
-          bottom: -.48rem;
+          bottom: -.4rem;
           right: 0;
           font-size:12px;
           display:inline-block;
-          line-height:.48rem;
-          .border-radius(.24rem);
-          padding:0 .2rem;
           .col-f4364c;
-          border: 1px solid @base-color2;
+          padding-left:.3rem;
+          background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAWCAMAAAAcqPc3AAAAhFBMVEUAAAD/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0X/A0W6ThchAAAAK3RSTlMA5CPp1PappZUK5pl4Tzw0HBcRBvjw3c2xoIqEcynsxJBvSC3Yvn9pU0UF0Z0R+AAAAM1JREFUKM9t0EeywjAQBNCxFR1xzsQfoe9/P2SjEmDcC03rVY0WIpOdPCBUu6WFYNK0OSNCHUcME8VgOtYMvzOfEQVmBD069EuLcCbKqp4e6SBtU1VGgyjsLVe5bYUYiSv6jGypmjY8FoS/DZ9AbNjwU0iSb/i3ogSXtRpLiDi/rbjkrTlTjCsfkM5D4/rGF5yWGbT1/oW/6mNpP6DxfMe+1+Sus8Z37Pkvu8x7PLW3/Nw+pGaktWWXjIuE/gXPaJXiiA4/BX2kjIQu3e0OuswMSAyozlIAAAAASUVORK5CYII=) no-repeat 0 50%;
+          background-size:16%;
         }
       }
       .bd{
@@ -2972,11 +2971,11 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
           &.info{
             .display-flex;
             line-height:.43rem;
+            font-size:14px;
             dt{
               .col-gray9;
-              font-size:12px;
               .ta-r;
-              .flex-number(1);
+              .flex-number(1.5);
             }
             dd{
               .flex-number(3);
@@ -3054,16 +3053,20 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
       .hd{
         border-bottom:1px solid #cedbe5;
         .display-flex;
-        padding:0 0 .3rem 0;
+        padding:0 0 .2rem 0;
         .name{
-          font-size:14px;
+          font-size:16px;
           .flex-number(3);
           .ellip;
-          .col-base;
+          color:@base-color;
+
         }
         span{
-          font-size:14px;
-          line-height:.4rem;
+          font-size:16px;
+          line-height:.44rem;
+          &.name{
+            .col-gray3;
+          }
         }
         .link{
           .flex-number(1);
@@ -3072,19 +3075,32 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
           line-height: .44rem;
           .ta-r;
         }
+        .cancel{
+          .flex-number(1);
+          display:block;
+          .col-3daaef;
+          line-height: .44rem;
+          .ta-r;
+          font-size:12px;
+          padding-left:.2rem;
+          background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAXCAMAAAA4Nk+sAAAAP1BMVEUAAAAArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfUArfW0Q5l7AAAAFHRSTlMAYA9QB/ZFE1zlvZRj+vBbS0o7HJN2POYAAABkSURBVCjP5c5JCsAgDEDRpM5D59z/rNUaJII9Qd9C4hdFaCwxC9Li8eU1B4UTJwSaCPBtGbeOXzd13V0Jvgx6bb9BqjcI+6T+lrU5ANQ25tp5EdmBcHO2FDN2OdLVzpMhwaSSHjCTCRge/VYHAAAAAElFTkSuQmCC) no-repeat 20% 50%;
+          background-size:16%;
+        }
       }
       .bd{
-        padding:.4rem 0 .2rem 0;
+        padding:.3rem 0 .1rem 0;
         table{
           tr{
             td{
               .tit{
                 .col-gray9;
                 display:inline-block;
+                text-align:right;
+                min-width:1.3rem;
               }
               .cont{
                 display:inline-block;
-                padding-left:.1rem;
+                padding-left:.05rem;
               }
             }
           }

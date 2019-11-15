@@ -23,33 +23,33 @@
                   <span class="">名商网络有限名商网络有限公司名商网络有限名商网络有限公司</span>
                 </div>
                 <div class="bd">
-                  <table width="100%">
+                  <table width="100%" class="f14 lh24">
                     <tbody>
                       <tr>
-                        <td align="right" width="21%">
+                        <td align="right" width="25%">
                           <div class="tit ta-r">公司名称:</div></td>
-                        <td align="left" width="30%">
+                        <td align="left" width="25%">
                           <div class="cont">5.5%</div></td>
-                        <td align="right" width="19%">
+                        <td align="right" width="22%">
                           <div class="tit ta-r">注册资本:</div></td>
-                        <td align="left" width="30%">
-                          <div class="cont">1000万人民币</div></td>
+                        <td align="left" width="28%">
+                          <div class="cont">1000万RMB</div></td>
                       </tr>
                       <tr>
-                        <td align="right" width="21%">
+                        <td align="right" width="25%">
                           <div class="tit ta-r">法定代表人:</div></td>
-                        <td align="left" width="30%">
+                        <td align="left" width="25%">
                           <div class="cont">5.5%</div></td>
-                        <td align="right" width="19%">
+                        <td align="right" width="22%">
                           <div class="tit ta-r">在售比例:</div></td>
-                        <td align="left" width="30%">
+                        <td align="left" width="28%">
                           <div class="cont">19%</div></td>
                       </tr>
                       <tr>
-                        <td align="right" width="21%"><div class="tit ta-r">注册日期:</div></td>
-                        <td align="left" width="30%"><div class="cont">2019年11月12日</div></td>
-                        <td align="right" width="19%"><div class="tit ta-r">发售日期:</div></td>
-                        <td align="left" width="30%"><div class="cont">2019年11月12日</div></td>
+                        <td align="right" width="25%"><div class="tit ta-r">注册日期:</div></td>
+                        <td align="left" width="25%"><div class="cont">2019-11-12</div></td>
+                        <td align="right" width="22%"><div class="tit ta-r">发售日期:</div></td>
+                        <td align="left" width="28%"><div class="cont">2019-11-12</div></td>
                       </tr>
                     </tbody>
                   </table>
@@ -61,7 +61,7 @@
             <table class="" width="100%">
               <thead>
                 <tr>
-                  <th align="left" width="28%">股权比例</th>
+                  <th align="left" width="24%">股权比例</th>
                   <th align="center" width="24%">交易方向</th>
                   <th align="center" width="24%">交易类型</th>
                   <th align="right" width="24%">股权状态</th>

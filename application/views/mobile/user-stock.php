@@ -29,7 +29,7 @@
                   <a href="/mobile/user-stock-history.php" class="link">资产流通记录</a>
                 </div>
                 <div class="bd">
-                  <table width="100%">
+                  <table width="100%" class="f14">
                     <tbody>
                       <tr>
                         <td colspan="2">
@@ -42,7 +42,7 @@
                         </td>
                       </tr>
                       <tr>
-                        <td  width="65%">
+                        <td  width="60%">
                           <div class="tit">
                             持有总量:
                           </div>
@@ -50,7 +50,7 @@
                             100%
                           </div>
                         </td>
-                        <td  width="35%">
+                        <td  width="40%">
                           <div class="tit">
                             可用份额:
                           </div>
@@ -111,7 +111,7 @@
                   <a href="/mobile/user-stock-history.php" class="link">资产流通记录</a>
                 </div>
                 <div class="bd">
-                  <table width="100%">
+                  <table width="100%" class="f14">
                     <tbody>
                       <tr>
                         <td colspan="2">
@@ -124,7 +124,7 @@
                         </td>
                       </tr>
                       <tr>
-                        <td  width="65%">
+                        <td  width="60%">
                           <div class="tit">
                             持有总量:
                           </div>
@@ -132,7 +132,7 @@
                             100%
                           </div>
                         </td>
-                        <td  width="35%">
+                        <td  width="40%">
                           <div class="tit">
                             可用份额:
                           </div>
@@ -193,7 +193,7 @@
                   <a href="/mobile/user-stock-history.php" class="link">资产流通记录</a>
                 </div>
                 <div class="bd">
-                  <table width="100%">
+                  <table width="100%" class="f14">
                     <tbody>
                       <tr>
                         <td colspan="2">
@@ -206,7 +206,7 @@
                         </td>
                       </tr>
                       <tr>
-                        <td  width="65%">
+                        <td  width="60%">
                           <div class="tit">
                             持有总量:
                           </div>
@@ -214,7 +214,7 @@
                             100%
                           </div>
                         </td>
-                        <td  width="35%">
+                        <td  width="40%">
                           <div class="tit">
                             可用份额:
                           </div>
