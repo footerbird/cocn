@@ -131,7 +131,7 @@
               <li>
                 <div class="hd">
                   <span class="name">名商网络有限名商网络有限公司名商网络有限名商网络有限公司</span>
-                  <a href="/mobile/user-stock-history.php" class="cancel">取消分配</a>
+                  <a href="/mobile/user-stock-manage-allot.php" class="cancel">取消分配</a>
                 </div>
                 <div class="bd">
                   <table width="100%" class="lh24">
