@@ -24,17 +24,14 @@
             <table width="100%">
               <tbody>
                 <tr>
-                  <td>
-                    <input type="text" name="" value="交易方向" id="faxiang"  class="faxiang">
-                    <i class="ico-arrow-d"></i>
+                  <td width="38%">
+                    <input class="fangxiang" type="text" value="交易方向" name="fangxiang" id="faxiang">
                   </td>
-                  <td align="center">
-                    <input type="text" name="" value="交易方式" id="fangshi" class="fangshi">
-                    <i class="ico-arrow-d"></i>
+                  <td width="37%">
+                      <input class="fangshi" type="text" value="交易方式" name="fangshi" id="fangshi">
                   </td>
-                  <td align="right">
-                    <i class="ico-arrow-d fl-r"></i>
-                    <input type="text" name="" value="交易类型" id="leixing" class="leixing">
+                  <td width="25%">
+                    <input class="leixing" type="text" value="交易类型" name="leixing" id="leixing">
                   </td>
                 </tr>
               </tbody>
@@ -182,23 +179,34 @@
       });
 
       //筛选
-      $("#faxiang").select({
-          title:'交易方向',
-          items:['买入','卖出','全部']
+      $("#faxiang").picker({
+    	  toolbarTemplate:'<div class="toolbar"><div class="toolbar-inner"><h1 class="title">选择交易方向</h1><a href="javascript:;" class="picker-button close-picker">完成</a></div></div>',
+    	  cols: [
+    	    {
+    	      textAlign: 'center',
+    	      values: ['买入','卖出','全部']
+          }
+        ]
+    	});
+      $("#leixing").picker({
+    	  toolbarTemplate:'<div class="toolbar"><div class="toolbar-inner"><h1 class="title">选择交易类型</h1><a href="javascript:;" class="picker-button close-picker">完成</a></div></div>',
+    	  cols: [
+    	    {
+    	      textAlign: 'center',
+    	      values:['股权转让','增资配股','公司转让','全部类型']
+          }
+        ]
+    	});
+      $("#fangshi").picker({
+    	  toolbarTemplate:'<div class="toolbar"><div class="toolbar-inner"><h1 class="title">选择交易方式</h1><a href="javascript:;" class="picker-button close-picker">完成</a></div></div>',
+    	  cols: [
+    	    {
+    	      textAlign: 'center',
+    	      values:['标价','拍卖','全部方式']
+          }
+        ]
       });
-      //
-      $("#leixing").select({
-          title:'交易类型',
-          items:['股权转让','增资配股','公司转让','全部']
-      });
-      //
-      $("#fangshi").select({
-          title:'交易方式',
-          items:['标价','拍卖','全部']
-      });
-
-
-      })
+    })
     </script>
     </body>
 </html>

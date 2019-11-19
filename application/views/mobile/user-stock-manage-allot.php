@@ -86,7 +86,7 @@
                         <p>证件号码</p>
                       </div>
                       <div class="weui-cell__ft">
-                        <input type="text" name="" value="" placeholder="请输入证件号码"> 
+                        <input type="text" name="" value="" placeholder="请输入证件号码">
                       </div>
                     </div>
                     <div class="weui-cell">
@@ -116,7 +116,7 @@
     <script type="text/javascript">
     $(function () {
       $("#id_number").picker({
-    	  toolbarTemplate:'<div class="toolbar"><div class="toolbar-inner"><a href="javascript:;" class="picker-button-close close-picker">取消</a><h1 class="title">选择证件类型</h1><a href="javascript:;" class="picker-button close-picker">完成</a></div></div>',
+    	  toolbarTemplate:'<div class="toolbar"><div class="toolbar-inner"><h1 class="title">选择证件类型</h1><a href="javascript:;" class="picker-button close-picker">完成</a></div></div>',
     	  cols: [
     	    {
     	      textAlign: 'center',

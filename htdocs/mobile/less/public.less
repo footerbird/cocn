@@ -1096,7 +1096,7 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
     height:.88rem;
     .toolbar-inner{
       height:.88rem;
-      .close-picker{
+      .close-picker,.close-select{
         line-height:.88rem;
         height:.88rem;
         padding:0 .3rem;
@@ -1113,6 +1113,25 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
         height:.88rem;
         line-height:.88rem;
       }
+      .picker-calendar-year-picker,.picker-calendar-month-picker{
+        height:.88rem;
+        line-height:.88rem;
+        .icon-only{
+          height:.88rem;
+          line-height:.88rem;
+          .icon-next,.icon-prev{
+            height:.88rem;
+            padding:0 .15rem;
+            background-size:34%;
+            background-position:50% 40%;
+          }
+        }
+        .current-year-value,.current-month-value{
+          height:.88rem;
+          line-height:.88rem;
+          font-size:14px;
+        }
+      }
     }
   }
   .picker-items{
@@ -1121,6 +1140,23 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
   }
   .picker-modal-inner{
     height:4.28rem;
+    .picker-calendar-week-days{
+      height: .44rem;
+      line-height: .44rem;
+      font-size:12px;
+    }
+    .picker-calendar-months{
+      .picker-calendar-month{
+        .picker-calendar-row{
+          height:calc(100% / 18);
+          .picker-calendar-day-selected{
+            span{
+              background:@base-color;
+            }
+          }
+        }
+      }
+    }
   }
   .picker-selected{
     .col-base;
@@ -3202,30 +3238,14 @@ table{ border-collapse:collapse;border-spacing: 0;}/* 表格边线及内间距 *
       outline:none;
       display:block;
       float:left;
+      max-width:1.5rem;
       background:transparent;
       .col-white;
       border:none;
       font-size:14px;
-      &.faxiang{
-        max-width:1.3rem;
-        float: left;
-        text-align:left;
-      }
-      &.leixing{
-        max-width:1.5rem;
-        float: right;
-        padding-right: .15rem;
-        text-align:right;
-      }
-      &.fangshi{
-        max-width:1.5rem;
-        text-align:center;
-        margin-left: .3rem;
-      }
-    }
-    i{
-      margin-top:.15rem;
-      float:left;
+      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAJCAMAAAAIAYw9AAAAbFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8+T+BWAAAAI3RSTlMA+ez89fLo4dzW0cnDfltSSUE0KSMcErGqlI1qZjkuGBcLCe7UKMgAAABgSURBVAjXVcxHDsAgDETRgfReKOnV979jhEgEeZux/sLIxxuea8gwUald0QXNQEW5+orKqDK7BImwRSTBaq+G8d7sxsMGry6KWqANeee+9jGraxbv8MiUKJX4OYryhPUAiuIEJnMwE+AAAAAASUVORK5CYII=) no-repeat 100% 50%;
+      background-size:15%;
+      text-align:left;
     }
   }
 }

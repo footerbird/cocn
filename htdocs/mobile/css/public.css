@@ -3176,16 +3176,19 @@ table {
 .weui-picker-modal .toolbar .toolbar-inner {
   height: .88rem;
 }
-.weui-picker-modal .toolbar .toolbar-inner .close-picker {
+.weui-picker-modal .toolbar .toolbar-inner .close-picker,
+.weui-picker-modal .toolbar .toolbar-inner .close-select {
   line-height: .88rem;
   height: .88rem;
   padding: 0 .3rem;
   font-size: 14px;
 }
-.weui-picker-modal .toolbar .toolbar-inner .close-picker.picker-button-close {
+.weui-picker-modal .toolbar .toolbar-inner .close-picker.picker-button-close,
+.weui-picker-modal .toolbar .toolbar-inner .close-select.picker-button-close {
   color: #999;
 }
-.weui-picker-modal .toolbar .toolbar-inner .close-picker.picker-button {
+.weui-picker-modal .toolbar .toolbar-inner .close-picker.picker-button,
+.weui-picker-modal .toolbar .toolbar-inner .close-select.picker-button {
   color: #13426b !important;
 }
 .weui-picker-modal .toolbar .toolbar-inner .title {
@@ -3193,12 +3196,50 @@ table {
   height: .88rem;
   line-height: .88rem;
 }
+.weui-picker-modal .toolbar .toolbar-inner .picker-calendar-year-picker,
+.weui-picker-modal .toolbar .toolbar-inner .picker-calendar-month-picker {
+  height: .88rem;
+  line-height: .88rem;
+}
+.weui-picker-modal .toolbar .toolbar-inner .picker-calendar-year-picker .icon-only,
+.weui-picker-modal .toolbar .toolbar-inner .picker-calendar-month-picker .icon-only {
+  height: .88rem;
+  line-height: .88rem;
+}
+.weui-picker-modal .toolbar .toolbar-inner .picker-calendar-year-picker .icon-only .icon-next,
+.weui-picker-modal .toolbar .toolbar-inner .picker-calendar-month-picker .icon-only .icon-next,
+.weui-picker-modal .toolbar .toolbar-inner .picker-calendar-year-picker .icon-only .icon-prev,
+.weui-picker-modal .toolbar .toolbar-inner .picker-calendar-month-picker .icon-only .icon-prev {
+  height: .88rem;
+  padding: 0 .15rem;
+  background-size: 34%;
+  background-position: 50% 40%;
+}
+.weui-picker-modal .toolbar .toolbar-inner .picker-calendar-year-picker .current-year-value,
+.weui-picker-modal .toolbar .toolbar-inner .picker-calendar-month-picker .current-year-value,
+.weui-picker-modal .toolbar .toolbar-inner .picker-calendar-year-picker .current-month-value,
+.weui-picker-modal .toolbar .toolbar-inner .picker-calendar-month-picker .current-month-value {
+  height: .88rem;
+  line-height: .88rem;
+  font-size: 14px;
+}
 .weui-picker-modal .picker-items {
   font-size: 16px;
   touch-action: none;
 }
 .weui-picker-modal .picker-modal-inner {
   height: 4.28rem;
+}
+.weui-picker-modal .picker-modal-inner .picker-calendar-week-days {
+  height: .44rem;
+  line-height: .44rem;
+  font-size: 12px;
+}
+.weui-picker-modal .picker-modal-inner .picker-calendar-months .picker-calendar-month .picker-calendar-row {
+  height: calc(5.55555556%);
+}
+.weui-picker-modal .picker-modal-inner .picker-calendar-months .picker-calendar-month .picker-calendar-row .picker-calendar-day-selected span {
+  background: #13426b;
 }
 .weui-picker-modal .picker-selected {
   color: #13426b !important;
@@ -5444,30 +5485,14 @@ table {
   outline: none;
   display: block;
   float: left;
+  max-width: 1.5rem;
   background: transparent;
   color: #fff !important;
   border: none;
   font-size: 14px;
-}
-.top-filter table input.faxiang {
-  max-width: 1.3rem;
-  float: left;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAJCAMAAAAIAYw9AAAAbFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8+T+BWAAAAI3RSTlMA+ez89fLo4dzW0cnDfltSSUE0KSMcErGqlI1qZjkuGBcLCe7UKMgAAABgSURBVAjXVcxHDsAgDETRgfReKOnV979jhEgEeZux/sLIxxuea8gwUald0QXNQEW5+orKqDK7BImwRSTBaq+G8d7sxsMGry6KWqANeee+9jGraxbv8MiUKJX4OYryhPUAiuIEJnMwE+AAAAAASUVORK5CYII=) no-repeat 100% 50%;
+  background-size: 15%;
   text-align: left;
-}
-.top-filter table input.leixing {
-  max-width: 1.5rem;
-  float: right;
-  padding-right: .15rem;
-  text-align: right;
-}
-.top-filter table input.fangshi {
-  max-width: 1.5rem;
-  text-align: center;
-  margin-left: .3rem;
-}
-.top-filter table i {
-  margin-top: .15rem;
-  float: left;
 }
 .user-dealing {
   -webkit-border-radius: 0.2rem;
