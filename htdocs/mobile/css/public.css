@@ -3271,6 +3271,9 @@ table {
 .weui-picker-modal .picker-selected {
   color: #13426b !important;
 }
+.weui-dialog__btn {
+  color: #13426b;
+}
 /*实线*/
 .line {
   width: 100%;

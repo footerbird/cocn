@@ -100,6 +100,18 @@
         $(".ico-back-top").on("click",function(){//go top
         	$(".container").animate({scrollTop:0},500)
         });
+        $.modal({
+          title:'提示',
+          text:'进入账户资料，设置收款账户',
+          buttons: [
+              { text: "设置" , onClick: function(){
+                  window.location.href="/mobile/user-account-set.php";
+              } },
+              { text: "取消" , onClick: function(){
+
+              } }
+          ]
+        });
         //筛选
         $("#faxing").picker({
       	  toolbarTemplate:'<div class="toolbar"><div class="toolbar-inner"><h1 class="title">选择股权发行方式</h1><a href="javascript:;" class="picker-button close-picker">完成</a></div></div>',
@@ -109,38 +121,38 @@
       	      values: ['股权转让','增资扩股','公司转让']
             }
           ],
-		  onChange:function(p,v,dv){
-			  if(v == '增资扩股'){
-				  $('#jiaoyi').val('一口价').attr("disabled","disabled");
-				  $('#go_publish').attr('href','/mobile/user-stock-kuogu.php');
-			  }else{
-				  $('#jiaoyi').removeAttr('disabled');
-				  $("#jiaoyi").picker({
-				    toolbarTemplate:'<div class="toolbar"><div class="toolbar-inner"><h1 class="title">选择股权交易方式</h1><a href="javascript:;" class="picker-button close-picker">完成</a></div></div>',
-				    cols: [
-				      {
-				        textAlign: 'center',
-				        values: ['一口价','投资人出价','拍卖']
-				      }
-				    ],
-					onChange:function(p,v,dv){
-						console.log(p,v,dv);
-						switch(v){
-						  case "一口价":
-						$('#go_publish').attr('href','/mobile/user-stock-yikoujia.php');
-						    break;
-						  case "投资人出价":
-						$('#go_publish').attr('href','/mobile/user-stock-chujia.php');
-						    break;
-						  case "拍卖":
-						  $('#go_publish').attr('href','/mobile/user-stock-paimai.php');
-						    break;
-						}
-					}
-				  });
-			  }
-		  }
-      	});
+           onChange:function(p,v,dv){
+             if(v == '增资扩股'){
+               $('#jiaoyi').val('一口价').attr("disabled","disabled");
+               $('#go_publish').attr('href','/mobile/user-stock-kuogu.php');
+             }else{
+               $('#jiaoyi').removeAttr('disabled');
+               $("#jiaoyi").picker({
+                 toolbarTemplate:'<div class="toolbar"><div class="toolbar-inner"><h1 class="title">选择股权交易方式</h1><a href="javascript:;" class="picker-button close-picker">完成</a></div></div>',
+                 cols: [
+                   {
+                     textAlign: 'center',
+                     values: ['一口价','投资人出价','拍卖']
+                   }
+                 ],
+               onChange:function(p,v,dv){
+                 console.log(p,v,dv);
+                 switch(v){
+                   case "一口价":
+                 $('#go_publish').attr('href','/mobile/user-stock-yikoujia.php');
+                     break;
+                   case "投资人出价":
+                 $('#go_publish').attr('href','/mobile/user-stock-chujia.php');
+                     break;
+                   case "拍卖":
+                   $('#go_publish').attr('href','/mobile/user-stock-paimai.php');
+                     break;
+                 }
+               }
+               });
+             }
+           }
+      });
 
         // $('#faxing').on('change',function (){
         //   var selectVal = $(this).val();
