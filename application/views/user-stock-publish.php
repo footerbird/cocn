@@ -92,7 +92,7 @@
       <p>
         <a href="#" class="f12 col-3daaef lh24">了解更多股权转让信息？</a>
       </p>
-      
+
       <!-- 显示一口价 -->
       <div class="block-stock-panel" id="block_yikoujia" style="display: none;">
         <div class="hr fl-l mb15 mt15"></div>
@@ -130,7 +130,7 @@
           </div>
         </div>
       </div>
-      
+
       <!-- 显示投资人出价 -->
       <div class="block-stock-panel" id="block_chujia" style="display: none;">
         <div class="hr fl-l mb15"></div>
@@ -168,7 +168,7 @@
           </div>
         </div>
       </div>
-      
+
       <!-- 显示拍卖 -->
       <div class="block-stock-panel" id="block_paimai" style="display: none;">
         <div class="hr fl-l mb15"></div>
@@ -216,7 +216,7 @@
           </div>
         </div>
       </div>
-      
+
       <!-- 显示增资扩股 -->
       <div class="block-stock-panel" id="block_kuogu" style="display: none;">
         <div class="hr fl-l mb15"></div>
@@ -253,7 +253,7 @@
           </div><div class="fl-l lh38 ml10 f12 col-gray9">单次投资最低股权比例</div>
         </div>
       </div>
-      
+
       <!-- 显示付款方式 -->
       <div id="block_payment" style="display: none;">
         <div class="hr fl-l mt25 mb20"></div>
@@ -285,7 +285,7 @@
           </p>
         </div>
       </div>
-      
+
       <div class="hr fl-l mt15 mb25"></div>
       <div class="fl-l w-all mb10">
         <label class=""><input type="checkbox" name="yuedu" value="yuedu" id=""><i></i><font>我已了解<a href="/page/about-trading-rule" target="_blank" class="col-3daaef">《股权交易规则》</a></font>并同意发布股权交易</label>
@@ -323,7 +323,7 @@ $(function(){
   $("#date").calendar({
     readonly : false
   });
-  
+
   $('#fxfs').on('change',function () {
     $(".block-stock-panel").hide();
     $("#block_payment").hide();
@@ -348,7 +348,7 @@ $(function(){
             break;
     }
   })
-  
+
   $('#jyfs').on('change',function () {
     $(".block-stock-panel").hide();
     $("#block_payment").hide();
@@ -375,9 +375,9 @@ $(function(){
             break;
     }
   })
-  
+
   Pop.open('alert_noaccount');
-  
+
 })
 </script>
 </body>

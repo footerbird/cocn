@@ -2348,12 +2348,21 @@ table {
   background-size: contain;
 }
 .ico-arrow-d {
-  /*向下白色箭头10*21*/
+  /*向下白色箭头18*9*/
   display: inline-block;
   width: .18rem;
   height: .09rem;
   vertical-align: middle;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAJCAMAAAAIAYw9AAAAbFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8+T+BWAAAAI3RSTlMA+ez89fLo4dzW0cnDfltSSUE0KSMcErGqlI1qZjkuGBcLCe7UKMgAAABgSURBVAjXVcxHDsAgDETRgfReKOnV979jhEgEeZux/sLIxxuea8gwUald0QXNQEW5+orKqDK7BImwRSTBaq+G8d7sxsMGry6KWqANeee+9jGraxbv8MiUKJX4OYryhPUAiuIEJnMwE+AAAAAASUVORK5CYII=) no-repeat 50% 50%;
+  background-size: contain;
+}
+.ico-arrow-d2 {
+  /*向下灰色箭头21*10*/
+  display: inline-block;
+  width: .21rem;
+  height: .1rem;
+  vertical-align: middle;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAKCAMAAABsSeXqAAAAXVBMVEUAAACZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmIF5V4AAAAHnRSTlMABvbx6L5uIdnSyLCmkYp0VEo7MyYWEQrezLeVhGU9dz7PAAAAYUlEQVQI113IRQ7AMAADQYfLzOD/P7MqKEo6F1uL1EyITduKiolDyKUsAUvdB7HXrO9tpGx9bJVs8Og0LV4nVYfPkLDC7eAywBszFgKiYDYiMOc0zjCfERElyV3gz6ra/wsLfQSnK0DoFAAAAABJRU5ErkJggg==) no-repeat 50% 50%;
   background-size: contain;
 }
 .ico-tab-sy {
@@ -2544,6 +2553,24 @@ table {
   vertical-align: middle;
   background: url(/htdocs/mobile/images/alert-ico-succ.png) no-repeat 50% 50%;
   background-size: contain;
+}
+.ico-alert-ing {
+  /*提交*/
+  display: block;
+  width: 1.14rem;
+  height: 1.14rem;
+  vertical-align: middle;
+  background: url(/htdocs/mobile/images/alert-ico-ing.png) no-repeat 50% 50%;
+  background-size: contain;
+}
+.ico-turn {
+  /*恒等于*/
+  display: inline-block;
+  width: .22rem;
+  height: .22rem;
+  vertical-align: middle;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALBAMAAABbgmoVAAAAJFBMVEUAAADUQUbUQUbUQUbUQUbUQUbUQUbUQUbUQUbUQUbUQUbUQUYi0WZCAAAADHRSTlMAcFHOad+/k0o8HxDBQPHyAAAANklEQVQI12MAAksGMFisAKa4ExkYmpSUlFQLGBwFgcCBAQJgvFIlIGhgYMyGiCovAFOcBkACABqoB1WE32SMAAAAAElFTkSuQmCC) no-repeat 50% 50%;
+  background-size: cover;
 }
 .ico- {
   /**/
@@ -4841,7 +4868,7 @@ table {
 .trading-pages-box {
   min-width: 3.5rem;
   margin: 0 .3rem;
-  padding: .4rem;
+  padding: .3rem .4rem .4rem .4rem;
   -webkit-border-radius: 0.2rem;
   -moz-border-radius: 0.2rem;
   border-radius: 0.2rem;
@@ -4862,9 +4889,12 @@ table {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   flex: 1;
-  color: #13426b !important;
   line-height: .5rem;
   font-size: 16px;
+}
+.trading-pages-box .hd .name.publish {
+  border-bottom: 1px solid #d1dde6;
+  padding-bottom: .1rem;
 }
 .trading-pages-box .hd .action .btn {
   line-height: .48rem;
@@ -4934,25 +4964,100 @@ table {
 .trading-pages-box .bd .trade-input li.cont {
   border: 1px solid #d1dde6;
   line-height: .72rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.trading-pages-box .bd .trade-input li.cont label {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100% !important;
+}
+.trading-pages-box .bd .trade-input li.cont.time {
+  border: none;
+  display: block;
+}
+.trading-pages-box .bd .trade-input li.cont.time input {
+  border: 1px solid #d1dde6;
+  flex: none;
+  width: 2.4rem;
+  padding-left: .2rem;
+  line-height: .72rem;
+  height: .72rem;
+  outline: none;
+  display: inline-block;
+  margin-left: .02rem;
+  float: left;
+}
+.trading-pages-box .bd .trade-input li.cont.time input:first-child {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAMAAAAMs7fIAAAAV1BMVEUAAAAzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzNJt775AAAAHXRSTlMAq6RZoYZRS7qBBq+nk3heLigORSMfFcVyaD2eODU9JDsAAACPSURBVBjTbYzbDoMwDEPdJL0yaLmOsf3/dy7tC0PDkZL4SDaqem6H+3Ym5klyYeaSpRoEks16JyLO200oIAAIO6r29sPoXtdGlkWX0Rl9AT7eJ/0OPJQw0YiBJKEnC1JyVadkjnFFjjFhiK+Wmq1dkG0lVsl/6mx+n83FuQ2HcwnezTcpc0OeV6CeOvOrjr6xxwVfrXHkKgAAAABJRU5ErkJggg==) no-repeat 95% 50%;
+}
+.trading-pages-box .bd .trade-input li.cont.time span {
+  flex: none;
+  display: inline-block;
+  float: left;
+  width: 1.2rem;
+  text-align: center;
+  padding-right: 0;
+  line-height: .72rem;
+  letter-spacing: 0;
+}
+.trading-pages-box .bd .trade-input li.cont.turn {
+  border: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.trading-pages-box .bd .trade-input li.cont.turn .left {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+  flex: 3;
+  border: 1px solid #d1dde6;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.trading-pages-box .bd .trade-input li.cont.turn .left input {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+  flex: 2;
+  display: inline-block;
+}
+.trading-pages-box .bd .trade-input li.cont.turn .left span {
+  display: inline-block;
+}
+.trading-pages-box .bd .trade-input li.cont.turn .right {
+  padding-left: .1rem;
+  color: #f4364c !important;
+  text-align: right !important;
 }
 .trading-pages-box .bd .trade-input li.cont input {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+  flex: 3;
   padding-left: .2rem;
-  line-height: .7rem;
-  height: .7rem;
+  line-height: .72rem;
+  height: .72rem;
   border: none;
-  display: inline-block !important;
-  *display: inline !important;
-  *zoom: 1 !important;
+  outline: none;
+  display: block;
   margin-left: .02rem;
 }
 .trading-pages-box .bd .trade-input li.cont span {
-  float: right !important;
-  display: inline-block !important;
-  *display: inline !important;
-  *zoom: 1 !important;
-  text-align: right !important;
-  width: 1.4rem;
-  margin-right: .2rem;
+  text-align: right;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  padding-right: .2rem;
   line-height: .72rem;
   letter-spacing: .02rem;
 }
@@ -4999,6 +5104,9 @@ table {
 }
 .trading-pages-box .ft .tip p {
   line-height: .4rem;
+}
+.trading-pages-box .ft .tip table .tit {
+  color: #999;
 }
 .trading-pages-info {
   background-color: #fff !important;
@@ -5343,6 +5451,28 @@ table {
   -webkit-flex: 5;
   flex: 5;
   float: left !important;
+}
+.certify-box dl.info3 {
+  line-height: .44rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100% !important;
+  font-size: 14px;
+}
+.certify-box dl.info3 dt {
+  -webkit-box-flex: 4;
+  -webkit-flex: 4;
+  flex: 4;
+  text-align: right !important;
+  color: #999 !important;
+}
+.certify-box dl.info3 dd {
+  -webkit-box-flex: 7;
+  -webkit-flex: 7;
+  flex: 7;
 }
 .certify-box img.img {
   display: block;
