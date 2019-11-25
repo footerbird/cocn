@@ -3135,6 +3135,20 @@ textarea {
 .breadcrumbs span {
   color: #666 !important;
 }
+.layer {
+  width: 100%;
+  min-width: 1200px;
+  overflow: hidden;
+  height: 365px;
+  position: relative;
+}
+.layer img {
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -960px;
+  height: 365px;
+}
 .products ul {
   width: 100%;
   padding-bottom: 50px;
@@ -3610,6 +3624,10 @@ textarea {
   .pub-title {
     text-align: center !important;
   }
+  .layer {
+    width: 100%;
+    min-width: 100%;
+  }
   .products ul li {
     margin-right: 16px;
     width: 170px;
@@ -3940,6 +3958,7 @@ textarea {
   .layer {
     margin-top: 60px;
     width: 100%;
+    min-width: 100%;
   }
   .products {
     padding-bottom: 50px;

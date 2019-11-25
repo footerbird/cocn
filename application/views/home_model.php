@@ -31,7 +31,7 @@
 </div>
 <div class="bgblack" id="bgblack"></div>
 <div class="layer">
-  <img src="/htdocs/images/banner/model_banner.jpg" alt="" width="100%" height="auto" style="">
+  <img src="/htdocs/images/banner/model_banner.png" alt="" width="" height="" style="">
 </div>
 <div class="container">
   <div class="pub-title mt50 mb30 ta-c">
@@ -41,7 +41,7 @@
   <div class="products" id="index_products">
     <ul class="">
       <li>
-        <img src="http://iph.href.lu/285x285?text=285*285" width="" height="" alt="">
+        <img src="/htdocs/images/model_products.png" width="" height="" alt="">
         <div class="name">
           产品名称产品名称产品名称产品名称
         </div>
@@ -54,7 +54,7 @@
         </a>
       </li>
       <li>
-        <img src="http://iph.href.lu/285x285?text=285*285" width="" height="" alt="">
+        <img src="/htdocs/images/model_products.png" width="" height="" alt="">
         <div class="name">
           产品名称
         </div>
@@ -67,7 +67,7 @@
         </a>
       </li>
       <li>
-        <img src="http://iph.href.lu/285x285?text=285*285" width="" height="" alt="">
+        <img src="/htdocs/images/model_products.png" width="" height="" alt="">
         <div class="name">
           产品名称产品名称产品名称产品名称
         </div>
@@ -80,7 +80,7 @@
         </a>
       </li>
       <li>
-        <img src="http://iph.href.lu/285x285?text=285*285" width="" height="" alt="">
+        <img src="/htdocs/images/model_products.png" width="" height="" alt="">
         <div class="name">
           产品名称
         </div>
@@ -93,7 +93,7 @@
         </a>
       </li>
       <li class="">
-        <img src="http://iph.href.lu/285x285?text=285*285" width="" height="" alt="">
+        <img src="/htdocs/images/model_products.png" width="" height="" alt="">
         <div class="name">
           产品名称
         </div>
@@ -106,7 +106,7 @@
         </a>
       </li>
       <li>
-        <img src="http://iph.href.lu/285x285?text=285*285" width="" height="" alt="">
+        <img src="/htdocs/images/model_products.png" width="" height="" alt="">
         <div class="name">
           产品名称
         </div>
@@ -119,7 +119,7 @@
         </a>
       </li>
       <li>
-        <img src="http://iph.href.lu/285x285?text=285*285" width="" height="" alt="">
+        <img src="/htdocs/images/model_products.png" width="" height="" alt="">
         <div class="name">
           产品名称
         </div>
@@ -132,7 +132,7 @@
         </a>
       </li>
       <li class="">
-        <img src="http://iph.href.lu/285x285?text=285*285" width="" height="" alt="">
+        <img src="/htdocs/images/model_products.png" width="" height="" alt="">
         <div class="name">
           产品名称
         </div>
@@ -158,7 +158,7 @@
       </p>
     </div>
     <div class="fl-r">
-      <img src="http://iph.href.lu/540x400?text=540*400" alt="" width="100%" height="auto">
+      <img src="/htdocs/images/model_index_news.png" alt="" width="100%" height="auto">
     </div>
     <div class="clearfix"></div>
   </div>
