@@ -41,6 +41,7 @@
   <div class="products" id="index_products">
     <ul class="">
       <li>
+        <a href="/page/home_model_list.php" class="">
         <img src="/htdocs/images/model_products.png" width="" height="" alt="">
         <div class="name">
           产品名称产品名称产品名称产品名称
@@ -49,11 +50,10 @@
           类型
         </div>
         <p>产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么</p>
-        <a href="/page/home_model_list.php" class="fl-r">
-          <i class="ico-go"></i>
         </a>
       </li>
       <li>
+        <a href="/page/home_model_list.php" class="">
         <img src="/htdocs/images/model_products.png" width="" height="" alt="">
         <div class="name">
           产品名称
@@ -62,11 +62,10 @@
           类型
         </div>
         <p>产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么</p>
-        <a href="/page/home_model_list.php" class="fl-r">
-          <i class="ico-go"></i>
         </a>
       </li>
       <li>
+        <a href="/page/home_model_list.php" class="">
         <img src="/htdocs/images/model_products.png" width="" height="" alt="">
         <div class="name">
           产品名称产品名称产品名称产品名称
@@ -75,11 +74,10 @@
           类型
         </div>
         <p>产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么</p>
-        <a href="/page/home_model_list.php" class="fl-r">
-          <i class="ico-go"></i>
         </a>
       </li>
       <li>
+        <a href="/page/home_model_list.php" class="">
         <img src="/htdocs/images/model_products.png" width="" height="" alt="">
         <div class="name">
           产品名称
@@ -88,11 +86,10 @@
           类型
         </div>
         <p>产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么</p>
-        <a href="/page/home_model_list.php" class="fl-r">
-          <i class="ico-go"></i>
         </a>
       </li>
       <li class="">
+        <a href="/page/home_model_list.php" class="">
         <img src="/htdocs/images/model_products.png" width="" height="" alt="">
         <div class="name">
           产品名称
@@ -101,11 +98,10 @@
           类型
         </div>
         <p>产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么</p>
-        <a href="/page/home_model_list.php" class="fl-r">
-          <i class="ico-go"></i>
         </a>
       </li>
       <li>
+        <a href="/page/home_model_list.php" class="">
         <img src="/htdocs/images/model_products.png" width="" height="" alt="">
         <div class="name">
           产品名称
@@ -114,11 +110,10 @@
           类型
         </div>
         <p>产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么</p>
-        <a href="/page/home_model_list.php" class="fl-r">
-          <i class="ico-go"></i>
         </a>
       </li>
       <li>
+        <a href="/page/home_model_list.php" class="">
         <img src="/htdocs/images/model_products.png" width="" height="" alt="">
         <div class="name">
           产品名称
@@ -127,11 +122,10 @@
           类型
         </div>
         <p>产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么</p>
-        <a href="/page/home_model_list.php" class="fl-r">
-          <i class="ico-go"></i>
         </a>
       </li>
       <li class="">
+        <a href="/page/home_model_list.php" class="">
         <img src="/htdocs/images/model_products.png" width="" height="" alt="">
         <div class="name">
           产品名称
@@ -140,8 +134,6 @@
           类型
         </div>
         <p>产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么产品简介是什么</p>
-        <a href="/page/home_model_list.php" class="fl-r">
-          <i class="ico-go"></i>
         </a>
       </li>
     </ul>
@@ -168,15 +160,25 @@
     <p class="f24">新闻中心</p>
     <p class="f18 col-gray9">News</p>
   </div>
-  <div class="news-eg">
-    <a href="#"><h3>华为起诉美国政府，法院已发传票，但这只是开始</h3></a>
-    <p>3月7日，华为正式宣布起诉美国政府，一石激起千层浪，引发国人围观热潮。争论之声刚刚起来，一则“大好消息”横空出世，题为“华为起诉新进展！联邦法院已给美国政府发传票”的报道引发很多乐观的评论。有必要先把这个插曲解释一下，在美国司法系统的民事诉讼案中，送达传票是只是一个简单的程序，没有什么含金量。</p>
-    <span class="tip">行业新闻</span>
+  <div class="news-eg after-cls">
+    <img src="http://iph.href.lu/220x132?text=220*132" alt="">
+    <div class="right">
+      <a href="#"><h3>华为起诉美国政府，法院已发传票，但这只是开始</h3></a>
+      <p class="bd">3月7日，华为正式宣布起诉美国政府，一石激起千层浪，引发国人围观热潮。争论之声刚刚起来，一则“大好消息”横空出世，题为“华为起诉新进展！联邦法院已给美国政府发传票”的报道引发很多乐观的评论。有必要先把这个插曲解释一下，在美国司法系统的民事诉讼案中，送达传票是只是一个简单的程序，没有什么含金量。</p>
+      <p class="ft"><span class="tip">行业新闻</span>
+        <em>2020.01.01 11:20</em>
+      </p>
+    </div>
   </div>
-  <div class="news-eg">
-    <a href="#"><h3>华为起诉美国政府，法院已发传票，但这只是开始</h3></a>
-    <p>3月7日，华为正式宣布起诉美国政府，一石激起千层浪，引发国人围观热潮。争论之声刚刚起来，一则“大好消息”横空出世，题为“华为起诉新进展！联邦法院已给美国政府发传票”的报道引发很多乐观的评论。有必要先把这个插曲解释一下，在美国司法系统的民事诉讼案中，送达传票是只是一个简单的程序，没有什么含金量。</p>
-    <span class="tip">行业新闻</span>
+  <div class="news-eg after-cls">
+    <img src="http://iph.href.lu/220x132?text=220*132" alt="">
+    <div class="right">
+      <a href="#"><h3>华为起诉美国政府，法院已发传票，但这只是开始</h3></a>
+      <p class="bd">3月7日，华为正式宣布起诉美国政府，一石激起千层浪，引发国人围观热潮。争论之声刚刚起来，一则“大好消息”横空出世，题为“华为起诉新进展！联邦法院已给美国政府发传票”的报道引发很多乐观的评论。有必要先把这个插曲解释一下，在美国司法系统的民事诉讼案中，送达传票是只是一个简单的程序，没有什么含金量。</p>
+      <p class="ft"><span class="tip">行业新闻</span>
+        <em>2020.01.01 11:20</em>
+      </p>
+    </div>
   </div>
 </div>
 <div class="contact mt15">
@@ -290,10 +292,6 @@ $(function(){
     $("#pub_head").removeClass('pub-head-on');
     $("body").removeClass('on');
   })
-  //产品li点击跳转
-  $("#index_products ul").find('li').on('click',function(){
-    location.href = $(this).children('a').attr("href");
-  });
 })
 </script>
 </body>
