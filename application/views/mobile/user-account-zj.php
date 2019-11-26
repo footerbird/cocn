@@ -89,6 +89,31 @@
               </div>
             </div>
           </div>
+          <div class="bd-items">
+            <a class="title" href="/mobile/user-account-zj-set.php">
+              <span>支付宝</span>
+              <i class="ico-arrow-r"></i>
+            </a>
+            <div class="user-zj-tit">Amy</div>
+            <div class="weui-cells form">
+              <div class="weui-cell">
+                <div class="weui-cell__bd">
+                  <p>账号</p>
+                </div>
+                <div class="weui-cell__ft">
+                  330103999999991234
+                </div>
+              </div>
+              <div class="weui-cell">
+                <div class="weui-cell__bd">
+                  <p>开通时间</p>
+                </div>
+                <div class="weui-cell__ft">
+                  2019年10月10日
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
