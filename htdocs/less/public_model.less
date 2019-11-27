@@ -955,20 +955,6 @@ textarea{resize: none; overflow-y:auto;}
   input[type=text] {
     width: 50px;
   }
-  //下拉
-  select {
-    border: 1px solid #f2f6f8;;
-    height: 23px;
-    width: 50px;
-    padding-left: 8px;
-    padding-right: 10px;
-    margin: 0 5px;
-    .col-gray9;
-    vertical-align: sub;
-    vertical-align: -webkit-baseline-middle;
-    position: relative;
-    top: -5px;
-  }
 }
 /*面包屑导航*/
 .breadcrumbs{
@@ -1746,6 +1732,33 @@ textarea{resize: none; overflow-y:auto;}
         height:100%;
         .pos-abso;
       }
+    }
+  }
+  .pages {
+    em{
+      &.fl-l{
+        display:none;
+      }
+    }
+    span{
+      &.fl-l{
+        display:none !important;
+      }
+    }
+    a {
+      display:none;
+      &.prev,&.next{
+        display:block;
+      }
+      &.go {
+        display: none;
+      }
+    }
+    b {
+      display:none;
+    }
+    input {
+      display:none;
     }
   }
   .pub-title{

@@ -3094,19 +3094,6 @@ textarea {
 .pages input[type=text] {
   width: 50px;
 }
-.pages select {
-  border: 1px solid #f2f6f8;
-  height: 23px;
-  width: 50px;
-  padding-left: 8px;
-  padding-right: 10px;
-  margin: 0 5px;
-  color: #999 !important;
-  vertical-align: sub;
-  vertical-align: -webkit-baseline-middle;
-  position: relative;
-  top: -5px;
-}
 /*面包屑导航*/
 .breadcrumbs {
   height: 40px;
@@ -3833,6 +3820,28 @@ textarea {
     width: 100%;
     height: 100%;
     position: absolute !important;
+  }
+  .pages em.fl-l {
+    display: none;
+  }
+  .pages span.fl-l {
+    display: none !important;
+  }
+  .pages a {
+    display: none;
+  }
+  .pages a.prev,
+  .pages a.next {
+    display: block;
+  }
+  .pages a.go {
+    display: none;
+  }
+  .pages b {
+    display: none;
+  }
+  .pages input {
+    display: none;
   }
   .pub-title {
     text-align: center !important;
