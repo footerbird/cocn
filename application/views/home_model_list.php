@@ -61,7 +61,7 @@
   </div>
   <div class="product-list-right product">
     <div class="hb"><span><i class="ico-list mr5"></i>所有产品</span></div>
-    <div class="bd">
+    <div class="bd after-cls">
       <ul class="list after-cls">
         <li>
           <img src="http://iph.href.lu/225x225?text=225*225" width="" height="" alt="">
@@ -157,6 +157,12 @@
           <a href="" class="last">尾页</a><span class="ml5 mr5 fl-l in-block"><input type="text"></span>
           <a href="" class="go mr0">GO</a>
       </div>
+    </div>
+    <div class="no-results">
+      <img src="/htdocs/images/inner-nothing.png" alt="" class="m-auto">
+      <p class="ta-c col-default f18 lh24 pt20 pb20">
+        暂无产品
+      </p>
     </div>
   </div>
 </div>
