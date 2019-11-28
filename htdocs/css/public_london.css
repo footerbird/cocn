@@ -3545,6 +3545,9 @@ textarea {
 .bg-498df8 {
   background-color: #498df8 !important;
 }
+.bg-393939 {
+  background-color: #393939 !important;
+}
 /*定位position*/
 .pos-fixed {
   position: fixed !important;
@@ -10152,4 +10155,75 @@ body.big {
 .cocn-list2 .bd .box .ft a.buy3 {
   background-color: #f3f3f3 !important;
   color: #b5b5b5 !important;
+}
+/*专题-为什么选择官网*/
+.why_cocn-banner {
+  width: 100%;
+  min-width: 1200px;
+  overflow: hidden;
+  height: 405px;
+}
+.why_cocn-banner .banner {
+  background: url(../images/banner/banner-why-cocn.png) 50% no-repeat;
+}
+.why_cocn-banner .banner .cont {
+  width: 1200px;
+  height: 405px;
+  padding-left: 15px;
+  text-align: left;
+  margin: 0 auto !important;
+}
+.why_cocn-banner .banner .cont .title {
+  width: 1200px;
+  padding-top: 80px;
+  padding-bottom: 15px;
+}
+.why_cocn-banner .banner .cont .desc {
+  color: #50bef5;
+  font-size: 18px;
+  line-height: 32px;
+}
+.why_cocn-banner .banner .cont .btn {
+  margin-top: 45px;
+}
+.why_cocn-banner .banner .cont .btn a {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  width: 290px;
+  height: 48px;
+  line-height: 48px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  background: #f4364c;
+}
+.why-cocn-cont li {
+  color: #fff;
+  width: 380px;
+  height: 185px;
+  float: left;
+  padding: 30px 55px 0 55px;
+}
+.why-cocn-cont li .tit {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.why-cocn-cont li .desc {
+  font-size: 14px;
+  line-height: 28px;
+}
+.why-cocn-cont li.a {
+  background: url(../images/why-cocn-2.png) 50% no-repeat;
+  background-size: contain;
+}
+.why-cocn-cont li.b {
+  margin: 0 30px;
+  background: url(../images/why-cocn-3.png) 50% no-repeat;
+  background-size: contain;
+}
+.why-cocn-cont li.c {
+  background: url(../images/why-cocn-4.png) 50% no-repeat;
+  background-size: contain;
 }

@@ -300,6 +300,8 @@ textarea{resize: none; overflow-y:auto;}
 .bg-ffb494{background-color:#ffb494 !important;}
 .bg-27a9fa{background-color:#27a9fa !important;}
 .bg-498df8{background-color:#498df8 !important;}
+.bg-393939{background-color:#393939 !important;}
+
 /*定位position*/
 .pos-fixed{position: fixed !important;}
 .pos-rela{position: relative !important;}
@@ -6551,6 +6553,77 @@ body{
           }
         }
       }
+    }
+  }
+}
+/*专题-为什么选择官网*/
+.why_cocn-banner{
+  width: 100%;
+  min-width: 1200px;
+  overflow: hidden;
+  height: 405px;
+  .banner{
+    background:url(../images/banner/banner-why-cocn.png) 50% no-repeat;
+    .cont{
+      width:1200px;
+      height: 405px;
+      padding-left: 15px;
+      text-align:left;
+      .m-auto;
+      .title{
+        width:1200px;
+        padding-top:80px;
+        padding-bottom:15px;
+      }
+      .desc{
+        color:#50bef5;
+        font-size:18px;
+        line-height:32px;
+      }
+      .btn{
+        margin-top:45px;
+        a{
+          display:block;
+          font-size:16px;
+          color:#fff;
+          text-align:center;
+          width:290px;
+          height:48px;
+          line-height:48px;
+          .border-radius(8px);
+          background:#f4364c;
+        }
+      }
+    }
+  }
+}
+.why-cocn-cont{
+  li{
+    color: #fff;
+    width:380px;
+    height:185px;
+    float:left;
+    padding:30px 55px 0 55px;
+    .tit{
+      font-size:20px;
+      margin-bottom:10px;
+    }
+    .desc{
+      font-size:14px;
+      line-height:28px;
+    }
+    &.a{
+      background:url(../images/why-cocn-2.png) 50% no-repeat;
+      background-size: contain;
+    }
+    &.b{
+      margin:0 30px;
+      background:url(../images/why-cocn-3.png) 50% no-repeat;
+      background-size: contain;
+    }
+    &.c{
+      background:url(../images/why-cocn-4.png) 50% no-repeat;
+      background-size: contain;
     }
   }
 }
