@@ -77,6 +77,7 @@
                       <label class="upload-label">
                         <input type="file" name="" value="">
                       </label>
+					  <div class="fl-l mt60 f12 col-ff6a29">建议尺寸540*400，图片大小不超过2M</div>
                     </div>
                   </td>
                 </tr>

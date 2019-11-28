@@ -77,6 +77,7 @@
                     <label class="upload-label mt15 mb15">
                       <input type="file" name="" value="">
                     </label>
+					<div class="fl-l mt80 f12 col-ff6a29">建议尺寸1920*365，图片大小不超过2M</div>
                   </td>
                 </tr>
               </tbody>
