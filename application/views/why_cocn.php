@@ -11,7 +11,7 @@
     <div class="cont">
       <div class="title"><img src="/htdocs/images/why-cocn-title.png" alt=""></div>
       <div class="desc">
-        今天，哪些国家的公司在使用.cn+国家的域名？
+        今天，哪些国家的公司在使用.co+国家的域名？
         <br />
         英国、德国、意大利、日本、韩国、印度、南非、荷兰等23个国家...
         <br />
