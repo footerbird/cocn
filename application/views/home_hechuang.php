@@ -62,7 +62,7 @@
           <div class="top-banner">
             <div class="banner index-banner">
             		<div class="banner-slick">
-            			<div><a href="/page/why_cocn.php" target="_blank"><img src="/htdocs/images/banner/home-banner-1.jpg" width="auto" height="224" alt=""></a></div>
+            			<div><a href="/page/why_cocn.php" target="_blank"><img src="/htdocs/images/banner/home-banner-1.png" width="auto" height="224" alt=""></a></div>
                   <div><a href="#"  target="_blank"><img src="/htdocs/images/banner/home-banner-2.jpg" width="auto" height="224" alt=""></a></div>
             		</div>
             </div>
