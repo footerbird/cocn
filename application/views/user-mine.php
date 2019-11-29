@@ -239,23 +239,35 @@
         <div class="mine-r-box mb15">
           <div class="hb">重要信息提醒</div>
           <div class="bb">
-            <table class="f12 list">
+            <table class="f12 list" id="important_tips">
               <tbody>
                 <tr>
                   <td width="15%" class="col-gray9">11:22</td>
                   <td width="85%">名商网络：再资本投入</td>
                 </tr>
+                <tr class="tip" style="display:none;">
+                  <td colspan="2">名商网络：再资本投入名商网络：再资本投入名商网络：再资本投入名商网络：再资本投入</td>
+                </tr>
                 <tr>
                   <td width="15%" class="col-gray9">11:22</td>
                   <td width="85%">名商网络：再追加1000万元资本投入</td>
+                </tr>
+                <tr class="tip" style="display:none;">
+                  <td colspan="2">名商网络：再资本投入名商网络：再资本投入名商网络：再资本投入名商网络：再资本投入名商网络：再资本投入名商网络：再资本投入名商网络：再资本投入名商网络：再资本投入</td>
                 </tr>
                 <tr>
                   <td width="15%" class="col-gray9">11:22</td>
                   <td width="85%">官网：房地产类资产分析报价走势稳定</td>
                 </tr>
+                <tr class="tip" style="display:none;">
+                  <td colspan="2">名商网络：再资本投入名商网络：再资本投入名商网络：再资本投入名商网络：再资本投入</td>
+                </tr>
                 <tr>
                   <td width="15%" class="col-gray9">11:22</td>
                   <td width="85%">孔方正：中美贸易</td>
+                </tr>
+                <tr class="tip" style="display:none;">
+                  <td colspan="2">名商网络：再资本投入名商网络：再资本投入名商网络：再资本投入名商网络：再资本投入</td>
                 </tr>
               </tbody>
             </table>
@@ -320,6 +332,10 @@
 <link rel="stylesheet" href="/htdocs/js/slick/slick.css?<?php echo CACHE_TIME; ?>">
 <script type="text/javascript">
 $(function(){
+  //点击重要信息提醒展示细节
+  $('#important_tips').find('tr').on("click",function(){
+    $(this).next('tr.tip').fadeToggle();
+  })
 })
 </script>
 </body>

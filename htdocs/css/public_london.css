@@ -8654,6 +8654,15 @@ table.inner-table tbody tr {
 .all-full .mine-r-box .bb table.list tr {
   border-bottom: 1px solid #f2f6f8;
 }
+.all-full .mine-r-box .bb table.list tr.tip {
+  background: #f6f6f6;
+  color: #666;
+  border-left: 1px solid #f2f6f8;
+  border-right: 1px solid #f2f6f8;
+}
+.all-full .mine-r-box .bb table.list tr.tip td {
+  padding: 12px;
+}
 .all-full .mine-r-box .bb table.list tr td {
   padding: 14px 10px 14px 0;
   line-height: 16px;

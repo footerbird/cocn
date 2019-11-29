@@ -144,17 +144,15 @@
                 <font class="state2-orange">消息</font>
               </div>
               <div class="bd">
-                <ul>
+                <ul id="important_tips" class="lh24">
                   <li>
                     <div class="date">11:22
                     </div>
                     <div class="cont">名商网络：再追加10万元资本投入
                     </div>
                   </li>
-                  <li>
-                    <div class="date">11:22
-                    </div>
-                    <div class="cont">官网：房地产类资产分析报价走势稳定
+                  <li class="tip" style="display:none;">
+                    <div class="cont">官网：房地产类资产分析报价走势稳定官网：房地产类资产分析报价走势稳定官网：房地产类资产分析报价走势稳定官网：房地产类资产分析报价走势稳定
                     </div>
                   </li>
                   <li>
@@ -163,10 +161,28 @@
                     <div class="cont">名商网络：再追加10万元资本投入
                     </div>
                   </li>
+                  <li class="tip" style="display:none;">
+                    <div class="cont">官网：房地产类资产分析报价走势稳定官网：房地产类资产分析报价走势稳定官网：房地产类资产分析报价走势稳定官网：房地产类资产分析报价走势稳定官网：房地产类资产分析报价走势稳定
+                    </div>
+                  </li>
                   <li>
                     <div class="date">11:22
                     </div>
-                    <div class="cont">官网：房地产类资产分析报价走势稳定
+                    <div class="cont">名商网络：再追加10万元资本投入
+                    </div>
+                  </li>
+                  <li class="tip" style="display:none;">
+                    <div class="cont">官网：房地产类资产分析报价走势稳定官网：房地产类资产分析报价走势稳定官网：房地产类资产分析报价走势稳定官网：房地产类资产分析报价走势稳定官网：房地产类资产分析报价走势稳定
+                    </div>
+                  </li>
+                  <li>
+                    <div class="date">11:22
+                    </div>
+                    <div class="cont">名商网络：再追加10万元资本投入
+                    </div>
+                  </li>
+                  <li class="tip" style="display:none;">
+                    <div class="cont">官网：房地产类资产分析报价走势稳定官网：房地产类资产分析报价走势稳定官网：房地产类资产分析报价走势稳定官网：房地产类资产分析报价走势稳定官网：房地产类资产分析报价走势稳定
                     </div>
                   </li>
                 </ul>
@@ -242,7 +258,10 @@
           loading = false;
         }, 1500);   //模拟延迟
       });
-
+      //点击重要信息提醒展示细节
+      $('#important_tips').find('li').on("click",function(){
+        $(this).next('li.tip').fadeToggle();
+      })
       })
     </script>
     </body>
