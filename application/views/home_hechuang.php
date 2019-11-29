@@ -64,7 +64,6 @@
             		<div class="banner-slick">
             			<div><a href="/page/why_cocn.php" target="_blank"><img src="/htdocs/images/banner/home-banner-1.jpg" width="auto" height="224" alt=""></a></div>
                   <div><a href="#"  target="_blank"><img src="/htdocs/images/banner/home-banner-2.jpg" width="auto" height="224" alt=""></a></div>
-                  <div><a href="#"  target="_blank"><img src="/htdocs/images/banner/home-banner-1.jpg" width="auto" height="224" alt=""></a></div>
             		</div>
             </div>
           </div>
@@ -74,11 +73,11 @@
               <p>公司官方网站</p>
               <p class="col-gray9">选择co.cn免费自助建站</p>
             </a>
-            <a href="/page/sfg-wyzr.php" class="wyzr">
+            <a href="/page/sfg-wyrz.php" class="wyzr">
               <p>公司股权转让信息</p>
               <p class="col-gray9">10万+公司入驻 海量信息</p>
             </a>
-            <a href="/page/sfg-zzzr.php" class="zzzr">
+            <a href="/page/sfg-wyzr.php" class="zzzr">
               <p>公司资质转让</p>
               <p class="col-gray9">免咨询费 了解转让资质</p>
             </a>
@@ -560,7 +559,7 @@
   </div>
 </div>
 <p class="ta-c mt15 mb40">
-  <a href="#" class="index-want">我是法人，我要开启公司官网</a></p>
+  <a href="/page/sfg-gfwz.php" class="index-want">我是法人，我要开启公司官网</a></p>
 <?php include_once('templete/pub_foot_a.php') ?>
 <script src="/htdocs/js/slick/slick.min.js?<?php echo CACHE_TIME; ?>"></script>
 <link rel="stylesheet" href="/htdocs/js/slick/slick.css?<?php echo CACHE_TIME; ?>">
