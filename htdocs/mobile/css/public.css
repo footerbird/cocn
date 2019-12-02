@@ -5583,7 +5583,7 @@ table {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   flex: 1;
-  margin: 0 .1rem;
+  margin: 0 .5rem;
 }
 .user-stock .user-stock-ul li .ft a.btn {
   display: inline-block;

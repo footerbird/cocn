@@ -26,7 +26,7 @@
               <li>
                 <div class="hd">
                   <a href="/mobile/user-stock-change-list.php" class="name">名商网络有限名商网络有限公司名商网络有限名商网络有限公司</a>
-                  <a href="/mobile/user-stock-history.php" class="link">资产流通记录</a>
+                  <a href="/mobile/user-stock-history.php" class="link">我的发布</a>
                 </div>
                 <div class="bd">
                   <table width="100%" class="f14">
@@ -100,15 +100,15 @@
                 </div>
                 <div class="ft">
                   <a href="/mobile/user-stock-publish.php" class="btn fbjy">发布交易</a>
-                  <a href="/mobile/user-stock-disclosure-tip.php" class="btn xxpl">信息披露</a>
+                  <!-- <a href="/mobile/user-stock-disclosure-tip.php" class="btn xxpl">信息披露</a> -->
                   <a href="/mobile/user-stock-manage.php" class="btn gl">管理</a>
-                  <a href="/mobile/user-stock-lock.php" class="btn sc">锁仓</a>
+                  <!-- <a href="/mobile/user-stock-lock.php" class="btn sc">锁仓</a> -->
                 </div>
               </li>
               <li>
                 <div class="hd">
                   <a href="/mobile/user-stock-change-list.php" class="name">名商网络有限公司</a>
-                  <a href="/mobile/user-stock-history.php" class="link">资产流通记录</a>
+                  <a href="/mobile/user-stock-history.php" class="link">我的发布</a>
                 </div>
                 <div class="bd">
                   <table width="100%" class="f14">
@@ -182,15 +182,15 @@
                 </div>
                 <div class="ft">
                   <a href="/mobile/user-stock-publish.php" class="btn fbjy">发布交易</a>
-                  <a href="/mobile/user-stock-disclosure-tip.php" class="btn xxpl">信息披露</a>
+                  <!-- <a href="/mobile/user-stock-disclosure-tip.php" class="btn xxpl">信息披露</a> -->
                   <a href="/mobile/user-stock-manage.php" class="btn gl">管理</a>
-                  <a href="/mobile/user-stock-lock.php" class="btn sc">锁仓</a>
+                  <!-- <a href="/mobile/user-stock-lock.php" class="btn sc">锁仓</a> -->
                 </div>
               </li>
               <li>
                 <div class="hd">
                   <a href="/mobile/user-stock-change-list.php" class="name">名商网络有限公司</a>
-                  <a href="/mobile/user-stock-history.php" class="link">资产流通记录</a>
+                  <a href="/mobile/user-stock-history.php" class="link">我的发布</a>
                 </div>
                 <div class="bd">
                   <table width="100%" class="f14">
@@ -264,9 +264,9 @@
                 </div>
                 <div class="ft">
                   <a href="/mobile/user-stock-publish.php" class="btn fbjy">发布交易</a>
-                  <a href="/mobile/user-stock-disclosure-tip.php" class="btn xxpl">信息披露</a>
+                  <!-- <a href="/mobile/user-stock-disclosure-tip.php" class="btn xxpl">信息披露</a> -->
                   <a href="/mobile/user-stock-manage.php" class="btn gl">管理</a>
-                  <a href="/mobile/user-stock-lock.php" class="btn sc">锁仓</a>
+                  <!-- <a href="/mobile/user-stock-lock.php" class="btn sc">锁仓</a> -->
                 </div>
               </li>
               <li>
