@@ -33,7 +33,7 @@
                         <td align="right" width="22%">
                           <div class="tit ta-r">注册资本:</div></td>
                         <td align="left" width="28%">
-                          <div class="cont">1000万RMB</div></td>
+                          <div class="cont">¥1000万元</div></td>
                       </tr>
                       <tr>
                         <td align="right" width="25%">
@@ -64,27 +64,27 @@
             <ul class="user-stock-ul">
               <li>
                 <div class="hd">
-                  <span class="name">名商网络有限名商网络有限公司名商网络有限名商网络有限公司</span>
+                  <span class="name">谢永东</span>
                   <a href="/mobile/user-stock-history.php" class="cancel">取消分配</a>
                 </div>
                 <div class="bd">
                   <table width="100%" class="lh24">
                     <tbody>
                       <tr>
-                        <td  width="39%">
-                          <div class="tit">
-                            持有人:
-                          </div>
-                          <div class="cont">
-                            adam
-                          </div>
-                        </td>
-                        <td  width="61%">
+                        <td  width="36%">
                           <div class="tit">
                             证件类型:
                           </div>
                           <div class="cont">
                             身份证
+                          </div>
+                        </td>
+                        <td  width="64%">
+                          <div class="tit">
+                            证件号码:
+                          </div>
+                          <div class="cont">
+                            330101188888888888
                           </div>
                         </td>
                       </tr>
@@ -99,23 +99,15 @@
                         </td>
                         <td>
                           <div class="tit">
-                            证件号码:
+                            用户状态:
                           </div>
                           <div class="cont">
-                            330101188888888888
+                            正常
                           </div>
                         </td>
                       </tr>
                       <tr>
-                        <td>
-                        <div class="tit">
-                          用户状态:
-                        </div>
-                        <div class="cont">
-                          正常
-                        </div>
-                        </td>
-                        <td>
+                        <td colspan="2">
                         <div class="tit">
                           联系方式:
                         </div>
@@ -130,27 +122,27 @@
               </li>
               <li>
                 <div class="hd">
-                  <span class="name">名商网络有限名商网络有限公司名商网络有限名商网络有限公司</span>
+                  <span class="name">杭州三六五网络有限公司</span>
                   <a href="/mobile/user-stock-manage-allot.php" class="cancel">取消分配</a>
                 </div>
                 <div class="bd">
                   <table width="100%" class="lh24">
                     <tbody>
                       <tr>
-                        <td  width="39%">
-                          <div class="tit">
-                            持有人:
-                          </div>
-                          <div class="cont">
-                            adam
-                          </div>
-                        </td>
-                        <td  width="61%">
+                        <td  width="36%">
                           <div class="tit">
                             证件类型:
                           </div>
                           <div class="cont">
                             身份证
+                          </div>
+                        </td>
+                        <td  width="64%">
+                          <div class="tit">
+                            证件号码:
+                          </div>
+                          <div class="cont">
+                            330101188888888888
                           </div>
                         </td>
                       </tr>
@@ -165,23 +157,15 @@
                         </td>
                         <td>
                           <div class="tit">
-                            证件号码:
+                            用户状态:
                           </div>
                           <div class="cont">
-                            330101188888888888
+                            正常
                           </div>
                         </td>
                       </tr>
                       <tr>
-                        <td>
-                        <div class="tit">
-                          用户状态:
-                        </div>
-                        <div class="cont">
-                          正常
-                        </div>
-                        </td>
-                        <td>
+                        <td colspan="2">
                         <div class="tit">
                           联系方式:
                         </div>
@@ -194,6 +178,63 @@
                   </table>
                 </div>
               </li>
+			  <li>
+			    <div class="hd">
+			      <span class="name">林赞松</span>
+			    </div>
+			    <div class="bd">
+			      <table width="100%" class="lh24">
+			        <tbody>
+			          <tr>
+			            <td  width="36%">
+			              <div class="tit">
+			                证件类型:
+			              </div>
+			              <div class="cont">
+			                身份证
+			              </div>
+			            </td>
+			            <td  width="64%">
+			              <div class="tit">
+			                证件号码:
+			              </div>
+			              <div class="cont">
+			                330101188888888888
+			              </div>
+			            </td>
+			          </tr>
+			          <tr>
+			            <td>
+			            <div class="tit">
+			              持有总量:
+			            </div>
+			            <div class="cont">
+			              0.6%
+			            </div>
+			            </td>
+			            <td>
+			              <div class="tit">
+			                用户状态:
+			              </div>
+			              <div class="cont">
+			                正常
+			              </div>
+			            </td>
+			          </tr>
+			          <tr>
+			            <td colspan="2">
+			            <div class="tit">
+			              联系方式:
+			            </div>
+			            <div class="cont">
+			              18888888888
+			            </div>
+			            </td>
+			          </tr>
+			        </tbody>
+			      </table>
+			    </div>
+			  </li>
               <li>
                 <div class="f16 col-base pb5 ta-c">您可以根据工商登记现状合法分配股权</div>
                 <p class="ta-c col-gray6">与工商登记信息保持一致</p>
