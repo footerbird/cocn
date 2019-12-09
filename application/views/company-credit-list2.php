@@ -195,10 +195,10 @@
       </div>
       <div class="bottom after-cls">
         <a href="javascript:;" class="a fl-l">
-          重新筛选
+          清空
         </a>
         <a href="javascript:;" class="b fl-r">
-          高级筛选
+          搜索
         </a>
       </div>
     </div>
